@@ -1,0 +1,66 @@
+# ===========================================================
+# 海事ブリーフ 全体設定
+# 書き換えたら保存するだけで、次回の自動実行から反映されます。
+# ===========================================================
+
+site:
+  name: "海事ブリーフ"
+  tagline: "海外の海事規制・安全・造船技術の動きを、日本語で短く。"
+  # 公開後のURL（GitHub Pages なら https://<ユーザー名>.github.io/<リポジトリ名>）
+  base_url: "https://example.github.io/maritime-brief"
+  # 誤りの指摘・削除依頼の受付先（Googleフォームのリンクやメールアドレス）
+  contact_url: "mailto:contact@example.com"
+  operator_name: "海事ブリーフ編集部"
+
+# 公開モード
+#   trial : 試験運用。作った記事はすべて「保留」に入り、人が承認したものだけ公開
+#   auto  : 検証に合格した記事は自動公開、不合格だけ保留
+publish:
+  mode: trial
+
+# 使うAIモデル（Claude API）
+models:
+  triage: "claude-haiku-5-5"    # 選別
+  extract: "claude-haiku-5-5"   # 事実抽出
+  write: "claude-sonnet-5-5"    # 執筆
+  verify: "claude-sonnet-5-5"   # 検証
+
+# 1回の実行あたりの上限（費用の上限にもなります）
+limits:
+  items_per_feed: 10          # 1つのソースから読む新着の数
+  articles_per_run: 6         # 1回の実行で記事化する最大本数
+  min_relevance: 3            # 選別で記事化する重要度の下限（1〜5）
+  source_text_max_chars: 15000
+  request_interval_sec: 2     # 同じサイトへのアクセス間隔（秒）
+
+# 検証の基準（これを超えた記事は保留になります）
+verify:
+  translation_likeness_max: 30   # 翻訳らしさ（0〜100）
+  structure_similarity_max: 40   # 構成の類似度（0〜100）
+  english_run_max_words: 8       # 原文と同じ英単語が何語連続したら保留にするか
+  ja_ngram_overlap_max: 0.15     # 日本語ソースとの文字列の重なり（0〜1）
+  min_chars: 350                 # 本文の最小文字数
+  max_chars: 900                 # 本文の最大文字数
+  max_quotes: 1                  # 原文からの引用の最大数
+
+# カテゴリ（信号旗の色で表示）
+categories:
+  regulation: { label: "規制", flag: "regulation" }
+  safety:     { label: "安全・事故", flag: "safety" }
+  shipbuilding: { label: "造船", flag: "shipbuilding" }
+  technology: { label: "技術・脱炭素", flag: "technology" }
+  other:      { label: "その他", flag: "other" }
+
+# アフィリエイト（収益化の段階になったら enabled: true に）
+affiliate:
+  enabled: false
+  # カテゴリごとに記事の末尾へ表示する紹介枠。「PR」表示が自動で付きます。
+  items:
+    regulation:
+      - title: "（例）海事法規の解説書"
+        url: "https://example.com/affiliate-link"
+        note: "条約と国内法の関係を確認したい方に"
+    safety: []
+    shipbuilding: []
+    technology: []
+    other: []

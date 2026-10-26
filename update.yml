@@ -1,0 +1,69 @@
+# 海事ブリーフ 自動更新
+#  - 毎日 日本時間 7:00 / 12:00 / 18:00 に、収集から公開までを実行
+#  - 保留記事の status を書き換えて保存（push）すると、承認・却下を反映してサイトを作り直す
+#  - Actions 画面の「Run workflow」ボタンで手動実行もできる
+name: update
+
+on:
+  schedule:
+    - cron: "0 22 * * *"   # 日本時間 7:00
+    - cron: "0 3 * * *"    # 日本時間 12:00
+    - cron: "0 9 * * *"    # 日本時間 18:00
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "content/**"
+      - "config/**"
+      - "templates/**"
+      - "static/**"
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: 必要なライブラリを入れる
+        run: pip install -r requirements.txt
+
+      - name: 記事の収集と作成（定時・手動実行のとき）
+        if: github.event_name != 'push'
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python -m pipeline.main run
+
+      - name: 承認・却下の反映（保留記事を書き換えたとき）
+        if: github.event_name == 'push'
+        run: python -m pipeline.main review
+
+      - name: 記事と記録を保存
+        run: |
+          git config user.name "maritime-brief-bot"
+          git config user.email "maritime-brief-bot@users.noreply.github.com"
+          git add content data
+          git diff --cached --quiet || git commit -m "自動更新 $(TZ=Asia/Tokyo date '+%Y-%m-%d %H:%M')"
+          git pull --rebase --autostash
+          git push
+
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+      - id: deploy
+        uses: actions/deploy-pages@v4

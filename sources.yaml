@@ -1,0 +1,111 @@
+# ===========================================================
+# 情報ソース一覧
+#
+# tier（ティア）
+#   1 : 再利用が明示的に許されている公的機関。記事化の中心
+#   2 : 公的機関・業界団体だが再利用に制限あり。事実の抽出とリンクのみ
+#   3 : 業界メディア。見出しとURLを「話題メモ」に記録するだけで、記事化しない
+#
+# enabled: true にしたソースだけを巡回します。
+# feed が空欄のソースは、RSSのURLを調べて記入してから有効にしてください。
+# （調べ方は README の「ソースを追加する」を参照）
+#
+# license_checked: 利用規約を確認した日。半年ごとに見直してください。
+# ===========================================================
+
+sources:
+  - id: maib
+    name: "英国 海難調査局（MAIB）"
+    home: "https://www.gov.uk/maib-reports"
+    feed: "https://www.gov.uk/maib-reports.atom"
+    tier: 1
+    lang: en
+    categories: [safety]
+    license: "Open Government Licence v3.0"
+    attribution: "Contains public sector information licensed under the Open Government Licence v3.0."
+    license_checked: "2026-10-27"
+    enabled: true
+
+  - id: uscg-maritime-commons
+    name: "米国沿岸警備隊 Maritime Commons"
+    home: "https://www.news.uscg.mil/Maritime-Commons/"
+    feed: ""   # サイトのRSSアイコンからURLを確認して記入
+    tier: 1
+    lang: en
+    categories: [regulation, safety]
+    license: "米国連邦政府の著作物（原則パブリックドメイン。第三者の素材は除く）"
+    attribution: "Source: U.S. Coast Guard"
+    license_checked: "2026-10-27"
+    enabled: false
+
+  - id: emsa
+    name: "欧州海上保安庁（EMSA）"
+    home: "https://www.emsa.europa.eu/newsroom/latest-news.html"
+    feed: ""   # Latest News のRSSのURLを記入
+    tier: 1
+    lang: en
+    categories: [regulation, safety]
+    license: "出典（EMSA）を明示すれば複製可"
+    attribution: "Source: European Maritime Safety Agency (EMSA)"
+    license_checked: "2026-10-27"
+    enabled: false
+
+  - id: atsb-marine
+    name: "豪州 運輸安全局（ATSB）船舶"
+    home: "https://www.atsb.gov.au/marine"
+    feed: ""
+    tier: 1
+    lang: en
+    categories: [safety]
+    license: "CC BY 4.0（ロゴ・第三者の写真は除く）"
+    attribution: "Source: Australian Transport Safety Bureau, CC BY 4.0"
+    license_checked: "2026-10-27"
+    enabled: false
+
+  - id: mlit-kaiji
+    name: "国土交通省 海事局"
+    home: "https://www.mlit.go.jp/report/press/"
+    feed: ""
+    tier: 1
+    lang: ja
+    categories: [regulation, shipbuilding]
+    license: "政府標準利用規約（第2.0版）"
+    attribution: "出典：国土交通省ウェブサイト"
+    license_checked: "2026-10-27"
+    enabled: false
+
+  - id: imo
+    name: "国際海事機関（IMO）"
+    home: "https://www.imo.org/en/MediaCentre/PressBriefings/Pages/Home.aspx"
+    feed: ""
+    tier: 2
+    lang: en
+    categories: [regulation]
+    license: "複製・翻訳の許可は個人的・非商用目的に限る。事実の抽出とリンクのみ"
+    attribution: "Source: International Maritime Organization (IMO)"
+    license_checked: "2026-10-27"
+    enabled: false
+
+  - id: gcaptain
+    name: "gCaptain"
+    home: "https://gcaptain.com/"
+    feed: "https://gcaptain.com/feed/"
+    tier: 3
+    lang: en
+    categories: [other]
+    license: "転載不可。見出しとURLの記録のみ"
+    attribution: ""
+    license_checked: "2026-10-27"
+    enabled: false
+
+  - id: splash247
+    name: "Splash247"
+    home: "https://splash247.com/"
+    feed: "https://splash247.com/feed/"
+    tier: 3
+    lang: en
+    categories: [other]
+    license: "転載不可。見出しとURLの記録のみ"
+    attribution: ""
+    license_checked: "2026-10-27"
+    enabled: false

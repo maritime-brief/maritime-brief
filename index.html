@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+{% from "_macros.html" import entry, empty_state %}
+{% block content %}
+{% if articles %}
+{% set top = articles[0] %}
+{% set c = categories.get(top.category, categories['other']) %}
+<section class="lead-story" aria-labelledby="lead-title">
+  <p class="entry-cat"><span class="cat"><span class="flag flag-{{ c.flag }}" aria-hidden="true"></span>{{ c.label }}</span>
+    <time class="num" datetime="{{ top.date }}">{{ top.date | date }}</time></p>
+  <h2 id="lead-title" class="lead-title"><a href="articles/{{ top.slug }}.html">{{ top.title }}</a></h2>
+  <p class="lead-lead">{{ top.lead }}</p>
+  {% if top.key_dates %}
+  <dl class="soundings">
+    {% for d in top.key_dates[:3] %}
+    <div><dt>{{ d.label }}</dt><dd class="num">{{ d.date }}</dd></div>
+    {% endfor %}
+  </dl>
+  {% endif %}
+  <p class="entry-source">出典：{{ top.source.name }}</p>
+</section>
+
+<section aria-labelledby="latest">
+  <h2 id="latest" class="section-title">新着</h2>
+  <ol class="entries">
+    {% for a in articles[1:] %}{{ entry(a, categories, root) }}{% endfor %}
+  </ol>
+  {% if articles|length == 1 %}<p class="muted">ほかの記事は、次回以降の更新で追加されます。</p>{% endif %}
+</section>
+{% else %}
+{{ empty_state(root) }}
+{% endif %}
+{% endblock %}

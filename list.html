@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% from "_macros.html" import entry, empty_state %}
+{% block description %}{{ cat.label }}に関する海外の動き｜{{ site.name }}{% endblock %}
+{% block content %}
+<header class="list-head">
+  <h1><span class="flag flag-lg flag-{{ cat.flag }}" aria-hidden="true"></span>{{ cat.label }}</h1>
+  <p class="muted">{{ articles|length }}件の記事</p>
+</header>
+{% if articles %}
+<ol class="entries">
+  {% for a in articles %}{{ entry(a, categories, root) }}{% endfor %}
+</ol>
+{% else %}
+{{ empty_state(root) }}
+{% endif %}
+{% endblock %}

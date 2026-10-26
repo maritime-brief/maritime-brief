@@ -1,0 +1,19 @@
+{% macro entry(a, categories, root) -%}
+{% set c = categories.get(a.category, categories['other']) %}
+<li class="entry">
+  <time class="entry-date num" datetime="{{ a.date }}">{{ a.date | date('%m.%d') }}</time>
+  <div class="entry-body">
+    <p class="entry-cat"><span class="cat"><span class="flag flag-{{ c.flag }}" aria-hidden="true"></span>{{ c.label }}</span></p>
+    <h3 class="entry-title"><a href="{{ root }}articles/{{ a.slug }}.html">{{ a.title }}</a></h3>
+    <p class="entry-lead">{{ a.lead }}</p>
+    <p class="entry-source">出典：{{ a.source.name }}</p>
+  </div>
+</li>
+{%- endmacro %}
+
+{% macro empty_state(root) -%}
+<div class="empty">
+  <p>まだ公開された記事はありません。</p>
+  <p>自動更新で記事が作られると、ここに新しい順に並びます。試験運用中は、保留フォルダの記事を承認すると公開されます。</p>
+</div>
+{%- endmacro %}

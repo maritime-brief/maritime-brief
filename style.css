@@ -1,0 +1,155 @@
+/* 海事ブリーフ — 海図の紙色と国際信号旗をもとにしたスタイル */
+
+:root {
+  --paper: #EEF2F1;      /* 海図の紙 */
+  --paper-deep: #E2E9E8;
+  --ink: #13283B;        /* 本文の紺 */
+  --ink-soft: #4A5D6C;
+  --sounding: #3C6E8F;   /* 水深数字の青 */
+  --rule: #C5D0D3;
+  --signal-red: #C8102E;
+  --signal-yellow: #E8A900;
+  --signal-blue: #1F4E9C;
+  --signal-white: #FFFFFF;
+  --focus: #E8A900;
+
+  --font-text: "Zen Kaku Gothic New", "Hiragino Sans", "Yu Gothic", sans-serif;
+  --font-num: "Barlow Condensed", "Zen Kaku Gothic New", sans-serif;
+  --measure: 38em;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --paper: #0F1E2B;
+    --paper-deep: #152839;
+    --ink: #E3EAEC;
+    --ink-soft: #9FB0BB;
+    --sounding: #8DB8D6;
+    --rule: #2A4052;
+  }
+}
+
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-text);
+  font-size: 1rem;
+  line-height: 1.85;
+  font-feature-settings: "palt" 0;
+}
+a { color: inherit; text-decoration-color: var(--sounding); text-underline-offset: .2em; }
+a:hover { color: var(--sounding); }
+:focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; }
+.skip { position: absolute; left: -999px; }
+.skip:focus { left: 1rem; top: 1rem; background: var(--paper); padding: .5rem 1rem; z-index: 10; }
+
+.wrap { max-width: 64rem; margin: 0 auto; padding: 0 1rem; }
+.num { font-family: var(--font-num); font-weight: 500; letter-spacing: .02em; }
+.muted { color: var(--ink-soft); font-size: .875rem; }
+
+/* ---- 信号旗（カテゴリ） ---- */
+.flag {
+  display: inline-block; flex: none;
+  width: 21px; height: 14px; margin-right: .5em; vertical-align: -1px;
+  box-shadow: inset 0 0 0 1px rgba(19, 40, 59, .3);
+}
+.flag-lg { width: 36px; height: 24px; vertical-align: -3px; margin-right: .6em; }
+.flag-regulation { background: linear-gradient(90deg, var(--signal-yellow) 50%, var(--signal-blue) 50%); }           /* K */
+.flag-safety { background: conic-gradient(var(--signal-red) 0 25%, var(--signal-white) 0 50%, var(--signal-red) 0 75%, var(--signal-white) 0); } /* U */
+.flag-shipbuilding { background: repeating-linear-gradient(45deg, var(--signal-yellow) 0 3px, var(--signal-red) 3px 6px); } /* Y */
+.flag-technology { background: var(--signal-white); box-shadow: inset 0 0 0 4px var(--signal-blue); }               /* P */
+.flag-lg.flag-technology { box-shadow: inset 0 0 0 7px var(--signal-blue); }
+.flag-other { background: linear-gradient(90deg, var(--signal-white) 50%, var(--signal-red) 50%); }                 /* H */
+
+/* ---- 題字（海図の経緯線を薄く敷く） ---- */
+.masthead {
+  border-bottom: 3px solid var(--ink);
+  background-color: var(--paper);
+  background-image:
+    repeating-linear-gradient(0deg, transparent 0 39px, color-mix(in srgb, var(--sounding) 14%, transparent) 39px 40px),
+    repeating-linear-gradient(90deg, transparent 0 39px, color-mix(in srgb, var(--sounding) 14%, transparent) 39px 40px);
+}
+.masthead-inner { padding-top: 2rem; padding-bottom: 1rem; }
+.brand { display: block; text-decoration: none; }
+.brand-name { display: block; font-size: clamp(2rem, 6vw, 3.25rem); font-weight: 900; line-height: 1.1; letter-spacing: .04em; }
+.brand-tagline { display: block; margin-top: .4rem; color: var(--ink-soft); font-size: .9375rem; }
+.catnav { display: flex; flex-wrap: wrap; gap: .25rem 1.5rem; margin-top: 1.5rem; font-size: .9375rem; font-weight: 500; }
+.catnav a { text-decoration: none; padding: .25rem 0; border-bottom: 2px solid transparent; }
+.catnav a[aria-current="page"], .catnav a:hover { border-bottom-color: var(--ink); color: var(--ink); }
+
+main.wrap { padding-top: 2.5rem; padding-bottom: 4rem; }
+h1, h2, h3, .lead-title, .entry-title { word-break: auto-phrase; }
+.cat { display: inline-flex; align-items: center; }
+
+/* ---- トップ記事 ---- */
+.lead-story { max-width: 46rem; padding-bottom: 2.5rem; margin-bottom: 2.5rem; border-bottom: 1px solid var(--rule); }
+.lead-title { font-size: clamp(1.6rem, 4.2vw, 2.4rem); line-height: 1.4; font-weight: 700; margin: .5rem 0 1rem; }
+.lead-title a { text-decoration: none; }
+.lead-lead { font-size: 1.0625rem; max-width: var(--measure); margin: 0 0 1.25rem; }
+
+/* 主な日付を水深数字のように */
+.soundings { display: flex; flex-wrap: wrap; gap: 1rem 2.5rem; margin: 1.5rem 0; }
+.soundings div { border-left: 2px solid var(--sounding); padding-left: .75rem; }
+.soundings dt { font-size: .8125rem; color: var(--ink-soft); }
+.soundings dd { margin: 0; font-size: 1.75rem; line-height: 1.2; color: var(--sounding); font-weight: 600; }
+
+/* ---- 記事一覧 ---- */
+.section-title { font-size: 1rem; font-weight: 700; margin: 0 0 .5rem; }
+.entries { list-style: none; margin: 0; padding: 0; max-width: 46rem; }
+.entry { display: grid; grid-template-columns: 4.25rem 1fr; gap: 1rem; padding: 1.25rem 0; border-top: 1px solid var(--rule); }
+.entry-date { font-size: 1.5rem; line-height: 1.3; color: var(--sounding); font-weight: 600; }
+.entry-cat { display: flex; align-items: center; flex-wrap: wrap; gap: 0 1rem; margin: 0; font-size: .8125rem; color: var(--ink-soft); }
+.entry-cat a { text-decoration: none; display: inline-flex; align-items: center; }
+.entry-title { font-size: 1.125rem; line-height: 1.55; margin: .25rem 0 .35rem; font-weight: 700; }
+.entry-title a { text-decoration: none; }
+.entry-title a:hover { text-decoration: underline; }
+.entry-lead { margin: 0; font-size: .9375rem; color: var(--ink-soft); }
+.entry-source { margin: .35rem 0 0; font-size: .8125rem; color: var(--ink-soft); }
+
+.list-head { margin-bottom: 1.5rem; }
+.list-head h1 { font-size: 1.75rem; margin: 0; display: flex; align-items: center; }
+
+/* ---- 記事ページ ---- */
+.article { max-width: 42rem; }
+.article-title { font-size: clamp(1.5rem, 4vw, 2.1rem); line-height: 1.45; margin: .5rem 0 1rem; }
+.article-lead { font-size: 1.0625rem; font-weight: 500; margin: 0 0 1.5rem; }
+.prose { max-width: var(--measure); }
+.prose p { margin: 0 0 1.25em; }
+.prose h2 { font-size: 1.125rem; margin: 2rem 0 .5rem; }
+.prose h3 { font-size: 1rem; margin: 1.5rem 0 .5rem; }
+
+.impact { margin: 2rem 0; padding: 1rem 1.25rem; background: var(--paper-deep); border-left: 4px solid var(--sounding); }
+.impact h2 { font-size: 1rem; margin: 0 0 .25rem; }
+.impact p { margin: 0; }
+
+.source { margin-top: 2.5rem; padding-top: 1.25rem; border-top: 3px solid var(--ink); font-size: .9375rem; }
+.source h2 { font-size: 1rem; margin: 0 0 .5rem; }
+.source h3 { font-size: .9375rem; margin: 1rem 0 .25rem; }
+.source p { margin: 0 0 .6rem; }
+
+.pr { margin-top: 2rem; padding: 1rem 1.25rem; border: 1px solid var(--rule); font-size: .9375rem; }
+.pr-label { display: inline-block; margin: 0 0 .5rem; padding: 0 .5rem; border: 1px solid var(--ink-soft); font-size: .75rem; color: var(--ink-soft); }
+.pr ul { margin: 0; padding-left: 1.2em; }
+
+.related { margin-top: 3rem; }
+.flag-legend { list-style: none; padding: 0; }
+.flag-legend li { display: flex; align-items: center; margin-bottom: .25rem; }
+
+.empty { max-width: 34rem; padding: 2rem 0; }
+.empty p:first-child { font-size: 1.25rem; font-weight: 700; }
+
+/* ---- フッター ---- */
+.colophon { border-top: 1px solid var(--rule); padding: 2rem 0 3rem; font-size: .875rem; color: var(--ink-soft); }
+.colophon p { max-width: var(--measure); margin: 0 0 .75rem; }
+.colophon-links { display: flex; flex-wrap: wrap; gap: .25rem 1.5rem; }
+.colophon-small { font-size: .8125rem; }
+
+@media (max-width: 40rem) {
+  .entry { grid-template-columns: 3.25rem 1fr; gap: .75rem; }
+  .entry-date { font-size: 1.25rem; }
+  .masthead-inner { padding-top: 1.25rem; }
+}
+@media (prefers-reduced-motion: reduce) { * { scroll-behavior: auto !important; } }

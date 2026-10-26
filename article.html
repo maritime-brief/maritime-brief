@@ -1,0 +1,63 @@
+{% extends "base.html" %}
+{% from "_macros.html" import entry %}
+{% block description %}{{ a.lead }}{% endblock %}
+{% block content %}
+{% set c = categories.get(a.category, categories['other']) %}
+<article class="article">
+  <header class="article-head">
+    <p class="entry-cat">
+      <a href="{{ root }}category/{{ a.category }}.html"><span class="flag flag-{{ c.flag }}" aria-hidden="true"></span>{{ c.label }}</a>
+      <time class="num" datetime="{{ a.date }}">{{ a.date | date('%Y.%m.%d %H:%M') }}</time>
+    </p>
+    <h1 class="article-title">{{ a.title }}</h1>
+    <p class="article-lead">{{ a.lead }}</p>
+  </header>
+
+  {% if a.key_dates %}
+  <dl class="soundings" aria-label="主な日付">
+    {% for d in a.key_dates %}
+    <div><dt>{{ d.label }}</dt><dd class="num">{{ d.date }}</dd></div>
+    {% endfor %}
+  </dl>
+  {% endif %}
+
+  <div class="prose">{{ a.body | md | safe }}</div>
+
+  {% if a.impact_japan %}
+  <section class="impact" aria-labelledby="impact-h">
+    <h2 id="impact-h">日本への影響</h2>
+    <p>{{ a.impact_japan }}</p>
+  </section>
+  {% endif %}
+
+  <section class="source" aria-labelledby="source-h">
+    <h2 id="source-h">出典</h2>
+    <p><a href="{{ a.source.url }}" rel="noopener">{{ a.source.name }}「{{ a.source.title }}」</a></p>
+    {% if a.source.attribution %}<p class="muted">{{ a.source.attribution }}</p>{% endif %}
+    <p class="muted">この記事は、出典の公開情報から事実を取り出し、AIが日本語で書き起こしたものです。翻訳ではありません。数値や日付などの正確な内容は、必ず出典でご確認ください。</p>
+    {% if a.corrections %}
+    <h3>訂正の履歴</h3>
+    <ul>{% for cr in a.corrections %}<li><span class="num">{{ cr.date }}</span> {{ cr.note }}</li>{% endfor %}</ul>
+    {% endif %}
+    <p><a href="{{ site.contact_url }}">誤りを知らせる</a></p>
+  </section>
+
+  {% if aff_items %}
+  <aside class="pr" aria-label="広告">
+    <p class="pr-label">PR</p>
+    <ul>
+      {% for it in aff_items %}
+      <li><a href="{{ it.url }}" rel="sponsored noopener">{{ it.title }}</a>{% if it.note %}<span class="muted">　{{ it.note }}</span>{% endif %}</li>
+      {% endfor %}
+    </ul>
+  </aside>
+  {% endif %}
+</article>
+
+{% if related %}
+<section aria-labelledby="related-h" class="related">
+  <h2 id="related-h" class="section-title">{{ c.label }}の関連記事</h2>
+  <ol class="entries">{% for r in related %}{{ entry(r, categories, root) }}{% endfor %}</ol>
+</section>
+{% endif %}
+{% endblock %}
