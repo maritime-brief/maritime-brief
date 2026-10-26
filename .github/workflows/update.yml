@@ -44,7 +44,7 @@ jobs:
       - name: 必要なライブラリを入れる
         run: pip install -r requirements.txt
 
-      - name: 収集（engine: api なら記事作成も）
+      - name: "収集（engine が api なら記事作成も）"
         if: github.event_name != 'push'
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
