@@ -1,0 +1,18 @@
+{
+ "id": "f1e102cda202",
+ "title": "Fatal accident to a crew member on board the Bermuda registered passenger vessel Arvia",
+ "url": "https://www.gov.uk/maib-reports/fatal-accident-to-a-crew-member-on-board-the-bermuda-registered-passenger-vessel-arvia",
+ "summary": "Location: on passage from Southampton, England, to Santa Cruz de Tenerife, Canary Islands, Spain.",
+ "published": "2026-10-08T08:59:31+00:00",
+ "tier": 1,
+ "lang": "en",
+ "source": {
+  "id": "maib",
+  "name": "英国 海難調査局（MAIB）",
+  "license": "Open Government Licence v3.0",
+  "attribution": "Contains public sector information licensed under the Open Government Licence v3.0.",
+  "tier": 1
+ },
+ "text": "Fatal accident to a crew member on board the Bermuda registered passenger vessel Arvia\nLocation: on passage from Southampton, England, to Santa Cruz de Tenerife, Canary Islands, Spain.\nAccident Investigation Report 20/2026\nRead our marine accident investigation report, which includes what happened, subsequent actions taken and recommendations.\nSummary\nAt about 0552 on 26 October 2025, a crew member on board the Bermuda registered passenger vessel Arvia was fatally injured while inspecting a passenger lift. The vessel was on passage from Southampton, England, to Santa Cruz de Tenerife, Canary Islands, Spain.\nSafety issues\n- Communication and planning for the inspection were ineffective.\n- Control of the lift had not been established before the crew member entered the lift shaft.\n- Self-resetting door interlocks were relied on as a safety barrier against lift movement.\n- Permit to work arrangements did not identify that the task had moved beyond the authorised scope of work.\n- Lift maintenance training and competence assurance were inconsistent.\nRecommendations\nCarnival UK Ltd has been recommended to review the use of self-resetting lift door interlocks as a safety barrier to prevent activation of lifts during maintenance or inspection.",
+ "queued_at": "2026-10-27T08:20+09:00"
+}

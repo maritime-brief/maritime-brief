@@ -1,0 +1,74 @@
+{
+ "seen": {
+  "b38f1f4fa7a2": {
+   "outcome": "queued",
+   "url": "https://www.gov.uk/maib-reports/partial-collapse-of-an-inflatable-migrant-boat-resulting-in-the-loss-of-1-life-on-9-september-2025",
+   "note": "",
+   "at": "2026-10-27T08:20+09:00"
+  },
+  "f1e102cda202": {
+   "outcome": "queued",
+   "url": "https://www.gov.uk/maib-reports/fatal-accident-to-a-crew-member-on-board-the-bermuda-registered-passenger-vessel-arvia",
+   "note": "",
+   "at": "2026-10-27T08:20+09:00"
+  },
+  "7a5a1ba45fa6": {
+   "outcome": "queued",
+   "url": "https://www.gov.uk/maib-reports/foundering-of-the-fishing-vessel-argos-georgia-with-the-loss-of-13-lives",
+   "note": "",
+   "at": "2026-10-27T08:20+09:00"
+  },
+  "2324868cf013": {
+   "outcome": "queued",
+   "url": "https://www.gov.uk/maib-reports/contact-of-the-roll-on-slash-roll-off-passenger-ferry-stena-estrid-with-a-jetty-resulting-in-a-hull-puncture-and-engine-room-flooding",
+   "note": "",
+   "at": "2026-10-27T08:20+09:00"
+  },
+  "79547e468d26": {
+   "outcome": "queued",
+   "url": "https://www.gov.uk/maib-reports/man-overboard-from-the-lone-operated-creel-fishing-vessel-sea-eagle-ah18-resulting-in-one-presumed-fatality",
+   "note": "",
+   "at": "2026-10-27T08:20+09:00"
+  },
+  "32e968273132": {
+   "outcome": "queued",
+   "url": "https://www.gov.uk/maib-reports/grounding-and-subsequent-loss-of-the-fishing-vessel-silver-cloud-ii-wk-80",
+   "note": "",
+   "at": "2026-10-27T08:20+09:00"
+  },
+  "10edfc710c84": {
+   "outcome": "queued",
+   "url": "https://www.gov.uk/maib-reports/man-overboard-from-the-bulk-carrier-world-prize-with-the-loss-of-1-life",
+   "note": "",
+   "at": "2026-10-27T08:20+09:00"
+  },
+  "87af250148c6": {
+   "outcome": "queued",
+   "url": "https://www.gov.uk/maib-reports/allision-of-the-rigid-inflatable-boat-peaky-blinder-with-a-navigation-beacon-with-the-loss-of-2-lives",
+   "note": "",
+   "at": "2026-10-27T08:20+09:00"
+  },
+  "5abc8649785e": {
+   "outcome": "queued",
+   "url": "https://www.gov.uk/maib-reports/serious-injury-to-a-crew-member-on-board-the-scallop-dredger-jacoba-bm77",
+   "note": "",
+   "at": "2026-10-27T08:20+09:00"
+  },
+  "368cb32182a7": {
+   "outcome": "queued",
+   "url": "https://www.gov.uk/maib-reports/fall-overboard-from-the-crab-potting-vessel-amadeus-th7-with-the-loss-of-1-life",
+   "note": "",
+   "at": "2026-10-27T08:20+09:00"
+  }
+ },
+ "leads": [],
+ "runs": [
+  {
+   "at": "2026-10-27T08:20+09:00",
+   "step": "collect",
+   "queued": 10,
+   "leads": 0,
+   "expired": 0
+  }
+ ]
+}
