@@ -7,7 +7,7 @@ site:
   name: "海事ブリーフ"
   tagline: "海外の海事規制・安全・造船技術の動きを、日本語で短く。"
   # 公開後のURL（GitHub Pages なら https://<ユーザー名>.github.io/<リポジトリ名>）
-  base_url: "https://example.github.io/maritime-brief"
+  base_url: "https://maritime-brief.github.io/maritime-brief"
   # 誤りの指摘・削除依頼の受付先（Googleフォームのリンクやメールアドレス）
   contact_url: "mailto:contact@example.com"
   operator_name: "海事ブリーフ編集部"
