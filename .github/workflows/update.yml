@@ -1,19 +1,21 @@
 # 海事ブリーフ 自動更新
-#  - 毎日 日本時間 7:00 / 12:00 / 18:00 に、収集から公開までを実行
+#  - 毎日 日本時間 6:40 / 11:40 / 17:40 に、新着を収集してサイトを作り直す
+#    （engine: api のときは、ここで記事作成まで行う。claude-app のときは記事作成をClaudeのタスクが行う）
 #  - 保留記事の status を書き換えて保存（push）すると、承認・却下を反映してサイトを作り直す
 #  - Actions 画面の「Run workflow」ボタンで手動実行もできる
 name: update
 
 on:
   schedule:
-    - cron: "0 22 * * *"   # 日本時間 7:00
-    - cron: "0 3 * * *"    # 日本時間 12:00
-    - cron: "0 9 * * *"    # 日本時間 18:00
+    - cron: "40 21 * * *"  # 日本時間 6:40
+    - cron: "40 2 * * *"   # 日本時間 11:40
+    - cron: "40 8 * * *"   # 日本時間 17:40
   workflow_dispatch:
   push:
     branches: [main]
     paths:
       - "content/**"
+      - "data/queue/**"
       - "config/**"
       - "templates/**"
       - "static/**"
@@ -42,13 +44,13 @@ jobs:
       - name: 必要なライブラリを入れる
         run: pip install -r requirements.txt
 
-      - name: 記事の収集と作成（定時・手動実行のとき）
+      - name: 収集（engine: api なら記事作成も）
         if: github.event_name != 'push'
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: python -m pipeline.main run
 
-      - name: 承認・却下の反映（保留記事を書き換えたとき）
+      - name: 承認・却下の反映とサイトの作り直し（記事が送られてきたとき）
         if: github.event_name == 'push'
         run: python -m pipeline.main review
 

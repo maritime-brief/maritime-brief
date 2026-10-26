@@ -1,49 +1,37 @@
 # 海事ブリーフ（プロトタイプ）
 
 海外の海事当局・事故調査機関などの公開情報から事実だけを取り出し、AIが日本語の短い記事にして、
-1日3回自動で更新するニュースサイトです。サーバーは不要で、GitHub の無料機能だけで動きます。
+1日3回自動で更新するニュースサイトです。サーバーは不要です。
 
-```
-収集 → 選別（Haiku）→ 事実抽出（Haiku）→ 執筆（Sonnet・原文は見せない）→ 検証（Sonnet）→ 公開 or 保留
-```
+## しくみ
 
-- 執筆するAIには原文を渡さず、抽出した「事実のリスト」だけを渡します（翻訳にならないための仕組み）。
+| 時刻（日本時間） | 担当 | やること |
+| --- | --- | --- |
+| 6:40 / 11:40 / 17:40 | GitHub Actions（AIなし） | 許可したソースから新着を集め、`data/queue/` に置く |
+| 7:00 / 12:00 / 18:00 | Claudeのスケジュールされたタスク | `CLAUDE_TASK.md` の手順で、選別 → 事実抽出 → 執筆 → 検証 → 保存 |
+| 記事が届いた直後 | GitHub Actions | サイトを作り直して公開 |
+
+- 執筆の担当には原文を渡さず、抽出した「事実のリスト」だけを渡します（翻訳にならないための仕組み）。
 - 検証で基準を超えた記事は自動公開せず `content/pending/` に保留します。
 - 最初は **試験運用モード**（すべての記事が保留）で始まります。
+- 記事作成はClaudeのプランの利用枠で行うため、**APIキーやAPI料金は不要**です（`config/settings.yaml` の `engine: api` に切り替えると、Claude API で動かすこともできます）。
 
 ---
 
-## はじめての設定（ブラウザだけで約30分）
+## はじめての設定
 
-### 1. GitHub にファイルを置く
+1. GitHub アカウントと、空のリポジトリ `maritime-brief`（Public）を作る
+2. claude.ai でGitHubを接続し、Claude GitHub App にこのリポジトリへのアクセスを許可する
+3. ファイルの配置と、スケジュールされたタスクの作成はClaudeが行います
+4. リポジトリの「Settings」→「Pages」→ Source を **GitHub Actions** にする
+5. `config/settings.yaml` の `base_url` と `contact_url` を書き換える
 
-1. [GitHub](https://github.com/) でアカウントを作ります。
-2. 右上の「＋」→「New repository」。名前は `maritime-brief` など。**Public** を選び「Create repository」。
-   （Public だと Actions と Pages が無料で使えます。APIキーは別の安全な場所に保管するので公開されません）
-3. 作ったリポジトリの画面で「uploading an existing file」をクリックし、
-   この ZIP を展開した **中身のファイルとフォルダをすべて** ドラッグ＆ドロップ → 「Commit changes」。
-   - `.github` フォルダが表示されない場合は、パソコンで隠しファイルを表示する設定にしてから再度ドラッグしてください。
+### API方式で動かす場合（任意）
 
-### 2. Claude API キーを登録する
-
-1. [Claude Console](https://console.anthropic.com/) でアカウントを作り、「API Keys」でキーを作成してコピーします。
-2. 同じ画面の「Limits」で **月の利用上限**（例：5,000円相当）を設定しておくと、想定外の請求を防げます。
-3. GitHub のリポジトリ画面で「Settings」→「Secrets and variables」→「Actions」→「New repository secret」。
-   - Name: `ANTHROPIC_API_KEY`
-   - Secret: コピーしたキー
-   → 「Add secret」。
-
-### 3. サイトの公開を有効にする
-
-1. 「Settings」→「Pages」→「Build and deployment」の Source を **GitHub Actions** にします。
-2. `config/settings.yaml` を開き（鉛筆アイコンで編集）、`base_url` を
-   `https://<あなたのユーザー名>.github.io/maritime-brief` に、`contact_url` を問い合わせ先に書き換えて保存します。
-
-### 4. 初回の実行
-
-1. 「Actions」タブ →（初回は緑のボタンで Actions を有効化）→ 左の「update」→「Run workflow」。
-2. 数分で終わります。緑のチェックが付けば成功です。
-3. 試験運用モードなので、作られた記事は `content/pending/` に入っています。
+`config/settings.yaml` を `engine: api` にし、[Claude Console](https://console.anthropic.com/) で作ったAPIキーを
+「Settings」→「Secrets and variables」→「Actions」に `ANTHROPIC_API_KEY` という名前で登録します。
+この場合はGitHub Actionsだけで記事作成まで完結し、AI利用料は月3,000〜5,000円程度です。
+Claudeのスケジュールされたタスクは止めてください。
 
 ---
 
@@ -99,10 +87,11 @@
 
 ---
 
-## 費用の目安
+## 費用と利用枠
 
-1日に約150件を確認し15本前後を記事化する場合、AIの利用料は月3,000〜5,000円程度です。
-`config/settings.yaml` の `articles_per_run`（1回の実行で記事化する最大本数）を減らすと費用も下がります。
+- `engine: claude-app`（標準）：追加料金なし。記事作成はClaudeのプランの利用枠を使います。
+  普段のチャットと枠を共有するので、多すぎると感じたら `articles_per_run`（1回に記事化する最大本数）を減らしてください。
+- `engine: api`：AI利用料が月3,000〜5,000円程度（1日15本前後の場合）。
 
 ---
 
@@ -110,7 +99,8 @@
 
 | 症状 | 確認すること |
 | --- | --- |
-| Actions が赤い × で失敗する | 失敗した実行を開き、赤いステップのログを見てください。`ANTHROPIC_API_KEY が設定されていません` ならシークレットの名前を確認 |
+| Actions が赤い × で失敗する | 失敗した実行を開き、赤いステップのログを見てください |
+| 記事が作られない | claude.ai のスケジュールされたタスクの実行履歴を確認。キューが空なら新着がなかっただけです |
 | サイトが表示されない | Settings → Pages の Source が「GitHub Actions」か確認 |
 | 記事が全く増えない | 試験運用モードでは `content/pending/` に入ります。承認すると公開されます |
 | ソースから取得できない | RSS の URL が正しいか、相手サイトの robots.txt で禁止されていないか |
@@ -137,5 +127,8 @@ python -m pipeline.main check-sources            # 各ソースのRSSが読め�
 | `content/pending/` | 確認待ちの記事 |
 | `content/rejected/` | 却下した記事 |
 | `data/state.json` | 処理済みURL、業界メディアの話題メモ、実行の記録 |
-| `pipeline/` | プログラム本体（`agents.py` にAIへの指示文） |
+| `CLAUDE_TASK.md` | 記事作成タスクの手順書（書き換えると次回から反映） |
+| `prompts/` | 各AI担当への指示文（両方式で共通） |
+| `data/queue/` | 記事化待ちの新着 |
+| `pipeline/` | プログラム本体 |
 | `templates/`, `static/` | サイトのデザイン |

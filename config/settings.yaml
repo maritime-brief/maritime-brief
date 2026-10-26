@@ -12,13 +12,18 @@ site:
   contact_url: "mailto:contact@example.com"
   operator_name: "海事ブリーフ編集部"
 
+# 記事を作る方式
+#   claude-app : Claudeのスケジュールされたタスクが記事を書く（APIキー不要。プランの利用枠を使う）
+#   api        : GitHub Actions が Claude API で記事を書く（APIキーが必要。月3,000〜5,000円程度）
+engine: claude-app
+
 # 公開モード
 #   trial : 試験運用。作った記事はすべて「保留」に入り、人が承認したものだけ公開
 #   auto  : 検証に合格した記事は自動公開、不合格だけ保留
 publish:
   mode: trial
 
-# 使うAIモデル（Claude API）
+# 使うAIモデル（engine: api のときだけ使用）
 models:
   triage: "claude-haiku-5-5"    # 選別
   extract: "claude-haiku-5-5"   # 事実抽出
