@@ -1,52 +1,55 @@
-FEED 200 n=20 robots=allowed https://www.gov.uk/search/news-and-communications.atom?keywords=maritime&organisations%5B%5D=department-for-transport
-   - SS Richard Montgomery mast removal project
-   - Stronger safeguards for wheelchair users and better-trained staff to support disabled air passengers
-   - Take off for passengers as government scraps extra charges when flying
-   - Maritime Coastguard Agency celebrates World Maritime Day 2026
-   - Maritime heroes honoured for inspiring the next generation of seafarers and supporting communities a
-FEED 200 n=10 robots=allowed https://www.gov.uk/search/all.atom?keywords=maritime+decarbonisation
-   - Updating the minimum emission standard for new road vehicles
-   - Powers and operational procedure: caseworker guidance
-   - Minister of State (Security Minister)
-   - UK Financial Sanctions FAQs
-   - OFSI General Licences
-FEED 200 n=10 robots=allowed https://www.gov.uk/search/all.atom?keywords=shipbuilding
-   - MGN 721 (M+F) Interpretation of references to Marine Equipment Directive (MED) approved equipment in
-   - Government ministers and responsibilities
-   - PM speech in Scotland: 16 October 2026
-   - Public appointments for Ministry of Defence
-   - Carbon capture and the renewal of British industry
-FEED 403 n=0 robots=no-robots https://www.maritime.dot.gov/rss.xml
-FEED 403 n=0 robots=no-robots https://www.maritime.dot.gov/newsroom/press-releases/rss.xml
-FEED 404 n=0 robots=allowed https://cordis.europa.eu/news/rss
-FEED 200 n=30 robots=allowed https://transport.ec.europa.eu/node/2/rss_en
-   - Joint press release on the 19th implementation meeting of the EU–China Maritime Transport Agreement
-   - Solidarity Lanes: Latest figures – September 2026
-   - Keynote speech by Director-General Magda Kopczyńska: The European Union’s role in ensuring a competi
-   - Solidarity Lanes: Latest figures – August 2026
-   - Bulgaria, Greece and Romania step up delivery of strategic transport links
-FEED 404 n=0 robots=allowed https://www.sdir.no/en/rss/
-FEED 404 n=0 robots=allowed https://www.dma.dk/rss
-FEED 200 n=21 robots=no-robots https://www.mlit.go.jp/pressrelease.rdf
-   - バリアフリー施策の今後の目指すべき方向性や課題についての議論を行います〜第２回バリアフリー施策の新たな枠組みに関する検討会を開催〜
-   - 強靱で持続可能なインフラ構築へ、インドネシアとの連携強化〜第12回日・インドネシア建設次官級会合の開催結果（報告）〜
-   - 市原市・南伊勢町・佐世保市の地域づくり３事例が「国土交通大臣賞」を受賞〜｢新時代に地域力をつなぐ国土｣を体現する９団体を令和８年度「地域づくり表彰」受賞団体に決定〜
-   - 社会資本整備審議会 道路分科会 第28回道路技術小委員会を開催〜自動運行補助施設の技術基準の策定に向けた検討などについて議論します〜
-   - 住宅・建築海外展開連携協議会（J-HAB）が初の年次総会を開催〜住宅・建築分野の海外展開に向けた官民ネットワークを強化〜
-PAGE 403 robots=no-robots https://www.maritime.dot.gov/newsroom/press-releases
-PAGE 200 robots=allowed https://cordis.europa.eu/news
-PAGE 200 robots=allowed https://transport.ec.europa.eu/news-events/news_en
-   link: https://transport.ec.europa.eu/node/2/rss_en
-PAGE 200 robots=allowed https://www.sdir.no/en/news/
-PAGE 200 robots=allowed https://www.dma.dk/news
-PAGE 200 robots=no-robots https://www.mlit.go.jp/maritime/
-PAGE 200 robots=no-robots https://www.nedo.go.jp/news/
-PAGE 200 robots=no-robots https://www.mpa.gov.sg/media-centre
-   link: https://www.mpa.gov.sg/feedback
-   link: https://www.mpa.gov.sg/feeds/media-releases
-PAGE 200 robots=allowed https://www.zerocarbonshipping.com/news/
-PAGE 200 robots=allowed https://www.globalmaritimeforum.org/news
-PAGE 200 robots=allowed https://www.dnv.com/news/
-PAGE 200 robots=allowed https://www.lr.org/en/knowledge/press-room/
-   link: https://www.lr.org/en/expertise/segments/feeders/
-PAGE 200 robots=allowed https://ww2.eagle.org/en/news.html
+FEED 200 n=50 https://www.mpa.gov.sg/feeds/media-releases
+   - MPA and Eastern Pacific Shipping Mark Christening of Singapore-Registered Ammonia Dual-Fue | https://www.mpa.gov.sg/media-centre/details/mpa-and-eastern-pacific-shipping-mark-christening-of-singapore-registered-ammonia-dual-fuelled-vessel
+   - Welcome Remarks by Mr Ang Wee Keong, Chief Executive, Maritime and Port Authority of Singa | https://www.mpa.gov.sg/media-centre/details/welcome-remarks-by-mr-ang-wee-keong-chief-executive-maritime-and-port-authority-of-singapore-at-par2026pilbara-on-22-october-2026
+   - PORT MARINE NOTICE NO. 142 OF 2026 - POWER SHUTDOWN AT ICA CREW OFFICE – PSA PASIR PANJANG | https://www.mpa.gov.sg/media-centre/details/port-marine-notice-no-142-of-2026-power-shutdown-at-ica-crew-office-psa-pasir-panjang-terminalppt-4-crew-office
+   - PORT MARINE NOTICE NO. 141 OF 2026 - MARINE SOIL INVESTIGATION WORKS FOR THE PROPOSED BIOM | https://www.mpa.gov.sg/media-centre/details/port-marine-notice-no-141-of-2026-marine-soil-investigation-works-for-the-proposed-biomass-power-plant-at-jurong-island
+   - PORT MARINE NOTICE NO. 140 of 2026 - UPDATED HAZE ADVISORY – GUIDANCE ON USE OF PSI FORECA | https://www.mpa.gov.sg/media-centre/details/port-marine-notice-no-140-of-2026-updated-haze-advisory-guidance-on-use-of-psi-forecast-and-1-hour-pm25-readings
+   - Keynote Speech by Mr Chin Yi Zhuan, Deputy Chief Executive (Industry & Corporate), Maritim | https://www.mpa.gov.sg/media-centre/details/keynote-speech-by-mr-chin-yi-zhuan-deputy-chief-executive-industry-corporate-maritime-and-port-authority-of-singapore-at-the-north-bund-forum-nbf-2026-maritime-traffic-safety-forum
+PAGE 200 https://www.dnv.com/news/
+   a: Other sectors   22 October, 2026    New Nordic research funded to tackle the AI  | https://www.dnv.com/news/2026/new-nordic-research-funded-to-tackle-the-ai-safety-challenge/
+   a: Cross industry  National security  Financial services   20 October, 2026    DNV  | https://www.dnv.com/cyber/insights/news/dnv-enters-strategic-partnership-with-sse-on-digital-resilience-and-cybersecurity/
+   a: Aquaculture and Ocean Health   19 October, 2026    DNV invests in Aquabench to s | https://www.dnv.com/news/2026/dnv-acquires-majority-stake-in-aquabench/
+   a: Maritime   19 October, 2026    DNV receives authorization for Floating Offshore  | https://www.dnv.com/news/2026/DNV-receives-authorization-for-floating-offshore-wind-rules-in-japan/
+   a: Healthcare   15 October, 2026    DNV and Newton&#x27;s Tree Launch Healthcare AI | https://www.dnv.com/news/2026/dnv_and_newtons_tree_education_governing_ai_in_healthcare/
+   a: Energy   15 October, 2026    DNV-led research results incorporated into internat | https://www.dnv.com/news/2026/dnv-led-research-results-incorporated-into-international-standard-for-offshore-mooring-systems/
+   a: Aquaculture and Ocean Health   14 October, 2026    DNV acquires majority stake i | https://www.dnv.com/news/2026/dnv-acquires-majority-stake-in-aqualis/
+   a: Other sectors   12 October, 2026    DNV awards its first AI management certifica | https://www.dnv.com/news/2026/dnv-awards-its-first-ai-management-certification-in-japan-to-lrm/
+PAGE 200 https://www.lr.org/en/knowledge/press-room/
+   a: Maritime Energy Transition    Our integrated energy management solutions gives y | https://www.lr.org/en/expertise/maritime-energy-transition/
+   a: Digital transformation    The need for digital transformation in the maritime in | https://www.lr.org/en/expertise/digital-transformation/
+   a: Fleet Management - Client Portal    The Client Portal is an easy-to-use window i | https://www.lr.org/en/services/classification-certification/sign-in-client-portal/
+   a: Ship retrofits for more sustainable and compliant voyages    Our Retrofit Soluti | https://www.lr.org/en/services/advisory/energy-transition/retrofit-solutions/
+   a: Fuel for thought: Hydrogen    LR&#x27;s Hydrogen report delivers key insights in | https://www.lr.org/en/knowledge/research-reports/2025/fuel-for-thought-hydrogen/
+   a: Effective alarm management in the maritime industry    Research reveals how mari | https://www.lr.org/en/knowledge/research-reports/2026/alarm-management/
+   a: Momentum builds behind nuclear shipping | https://www.lr.org/en/knowledge/horizons/july-2026/momentum-builds-behind-nuclear-shipping/
+   a: War risk insurance under pressure as volatility reshapes shipping routes | https://www.lr.org/en/knowledge/horizons/july-2026/war-risk-insurance-under-pressure-as-volatility-reshapes-shipping-routes/
+PAGE 200 https://ww2.eagle.org/en/news.html
+   a: Rule Manager: Notice of Rule Changes | https://ww2.eagle.org/en/rules-and-resources/rules-and-guides-v2/Notice-of-Rule-Changes-old.html
+   a: Change of Customer Information Form | https://ww2.eagle.org/en/rules-and-resources/forms/change-of-customer-information-form.html
+   a: ABS MyFreedom Client Portal Registration | https://ww2.eagle.org/en/rules-and-resources/forms/abs-myfreedom-client-portal-registration.html
+   a: Global Trade Compliance and Sanctions | https://ww2.eagle.org/en/rules-and-resources/regulatory-updates/global-trade-compliance-and-sanctions.html
+   a: Safe Carriage of Industrial Personnel | https://ww2.eagle.org/en/rules-and-resources/regulatory-updates/safe-carriage-of-industrial-personnel.html
+   a: Electronic Record Books Under MARPOL and BWM Conventions | https://ww2.eagle.org/en/rules-and-resources/regulatory-updates/electronic-record-books-under-marpol-and-bwm-conventions.html
+   a: SOLAS Requirements for Lifting Appliances and Anchor Handling Winches | https://ww2.eagle.org/en/rules-and-resources/regulatory-updates/SOLAS-requirements-on-board-ships.html
+   a: Vessel Incidental Discharge Act (VIDA) | https://ww2.eagle.org/en/rules-and-resources/regulatory-updates/vida-regulatory-rqmts.html
+PAGE 200 https://www.zerocarbonshipping.com/news/
+   a: Countdown | Policy insights &amp; analysis | https://www.zerocarbonshipping.com/countdown
+PAGE 200 https://www.globalmaritimeforum.org/news
+PAGE 200 https://www.sdir.no/en/news/
+   a: Sjøfartsdirektoratet - Norwegian Maritime Authority | https://www.sdir.no/en/
+   a: What&#x27;s on? Event Calendar (norwegian only) | https://www.sdir.no/kalenderutlisting/
+   a: Register for our newsletter and e-mail notifications | https://www.sdir.no/en/register-for-our-newsletter-and-e-mail-notifications/
+   a: New portal for inspections of fishing vessels over 15 metres | https://www.sdir.no/en/news/ny-portal-for-inspeksjon-av-fiskefartoy-over-15-meter/
+   a: Equality and diversity efforts continue | https://www.sdir.no/en/news/likestilling-og-mangfold/
+   a: Lobster season begings: Norwegian Maritime Authority urges fishers not to go alo | https://www.sdir.no/en/news/na-starter-hummerfisket-sjofartsdirektoratet-advarer-mot-a-dra-alene/
+   a: World Maritime Day &#x2013; from policy to practice | https://www.sdir.no/en/news/world-maritime-day-from-policy-to-practice/
+   a: Norwegian ships and mobile offshore units requested to fly flags at half-mast | https://www.sdir.no/en/news/norske-skip-og-rigger-anmodes-om-a-flagge-pa-halv-stang/
+PAGE 200 https://www.dma.dk/news
+   a: New shipping routes in Kattegat and Skagerrak | https://www.dma.dk/safety-at-sea/navigational-information/new-shipping-routes-in-kattegat-and-skagerrak
+   a: Exemption from reporting obligation | https://www.dma.dk/safety-at-sea/safety-of-navigation/exemption-from-reporting-obligation
+   a: Mandatory Ship Reporting Systems (MSRS) and Vessel Traffic Services (VTS) | https://www.dma.dk/safety-at-sea/safety-of-navigation/mandatory-ship-reporting-systems-msrs-and-vessel-traffic-services-vts
+   a: Market surveillance of marine equipment | https://www.dma.dk/safety-at-sea/ship-safety/market-surveillance-of-marine-equipment
+   a: Information for yards, workshops and vessel owners | https://www.dma.dk/ship-survey-and-registration/ship-survey/information-for-yards-workshops-and-vessel-owners
+   a: Top priority factors and unexpected factors | https://www.dma.dk/ship-survey-and-registration/port-state-control-psc/top-priority-factors-and-unexpected-factors
+   a: What does the introduction of a digital ship register entail? | https://www.dma.dk/ship-survey-and-registration/ship-registration-and-fees/what-does-the-introduction-of-a-digital-ship-register-entail
+   a: Registration and re-registration of a ship in the Danish | https://www.dma.dk/ship-survey-and-registration/ship-registration-and-fees/registration-and-re-registration-of-a-ship-in-the-danish
