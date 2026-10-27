@@ -1,0 +1,47 @@
+FEED 200 n=50 robots=allowed https://www.gov.uk/maib-reports.atom
+   - Partial collapse of an inflatable migrant boat resulting in the loss of 1 life on 9 September 2025
+   - Fatal accident to a crew member on board the Bermuda registered passenger vessel Arvia
+   - Foundering of the fishing vessel Argos Georgia with the loss of 13 lives
+   - Contact of the roll-on/roll-off passenger ferry Stena Estrid with a jetty, resulting in a hull punct
+   - Man overboard from the lone-operated creel fishing vessel Sea Eagle (AH18) resulting in one presumed
+   - Grounding and subsequent loss of the fishing vessel Silver Cloud II (WK 80)
+FEED 200 n=20 robots=allowed https://www.gov.uk/search/news-and-communications.atom?organisations%5B%5D=maritime-and-coastguard-agency
+   - Maritime Coastguard Agency celebrates World Maritime Day 2026
+   - Maritime heroes honoured for inspiring the next generation of seafarers and supporting communities a
+   - Minister visits Port of Tyne to support plastic pellet clean-up
+   - Rolling five-year review of seafarer syllabus to ensure training fit for the future
+   - UK Maritime Innovation Hub establishes role as focal point for maritime innovation
+   - Safe removal of masts from historic WWII shipwreck carrying wartime explosives begins
+FEED 200 n=20 robots=allowed https://www.gov.uk/search/guidance-and-regulation.atom?organisations%5B%5D=maritime-and-coastguard-agency
+   - MGN 721 (M+F) Interpretation of references to Marine Equipment Directive (MED) approved equipment in
+   - MSN 1885 (F) Amendment 1 ILO work in fishing convention, 2007: survey and inspection
+   - List of countries accepted towards issuing a UK FSE
+   - MGN 357 (M+F) Amendment 1: night-time lookout – photochromic lenses and dark adaptation
+   - MGN 623 (M+F) Amendment 1: Telemedical advice service (TMAS) for ships at sea
+   - MCA approved doctors for overseas
+FEED 200 n=10 robots=allowed https://www.emsa.europa.eu/newsroom/latest-news.feed?type=rss&format=feed
+   - MMO 2026 in La Manche and the Southern North Sea concludes with review in Brussels
+   - EMSA joins coast guard partners off Catania for COASTEX 2026
+   - EMSA supports POLEX26 response exercise in Vigo, Spain
+   - Joint search and rescue exercise in the Gulf of Trieste under MMO ADRIA 2026
+   - SARex 2026 tests multinational maritime coordination in North Sea search and rescue exercise
+   - EMSA Supports Multipurpose Maritime Exercise TOMIS 2026 in the Western Black Sea
+FEED 200 n=21 robots=no-robots https://www.mlit.go.jp/pressrelease.rdf
+   - バリアフリー施策の今後の目指すべき方向性や課題についての議論を行います〜第２回バリアフリー施策の新たな枠組みに関する検討会を開催〜
+   - 強靱で持続可能なインフラ構築へ、インドネシアとの連携強化〜第12回日・インドネシア建設次官級会合の開催結果（報告）〜
+   - 市原市・南伊勢町・佐世保市の地域づくり３事例が「国土交通大臣賞」を受賞〜｢新時代に地域力をつなぐ国土｣を体現する９団体を令和８年度「地域づくり表彰」受賞団体に決定〜
+   - 社会資本整備審議会 道路分科会 第28回道路技術小委員会を開催〜自動運行補助施設の技術基準の策定に向けた検討などについて議論します〜
+   - 住宅・建築海外展開連携協議会（J-HAB）が初の年次総会を開催〜住宅・建築分野の海外展開に向けた官民ネットワークを強化〜
+   - 第１回　持続可能な鉄道ネットワークの在り方に関する検討小委員会について
+FEED 200 n=14 robots=no-robots https://www.mlit.go.jp/index.rdf
+   - 井林大臣会見要旨
+   - 井林大臣会見要旨
+   - 井林大臣会見要旨
+   - 井林大臣会見要旨
+   - 井林大臣会見要旨
+   - 井林大臣会見要旨
+PAGE 403 robots=no-robots https://www.news.uscg.mil/Maritime-Commons/
+PAGE 200 robots=no-robots https://www.mlit.go.jp/jtsb/
+PAGE 200 robots=allowed https://www.ntsb.gov/news/press-releases/Pages/default.aspx
+PAGE 500 robots=robots-err Exceeded 30 redirects. https://www.imo.org/en/MediaCentre/PressBriefings/Pages/Home.aspx
+PAGE 403 robots=no-robots https://www.classnk.or.jp/hp/ja/index.html
