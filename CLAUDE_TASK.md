@@ -43,8 +43,8 @@ python -m pipeline.main queue > /tmp/queue.json
 
 ### 3. 1件ずつ記事にする
 
-選んだ item ごとに、作業フォルダ `work/<id>/` を作り、次の a〜d を順番に行う。
-a〜c はそれぞれ **別のサブエージェント**（Agent ツール、`run_in_background: false`）に任せる。
+選んだ item ごとに、作業フォルダ `work/<id>/` を作り、次の a〜g を順番に行う。
+抽出・執筆・検証・修正・推敲は、それぞれ **別のサブエージェント**（Agent ツール、`run_in_background: false`）に任せる。
 
 **a. 事実抽出**（model: haiku）
 サブエージェントへの指示に含めるもの：
@@ -70,14 +70,49 @@ a〜c はそれぞれ **別のサブエージェント**（Agent ツール、`ru
 **c. 検証**（model: sonnet）
 サブエージェントへの指示に含めるもの：
 - `prompts/common.md` と `prompts/verify.md` の全文
-- 原文の読み方（a と同じ）と、記事 `work/<id>/draft.json` の場所
-- 出力先：`work/<id>/review.json`
+- 原文の読み方（a と同じ）と、検証する記事のファイルの場所
+- 出力先：指定したレビューファイル（最初は `work/<id>/review.json`）
 
-**d. 判定と保存**（あなたが行う）
+**d. 判定**（あなたが行う。保存はしない）
+
+```bash
+python -m pipeline.main check --id <id> \
+  --facts work/<id>/facts.json --draft <記事ファイル> --review <レビューファイル>
+```
+
+`verdict`（pass / hold）、`reasons`、`fix_instructions`、`suggestions` が返る。
+各回の結果を `work/<id>/history.json`（配列）に1件ずつ追記する：
+`{"step": "執筆" / "修正1" / "推敲", "verdict": ..., "translation_likeness": ..., "structure_similarity": ...,
+  "reasons": [...], "changes": [...], "adopted": true/false（推敲のときだけ）}`
+
+**e. 修正ループ**（`verdict` が hold のとき。`config/settings.yaml` の `revision.max_fix_rounds` 回まで）
+
+1. **修正担当**（model: sonnet）のサブエージェントに任せる。指示に含めるもの：
+   - `prompts/common.md`、`prompts/fix.md`、`prompts/write.md` の全文
+   - facts.json の内容、現在の記事（JSON）、レビューの `factual_errors`・`unsupported_claims`・`fix_instructions`・
+     点数・`comment`、d の `reasons`（すべて内容を指示文に貼り付ける）
+   - 「`data/queue/` のファイル、元記事のURL、Webは見ないこと」
+   - 出力先：`work/<id>/draft_fix<N>.json`
+2. 直した記事を c の検証にかけ（出力先 `work/<id>/review_fix<N>.json`）、d で判定する。
+3. pass になったら f へ。上限回数に達しても hold なら、最後の版で g へ（保留として保存される）。
+
+**f. 推敲**（`verdict` が pass で、`revision.polish` が true のとき）
+
+1. **推敲担当**（model: sonnet）のサブエージェントに任せる。指示に含めるもの：
+   - `prompts/common.md` と `prompts/polish.md` の全文
+   - facts.json の内容、合格した記事（JSON）、レビューの `suggestions` と `comment`
+   - 「`data/queue/` のファイル、元記事のURL、Webは見ないこと」
+   - 出力先：`work/<id>/draft_polished.json`
+2. `changes` が空なら推敲なしで g へ。
+3. 空でなければ c の検証（出力先 `work/<id>/review_polished.json`）と d の判定を行う。
+   **pass なら推敲版を採用、hold なら推敲前の合格版を使う。** どちらでも history に `adopted` を記録する。
+
+**g. 保存**（あなたが行う）
 
 ```bash
 python -m pipeline.main finalize --id <id> --category <カテゴリ> \
-  --facts work/<id>/facts.json --draft work/<id>/draft.json --review work/<id>/review.json
+  --facts work/<id>/facts.json --draft <最終の記事ファイル> --review <その記事のレビューファイル> \
+  --history work/<id>/history.json
 ```
 
 結果の `status`（published / pending）と `reasons` を控えておく。
@@ -101,5 +136,6 @@ push が失敗したら、もう一度 `git pull --rebase` してから push す
 
 - 公開：N件（見出し）
 - 保留：N件（見出しと、保留の主な理由）
+- 修正・推敲：修正で合格に変わった件数、推敲を採用した件数
 - 見送り：N件
 - キューの残り：N件

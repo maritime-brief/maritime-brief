@@ -8,7 +8,9 @@
     python -m pipeline.main run            # 収集（＋ api 方式なら記事作成）→ サイト生成。Actionsが1日3回実行
     python -m pipeline.main collect        # 収集だけ（AIを使わない）
     python -m pipeline.main queue          # 記事化待ちの一覧をJSONで表示（Claudeアプリ方式の作業用）
-    python -m pipeline.main finalize --id ID --facts F --draft D --review R --category C
+    python -m pipeline.main check --id ID --facts F --draft D --review R
+                                           # 保存せずに判定だけ（修正・推敲のループ用）
+    python -m pipeline.main finalize --id ID --facts F --draft D --review R --category C [--history H]
                                            # 記事を判定して公開／保留に保存（Claudeアプリ方式の作業用）
     python -m pipeline.main skip --id ID --reason "..."   # 記事化しないと決めた新着を外す
     python -m pipeline.main review         # 保留記事の承認・却下を反映してサイトを作り直す
@@ -119,17 +121,57 @@ def process_queue_api(settings, paths, demo: bool, mode: str) -> dict:
             related = [{"title": a["title"]} for a in published if a.get("category") == category][:5]
             draft = agents.write(llm, models["write"], facts, related)  # ← 原文は渡さない
             review = agents.verify(llm, models["verify"], text, draft)
-            status, art = q.finalize(paths, settings, it, facts, draft, review, category, mode, text)
+            draft, review, history = revise(llm, settings, it, facts, draft, review, text)
+            status, art = q.finalize(paths, settings, it, facts, draft, review, category, mode, text, history)
             out[status if status == "published" else "pending"] += 1
             if status == "pending":
                 log.info("保留: %s ／ 理由: %s", art["title"], "；".join(art["check"]["reasons"]) or "試験運用モード")
             else:
                 published.insert(0, art)
-        except LLMError as e:
-            log.error("記事化に失敗: %s (%s)", it["title"], e)
+        except Exception as e:  # 1件の失敗で全体を止めない（その新着はキューに残り、次回やり直す）
+            log.error("記事化に失敗: %s (%s: %s)", it["title"], type(e).__name__, e)
             out["errors"] += 1
     out["usage"] = llm.usage
     return out
+
+
+def revise(llm, settings, item, facts, draft, review, text) -> tuple[dict, dict, list]:
+    """修正・推敲のループ。
+    - 保留：修正担当が指摘に沿って直し、再検証。合格するか上限回数に達するまで繰り返す
+    - 合格：推敲担当がさらに良くし、再検証。推敲版も合格した場合だけ採用する
+    どちらの担当にも原文は渡さない（事実のリストと検証の指摘だけ）。"""
+    models, rev = settings["models"], settings.get("revision", {})
+    verdict, reasons, scores = q.assess(settings, item, facts, draft, review, text)
+    history = [_round("執筆", verdict, scores, reasons)]
+
+    for n in range(1, int(rev.get("max_fix_rounds", 3)) + 1):
+        if verdict == "pass":
+            break
+        new = agents.fix(llm, models.get("fix", models["write"]), facts, draft, review, reasons)
+        new_review = agents.verify(llm, models["verify"], text, new)
+        verdict, reasons, scores = q.assess(settings, item, facts, new, new_review, text)
+        history.append(_round(f"修正{n}", verdict, scores, reasons, new.get("changes")))
+        draft, review = new, new_review
+
+    if verdict == "pass" and rev.get("polish", True):
+        new = agents.polish(llm, models.get("polish", models["write"]), facts, draft, review)
+        if new.get("changes"):
+            new_review = agents.verify(llm, models["verify"], text, new)
+            v2, r2, s2 = q.assess(settings, item, facts, new, new_review, text)
+            history.append(_round("推敲", v2, s2, r2, new.get("changes"), adopted=(v2 == "pass")))
+            if v2 == "pass":
+                draft, review = new, new_review
+    return draft, review, history
+
+
+def _round(step, verdict, scores, reasons, changes=None, adopted=None) -> dict:
+    r = {"step": step, "verdict": verdict, "translation_likeness": scores.get("translation_likeness"),
+         "structure_similarity": scores.get("structure_similarity"), "reasons": reasons[:5]}
+    if changes:
+        r["changes"] = changes[:6]
+    if adopted is not None:
+        r["adopted"] = adopted
+    return r
 
 
 # ---------------------------------------------------------------- コマンド
@@ -172,6 +214,17 @@ def _read_json(path: str) -> dict:
     return json.loads(Path(path).read_text(encoding="utf-8"))
 
 
+def cmd_check(args, settings, paths) -> int:
+    """保存せずに判定だけ行う（修正・推敲のループで、Claudeアプリ方式が毎回使う）。"""
+    item = q.load_item(paths, args.id)
+    facts, draft, review = _read_json(args.facts), _read_json(args.draft), _read_json(args.review)
+    verdict, reasons, scores = q.assess(settings, item, facts, draft, review, item["text"])
+    print(json.dumps({"verdict": verdict, "reasons": reasons, "scores": scores,
+                      "fix_instructions": review.get("fix_instructions", []),
+                      "suggestions": review.get("suggestions", [])}, ensure_ascii=False, indent=1))
+    return 0
+
+
 def cmd_finalize(args, settings, paths) -> int:
     item = q.load_item(paths, args.id)
     facts, draft, review = _read_json(args.facts), _read_json(args.draft), _read_json(args.review)
@@ -180,7 +233,8 @@ def cmd_finalize(args, settings, paths) -> int:
             print(json.dumps({"error": f"draft に {key} がありません"}, ensure_ascii=False))
             return 1
     mode = args.mode or settings["publish"]["mode"]
-    status, art = q.finalize(paths, settings, item, facts, draft, review, args.category, mode, item["text"])
+    history = _read_json(args.history) if args.history else []
+    status, art = q.finalize(paths, settings, item, facts, draft, review, args.category, mode, item["text"], history)
     print(json.dumps({"status": status, "file": f"content/{'published' if status == 'published' else 'pending'}/{art['slug']}.md",
                       "title": art["title"], "reasons": art["check"]["reasons"], "scores": art["check"]["scores"]},
                      ensure_ascii=False, indent=1))
@@ -214,13 +268,14 @@ def main(argv=None) -> int:
     logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s", datefmt="%H:%M:%S",
                         stream=sys.stderr)
     ap = argparse.ArgumentParser(description="海事ブリーフ 自動更新パイプライン")
-    ap.add_argument("command", choices=["run", "collect", "queue", "finalize", "skip", "review", "build", "check-sources"])
+    ap.add_argument("command", choices=["run", "collect", "queue", "check", "finalize", "skip", "review", "build", "check-sources"])
     ap.add_argument("--demo", action="store_true", help="架空データで動作確認（demo/ に出力）")
     ap.add_argument("--mode", choices=["trial", "auto"], help="settings.yaml の公開モードを一時的に上書き")
     ap.add_argument("--id")
     ap.add_argument("--facts")
     ap.add_argument("--draft")
     ap.add_argument("--review")
+    ap.add_argument("--history", help="修正・推敲の経過（JSONの配列）")
     ap.add_argument("--category", default="other")
     ap.add_argument("--reason", default="")
     args = ap.parse_args(argv)
@@ -236,6 +291,8 @@ def main(argv=None) -> int:
         return 0
     if args.command == "queue":
         return cmd_queue(args, settings, paths)
+    if args.command == "check":
+        return cmd_check(args, settings, paths)
     if args.command == "finalize":
         return cmd_finalize(args, settings, paths)
     if args.command == "skip":

@@ -65,26 +65,31 @@ def expire_old(paths: Paths, days: int = 7) -> int:
     return n
 
 
-def finalize(paths: Paths, settings: dict, item: dict, facts: dict, draft: dict, review: dict,
-             category: str, mode: str, source_text: str) -> tuple[str, dict]:
-    """検証結果と機械チェックから公開／保留を決め、記事ファイルを書いてキューから外す。"""
-    q = facts.get("quote")
-    if q and len(str(q.get("text", "")).split()) >= 15:
-        facts["quote"] = None
-
+def assess(settings: dict, item: dict, facts: dict, draft: dict, review: dict, source_text: str) -> tuple[str, list[str], dict]:
+    """公開してよいかを判定する（保存はしない）。修正・推敲のループで毎回呼ぶ。"""
     cfg = dict(settings["verify"])
     if item["source"].get("adaptation_allowed"):
         # 改変を含む再利用が明示的に許されたソース（OGL・CC BY・政府標準利用規約など）は基準を一部緩める。
         # 英文の連続一致・事実の誤り・長さのチェックはそのまま。
         cfg.update(settings["verify"].get("relaxed_for_adaptation_allowed", {}))
-    verdict, reasons, scores = checks.evaluate(draft, source_text, item["lang"], review, cfg, fps=item.get("fingerprints"))
     fps = item.get("fingerprints") or []
+    verdict, reasons, scores = checks.evaluate(draft, source_text, item["lang"], review, cfg, fps=fps)
     if not source_text and not fps:
         reasons.append("原文も指紋もないため、英文の一致チェックができない")
         verdict = "hold"
     if float(facts.get("confidence", 0)) < 0.6:
         verdict = "hold"
         reasons.append(f"事実抽出の確信度が低い（{facts.get('confidence')}）")
+    return verdict, reasons, scores
+
+
+def finalize(paths: Paths, settings: dict, item: dict, facts: dict, draft: dict, review: dict,
+             category: str, mode: str, source_text: str, history: list | None = None) -> tuple[str, dict]:
+    """最終版の記事を判定し、公開／保留として保存してキューから外す。history は修正・推敲の経過。"""
+    q = facts.get("quote")
+    if q and len(str(q.get("text", "")).split()) >= 15:
+        facts["quote"] = None
+    verdict, reasons, scores = assess(settings, item, facts, draft, review, source_text)
 
     stamp = now_jst()
     src = item["source"]
@@ -106,7 +111,8 @@ def finalize(paths: Paths, settings: dict, item: dict, facts: dict, draft: dict,
             "attribution": src.get("attribution", ""),
             "tier": src.get("tier"),
         },
-        "check": {"verdict": verdict, "reasons": reasons, "scores": scores, "comment": review.get("comment", "")},
+        "check": {"verdict": verdict, "reasons": reasons, "scores": scores, "comment": review.get("comment", ""),
+                  "suggestions": review.get("suggestions", []), "history": history or []},
         "corrections": [],
         "body": draft["body"],
     }

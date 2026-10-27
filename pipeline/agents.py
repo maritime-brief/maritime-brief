@@ -55,3 +55,27 @@ def verify(llm, model: str, source_text: str, article: dict) -> dict:
         f"日本への影響: {article.get('impact_japan', '')}"
     )
     return llm.call_json("verify", model, prompt("verify"), user, 1500)
+
+
+def fix(llm, model: str, facts: dict, draft: dict, review: dict, reasons: list[str]) -> dict:
+    """修正担当：保留になった記事を、検証の指摘に沿って直す（原文は渡さない）。"""
+    system = prompt("fix") + "\n\n--- 執筆担当のルール（参考） ---\n" + (PROJECT_ROOT / "prompts" / "write.md").read_text(encoding="utf-8")
+    payload = {"facts": facts, "current_article": _article_only(draft), "review": _review_for_writer(review),
+               "machine_check_reasons": reasons}
+    return llm.call_json("fix", model, system, json.dumps(payload, ensure_ascii=False), 3000)
+
+
+def polish(llm, model: str, facts: dict, draft: dict, review: dict) -> dict:
+    """推敲担当：合格した記事を、検証役の提案をもとにさらに良くする（原文は渡さない）。"""
+    payload = {"facts": facts, "current_article": _article_only(draft),
+               "suggestions": review.get("suggestions", []), "comment": review.get("comment", "")}
+    return llm.call_json("polish", model, prompt("polish"), json.dumps(payload, ensure_ascii=False), 3000)
+
+
+def _article_only(draft: dict) -> dict:
+    return {k: draft.get(k) for k in ("title", "lead", "body", "impact_japan", "tags")}
+
+
+def _review_for_writer(review: dict) -> dict:
+    return {k: review.get(k) for k in ("factual_errors", "unsupported_claims", "fix_instructions",
+                                       "translation_likeness", "structure_similarity", "comment")}

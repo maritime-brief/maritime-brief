@@ -166,6 +166,41 @@ _REVIEWS = {
                 "comment": "第1段落が原文の順序に近い。第3段落は要確認。"},
 }
 
+# 修正担当・推敲担当の架空の応答
+_FIXED = {
+    "ballast": {
+        "title": "バラスト水記録簿の電子記録、旗国承認を条件に容認　2027年7月発効予定",
+        "lead": "旗国が承認したシステムを使うことを条件に、バラスト水記録簿を電子形式で付けることを認める改正が採択された。発効は2027年7月1日の予定。",
+        "body": (
+            "バラスト水記録簿は、旗国の当局が承認したシステムを使えば、電子形式で付けられるようになる。"
+            "その改正が採択され、2027年7月1日に発効する予定だ。\n\n"
+            "電子化の条件は一つで、記録に使うシステムを旗国が承認していることである。"
+            "承認を得ていないシステムでの記録は、改正後も認められない。紙の記録簿を使い続けることについては、今回示された事実の範囲では変更は示されていない。\n\n"
+            "委員会は同時に、バラスト水のサンプリングに関する指針を見直すことでも合意した。"
+            "見直しの具体的な時期や内容は示されておらず、今後の議論で詰められることになる。"
+            "記録の電子化とサンプリング指針の見直しは、いずれもバラスト水管理の実務に関わる項目として並行して進むことになる。"
+            "改正の対象は記録の形式であり、バラスト水の処理や排出の基準そのものを変えるものではない。"
+            "電子記録を使うかどうかは、旗国の承認を得られるかどうかにかかっている。"
+        ),
+        "impact_japan": "日本籍船で電子記録を使うには、国内でシステムの承認手続きがどう整えられるかが鍵になります。国内制度への取り込みの時期や方法に注目したいところです。",
+        "tags": ["バラスト水", "電子記録簿", "条約改正"],
+        "changes": ["原文の順序に沿っていた冒頭を、条件と発効日を先に示す構成に変更", "根拠のなかった紙の記録簿の負担についての記述を削除", "本文を事実の範囲で400字以上に"],
+    },
+}
+_POLISHED = {
+    "fire": dict(_ARTICLES["fire"], title="整備で外した断熱材が戻らず機関室火災に　貨物船の事故報告",
+                 lead="整備で外した排気マニホールドの断熱材が戻されないまま運航を続け、燃料管の亀裂から噴き出した燃料油が触れて出火した。調査機関は整備後の確認手順の導入を勧告した。",
+                 changes=["見出しに『整備で』を加え、原因が整備後の確認漏れだと一目で分かるように"]),
+}
+_REVIEWS_AFTER = {
+    "ballast_fixed": {"translation_likeness": 20, "structure_similarity": 25, "factual_errors": [], "unsupported_claims": [],
+                      "fix_instructions": [], "suggestions": [], "comment": "指摘は解消。"},
+    "fire_polished": {"translation_likeness": 15, "structure_similarity": 20, "factual_errors": [], "unsupported_claims": [],
+                      "fix_instructions": [], "suggestions": [], "comment": "見出しが的確になった。"},
+}
+_REVIEWS["fire"]["suggestions"] = ["見出しで原因が整備後の確認漏れだと分かるようにする"]
+_REVIEWS["ballast"]["fix_instructions"] = ["冒頭を発効日と条件から始め、原文の順序から離す", "紙の記録簿の負担についての記述を削る", "本文を400字以上にする"]
+
 _TRIAGE = {
     "fire": {"relevance": 5, "category": "safety", "duplicate_of": None, "reason": "機関室火災の事故調査報告"},
     "ballast": {"relevance": 4, "category": "regulation", "duplicate_of": None, "reason": "条約改正と発効日"},
@@ -194,9 +229,18 @@ def mock_handlers():
             rows.append({"id": it["id"], **_TRIAGE[k]})
         return {"items": rows}
 
+    def verify(u: str) -> dict:
+        if _FIXED["ballast"]["title"] in u:
+            return dict(_REVIEWS_AFTER["ballast_fixed"])
+        if _POLISHED["fire"]["title"] in u:
+            return dict(_REVIEWS_AFTER["fire_polished"])
+        return dict(_REVIEWS[key_from(u)])
+
     return {
         "triage": triage,
         "extract": lambda u: json.loads(json.dumps(_FACTS[key_from(u)], ensure_ascii=False)),
         "write": lambda u: dict(_ARTICLES[key_from(u)]),
-        "verify": lambda u: dict(_REVIEWS[key_from(u)]),
+        "verify": verify,
+        "fix": lambda u: dict(_FIXED[key_from(u)]),
+        "polish": lambda u: dict(_POLISHED.get(key_from(u), {"changes": []})),
     }

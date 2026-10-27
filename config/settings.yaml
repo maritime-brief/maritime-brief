@@ -29,6 +29,8 @@ models:
   extract: "claude-haiku-5-5"   # 事実抽出
   write: "claude-sonnet-5-5"    # 執筆
   verify: "claude-sonnet-5-5"   # 検証
+  fix: "claude-sonnet-5-5"      # 修正
+  polish: "claude-sonnet-5-5"   # 推敲
 
 # 1回の実行あたりの上限（費用の上限にもなります）
 limits:
@@ -37,6 +39,11 @@ limits:
   min_relevance: 3            # 選別で記事化する重要度の下限（1〜5）
   source_text_max_chars: 15000
   request_interval_sec: 2     # 同じサイトへのアクセス間隔（秒）
+
+# 修正・推敲のループ
+revision:
+  max_fix_rounds: 3     # 保留になった記事を「修正担当」が直して再検証する最大回数
+  polish: true          # 合格した記事を「推敲担当」がさらに良くする（推敲後も合格した場合だけ採用）
 
 # 検証の基準（これを超えた記事は保留になります）
 verify:
