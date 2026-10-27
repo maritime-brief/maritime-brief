@@ -102,11 +102,14 @@ def fetch_feed(fetcher: Fetcher, source: dict, limit: int) -> list[Item]:
     if r is None:
         return []
     parsed = feedparser.parse(r.content)
+    keywords = source.get("include_keywords") or []
     items = []
     for e in parsed.entries[:limit]:
         url = e.get("link", "")
         if not url:
             continue
+        if keywords and not any(k in e.get("title", "") + e.get("summary", "") for k in keywords):
+            continue  # 省庁全体のフィードなどから、海事に関係するものだけを残す
         published = ""
         for key in ("published_parsed", "updated_parsed"):
             if e.get(key):

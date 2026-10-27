@@ -47,6 +47,10 @@ verify:
   min_chars: 350                 # 本文の最小文字数
   max_chars: 900                 # 本文の最大文字数
   max_quotes: 1                  # 原文からの引用の最大数
+  # 改変を含む再利用が明示的に許されたソース（sources.yaml で adaptation_allowed: true）に使う基準
+  relaxed_for_adaptation_allowed:
+    translation_likeness_max: 45
+    structure_similarity_max: 60
 
 # カテゴリ（信号旗の色で表示）
 categories:

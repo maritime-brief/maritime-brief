@@ -39,7 +39,7 @@ log = logging.getLogger("pipeline")
 def collect(settings, paths, demo: bool) -> dict:
     limits = settings["limits"]
     state = State(paths.data / "state.json")
-    summary = {"queued": 0, "leads": 0}
+    summary = {"queued": 0, "leads": 0, "per_source": {}}
 
     if demo:
         from fixtures.demo import DEMO_SOURCE, demo_items, demo_text
@@ -54,6 +54,7 @@ def collect(settings, paths, demo: bool) -> dict:
             got = fetch_feed(fetcher, src, limits["items_per_feed"])
             new = [it for it in got if not state.seen(it.id)]
             log.info("収集 %-24s 新着 %d件 / 取得 %d件", src["id"], len(new), len(got))
+            summary["per_source"][src["id"]] = {"fetched": len(got), "new": len(new)}
             for it in new:
                 text = fetch_text(fetcher, it.url, limits["source_text_max_chars"]) if it.tier == 1 else ""
                 pairs.append((it, src, text))

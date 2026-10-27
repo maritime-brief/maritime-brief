@@ -6,11 +6,13 @@
 #   2 : 公的機関・業界団体だが再利用に制限あり。事実の抽出とリンクのみ
 #   3 : 業界メディア。見出しとURLを「話題メモ」に記録するだけで、記事化しない
 #
-# enabled: true にしたソースだけを巡回します。
-# feed が空欄のソースは、RSSのURLを調べて記入してから有効にしてください。
-# （調べ方は README の「ソースを追加する」を参照）
+# adaptation_allowed: true … 改変（翻案）を含む再利用がライセンスで明示的に許されているソース。
+#   検証の基準を一部緩める（settings.yaml の relaxed_for_adaptation_allowed）。
+# include_keywords … 省庁全体のフィードなどから、見出しか概要にこの語を含むものだけを集める。
 #
+# enabled: true にしたソースだけを巡回します。
 # license_checked: 利用規約を確認した日。半年ごとに見直してください。
+# feed_checked: GitHub Actions から実際に取得できることを確認した日。
 # ===========================================================
 
 sources:
@@ -23,31 +25,80 @@ sources:
     categories: [safety]
     license: "Open Government Licence v3.0"
     attribution: "Contains public sector information licensed under the Open Government Licence v3.0."
+    adaptation_allowed: true
     license_checked: "2026-10-27"
+    feed_checked: "2026-10-27"
     enabled: true
 
-  - id: uscg-maritime-commons
-    name: "米国沿岸警備隊 Maritime Commons"
-    home: "https://www.news.uscg.mil/Maritime-Commons/"
-    feed: ""   # サイトのRSSアイコンからURLを確認して記入
+  - id: mca-notices
+    name: "英国 海事沿岸警備庁（MCA）通達"
+    home: "https://www.gov.uk/government/organisations/maritime-and-coastguard-agency"
+    feed: "https://www.gov.uk/search/guidance-and-regulation.atom?organisations%5B%5D=maritime-and-coastguard-agency"
     tier: 1
     lang: en
-    categories: [regulation, safety]
-    license: "米国連邦政府の著作物（原則パブリックドメイン。第三者の素材は除く）"
-    attribution: "Source: U.S. Coast Guard"
+    categories: [regulation]
+    license: "Open Government Licence v3.0"
+    attribution: "Contains public sector information licensed under the Open Government Licence v3.0."
+    adaptation_allowed: true
     license_checked: "2026-10-27"
-    enabled: false
+    feed_checked: "2026-10-27"
+    enabled: true
+
+  - id: mca-news
+    name: "英国 海事沿岸警備庁（MCA）"
+    home: "https://www.gov.uk/government/organisations/maritime-and-coastguard-agency"
+    feed: "https://www.gov.uk/search/news-and-communications.atom?organisations%5B%5D=maritime-and-coastguard-agency"
+    tier: 1
+    lang: en
+    categories: [regulation, safety, technology]
+    license: "Open Government Licence v3.0"
+    attribution: "Contains public sector information licensed under the Open Government Licence v3.0."
+    adaptation_allowed: true
+    license_checked: "2026-10-27"
+    feed_checked: "2026-10-27"
+    enabled: true
 
   - id: emsa
     name: "欧州海上保安庁（EMSA）"
     home: "https://www.emsa.europa.eu/newsroom/latest-news.html"
-    feed: ""   # Latest News のRSSのURLを記入
+    feed: "https://www.emsa.europa.eu/newsroom/latest-news.feed?type=rss&format=feed"
     tier: 1
     lang: en
     categories: [regulation, safety]
     license: "出典（EMSA）を明示すれば複製可"
     attribution: "Source: European Maritime Safety Agency (EMSA)"
+    adaptation_allowed: false   # 複製の許可は明示されているが、改変については明記がない
     license_checked: "2026-10-27"
+    feed_checked: "2026-10-27"
+    enabled: true
+
+  - id: mlit
+    name: "国土交通省"
+    home: "https://www.mlit.go.jp/report/press/"
+    feed: "https://www.mlit.go.jp/pressrelease.rdf"
+    tier: 1
+    lang: ja
+    categories: [regulation, shipbuilding]
+    include_keywords: ["海事", "船", "海運", "造船", "舶用", "港湾", "海上", "海技", "IMO", "国際海事", "内航", "外航", "ゼロエミッション"]
+    license: "政府標準利用規約（第2.0版）"
+    attribution: "出典：国土交通省ウェブサイト"
+    adaptation_allowed: true
+    license_checked: "2026-10-27"
+    feed_checked: "2026-10-27"
+    enabled: true
+
+  # ---- 以下は現在使えないソース（理由をメモ） ----
+
+  - id: uscg-maritime-commons
+    name: "米国沿岸警備隊 Maritime Commons"
+    home: "https://www.news.uscg.mil/Maritime-Commons/"
+    feed: ""
+    tier: 1
+    lang: en
+    categories: [regulation, safety]
+    license: "米国連邦政府の著作物（原則パブリックドメイン。第三者の素材は除く）"
+    attribution: "Source: U.S. Coast Guard"
+    note: "2026-10-27 時点で自動アクセスを拒否（403）。メール配信の購読などで代替を検討"
     enabled: false
 
   - id: atsb-marine
@@ -59,19 +110,7 @@ sources:
     categories: [safety]
     license: "CC BY 4.0（ロゴ・第三者の写真は除く）"
     attribution: "Source: Australian Transport Safety Bureau, CC BY 4.0"
-    license_checked: "2026-10-27"
-    enabled: false
-
-  - id: mlit-kaiji
-    name: "国土交通省 海事局"
-    home: "https://www.mlit.go.jp/report/press/"
-    feed: ""
-    tier: 1
-    lang: ja
-    categories: [regulation, shipbuilding]
-    license: "政府標準利用規約（第2.0版）"
-    attribution: "出典：国土交通省ウェブサイト"
-    license_checked: "2026-10-27"
+    note: "2026-10-27 時点で調査一覧ページが robots.txt で自動取得禁止"
     enabled: false
 
   - id: imo
@@ -83,7 +122,7 @@ sources:
     categories: [regulation]
     license: "複製・翻訳の許可は個人的・非商用目的に限る。事実の抽出とリンクのみ"
     attribution: "Source: International Maritime Organization (IMO)"
-    license_checked: "2026-10-27"
+    note: "2026-10-27 時点で自動アクセス不可（リダイレクトの繰り返し）"
     enabled: false
 
   - id: gcaptain
@@ -95,7 +134,7 @@ sources:
     categories: [other]
     license: "転載不可。見出しとURLの記録のみ"
     attribution: ""
-    license_checked: "2026-10-27"
+    note: "利用規約を確認してから有効化"
     enabled: false
 
   - id: splash247
@@ -107,5 +146,5 @@ sources:
     categories: [other]
     license: "転載不可。見出しとURLの記録のみ"
     attribution: ""
-    license_checked: "2026-10-27"
+    note: "利用規約を確認してから有効化"
     enabled: false

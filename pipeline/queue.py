@@ -31,7 +31,7 @@ def enqueue(paths: Paths, item, source: dict, text: str) -> None:
         "published": item.published,
         "tier": item.tier,
         "lang": item.lang,
-        "source": {k: source.get(k, "") for k in ("id", "name", "license", "attribution", "tier")},
+        "source": {k: source.get(k, "") for k in ("id", "name", "license", "attribution", "tier", "adaptation_allowed")},
         "text": text if item.tier == 1 else "",
         "queued_at": now_jst().isoformat(timespec="minutes"),
     }
@@ -70,7 +70,12 @@ def finalize(paths: Paths, settings: dict, item: dict, facts: dict, draft: dict,
     if q and len(str(q.get("text", "")).split()) >= 15:
         facts["quote"] = None
 
-    verdict, reasons, scores = checks.evaluate(draft, source_text, item["lang"], review, settings["verify"])
+    cfg = dict(settings["verify"])
+    if item["source"].get("adaptation_allowed"):
+        # 改変を含む再利用が明示的に許されたソース（OGL・CC BY・政府標準利用規約など）は基準を一部緩める。
+        # 英文の連続一致・事実の誤り・長さのチェックはそのまま。
+        cfg.update(settings["verify"].get("relaxed_for_adaptation_allowed", {}))
+    verdict, reasons, scores = checks.evaluate(draft, source_text, item["lang"], review, cfg)
     if not source_text:
         reasons.append("原文を保存していないため、英文の一致チェックは検証エージェントの評価のみ")
         verdict = "hold"
