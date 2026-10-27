@@ -120,6 +120,10 @@ python -m pipeline.main finalize --id <id> --category <カテゴリ> \
 
 ### 4. 保存して送る
 
+先に、5. の報告と同じ内容を `data/runs/<YYYYMMDD-HHMM>.md`（日本時間）に保存する。
+報告には、各 item の経過（執筆・修正・推敲の判定）と、手順どおりにできなかったこと（エラー、
+サブエージェントが使えなかった、など）があれば必ず書く。記事を1本も作らなかった回も保存する。
+
 ```bash
 git add content data
 git commit -m "記事作成 $(TZ=Asia/Tokyo date '+%Y-%m-%d %H:%M')"
