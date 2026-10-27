@@ -1,0 +1,58 @@
+name: probe-sources
+on: workflow_dispatch
+permissions:
+  contents: write
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: pip install feedparser requests beautifulsoup4
+      - name: probe
+        run: |
+          python - <<'PY' > data/probe.txt 2>&1
+          import feedparser, requests, re, urllib.robotparser
+          from urllib.parse import urljoin, urlparse
+          UA = "MaritimeBriefJP-Bot/0.1 (+news aggregation of public notices; contact via site)"
+          S = requests.Session(); S.headers["User-Agent"] = UA
+          feeds = [
+            "https://www.gov.uk/maib-reports.atom",
+            "https://www.gov.uk/search/news-and-communications.atom?organisations%5B%5D=maritime-and-coastguard-agency",
+            "https://www.gov.uk/search/guidance-and-regulation.atom?organisations%5B%5D=maritime-and-coastguard-agency",
+            "https://www.emsa.europa.eu/newsroom/latest-news.feed?type=rss&format=feed",
+            "https://www.mlit.go.jp/pressrelease.rdf",
+            "https://www.mlit.go.jp/index.rdf",
+          ]
+          pages = [
+            "https://www.news.uscg.mil/Maritime-Commons/",
+            "https://www.mlit.go.jp/jtsb/",
+            "https://www.ntsb.gov/news/press-releases/Pages/default.aspx",
+            "https://www.imo.org/en/MediaCentre/PressBriefings/Pages/Home.aspx",
+            "https://www.classnk.or.jp/hp/ja/index.html",
+          ]
+          def robots_ok(u):
+              p = urlparse(u); rp = urllib.robotparser.RobotFileParser()
+              try:
+                  r = S.get(f"{p.scheme}://{p.netloc}/robots.txt", timeout=20)
+                  if r.status_code >= 400: return "no-robots"
+                  rp.parse(r.text.splitlines()); return "allowed" if rp.can_fetch(UA, u) else "DISALLOWED"
+              except Exception as e: return f"robots-err {e}"
+          for u in feeds:
+              try:
+                  r = S.get(u, timeout=30); d = feedparser.parse(r.content)
+                  print(f"FEED {r.status_code} n={len(d.entries)} robots={robots_ok(u)} {u}")
+                  for e in d.entries[:6]: print("   -", e.get("title","")[:100])
+              except Exception as e: print("FEED ERR", u, e)
+          for u in pages:
+              try:
+                  r = S.get(u, timeout=30)
+                  links = set(re.findall(r'href="([^"]*(?:rss|RSS|Rss|atom|feed|\.rdf|\.xml)[^"]*)"', r.text))
+                  print(f"PAGE {r.status_code} robots={robots_ok(u)} {u}")
+                  for l in sorted(links)[:15]: print("   link:", urljoin(u, l.replace("&amp;","&")))
+              except Exception as e: print("PAGE ERR", u, e)
+          PY
+      - run: |
+          git config user.name probe; git config user.email probe@users.noreply.github.com
+          git add data/probe.txt; git commit -m "probe" || true; git pull --rebase; git push
