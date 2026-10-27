@@ -1,6 +1,6 @@
 ---
 slug: 20261028-mpa-singapore-b80ef6f5b9d7
-status: pending
+status: approved
 title: シンガポール初のエタノール補給、荷役と並行して約5000トンを供給
 lead: シンガポールで初のエタノール補給が、荷役と並行して完了した。事前にHAZIDなどのハザード検討ワークショップを開き、乗組員は燃料取扱いと緊急対応の訓練を受けた。
 category: technology
