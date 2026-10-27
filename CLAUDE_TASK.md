@@ -51,6 +51,7 @@ a〜c はそれぞれ **別のサブエージェント**（Agent ツール、`ru
 - `prompts/common.md` と `prompts/extract.md` の全文
 - 原文の読み方：`text_file` があれば、そのJSONファイルの `text` 欄を読む。
   `text_file` が null（ティア2）なら、WebFetch で `url` を開き、事実だけを取り出すよう依頼する。
+  （ティア2の本文はリポジトリに保存していない。コピー判定は、収集時に作った指紋で finalize が自動で行う）
 - 出力先：結果のJSONを `work/<id>/facts.json` に保存すること。JSON以外は書かないこと。
 
 **a2. 情報量の確認**（あなたが行う）

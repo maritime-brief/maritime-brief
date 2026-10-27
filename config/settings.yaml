@@ -5,7 +5,7 @@
 
 site:
   name: "海事ブリーフ"
-  tagline: "海外の海事規制・安全・造船技術の動きを、日本語で短く。"
+  tagline: "海外の海事規制・造船・脱炭素と新技術の動きを、日本語で短く。"
   # 公開後のURL（GitHub Pages なら https://<ユーザー名>.github.io/<リポジトリ名>）
   base_url: "https://maritime-brief.github.io/maritime-brief"
   # 誤りの指摘・削除依頼の受付先（Googleフォームのリンクやメールアドレス）
@@ -52,13 +52,13 @@ verify:
     translation_likeness_max: 45
     structure_similarity_max: 60
 
-# カテゴリ（信号旗の色で表示）
+# カテゴリ（信号旗の色で表示）。nav: true のものが上部メニューに出る（重点分野）
 categories:
-  regulation: { label: "規制", flag: "regulation" }
-  safety:     { label: "安全・事故", flag: "safety" }
-  shipbuilding: { label: "造船", flag: "shipbuilding" }
-  technology: { label: "技術・脱炭素", flag: "technology" }
-  other:      { label: "その他", flag: "other" }
+  regulation:   { label: "規制", flag: "regulation", nav: true }
+  shipbuilding: { label: "造船", flag: "shipbuilding", nav: true }
+  technology:   { label: "脱炭素・新技術", flag: "technology", nav: true }
+  safety:       { label: "安全・事故", flag: "safety", nav: false }
+  other:        { label: "その他", flag: "other", nav: false }
 
 # アフィリエイト（収益化の段階になったら enabled: true に）
 affiliate:

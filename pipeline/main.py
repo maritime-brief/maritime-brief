@@ -27,7 +27,7 @@ from pathlib import Path
 from . import agents
 from . import queue as q
 from .build import build_site
-from .collect import Fetcher, fetch_feed, fetch_text
+from .collect import Fetcher, fetch_items, fetch_text
 from .config import get_paths, load_settings, load_sources
 from .llm import ClaudeLLM, LLMError, MockLLM
 from .store import State, load_articles, now_jst, promote_reviewed
@@ -49,14 +49,14 @@ def collect(settings, paths, demo: bool) -> dict:
         fetcher = Fetcher(limits["request_interval_sec"])
         pairs = []
         for src in load_sources():
-            if not src.get("enabled") or not src.get("feed"):
+            if not src.get("enabled") or not (src.get("feed") or src.get("page")):
                 continue
-            got = fetch_feed(fetcher, src, limits["items_per_feed"])
+            got = fetch_items(fetcher, src, limits["items_per_feed"])
             new = [it for it in got if not state.seen(it.id)]
             log.info("収集 %-24s 新着 %d件 / 取得 %d件", src["id"], len(new), len(got))
             summary["per_source"][src["id"]] = {"fetched": len(got), "new": len(new)}
             for it in new:
-                text = fetch_text(fetcher, it.url, limits["source_text_max_chars"]) if it.tier == 1 else ""
+                text = fetch_text(fetcher, it.url, limits["source_text_max_chars"]) if it.tier <= 2 else ""
                 pairs.append((it, src, text))
 
     for it, src, text in pairs:
@@ -65,7 +65,7 @@ def collect(settings, paths, demo: bool) -> dict:
             state.mark(it.id, "lead", it.url)
             summary["leads"] += 1
         else:
-            q.enqueue(paths, it, src, text)
+            q.enqueue(paths, it, src, text, settings["verify"]["english_run_max_words"])
             state.mark(it.id, "queued", it.url)
             summary["queued"] += 1
 
@@ -200,10 +200,10 @@ def check_sources() -> int:
     settings = load_settings()
     fetcher = Fetcher(settings["limits"]["request_interval_sec"])
     for src in load_sources():
-        if not src.get("feed"):
+        if not src.get("feed") and not src.get("page"):
             print(f"[未設定] {src['id']:<24} RSSのURLが空欄です")
             continue
-        items = fetch_feed(fetcher, src, 5)
+        items = fetch_items(fetcher, src, 5)
         mark = "OK  " if items else "失敗"
         state = "有効" if src.get("enabled") else "無効"
         print(f"[{mark}] {src['id']:<24} ({state}) {len(items)}件  {items[0].title[:50] if items else ''}")

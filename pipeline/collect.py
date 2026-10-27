@@ -7,12 +7,14 @@
 from __future__ import annotations
 
 import hashlib
+import html as htmllib
 import logging
+import re
 import time
 import urllib.robotparser
 from dataclasses import dataclass, field
 from datetime import datetime, timezone
-from urllib.parse import urlparse
+from urllib.parse import urljoin, urlparse
 
 import requests
 
@@ -102,13 +104,12 @@ def fetch_feed(fetcher: Fetcher, source: dict, limit: int) -> list[Item]:
     if r is None:
         return []
     parsed = feedparser.parse(r.content)
-    keywords = source.get("include_keywords") or []
     items = []
     for e in parsed.entries[:limit]:
         url = e.get("link", "")
         if not url:
             continue
-        if keywords and not any(k in e.get("title", "") + e.get("summary", "") for k in keywords):
+        if not wanted(source, e.get("title", "") + " " + e.get("summary", "")):
             continue  # 省庁全体のフィードなどから、海事に関係するものだけを残す
         published = ""
         for key in ("published_parsed", "updated_parsed"):
@@ -129,6 +130,48 @@ def fetch_feed(fetcher: Fetcher, source: dict, limit: int) -> list[Item]:
             )
         )
     return items
+
+
+def wanted(source: dict, text: str) -> bool:
+    """include_patterns（どれかに一致）と exclude_patterns（どれにも一致しない）で絞り込む。正規表現・大文字小文字は区別しない。"""
+    inc = source.get("include_patterns") or []
+    exc = source.get("exclude_patterns") or []
+    if inc and not any(re.search(p, text, re.I) for p in inc):
+        return False
+    return not any(re.search(p, text, re.I) for p in exc)
+
+
+def fetch_html_list(fetcher: Fetcher, source: dict, limit: int) -> list[Item]:
+    """RSSのないサイト用。ニュース一覧ページから、link_pattern に合う記事リンクを集める。"""
+    r = fetcher.get(source["page"])
+    if r is None:
+        return []
+    link_re = re.compile(source["link_pattern"])
+    strip_re = re.compile(source["title_strip"]) if source.get("title_strip") else None
+    items, seen = [], set()
+    for href, inner in re.findall(r'<a[^>]+href="([^"#]+)"[^>]*>(.*?)</a>', r.text, re.S):
+        url = urljoin(source["page"], htmllib.unescape(href))
+        if url in seen or not link_re.search(url):
+            continue
+        raw = re.sub(r"\s+", " ", htmllib.unescape(re.sub(r"<[^>]+>", " ", inner))).strip()
+        if not wanted(source, raw):
+            continue
+        title = strip_re.sub("", raw).strip() if strip_re else raw
+        if len(title) < 20:
+            continue
+        seen.add(url)
+        items.append(Item(id=item_id(url), source_id=source["id"], title=title, url=url, summary="",
+                          tier=int(source.get("tier", 3)), lang=source.get("lang", "en"),
+                          categories=list(source.get("categories", []))))
+        if len(items) >= limit:
+            break
+    return items
+
+
+def fetch_items(fetcher: Fetcher, source: dict, limit: int) -> list[Item]:
+    if source.get("type") == "html":
+        return fetch_html_list(fetcher, source, limit)
+    return fetch_feed(fetcher, source, limit)
 
 
 def fetch_text(fetcher: Fetcher, url: str, max_chars: int) -> str:

@@ -20,7 +20,7 @@
       <span class="brand-tagline">{{ site.tagline }}</span>
     </a>
     <nav class="catnav" aria-label="カテゴリ">
-      {% for key, c in categories.items() if key != 'other' %}
+      {% for key, c in categories.items() if c.nav %}
       <a href="{{ root }}category/{{ key }}.html" {% if cat_key == key %}aria-current="page"{% endif %}>
         <span class="flag flag-{{ c.flag }}" aria-hidden="true"></span>{{ c.label }}
       </a>

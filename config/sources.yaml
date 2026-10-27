@@ -28,7 +28,8 @@ sources:
     adaptation_allowed: true
     license_checked: "2026-10-27"
     feed_checked: "2026-10-27"
-    enabled: true
+    note: "2026-10-27 重点分野（規制・造船・脱炭素/新技術）の見直しで停止。事故報告が中心のため"
+    enabled: false
 
   - id: mca-notices
     name: "英国 海事沿岸警備庁（MCA）通達"
@@ -68,6 +69,7 @@ sources:
     license: "出典（EMSA）を明示すれば複製可"
     attribution: "Source: European Maritime Safety Agency (EMSA)"
     adaptation_allowed: false   # 複製の許可は明示されているが、改変については明記がない
+    exclude_patterns: ["exercise", "SARex", "POLEX", "COASTEX", "MMO "]
     license_checked: "2026-10-27"
     feed_checked: "2026-10-27"
     enabled: true
@@ -79,10 +81,88 @@ sources:
     tier: 1
     lang: ja
     categories: [regulation, shipbuilding]
-    include_keywords: ["海事", "船", "海運", "造船", "舶用", "港湾", "海上", "海技", "IMO", "国際海事", "内航", "外航", "ゼロエミッション"]
+    include_patterns: ["海事", "船", "海運", "造船", "舶用", "海上", "海技", "IMO", "国際海事", "内航", "外航",
+                       "ゼロエミッション", "脱炭素", "水素", "アンモニア", "メタノール", "自動運航"]
     license: "政府標準利用規約（第2.0版）"
     attribution: "出典：国土交通省ウェブサイト"
     adaptation_allowed: true
+    license_checked: "2026-10-27"
+    feed_checked: "2026-10-27"
+    enabled: true
+
+  - id: ec-transport
+    name: "欧州委員会 運輸総局"
+    home: "https://transport.ec.europa.eu/news-events/news_en"
+    feed: "https://transport.ec.europa.eu/node/2/rss_en"
+    tier: 1
+    lang: en
+    categories: [regulation, technology]
+    include_patterns: ["\\bmaritime\\b", "\\bship(s|ping|building)?\\b", "\\bvessels?\\b", "FuelEU", "waterborne", "seafar", "\\bIMO\\b", "\\bports?\\b"]
+    license: "CC BY 4.0（EUが著作権を持つ内容。第三者の素材・ロゴは除く）"
+    attribution: "© European Union, CC BY 4.0. Source: European Commission, DG MOVE"
+    adaptation_allowed: true
+    license_checked: "2026-10-27"
+    feed_checked: "2026-10-27"
+    enabled: true
+
+  - id: mpa-singapore
+    name: "シンガポール海事港湾庁（MPA）"
+    home: "https://www.mpa.gov.sg/media-centre"
+    feed: "https://www.mpa.gov.sg/feeds/media-releases"
+    tier: 2
+    lang: en
+    categories: [technology, regulation]
+    exclude_patterns: ["PORT MARINE NOTICE", "Speech", "Remarks", "Keynote"]
+    license: "転載・再利用には事前の許可が必要。事実の抽出とリンクのみ（本文は保存しない）"
+    attribution: "Source: Maritime and Port Authority of Singapore"
+    license_checked: "2026-10-27"
+    feed_checked: "2026-10-27"
+    enabled: true
+
+  - id: dnv
+    name: "DNV（船級協会）"
+    home: "https://www.dnv.com/news/"
+    type: html
+    page: "https://www.dnv.com/news/"
+    link_pattern: "/news/20\\d\\d/"
+    include_patterns: ["^\\s*Maritime"]
+    title_strip: "^.*?\\d{1,2} \\w+, \\d{4}\\s+"
+    tier: 2
+    lang: en
+    categories: [shipbuilding, technology]
+    license: "企業のプレスリリース。事実の抽出とリンクのみ（本文は保存しない）"
+    attribution: "Source: DNV"
+    license_checked: "2026-10-27"
+    feed_checked: "2026-10-27"
+    enabled: true
+
+  - id: lloyds-register
+    name: "ロイド船級協会（LR）"
+    home: "https://www.lr.org/en/knowledge/press-room/"
+    type: html
+    page: "https://www.lr.org/en/knowledge/press-room/"
+    link_pattern: "/en/knowledge/(press-room|horizons)/[^/]+/[^/]+"
+    tier: 2
+    lang: en
+    categories: [technology, shipbuilding]
+    license: "企業の発表・解説記事。事実の抽出とリンクのみ（本文は保存しない）"
+    attribution: "Source: Lloyd's Register"
+    license_checked: "2026-10-27"
+    feed_checked: "2026-10-27"
+    enabled: true
+
+  - id: sdir
+    name: "ノルウェー海事局"
+    home: "https://www.sdir.no/en/news/"
+    type: html
+    page: "https://www.sdir.no/en/news/"
+    link_pattern: "/en/news/[^/]+/"
+    exclude_patterns: ["half-mast", "Equality", "Lobster", "fishers"]
+    tier: 2
+    lang: en
+    categories: [regulation, technology]
+    license: "ライセンス未確認のため、事実の抽出とリンクのみ（本文は保存しない）"
+    attribution: "Source: Norwegian Maritime Authority"
     license_checked: "2026-10-27"
     feed_checked: "2026-10-27"
     enabled: true

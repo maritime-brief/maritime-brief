@@ -1,6 +1,7 @@
 """AIに頼らない機械的なチェック。検証エージェントの評価と合わせて公開可否を決める。"""
 from __future__ import annotations
 
+import hashlib
 import re
 
 QUOTE_RE = re.compile(r"[“\"]([^”\"]{1,300})[”\"]")
@@ -27,6 +28,40 @@ def english_runs(article_text: str, source_text: str, n: int) -> list[str]:
     return hits
 
 
+def _h(s: str) -> str:
+    return hashlib.sha1(s.encode("utf-8")).hexdigest()[:12]
+
+
+def fingerprints(source_text: str, lang: str, n_words: int, n_chars: int = 12) -> list[str]:
+    """原文を保存できないソース用の「指紋」。n語（日本語はn文字）の並びのハッシュだけを残す。
+    ハッシュから原文は復元できないが、記事に同じ並びが現れたかどうかは判定できる。"""
+    if lang == "en":
+        w = _words(source_text)
+        grams = {" ".join(w[i : i + n_words]) for i in range(len(w) - n_words + 1)}
+    else:
+        s = re.sub(r"\s+", "", source_text)
+        grams = {s[i : i + n_chars] for i in range(len(s) - n_chars + 1)}
+    return sorted(_h(g) for g in grams)
+
+
+def english_runs_fp(article_text: str, fps: set[str], n: int) -> int:
+    unquoted = QUOTE_RE.sub(" ", article_text)
+    hits = 0
+    for run in LATIN_RUN_RE.findall(unquoted):
+        w = _words(run)
+        if any(_h(" ".join(w[i : i + n])) in fps for i in range(len(w) - n + 1)):
+            hits += 1
+    return hits
+
+
+def ja_overlap_fp(article_text: str, fps: set[str], n: int = 12) -> float:
+    a = re.sub(r"\s+", "", article_text)
+    if len(a) < n:
+        return 0.0
+    grams = [a[i : i + n] for i in range(len(a) - n + 1)]
+    return sum(1 for g in grams if _h(g) in fps) / len(grams)
+
+
 def count_quotes(article_text: str) -> int:
     return sum(1 for q in QUOTE_RE.findall(article_text) if re.search(r"[A-Za-z]{3,}", q))
 
@@ -47,7 +82,8 @@ def body_length(body_md: str) -> int:
     return len(re.sub(r"\s+", "", plain))
 
 
-def evaluate(article: dict, source_text: str, lang: str, review: dict, cfg: dict) -> tuple[str, list[str], dict]:
+def evaluate(article: dict, source_text: str, lang: str, review: dict, cfg: dict,
+             fps: list[str] | None = None) -> tuple[str, list[str], dict]:
     """公開可否を判定する。戻り値: (判定 'pass'|'hold', 理由のリスト, スコア)"""
     full = "\n".join([article.get("title", ""), article.get("lead", ""), article.get("body", ""), article.get("impact_japan", "")])
     reasons: list[str] = []
@@ -67,7 +103,19 @@ def evaluate(article: dict, source_text: str, lang: str, review: dict, cfg: dict
     for c in review.get("unsupported_claims", []) or []:
         reasons.append(f"裏付けのない記述：{c}")
 
-    if lang == "en":
+    if not source_text and fps:
+        fpset = set(fps)
+        if lang == "en":
+            hits = english_runs_fp(full, fpset, cfg["english_run_max_words"])
+            scores["english_runs"] = hits
+            if hits:
+                reasons.append(f"原文と同じ英文の連続が{hits}か所")
+        else:
+            ov = ja_overlap_fp(full, fpset)
+            scores["ja_overlap"] = round(ov, 3)
+            if ov > cfg["ja_ngram_overlap_max"]:
+                reasons.append(f"日本語原文との文字列の重なりが基準超え（{ov:.0%}）")
+    elif lang == "en":
         runs = english_runs(full, source_text, cfg["english_run_max_words"])
         scores["english_runs"] = len(runs)
         for r in runs:
