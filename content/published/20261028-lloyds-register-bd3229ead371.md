@@ -1,6 +1,6 @@
 ---
 slug: 20261028-lloyds-register-bd3229ead371
-status: approved
+status: published
 title: LNG運搬船のハイブリッド電気推進、冗長性とバッテリー統合を安全性検証へ
 lead: 200,000m³級LNG運搬船の概念設計で、ハイブリッド電気推進のシステム構成、冗長性の考え方、バッテリー統合が安全性検証の対象になる。
 category: technology
@@ -10,7 +10,7 @@ tags:
 - Lloyd's Register
 - GTT
 - バッテリー
-date: 2026-10-28T08:29+09:00
+date: 2026-10-28T08:37+09:00
 impact_japan: 日本の船社や造船所がLNG運搬船で電気推進やバッテリーの採用を検討する際、冗長性やバッテリー統合の考え方を点検するきっかけになりそうだ。策定される技術要件とガイダンスの内容次第では、設計や船級との協議に影響する可能性がある。
 key_dates: []
 source:
@@ -64,6 +64,7 @@ check:
     - 日本への影響欄で、冗長性の考え方・バッテリー統合と、推進システム設計・船級協議との関係をやや具体的にした
     adopted: false
 corrections: []
+approved_by_human: true
 ---
 200,000m³級LNG運搬船の概念設計では、ハイブリッド電気推進のシステム構成、冗長性の考え方、バッテリー統合が安全性検証の対象として扱われる。Lloyd's Register、Shell、GTTは、この設計に関する共同開発プロジェクトを始めた。
 
