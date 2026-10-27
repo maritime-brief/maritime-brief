@@ -1,0 +1,52 @@
+FEED 200 n=20 robots=allowed https://www.gov.uk/search/news-and-communications.atom?keywords=maritime&organisations%5B%5D=department-for-transport
+   - SS Richard Montgomery mast removal project
+   - Stronger safeguards for wheelchair users and better-trained staff to support disabled air passengers
+   - Take off for passengers as government scraps extra charges when flying
+   - Maritime Coastguard Agency celebrates World Maritime Day 2026
+   - Maritime heroes honoured for inspiring the next generation of seafarers and supporting communities a
+FEED 200 n=10 robots=allowed https://www.gov.uk/search/all.atom?keywords=maritime+decarbonisation
+   - Updating the minimum emission standard for new road vehicles
+   - Powers and operational procedure: caseworker guidance
+   - Minister of State (Security Minister)
+   - UK Financial Sanctions FAQs
+   - OFSI General Licences
+FEED 200 n=10 robots=allowed https://www.gov.uk/search/all.atom?keywords=shipbuilding
+   - MGN 721 (M+F) Interpretation of references to Marine Equipment Directive (MED) approved equipment in
+   - Government ministers and responsibilities
+   - PM speech in Scotland: 16 October 2026
+   - Public appointments for Ministry of Defence
+   - Carbon capture and the renewal of British industry
+FEED 403 n=0 robots=no-robots https://www.maritime.dot.gov/rss.xml
+FEED 403 n=0 robots=no-robots https://www.maritime.dot.gov/newsroom/press-releases/rss.xml
+FEED 404 n=0 robots=allowed https://cordis.europa.eu/news/rss
+FEED 200 n=30 robots=allowed https://transport.ec.europa.eu/node/2/rss_en
+   - Joint press release on the 19th implementation meeting of the EU–China Maritime Transport Agreement
+   - Solidarity Lanes: Latest figures – September 2026
+   - Keynote speech by Director-General Magda Kopczyńska: The European Union’s role in ensuring a competi
+   - Solidarity Lanes: Latest figures – August 2026
+   - Bulgaria, Greece and Romania step up delivery of strategic transport links
+FEED 404 n=0 robots=allowed https://www.sdir.no/en/rss/
+FEED 404 n=0 robots=allowed https://www.dma.dk/rss
+FEED 200 n=21 robots=no-robots https://www.mlit.go.jp/pressrelease.rdf
+   - バリアフリー施策の今後の目指すべき方向性や課題についての議論を行います〜第２回バリアフリー施策の新たな枠組みに関する検討会を開催〜
+   - 強靱で持続可能なインフラ構築へ、インドネシアとの連携強化〜第12回日・インドネシア建設次官級会合の開催結果（報告）〜
+   - 市原市・南伊勢町・佐世保市の地域づくり３事例が「国土交通大臣賞」を受賞〜｢新時代に地域力をつなぐ国土｣を体現する９団体を令和８年度「地域づくり表彰」受賞団体に決定〜
+   - 社会資本整備審議会 道路分科会 第28回道路技術小委員会を開催〜自動運行補助施設の技術基準の策定に向けた検討などについて議論します〜
+   - 住宅・建築海外展開連携協議会（J-HAB）が初の年次総会を開催〜住宅・建築分野の海外展開に向けた官民ネットワークを強化〜
+PAGE 403 robots=no-robots https://www.maritime.dot.gov/newsroom/press-releases
+PAGE 200 robots=allowed https://cordis.europa.eu/news
+PAGE 200 robots=allowed https://transport.ec.europa.eu/news-events/news_en
+   link: https://transport.ec.europa.eu/node/2/rss_en
+PAGE 200 robots=allowed https://www.sdir.no/en/news/
+PAGE 200 robots=allowed https://www.dma.dk/news
+PAGE 200 robots=no-robots https://www.mlit.go.jp/maritime/
+PAGE 200 robots=no-robots https://www.nedo.go.jp/news/
+PAGE 200 robots=no-robots https://www.mpa.gov.sg/media-centre
+   link: https://www.mpa.gov.sg/feedback
+   link: https://www.mpa.gov.sg/feeds/media-releases
+PAGE 200 robots=allowed https://www.zerocarbonshipping.com/news/
+PAGE 200 robots=allowed https://www.globalmaritimeforum.org/news
+PAGE 200 robots=allowed https://www.dnv.com/news/
+PAGE 200 robots=allowed https://www.lr.org/en/knowledge/press-room/
+   link: https://www.lr.org/en/expertise/segments/feeders/
+PAGE 200 robots=allowed https://ww2.eagle.org/en/news.html
