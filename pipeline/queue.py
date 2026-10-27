@@ -11,7 +11,7 @@ import json
 from datetime import datetime, timedelta
 from pathlib import Path
 
-from . import checks
+from . import checks, sealed
 from .config import Paths
 from .store import now_jst, save_article
 
@@ -32,8 +32,10 @@ def enqueue(paths: Paths, item, source: dict, text: str, n_words: int = 8) -> No
         "tier": item.tier,
         "lang": item.lang,
         "source": {k: source.get(k, "") for k in ("id", "name", "license", "attribution", "tier", "adaptation_allowed")},
-        # ティア1は本文を保存。ティア2は本文を保存せず、コピー判定用の指紋（復元不可のハッシュ）だけを保存
+        # ティア1は本文をそのまま保存。ティア2は本文を暗号化して保存（リポジトリ上では読めない）し、
+        # 念のためコピー判定用の指紋（復元不可のハッシュ）も残す
         "text": text if item.tier == 1 else "",
+        "text_enc": sealed.encrypt(text) if (item.tier == 2 and text and sealed.available_for_encrypt()) else "",
         "fingerprints": checks.fingerprints(text, item.lang, n_words) if (item.tier == 2 and text) else [],
         "queued_at": now_jst().isoformat(timespec="minutes"),
     }
@@ -43,6 +45,15 @@ def enqueue(paths: Paths, item, source: dict, text: str, n_words: int = 8) -> No
 def load_queue(paths: Paths) -> list[dict]:
     items = [json.loads(p.read_text(encoding="utf-8")) for p in sorted(queue_dir(paths).glob("*.json"))]
     return sorted(items, key=lambda r: r["queued_at"], reverse=True)
+
+
+def source_text(item: dict) -> str:
+    """キューの item の原文。ティア2は秘密鍵があるときだけ復号できる（なければ空）。"""
+    return item.get("text") or sealed.decrypt(item.get("text_enc", ""))
+
+
+def save_item(paths: Paths, rec: dict) -> None:
+    (queue_dir(paths) / f"{rec['id']}.json").write_text(json.dumps(rec, ensure_ascii=False, indent=1), encoding="utf-8")
 
 
 def load_item(paths: Paths, item_id: str) -> dict:

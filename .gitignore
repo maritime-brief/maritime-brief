@@ -4,3 +4,6 @@ work/
 __pycache__/
 *.pyc
 .env
+
+# 暗号化の秘密鍵は絶対にリポジトリに入れない
+*key*.pem

@@ -26,7 +26,7 @@ import logging
 import sys
 from pathlib import Path
 
-from . import agents
+from . import agents, checks, sealed
 from . import queue as q
 from .build import build_site
 from .collect import Fetcher, fetch_items, fetch_text
@@ -42,6 +42,7 @@ def collect(settings, paths, demo: bool) -> dict:
     limits = settings["limits"]
     state = State(paths.data / "state.json")
     summary = {"queued": 0, "leads": 0, "per_source": {}}
+    fetcher = None
 
     if demo:
         from fixtures.demo import DEMO_SOURCE, demo_items, demo_text
@@ -70,6 +71,18 @@ def collect(settings, paths, demo: bool) -> dict:
             q.enqueue(paths, it, src, text, settings["verify"]["english_run_max_words"])
             state.mark(it.id, "queued", it.url)
             summary["queued"] += 1
+
+    # 暗号化を導入する前にキューに入ったティア2の新着は、ここで本文を取り直して暗号化する
+    if not demo:
+        fetcher = fetcher or Fetcher(limits["request_interval_sec"])
+        for rec in q.load_queue(paths):
+            if rec["tier"] == 2 and not rec.get("text_enc"):
+                text = fetch_text(fetcher, rec["url"], limits["source_text_max_chars"])
+                if text:
+                    rec["text_enc"] = sealed.encrypt(text)
+                    rec["fingerprints"] = checks.fingerprints(text, rec["lang"], settings["verify"]["english_run_max_words"])
+                    q.save_item(paths, rec)
+                    summary["backfilled"] = summary.get("backfilled", 0) + 1
 
     summary["expired"] = q.expire_old(paths)
     state.log_run({"at": now_jst().isoformat(timespec="minutes"), "step": "collect", **summary})
@@ -108,8 +121,8 @@ def process_queue_api(settings, paths, demo: bool, mode: str) -> dict:
     fetcher = None
     for _, it, s in chosen[: limits["articles_per_run"]]:  # 残りは次回へ
         try:
-            text = it["text"]
-            if not text and not demo:  # ティア2は保存していないので、ここで取得
+            text = q.source_text(it)
+            if not text and not demo:  # 復号できない場合は、ここで取得
                 fetcher = fetcher or Fetcher(limits["request_interval_sec"])
                 text = fetch_text(fetcher, it["url"], limits["source_text_max_chars"])
             if len(text) < 300:
@@ -203,8 +216,8 @@ def cmd_queue(args, settings, paths) -> int:
         "recent_titles": [a["title"] for a in published[:60]],
         "items": [{
             "id": it["id"], "tier": it["tier"], "source": it["source"]["name"], "title": it["title"],
-            "summary": it["summary"][:400], "url": it["url"], "text_file": f"data/queue/{it['id']}.json" if it["text"] else None,
-            "text_chars": len(it["text"]),
+            "summary": it["summary"][:400], "url": it["url"],
+            "has_text": bool(it["text"] or it.get("text_enc")),
         } for it in items],
     }, ensure_ascii=False, indent=1))
     return 0
@@ -218,7 +231,7 @@ def cmd_check(args, settings, paths) -> int:
     """保存せずに判定だけ行う（修正・推敲のループで、Claudeアプリ方式が毎回使う）。"""
     item = q.load_item(paths, args.id)
     facts, draft, review = _read_json(args.facts), _read_json(args.draft), _read_json(args.review)
-    verdict, reasons, scores = q.assess(settings, item, facts, draft, review, item["text"])
+    verdict, reasons, scores = q.assess(settings, item, facts, draft, review, q.source_text(item))
     print(json.dumps({"verdict": verdict, "reasons": reasons, "scores": scores,
                       "fix_instructions": review.get("fix_instructions", []),
                       "suggestions": review.get("suggestions", [])}, ensure_ascii=False, indent=1))
@@ -234,10 +247,24 @@ def cmd_finalize(args, settings, paths) -> int:
             return 1
     mode = args.mode or settings["publish"]["mode"]
     history = _read_json(args.history) if args.history else []
-    status, art = q.finalize(paths, settings, item, facts, draft, review, args.category, mode, item["text"], history)
+    status, art = q.finalize(paths, settings, item, facts, draft, review, args.category, mode, q.source_text(item), history)
     print(json.dumps({"status": status, "file": f"content/{'published' if status == 'published' else 'pending'}/{art['slug']}.md",
                       "title": art["title"], "reasons": art["check"]["reasons"], "scores": art["check"]["scores"]},
                      ensure_ascii=False, indent=1))
+    return 0
+
+
+def cmd_unseal(args, settings, paths) -> int:
+    """原文を作業用ファイルに書き出す（事実抽出・検証の担当に渡す用。work/ はリポジトリに保存されない）。"""
+    item = q.load_item(paths, args.id)
+    text = q.source_text(item)
+    if not text:
+        print(json.dumps({"error": "原文を取り出せません（本文が未取得、または秘密鍵がありません）"}, ensure_ascii=False))
+        return 1
+    out = Path(args.out)
+    out.parent.mkdir(parents=True, exist_ok=True)
+    out.write_text(text, encoding="utf-8")
+    print(json.dumps({"written": str(out), "chars": len(text)}, ensure_ascii=False))
     return 0
 
 
@@ -268,7 +295,7 @@ def main(argv=None) -> int:
     logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s", datefmt="%H:%M:%S",
                         stream=sys.stderr)
     ap = argparse.ArgumentParser(description="海事ブリーフ 自動更新パイプライン")
-    ap.add_argument("command", choices=["run", "collect", "queue", "check", "finalize", "skip", "review", "build", "check-sources"])
+    ap.add_argument("command", choices=["run", "collect", "queue", "unseal", "check", "finalize", "skip", "review", "build", "check-sources"])
     ap.add_argument("--demo", action="store_true", help="架空データで動作確認（demo/ に出力）")
     ap.add_argument("--mode", choices=["trial", "auto"], help="settings.yaml の公開モードを一時的に上書き")
     ap.add_argument("--id")
@@ -276,6 +303,7 @@ def main(argv=None) -> int:
     ap.add_argument("--draft")
     ap.add_argument("--review")
     ap.add_argument("--history", help="修正・推敲の経過（JSONの配列）")
+    ap.add_argument("--out", help="unseal の書き出し先")
     ap.add_argument("--category", default="other")
     ap.add_argument("--reason", default="")
     args = ap.parse_args(argv)
@@ -291,6 +319,8 @@ def main(argv=None) -> int:
         return 0
     if args.command == "queue":
         return cmd_queue(args, settings, paths)
+    if args.command == "unseal":
+        return cmd_unseal(args, settings, paths)
     if args.command == "check":
         return cmd_check(args, settings, paths)
     if args.command == "finalize":

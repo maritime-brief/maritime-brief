@@ -113,7 +113,7 @@ sources:
     lang: en
     categories: [technology, regulation]
     exclude_patterns: ["PORT MARINE NOTICE", "Speech", "Remarks", "Keynote"]
-    license: "転載・再利用には事前の許可が必要。事実の抽出とリンクのみ（本文は保存しない）"
+    license: "転載・再利用には事前の許可が必要。事実の抽出とリンクのみ（本文は暗号化して一時保存）"
     attribution: "Source: Maritime and Port Authority of Singapore"
     license_checked: "2026-10-27"
     feed_checked: "2026-10-27"
@@ -130,7 +130,7 @@ sources:
     tier: 2
     lang: en
     categories: [shipbuilding, technology]
-    license: "企業のプレスリリース。事実の抽出とリンクのみ（本文は保存しない）"
+    license: "企業のプレスリリース。事実の抽出とリンクのみ（本文は暗号化して一時保存）"
     attribution: "Source: DNV"
     license_checked: "2026-10-27"
     feed_checked: "2026-10-27"
@@ -145,7 +145,7 @@ sources:
     tier: 2
     lang: en
     categories: [technology, shipbuilding]
-    license: "企業の発表・解説記事。事実の抽出とリンクのみ（本文は保存しない）"
+    license: "企業の発表・解説記事。事実の抽出とリンクのみ（本文は暗号化して一時保存）"
     attribution: "Source: Lloyd's Register"
     license_checked: "2026-10-27"
     feed_checked: "2026-10-27"
@@ -161,7 +161,7 @@ sources:
     tier: 2
     lang: en
     categories: [regulation, technology]
-    license: "ライセンス未確認のため、事実の抽出とリンクのみ（本文は保存しない）"
+    license: "ライセンス未確認のため、事実の抽出とリンクのみ（本文は暗号化して一時保存）"
     attribution: "Source: Norwegian Maritime Authority"
     license_checked: "2026-10-27"
     feed_checked: "2026-10-27"
