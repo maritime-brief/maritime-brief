@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% block description %}海事の専門用語を、業界の外の人にも分かる言葉で解説します｜{{ site.name }}{% endblock %}
+{% block content %}
+<article class="article">
+  <header class="article-head">
+    <h1 class="article-title">用語集</h1>
+    <p class="article-lead">記事に出てくる海事の専門用語を、業界の外の人にも分かる言葉で解説しています。</p>
+  </header>
+  {% if terms %}
+  <dl class="glossary-list">
+    {% for t in terms %}
+    <div id="{{ t.key }}">
+      <dt>{{ t.headword }}</dt>
+      <dd>{{ t.explanation }}
+        {% if t.articles %}<span class="muted">　関連記事：{% for a in t.articles %}<a href="articles/{{ a.slug }}.html">{{ a.title }}</a>{% if not loop.last %}、{% endif %}{% endfor %}</span>{% endif %}
+      </dd>
+    </div>
+    {% endfor %}
+  </dl>
+  {% else %}
+  <div class="empty"><p>まだ用語はありません。</p><p>記事に用語解説が付くと、ここに集まります。</p></div>
+  {% endif %}
+</article>
+{% endblock %}

@@ -201,6 +201,33 @@ _REVIEWS_AFTER = {
 _REVIEWS["fire"]["suggestions"] = ["見出しで原因が整備後の確認漏れだと分かるようにする"]
 _REVIEWS["ballast"]["fix_instructions"] = ["冒頭を発効日と条件から始め、原文の順序から離す", "紙の記録簿の負担についての記述を削る", "本文を400字以上にする"]
 
+# 用語解説の担当・チェックの担当の架空の応答
+_EXPLAIN = {
+    "fire": {"terms": [
+        {"term": "SOLAS条約", "key": "SOLAS", "reuse": False, "headword": "SOLAS条約（海上人命安全条約）",
+         "explanation": "船の構造、消火設備、救命設備、無線などについて、国際的な最低限の安全基準を定めた条約。国際航海をする多くの商船が対象になる。"},
+        {"term": "排気マニホールド", "key": "排気マニホールド", "reuse": False, "headword": "排気マニホールド",
+         "explanation": "エンジンの各シリンダーから出る高温の排ガスを1本にまとめる管。表面が非常に熱くなるため、断熱材で覆って火災を防ぐ。"},
+        {"term": "固定式のCO2消火装置", "key": "固定式CO2消火装置", "reuse": False, "headword": "固定式CO2消火装置",
+         "explanation": "機関室などに常設された消火設備で、二酸化炭素で部屋を満たして火を消す。この装置は1960年に義務化された。"},
+    ]},
+    "ballast": {"terms": [
+        {"term": "バラスト水", "key": "バラスト水", "reuse": False, "headword": "バラスト水",
+         "explanation": "荷物が少ないときに船の姿勢を安定させるため、船内のタンクに積む海水。別の海域で排出すると外来生物を運ぶため、国際条約で管理が求められている。"},
+        {"term": "旗国", "key": "旗国", "reuse": False, "headword": "旗国",
+         "explanation": "船が籍を置く国。船の安全や設備が国際基準を満たしているかを確認し、証書を出す責任を負う。"},
+    ]},
+}
+_EXPLAIN_CHECK = {
+    "fire": {"terms": [
+        {"key": "SOLAS", "verdict": "ok"},
+        {"key": "排気マニホールド", "verdict": "ok"},
+        {"key": "固定式CO2消火装置", "verdict": "fix", "reason": "義務化の年は確かめられない",
+         "explanation": "機関室などに常設された消火設備で、二酸化炭素で部屋を満たし、酸素を減らして火を消す。人がいると危険なため、退避を確かめてから使う。"},
+    ]},
+    "ballast": {"terms": [{"key": "バラスト水", "verdict": "ok"}, {"key": "旗国", "verdict": "ok"}]},
+}
+
 _TRIAGE = {
     "fire": {"relevance": 5, "category": "safety", "duplicate_of": None, "reason": "機関室火災の事故調査報告"},
     "ballast": {"relevance": 4, "category": "regulation", "duplicate_of": None, "reason": "条約改正と発効日"},
@@ -216,7 +243,7 @@ def mock_handlers():
         for k, f in _FACTS.items():
             if f["summary_ja"] in text:
                 return k
-        for k, a in _ARTICLES.items():
+        for k, a in list(_ARTICLES.items()) + list(_FIXED.items()) + list(_POLISHED.items()):
             if a["title"] in text:
                 return k
         raise KeyError("デモデータに該当がありません")
@@ -242,5 +269,7 @@ def mock_handlers():
         "write": lambda u: dict(_ARTICLES[key_from(u)]),
         "verify": verify,
         "fix": lambda u: dict(_FIXED[key_from(u)]),
+        "explain": lambda u: json.loads(json.dumps(_EXPLAIN[key_from(u)], ensure_ascii=False)),
+        "explain_check": lambda u: json.loads(json.dumps(_EXPLAIN_CHECK[key_from(u)], ensure_ascii=False)),
         "polish": lambda u: dict(_POLISHED.get(key_from(u), {"changes": []})),
     }

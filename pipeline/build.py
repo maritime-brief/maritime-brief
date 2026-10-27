@@ -10,6 +10,7 @@ import markdown
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 
 from .config import PROJECT_ROOT, Paths
+from . import glossary
 from .store import load_articles, now_jst
 
 
@@ -50,6 +51,17 @@ def build_site(settings: dict, paths: Paths) -> int:
     def render(tpl: str, dest, root: str, **ctx) -> None:
         dest.write_text(env.get_template(tpl).render(root=root, **common, **ctx), encoding="utf-8")
 
+    terms = glossary.load(paths.data)
+    published_slugs = {a["slug"]: a for a in articles}
+    for a in articles:
+        # 解説の本文は辞書から引く（辞書を直せば全記事に反映される）
+        a["glossary_items"] = [
+            {"n": i, "term": g["term"], "headword": terms[g["key"]].get("headword", g["term"]),
+             "explanation": terms[g["key"]]["explanation"]}
+            for i, g in enumerate(a.get("glossary") or [], 1) if g.get("key") in terms
+        ]
+        a["body_linked"] = glossary.link_first_occurrences(a.get("body", ""), a["glossary_items"])
+
     render("index.html", out / "index.html", "", articles=articles[:60], page_title=None)
     for key, cat in cats.items():
         items = [a for a in articles if a.get("category") == key]
@@ -62,6 +74,13 @@ def build_site(settings: dict, paths: Paths) -> int:
         render("article.html", out / "articles" / f"{a['slug']}.html", "../", a=a, related=related,
                aff_items=aff_items, page_title=a["title"])
     render("about.html", out / "about.html", "", page_title="編集方針と出典について")
+    gl = sorted(
+        ({"key": k, "headword": v.get("headword", k), "explanation": v["explanation"],
+          "articles": [published_slugs[s] for s in v.get("used_in", []) if s in published_slugs][:5]}
+         for k, v in terms.items()),
+        key=lambda x: x["headword"],
+    )
+    render("glossary.html", out / "glossary.html", "", terms=gl, page_title="用語集")
 
     _write_feed(out, site_cfg, articles[:30])
     _write_sitemap(out, site_cfg, articles, cats)
@@ -91,7 +110,7 @@ def _write_feed(out, site_cfg, articles) -> None:
 
 def _write_sitemap(out, site_cfg, articles, cats) -> None:
     base = site_cfg["base_url"].rstrip("/")
-    urls = [f"{base}/", f"{base}/about.html"] + [f"{base}/category/{k}.html" for k in cats]
+    urls = [f"{base}/", f"{base}/about.html", f"{base}/glossary.html"] + [f"{base}/category/{k}.html" for k in cats]
     urls += [f"{base}/articles/{a['slug']}.html" for a in articles]
     body = "".join(f"<url><loc>{html.escape(u)}</loc></url>" for u in urls)
     (out / "sitemap.xml").write_text(

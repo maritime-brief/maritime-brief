@@ -26,7 +26,7 @@ import logging
 import sys
 from pathlib import Path
 
-from . import agents, checks, sealed
+from . import agents, checks, glossary, sealed
 from . import queue as q
 from .build import build_site
 from .collect import Fetcher, fetch_items, fetch_text
@@ -135,7 +135,13 @@ def process_queue_api(settings, paths, demo: bool, mode: str) -> dict:
             draft = agents.write(llm, models["write"], facts, related)  # ← 原文は渡さない
             review = agents.verify(llm, models["verify"], text, draft)
             draft, review, history = revise(llm, settings, it, facts, draft, review, text)
-            status, art = q.finalize(paths, settings, it, facts, draft, review, category, mode, text, history)
+            explained = checked = None
+            if settings.get("revision", {}).get("explain", True):
+                explained = agents.explain(llm, models.get("explain", models["write"]), draft,
+                                           glossary.index(glossary.load(paths.data)))
+                checked = agents.explain_check(llm, models.get("explain_check", models["verify"]), draft, explained)
+            status, art = q.finalize(paths, settings, it, facts, draft, review, category, mode, text, history,
+                                     explained, checked)
             out[status if status == "published" else "pending"] += 1
             if status == "pending":
                 log.info("保留: %s ／ 理由: %s", art["title"], "；".join(art["check"]["reasons"]) or "試験運用モード")
@@ -247,9 +253,13 @@ def cmd_finalize(args, settings, paths) -> int:
             return 1
     mode = args.mode or settings["publish"]["mode"]
     history = _read_json(args.history) if args.history else []
-    status, art = q.finalize(paths, settings, item, facts, draft, review, args.category, mode, q.source_text(item), history)
+    explained = _read_json(args.explained) if args.explained else None
+    checked = _read_json(args.explain_check) if args.explain_check else None
+    status, art = q.finalize(paths, settings, item, facts, draft, review, args.category, mode, q.source_text(item), history,
+                             explained, checked)
     print(json.dumps({"status": status, "file": f"content/{'published' if status == 'published' else 'pending'}/{art['slug']}.md",
-                      "title": art["title"], "reasons": art["check"]["reasons"], "scores": art["check"]["scores"]},
+                      "title": art["title"], "reasons": art["check"]["reasons"], "scores": art["check"]["scores"],
+                      "glossary": [g["term"] for g in art.get("glossary", [])]},
                      ensure_ascii=False, indent=1))
     return 0
 
@@ -265,6 +275,54 @@ def cmd_unseal(args, settings, paths) -> int:
     out.parent.mkdir(parents=True, exist_ok=True)
     out.write_text(text, encoding="utf-8")
     print(json.dumps({"written": str(out), "chars": len(text)}, ensure_ascii=False))
+    return 0
+
+
+def cmd_attach_glossary(args, settings, paths) -> int:
+    """作成済みの記事（保留・公開）に、あとから用語解説を付ける。"""
+    from .store import load_article, save_article
+    for folder in (paths.pending, paths.published):
+        f = folder / f"{args.slug}.md"
+        if f.exists():
+            art = load_article(f)
+            art["glossary"] = glossary.merge(paths.data, _read_json(args.explained),
+                                             _read_json(args.explain_check), art["slug"])
+            save_article(folder, art)
+            print(json.dumps({"slug": art["slug"], "glossary": [g["term"] for g in art["glossary"]]}, ensure_ascii=False))
+            return 0
+    print(json.dumps({"error": f"記事が見つかりません: {args.slug}"}, ensure_ascii=False))
+    return 1
+
+
+def cmd_glossary_index(args, settings, paths) -> int:
+    """用語解説の担当に渡す、辞書にある用語の一覧。"""
+    print(json.dumps(glossary.index(glossary.load(paths.data)), ensure_ascii=False, indent=1))
+    return 0
+
+
+LOCK_MINUTES = 120
+
+
+def cmd_lock(args, settings, paths) -> int:
+    """記事作成の同時実行を防ぐロック（data/lock.json）。acquire / release / status。"""
+    from datetime import datetime, timedelta
+    lock = paths.data / "lock.json"
+    now = now_jst()
+    current = json.loads(lock.read_text(encoding="utf-8")) if lock.exists() else None
+    if args.lock_action == "status":
+        print(json.dumps(current or {"locked": False}, ensure_ascii=False))
+        return 0
+    if args.lock_action == "release":
+        if lock.exists():
+            lock.unlink()
+        print(json.dumps({"released": True}, ensure_ascii=False))
+        return 0
+    if current and now - datetime.fromisoformat(current["at"]) < timedelta(minutes=LOCK_MINUTES):
+        print(json.dumps({"acquired": False, "held_since": current["at"], "by": current.get("by")}, ensure_ascii=False))
+        return 2
+    lock.write_text(json.dumps({"at": now.isoformat(timespec="minutes"), "by": args.reason or "記事作成"},
+                               ensure_ascii=False), encoding="utf-8")
+    print(json.dumps({"acquired": True, "stale_lock_replaced": bool(current)}, ensure_ascii=False))
     return 0
 
 
@@ -295,7 +353,7 @@ def main(argv=None) -> int:
     logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s", datefmt="%H:%M:%S",
                         stream=sys.stderr)
     ap = argparse.ArgumentParser(description="海事ブリーフ 自動更新パイプライン")
-    ap.add_argument("command", choices=["run", "collect", "queue", "unseal", "check", "finalize", "skip", "review", "build", "check-sources"])
+    ap.add_argument("command", choices=["run", "collect", "queue", "unseal", "check", "finalize", "glossary-index", "attach-glossary", "lock", "skip", "review", "build", "check-sources"])
     ap.add_argument("--demo", action="store_true", help="架空データで動作確認（demo/ に出力）")
     ap.add_argument("--mode", choices=["trial", "auto"], help="settings.yaml の公開モードを一時的に上書き")
     ap.add_argument("--id")
@@ -304,6 +362,10 @@ def main(argv=None) -> int:
     ap.add_argument("--review")
     ap.add_argument("--history", help="修正・推敲の経過（JSONの配列）")
     ap.add_argument("--out", help="unseal の書き出し先")
+    ap.add_argument("--slug", help="attach-glossary の対象記事")
+    ap.add_argument("--explained", help="用語解説の担当の出力（JSON）")
+    ap.add_argument("--explain-check", dest="explain_check", help="用語解説のチェックの出力（JSON）")
+    ap.add_argument("lock_action", nargs="?", choices=["acquire", "release", "status"], help="lock コマンドの動作")
     ap.add_argument("--category", default="other")
     ap.add_argument("--reason", default="")
     args = ap.parse_args(argv)
@@ -321,6 +383,12 @@ def main(argv=None) -> int:
         return cmd_queue(args, settings, paths)
     if args.command == "unseal":
         return cmd_unseal(args, settings, paths)
+    if args.command == "attach-glossary":
+        return cmd_attach_glossary(args, settings, paths)
+    if args.command == "glossary-index":
+        return cmd_glossary_index(args, settings, paths)
+    if args.command == "lock":
+        return cmd_lock(args, settings, paths)
     if args.command == "check":
         return cmd_check(args, settings, paths)
     if args.command == "finalize":

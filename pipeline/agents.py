@@ -84,3 +84,18 @@ def _article_only(draft: dict) -> dict:
 def _review_for_writer(review: dict) -> dict:
     return {k: review.get(k) for k in ("factual_errors", "unsupported_claims", "fix_instructions",
                                        "translation_likeness", "structure_similarity", "comment")}
+
+
+def explain(llm, model: str, draft: dict, dictionary_index: list[dict]) -> dict:
+    """用語解説の担当：完成した記事の専門用語に、業界外の読者向けの解説を付ける（原文は渡さない）。"""
+    payload = {"article": _article_only(draft), "dictionary": dictionary_index}
+    return llm.call_json("explain", model, prompt("explain"), json.dumps(payload, ensure_ascii=False), 2500)
+
+
+def explain_check(llm, model: str, draft: dict, explained: dict) -> dict:
+    """用語解説のチェックの担当：新しく書かれた解説の正確さと分かりやすさを確かめる。"""
+    new_terms = [t for t in explained.get("terms", []) if not t.get("reuse")]
+    if not new_terms:
+        return {"terms": []}
+    payload = {"article": _article_only(draft), "new_terms": new_terms}
+    return llm.call_json("explain_check", model, prompt("explain_check"), json.dumps(payload, ensure_ascii=False), 2000)

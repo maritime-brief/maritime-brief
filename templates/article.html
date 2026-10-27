@@ -21,7 +21,19 @@
   </dl>
   {% endif %}
 
-  <div class="prose">{{ a.body | md | safe }}</div>
+  <div class="prose">{{ a.body_linked | md | safe }}</div>
+
+  {% if a.glossary_items %}
+  <section class="glossary" aria-labelledby="glossary-h">
+    <h2 id="glossary-h">用語解説</h2>
+    <dl>
+      {% for g in a.glossary_items %}
+      <div id="g-{{ g.n }}"><dt>{{ g.headword }}</dt><dd>{{ g.explanation }}</dd></div>
+      {% endfor %}
+    </dl>
+    <p class="muted">業界外の読者のための一般的な解説です。<a href="{{ root }}glossary.html">用語集</a></p>
+  </section>
+  {% endif %}
 
   {% if a.impact_japan %}
   <section class="impact" aria-labelledby="impact-h">

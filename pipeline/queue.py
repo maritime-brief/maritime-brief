@@ -11,7 +11,7 @@ import json
 from datetime import datetime, timedelta
 from pathlib import Path
 
-from . import checks, sealed
+from . import checks, glossary, sealed
 from .config import Paths
 from .store import now_jst, save_article
 
@@ -97,7 +97,8 @@ def assess(settings: dict, item: dict, facts: dict, draft: dict, review: dict, s
 
 
 def finalize(paths: Paths, settings: dict, item: dict, facts: dict, draft: dict, review: dict,
-             category: str, mode: str, source_text: str, history: list | None = None) -> tuple[str, dict]:
+             category: str, mode: str, source_text: str, history: list | None = None,
+             explained: dict | None = None, explain_checked: dict | None = None) -> tuple[str, dict]:
     """最終版の記事を判定し、公開／保留として保存してキューから外す。history は修正・推敲の経過。"""
     q = facts.get("quote")
     if q and len(str(q.get("text", "")).split()) >= 15:
@@ -106,8 +107,11 @@ def finalize(paths: Paths, settings: dict, item: dict, facts: dict, draft: dict,
 
     stamp = now_jst()
     src = item["source"]
+    slug = f"{stamp:%Y%m%d}-{src['id']}-{item['id']}"
+    # 用語解説は本文とは別に付ける（原文との照合の対象外。用語解説のチェックの担当が確かめたものだけ）
+    terms = glossary.merge(paths.data, explained, explain_checked, slug) if explained else []
     article = {
-        "slug": f"{stamp:%Y%m%d}-{src['id']}-{item['id']}",
+        "slug": slug,
         "status": "published" if (verdict == "pass" and mode == "auto") else "pending",
         "title": draft["title"],
         "lead": draft["lead"],
@@ -116,6 +120,7 @@ def finalize(paths: Paths, settings: dict, item: dict, facts: dict, draft: dict,
         "date": stamp.isoformat(timespec="minutes"),
         "impact_japan": draft.get("impact_japan", ""),
         "key_dates": facts.get("key_dates", []),
+        "glossary": terms,
         "source": {
             "name": src["name"],
             "url": item["url"],

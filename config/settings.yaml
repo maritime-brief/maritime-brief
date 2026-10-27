@@ -26,11 +26,13 @@ publish:
 # 使うAIモデル（engine: api のときだけ使用）
 models:
   triage: "claude-haiku-5-5"    # 選別
-  extract: "claude-haiku-5-5"   # 事実抽出
+  extract: "claude-sonnet-5-5"  # 事実抽出（誤りが後工程すべてに響くため、上位モデル）
   write: "claude-sonnet-5-5"    # 執筆
   verify: "claude-sonnet-5-5"   # 検証
   fix: "claude-sonnet-5-5"      # 修正
   polish: "claude-sonnet-5-5"   # 推敲
+  explain: "claude-sonnet-5-5"  # 用語解説
+  explain_check: "claude-sonnet-5-5"  # 用語解説のチェック
 
 # 1回の実行あたりの上限（費用の上限にもなります）
 limits:
@@ -44,6 +46,7 @@ limits:
 revision:
   max_fix_rounds: 3     # 保留になった記事を「修正担当」が直して再検証する最大回数
   polish: true          # 合格した記事を「推敲担当」がさらに良くする（推敲後も合格した場合だけ採用）
+  explain: true         # 最終版に「用語解説」を付ける（業界外の読者向け）
 
 # 検証の基準（これを超えた記事は保留になります）
 verify:

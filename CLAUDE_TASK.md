@@ -30,13 +30,27 @@ GitHub Actions が毎日 6:40 / 11:40 / 17:40（日本時間）に新着を集�
 git config user.name "maritime-brief-claude"
 git config user.email "maritime-brief-claude@users.noreply.github.com"
 git pull --rebase
+```
+
+**同時実行の防止**：ほかの回の記事作成が動いていないかを確かめ、ロックを取る。
+
+```bash
+python -m pipeline.main lock acquire --reason "記事作成 $(TZ=Asia/Tokyo date '+%H:%M')"
+```
+
+- `"acquired": false` が返ったら、ほかの回が実行中。**何もせずに**「ほかの回が実行中のため終了」と
+  `data/runs/` に報告を書いて push し、終了する（ロックには触らない）。
+- `"acquired": true` なら、すぐに `git add data/lock.json && git commit -m "記事作成を開始" && git pull --rebase && git push` する。
+  push が衝突したら `git pull --rebase` 後に `lock status` を見直し、ほかの回が先にロックを取っていたら終了する。
+
+```bash
 python -m pipeline.main queue > /tmp/queue.json
 ```
 
 タスクの指示文にある秘密鍵（`-----BEGIN PRIVATE KEY-----` から `-----END PRIVATE KEY-----` まで）を
 `/tmp/mb_queue_key.pem` に書き出し、`chmod 600 /tmp/mb_queue_key.pem` を実行する。
 
-`/tmp/queue.json` の `items` が空なら、「キューは空でした」と報告して終了する。
+`/tmp/queue.json` の `items` が空なら、「キューは空でした」と報告し、ロックを外して（4. を参照）終了する。
 
 ### 2. 選別（あなたが行う）
 
@@ -50,8 +64,8 @@ python -m pipeline.main queue > /tmp/queue.json
 
 ### 3. 1件ずつ記事にする
 
-選んだ item ごとに、作業フォルダ `work/<id>/` を作り、次の a0〜g を順番に行う。
-抽出・執筆・検証・修正・推敲は、それぞれ **別のサブエージェント**（Agent ツール、`run_in_background: false`）に任せる。
+選んだ item ごとに、作業フォルダ `work/<id>/` を作り、次の a0〜h を順番に行う。
+抽出・執筆・検証・修正・推敲・用語解説・用語解説のチェックは、それぞれ **別のサブエージェント**（Agent ツール、`run_in_background: false`）に任せる。
 
 **a0. 原文の書き出し**（あなたが行う。中身は読まない）
 
@@ -61,7 +75,7 @@ python -m pipeline.main unseal --id <id> --out work/<id>/source.txt
 
 エラー（原文を取り出せない）になったら、その item は飛ばす（キューに残り、次回やり直しになる）。報告に書く。
 
-**a. 事実抽出**（model: haiku）
+**a. 事実抽出**（model: sonnet）
 サブエージェントへの指示に含めるもの：
 - `prompts/common.md` と `prompts/extract.md` の全文
 - 原文は `work/<id>/source.txt` を Read で読むこと（Web は使わない）
@@ -124,12 +138,30 @@ python -m pipeline.main check --id <id> \
 3. 空でなければ c の検証（出力先 `work/<id>/review_polished.json`）と d の判定を行う。
    **pass なら推敲版を採用、hold なら推敲前の合格版を使う。** どちらでも history に `adopted` を記録する。
 
-**g. 保存**（あなたが行う）
+**g. 用語解説**（model: sonnet。`revision.explain` が true のとき。合格・保留にかかわらず最終版に付ける）
+
+業界外の読者のために、専門用語の解説を付ける。解説は本文とは別の欄に表示され、原文との照合の対象外。
+1. 辞書にある用語の一覧を取る：`python -m pipeline.main glossary-index > work/<id>/glossary_index.json`
+2. **用語解説の担当**のサブエージェントに任せる。指示に含めるもの：
+   - `prompts/common.md` と `prompts/explain.md` の全文
+   - 最終版の記事（JSON）と、glossary_index.json の内容
+   - 「`work/<id>/source.txt`、`data/queue/` のファイル、元記事のURL、Webは見ないこと。解説は一般的な知識だけで書くこと」
+   - 出力先：`work/<id>/explained.json`
+3. `explained.json` に `reuse: false` の語が1つでもあれば、**用語解説のチェックの担当**（model: sonnet、
+   用語解説の担当とは別のサブエージェント）に任せる。指示に含めるもの：
+   - `prompts/common.md` と `prompts/explain_check.md` の全文
+   - 最終版の記事（JSON）と、explained.json のうち `reuse: false` の語
+   - 出力先：`work/<id>/explain_check.json`
+   新しい語がなければ、`{"terms": []}` を `work/<id>/explain_check.json` に書く。
+   チェックを通っていない解説は、h で自動的に捨てられる。
+
+**h. 保存**（あなたが行う）
 
 ```bash
 python -m pipeline.main finalize --id <id> --category <カテゴリ> \
   --facts work/<id>/facts.json --draft <最終の記事ファイル> --review <その記事のレビューファイル> \
-  --history work/<id>/history.json
+  --history work/<id>/history.json \
+  --explained work/<id>/explained.json --explain-check work/<id>/explain_check.json
 ```
 
 結果の `status`（published / pending）と `reasons` を控えておく。
@@ -142,11 +174,15 @@ python -m pipeline.main finalize --id <id> --category <カテゴリ> \
 サブエージェントが使えなかった、など）があれば必ず書く。記事を1本も作らなかった回も保存する。
 
 ```bash
+python -m pipeline.main lock release
 git add content data
 git commit -m "記事作成 $(TZ=Asia/Tokyo date '+%Y-%m-%d %H:%M')"
 git pull --rebase
 git push
 ```
+
+途中でエラーになって終える場合も、必ず `lock release` してから push する。
+（外し忘れても、ロックは120分で無効になる）
 
 push が失敗したら、もう一度 `git pull --rebase` してから push する。それでも失敗したら、理由を報告する。
 `work/` は保存しない（.gitignore 済み）。
@@ -158,5 +194,6 @@ push が失敗したら、もう一度 `git pull --rebase` してから push す
 - 公開：N件（見出し）
 - 保留：N件（見出しと、保留の主な理由）
 - 修正・推敲：修正で合格に変わった件数、推敲を採用した件数
+- 用語解説：付けた用語の数（辞書の再利用・新規）、チェックで直した・捨てた用語
 - 見送り：N件
 - キューの残り：N件

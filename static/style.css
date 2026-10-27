@@ -125,6 +125,17 @@ h1, h2, h3, .lead-title, .entry-title { word-break: auto-phrase; }
 .impact h2 { font-size: 1rem; margin: 0 0 .25rem; }
 .impact p { margin: 0; }
 
+/* 用語解説：本文中の用語は点線の下線、欄は海図の注記のように */
+.prose a[href^="#g-"] { text-decoration-style: dotted; text-decoration-thickness: 1px; text-underline-offset: .25em; color: inherit; }
+.glossary { margin: 2rem 0; padding-top: 1rem; border-top: 1px solid var(--rule); }
+.glossary h2 { font-size: 1rem; margin: 0 0 .75rem; }
+.glossary dl, .glossary-list { margin: 0; }
+.glossary dl > div, .glossary-list > div { padding: .6rem 0; border-bottom: 1px dotted var(--rule); scroll-margin-top: 1rem; }
+.glossary dl > div:target, .glossary-list > div:target { background: var(--paper-deep); }
+.glossary dt, .glossary-list dt { font-weight: 700; font-size: .9375rem; }
+.glossary dd, .glossary-list dd { margin: .15rem 0 0; font-size: .9375rem; color: var(--ink-soft); }
+.glossary-list > div { padding: .9rem 0; }
+
 .source { margin-top: 2.5rem; padding-top: 1.25rem; border-top: 3px solid var(--ink); font-size: .9375rem; }
 .source h2 { font-size: 1rem; margin: 0 0 .5rem; }
 .source h3 { font-size: .9375rem; margin: 1rem 0 .25rem; }
