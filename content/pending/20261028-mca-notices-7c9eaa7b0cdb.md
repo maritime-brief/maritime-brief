@@ -1,6 +1,6 @@
 ---
 slug: 20261028-mca-notices-7c9eaa7b0cdb
-status: pending
+status: approved
 title: 英漁船の労働条件検査通知MSN 1885(F)、改正1は参照情報のみ更新
 lead: 英国漁船の生活・労働条件の検査を定める通知MSN 1885(F)に改正1が出た。更新は参照情報のみで、2018年規則などと併せて読む位置づけだ。
 category: regulation
