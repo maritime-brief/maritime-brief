@@ -443,10 +443,86 @@
    "url": "https://www.sdir.no/en/news/further-delay-to-fueleu-maritime/",
    "note": "",
    "at": "2026-10-27T15:39+09:00"
+  },
+  "8460627a1b52": {
+   "outcome": "queued",
+   "url": "https://www.gov.uk/government/news/mca-and-gmb-sign-recognition-agreement-for-coastguard-rescue-officers",
+   "note": "",
+   "at": "2026-10-28T05:02+09:00"
+  },
+  "cf3e554e4eca": {
+   "outcome": "queued",
+   "url": "https://www.mpa.gov.sg/media-centre/details/no-24-of-2026-improper-extensions-of-statutory-certification",
+   "note": "",
+   "at": "2026-10-28T05:02+09:00"
+  },
+  "800a211afad7": {
+   "outcome": "queued",
+   "url": "https://www.dnv.com/news/2026/uk-ets-site-visits-key-steps-towards-compliance/",
+   "note": "",
+   "at": "2026-10-28T05:02+09:00"
+  },
+  "6bdedd90bb8d": {
+   "outcome": "queued",
+   "url": "https://www.lr.org/en/knowledge/press-room/press-listing/press-release/2026/sea-lng-and-mamii-formalise-technical-knowledge-partnership-to-support-imo-engagement-on-methane-emissions/",
+   "note": "",
+   "at": "2026-10-28T05:02+09:00"
+  },
+  "df45d71065d1": {
+   "outcome": "queued",
+   "url": "https://www.sdir.no/en/news/enklere-a-anmelde-datakriminalitet/",
+   "note": "",
+   "at": "2026-10-28T05:02+09:00"
   }
  },
  "leads": [],
  "runs": [
+  {
+   "at": "2026-10-28T05:02+09:00",
+   "step": "collect",
+   "queued": 5,
+   "leads": 0,
+   "per_source": {
+    "mca-notices": {
+     "fetched": 10,
+     "new": 0
+    },
+    "mca-news": {
+     "fetched": 10,
+     "new": 1
+    },
+    "emsa": {
+     "fetched": 1,
+     "new": 0
+    },
+    "mlit": {
+     "fetched": 3,
+     "new": 0
+    },
+    "ec-transport": {
+     "fetched": 1,
+     "new": 0
+    },
+    "mpa-singapore": {
+     "fetched": 4,
+     "new": 1
+    },
+    "dnv": {
+     "fetched": 6,
+     "new": 1
+    },
+    "lloyds-register": {
+     "fetched": 10,
+     "new": 1
+    },
+    "sdir": {
+     "fetched": 10,
+     "new": 1
+    }
+   },
+   "backfilled": 6,
+   "expired": 0
+  },
   {
    "at": "2026-10-27T18:15+09:00",
    "step": "collect",
