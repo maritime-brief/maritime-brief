@@ -48,11 +48,16 @@ def write(llm, model: str, facts: dict, related: list[dict]) -> dict:
     return llm.call_json("write", model, prompt("write"), json.dumps(payload, ensure_ascii=False), 2500)
 
 
-def verify(llm, model: str, source_text: str, article: dict) -> dict:
+def verify(llm, model: str, source_text: str, article: dict, previous_review: dict | None = None) -> dict:
+    prev = ""
+    if previous_review:
+        prev = "\n\n--- 前回の検証結果（previous_review） ---\n" + json.dumps(
+            {k: previous_review.get(k) for k in ("factual_errors", "unsupported_claims", "fix_instructions")},
+            ensure_ascii=False)
     user = (
         "--- 原文 ---\n" + source_text + "\n\n--- 日本語記事 ---\n"
         f"見出し: {article['title']}\nリード: {article['lead']}\n\n{article['body']}\n\n"
-        f"日本への影響: {article.get('impact_japan', '')}"
+        f"日本への影響: {article.get('impact_japan', '')}" + prev
     )
     return llm.call_json("verify", model, prompt("verify"), user, 1500)
 

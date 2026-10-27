@@ -106,7 +106,11 @@ python -m pipeline.main check --id <id> \
      点数・`comment`、d の `reasons`（すべて内容を指示文に貼り付ける）
    - 「`work/<id>/source.txt`、`data/queue/` のファイル、元記事のURL、Webは見ないこと」
    - 出力先：`work/<id>/draft_fix<N>.json`
-2. 直した記事を c の検証にかけ（出力先 `work/<id>/review_fix<N>.json`）、d で判定する。
+   - **修正担当への指示には、あなた自身の言い換え案や例文を足さない。** 検証の指摘と機械チェックの理由を、そのまま渡す。
+     （進行役が足した表現が、次の検証で「原文にない」と判定される原因になるため）
+2. 直した記事を c の検証にかける（出力先 `work/<id>/review_fix<N>.json`）。このとき検証担当には、
+   **前回のレビューファイルの `factual_errors`・`unsupported_claims`・`fix_instructions` を previous_review として渡す。**
+   原文は毎回同じ `work/<id>/source.txt` を使う。そのうえで d で判定する。
 3. pass になったら f へ。上限回数に達しても hold なら、最後の版で g へ（保留として保存される）。
 
 **f. 推敲**（`verdict` が pass で、`revision.polish` が true のとき）

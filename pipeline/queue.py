@@ -83,6 +83,8 @@ def assess(settings: dict, item: dict, facts: dict, draft: dict, review: dict, s
         # 改変を含む再利用が明示的に許されたソース（OGL・CC BY・政府標準利用規約など）は基準を一部緩める。
         # 英文の連続一致・事実の誤り・長さのチェックはそのまま。
         cfg.update(settings["verify"].get("relaxed_for_adaptation_allowed", {}))
+    if len(facts.get("facts", [])) <= 8:
+        cfg["min_chars"] = min(cfg["min_chars"], 250)  # 情報の少ない原文で水増しさせない
     fps = item.get("fingerprints") or []
     verdict, reasons, scores = checks.evaluate(draft, source_text, item["lang"], review, cfg, fps=fps)
     if not source_text and not fps:

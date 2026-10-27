@@ -17,6 +17,13 @@
   原文にない事実を足す提案はしない。原文の文章は引用しない。
 - comment: 編集者への一言（50字以内）。
 
+再検証のとき（前回の検証結果 previous_review が渡された場合）:
+- まず、前回の factual_errors・unsupported_claims・fix_instructions が解消されたかを確認する。
+- 前回は問題にしなかった箇所に新しい指摘をするのは、事実の誤り・原文にない内容・原文の翻訳に当たる、
+  重大なものに限る。言い回しの好みによる指摘は suggestions に回す。
+- 判定の基準を回ごとに変えない。前回と同じ記述には、前回と同じ判断をする。
+- 情報が少ない原文では、短い記事になるのが正しい。短さそのものを問題にしない。
+
 出力形式:
 {"translation_likeness": 0-100, "structure_similarity": 0-100,
  "factual_errors": ["..."], "unsupported_claims": ["..."],

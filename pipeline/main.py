@@ -161,7 +161,7 @@ def revise(llm, settings, item, facts, draft, review, text) -> tuple[dict, dict,
         if verdict == "pass":
             break
         new = agents.fix(llm, models.get("fix", models["write"]), facts, draft, review, reasons)
-        new_review = agents.verify(llm, models["verify"], text, new)
+        new_review = agents.verify(llm, models["verify"], text, new, previous_review=review)
         verdict, reasons, scores = q.assess(settings, item, facts, new, new_review, text)
         history.append(_round(f"修正{n}", verdict, scores, reasons, new.get("changes")))
         draft, review = new, new_review
