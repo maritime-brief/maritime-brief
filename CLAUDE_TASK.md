@@ -39,6 +39,7 @@ python -m pipeline.main queue > /tmp/queue.json
 - 重要度が `min_relevance` 未満、または重複 → 外す：
   `python -m pipeline.main skip --id <id> --reason "<30字以内の理由>"`
 - 残りを重要度の高い順に並べ、上位 `articles_per_run` 件を記事にする。それ以外は次回に回す（何もしない）。
+  **この上限は必ず守る。** 臨時の実行で件数の指示が追加された場合は、その指示に従う。
 
 ### 3. 1件ずつ記事にする
 
@@ -51,6 +52,10 @@ a〜c はそれぞれ **別のサブエージェント**（Agent ツール、`ru
 - 原文の読み方：`text_file` があれば、そのJSONファイルの `text` 欄を読む。
   `text_file` が null（ティア2）なら、WebFetch で `url` を開き、事実だけを取り出すよう依頼する。
 - 出力先：結果のJSONを `work/<id>/facts.json` に保存すること。JSON以外は書かないこと。
+
+**a2. 情報量の確認**（あなたが行う）
+`work/<id>/facts.json` の facts が5件未満、または confidence が0.6未満なら、記事にしない：
+`python -m pipeline.main skip --id <id> --reason "情報が少ない"`
 
 **b. 執筆**（model: sonnet）
 あなたが `work/<id>/facts.json` を読み、その内容を指示文に直接貼り付けて渡す。
