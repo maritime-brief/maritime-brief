@@ -1,0 +1,70 @@
+name: probe-sources
+on: workflow_dispatch
+permissions:
+  contents: write
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: pip install feedparser requests
+      - name: probe
+        run: |
+          python - <<'PY' > data/probe.txt 2>&1
+          import feedparser, requests, re, urllib.robotparser
+          from urllib.parse import urljoin, urlparse
+          UA = "MaritimeBriefJP-Bot/0.1 (+news aggregation of public notices; contact via site)"
+          S = requests.Session(); S.headers["User-Agent"] = UA
+          feeds = [
+            "https://www.gov.uk/search/news-and-communications.atom?keywords=maritime&organisations%5B%5D=department-for-transport",
+            "https://www.gov.uk/search/all.atom?keywords=maritime+decarbonisation",
+            "https://www.gov.uk/search/all.atom?keywords=shipbuilding",
+            "https://www.maritime.dot.gov/rss.xml",
+            "https://www.maritime.dot.gov/newsroom/press-releases/rss.xml",
+            "https://cordis.europa.eu/news/rss",
+            "https://transport.ec.europa.eu/node/2/rss_en",
+            "https://www.sdir.no/en/rss/",
+            "https://www.dma.dk/rss",
+            "https://www.mlit.go.jp/pressrelease.rdf",
+          ]
+          pages = [
+            "https://www.maritime.dot.gov/newsroom/press-releases",
+            "https://cordis.europa.eu/news",
+            "https://transport.ec.europa.eu/news-events/news_en",
+            "https://www.sdir.no/en/news/",
+            "https://www.dma.dk/news",
+            "https://www.mlit.go.jp/maritime/",
+            "https://www.nedo.go.jp/news/",
+            "https://www.mpa.gov.sg/media-centre",
+            "https://www.zerocarbonshipping.com/news/",
+            "https://www.globalmaritimeforum.org/news",
+            "https://www.dnv.com/news/",
+            "https://www.lr.org/en/knowledge/press-room/",
+            "https://ww2.eagle.org/en/news.html",
+          ]
+          def robots(u):
+              p = urlparse(u); rp = urllib.robotparser.RobotFileParser()
+              try:
+                  r = S.get(f"{p.scheme}://{p.netloc}/robots.txt", timeout=20)
+                  if r.status_code >= 400: return "no-robots"
+                  rp.parse(r.text.splitlines()); return "allowed" if rp.can_fetch(UA, u) else "DISALLOWED"
+              except Exception as e: return f"robots-err"
+          for u in feeds:
+              try:
+                  r = S.get(u, timeout=30); d = feedparser.parse(r.content)
+                  print(f"FEED {r.status_code} n={len(d.entries)} robots={robots(u)} {u}")
+                  for e in d.entries[:5]: print("   -", e.get("title","")[:100])
+              except Exception as e: print("FEED ERR", u, e)
+          for u in pages:
+              try:
+                  r = S.get(u, timeout=30)
+                  links = set(re.findall(r'href="([^"]*(?:rss|RSS|atom|/feed|\.rdf|\.xml)[^"]*)"', r.text))
+                  print(f"PAGE {r.status_code} robots={robots(u)} {u}")
+                  for l in sorted(links)[:12]: print("   link:", urljoin(u, l.replace("&amp;","&")))
+              except Exception as e: print("PAGE ERR", u, e)
+          PY
+      - run: |
+          git config user.name probe; git config user.email probe@users.noreply.github.com
+          git add data/probe.txt; git commit -m "probe" || true; git pull --rebase; git push
