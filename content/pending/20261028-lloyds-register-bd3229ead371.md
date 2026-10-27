@@ -1,6 +1,6 @@
 ---
 slug: 20261028-lloyds-register-bd3229ead371
-status: pending
+status: approved
 title: LNG運搬船のハイブリッド電気推進、冗長性とバッテリー統合を安全性検証へ
 lead: 200,000m³級LNG運搬船の概念設計で、ハイブリッド電気推進のシステム構成、冗長性の考え方、バッテリー統合が安全性検証の対象になる。
 category: technology
