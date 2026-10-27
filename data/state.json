@@ -75,7 +75,7 @@
   "df70f38eadbb": {
    "outcome": "queued",
    "url": "https://www.gov.uk/guidance/list-of-countries-accepted-towards-issuing-a-uk-fse",
-   "note": "",
+   "note": "承認国一覧の更新で重要度低",
    "at": "2026-10-27T14:43+09:00"
   },
   "93a2af5b5df0": {
@@ -93,13 +93,13 @@
   "94019e7d9b45": {
    "outcome": "queued",
    "url": "https://www.gov.uk/government/publications/mca-approved-doctors-overseas",
-   "note": "",
+   "note": "認定医師の一覧で重要度低",
    "at": "2026-10-27T14:43+09:00"
   },
   "99cd6c98e43c": {
    "outcome": "queued",
    "url": "https://www.gov.uk/government/publications/mca-approved-doctors-uk-based",
-   "note": "",
+   "note": "認定医師の一覧で重要度低",
    "at": "2026-10-27T14:43+09:00"
   },
   "b3ac6124c89e": {
@@ -111,7 +111,7 @@
   "f9d474beb99f": {
    "outcome": "queued",
    "url": "https://www.gov.uk/government/publications/min-740-mf-list-of-mca-recognised-private-nautical-chart-producers-under-mgn-293-mf",
-   "note": "",
+   "note": "認定海図業者の一覧更新で重要度低",
    "at": "2026-10-27T14:43+09:00"
   },
   "76ba5f36d69d": {
@@ -123,19 +123,19 @@
   "e9ebcbd14eb6": {
    "outcome": "queued",
    "url": "https://www.gov.uk/government/news/maritime-coastguard-agency-celebrates-world-maritime-day-2026",
-   "note": "",
+   "note": "記念日の式典・広報",
    "at": "2026-10-27T14:43+09:00"
   },
   "7617edd89186": {
    "outcome": "queued",
    "url": "https://www.gov.uk/government/news/maritime-heroes-honoured-for-inspiring-the-next-generation-of-seafarers-and-supporting-communities-at-sea",
-   "note": "",
+   "note": "表彰・式典",
    "at": "2026-10-27T14:43+09:00"
   },
   "aed195840f95": {
    "outcome": "queued",
    "url": "https://www.gov.uk/government/news/minister-visits-port-of-tyne-to-support-plastic-pellet-clean-up",
-   "note": "",
+   "note": "大臣視察の広報",
    "at": "2026-10-27T14:43+09:00"
   },
   "29b762049f7e": {
@@ -147,7 +147,7 @@
   "ded851120ded": {
    "outcome": "queued",
    "url": "https://www.gov.uk/government/news/uk-maritime-innovation-hub-establishes-role-as-focal-point-for-maritime-innovation",
-   "note": "",
+   "note": "組織紹介の広報",
    "at": "2026-10-27T14:43+09:00"
   },
   "f57f3571842e": {
@@ -165,13 +165,13 @@
   "64583169c251": {
    "outcome": "queued",
    "url": "https://www.gov.uk/government/news/strategy-centre-stage-at-this-years-reg-conference",
-   "note": "",
+   "note": "会議開催の広報",
    "at": "2026-10-27T14:43+09:00"
   },
   "3b931044d31c": {
    "outcome": "queued",
    "url": "https://www.gov.uk/government/news/global-cooperation-brings-breakthrough-on-first-international-maritime-autonomous-surface-ships-mass-code",
-   "note": "",
+   "note": "MASSコード公表記事と同じ出来事で重複",
    "at": "2026-10-27T14:43+09:00"
   },
   "e4144cee519c": {
@@ -183,61 +183,61 @@
   "975ac77cf157": {
    "outcome": "queued",
    "url": "https://www.emsa.europa.eu/newsroom/latest-news/item/5847-mmo-2026-in-la-manche-and-the-southern-north-sea-concludes-with-review-in-brussels.html",
-   "note": "",
+   "note": "合同運用の総括会議の広報",
    "at": "2026-10-27T14:43+09:00"
   },
   "26241dd1dc87": {
    "outcome": "queued",
    "url": "https://www.emsa.europa.eu/newsroom/latest-news/item/5842-emsa-joins-coast-guard-partners-off-catania-for-coastex-2026.html",
-   "note": "",
+   "note": "合同訓練参加の広報",
    "at": "2026-10-27T14:43+09:00"
   },
   "90db41b948f4": {
    "outcome": "queued",
    "url": "https://www.emsa.europa.eu/newsroom/latest-news/item/5835-emsa-supports-polex26-response-exercise-in-vigo,-spain.html",
-   "note": "",
+   "note": "油防除訓練の広報",
    "at": "2026-10-27T14:43+09:00"
   },
   "d6b05d0528c5": {
    "outcome": "queued",
    "url": "https://www.emsa.europa.eu/newsroom/latest-news/item/5833-joint-search-and-rescue-exercise-in-the-gulf-of-trieste-under-mmo-adria-2026.html",
-   "note": "",
+   "note": "捜索救助訓練の広報",
    "at": "2026-10-27T14:43+09:00"
   },
   "e9d890162c02": {
    "outcome": "queued",
    "url": "https://www.emsa.europa.eu/newsroom/latest-news/item/5821-sarex-2026-tests-multinational-maritime-coordination-in-north-sea-search-and-rescue-exercise.html",
-   "note": "",
+   "note": "捜索救助訓練の広報",
    "at": "2026-10-27T14:43+09:00"
   },
   "3801e691d935": {
    "outcome": "queued",
    "url": "https://www.emsa.europa.eu/newsroom/latest-news/item/5811-emsa-supports-multipurpose-maritime-exercise-tomis-2026-in-the-western-black-sea.html",
-   "note": "",
+   "note": "合同訓練参加の広報",
    "at": "2026-10-27T14:43+09:00"
   },
   "3af0bc779642": {
    "outcome": "queued",
    "url": "https://www.emsa.europa.eu/newsroom/latest-news/item/5737-emsa-takes-part-in-operation-breeze-2026-in-bulgaria.html",
-   "note": "",
+   "note": "合同訓練参加の広報",
    "at": "2026-10-27T14:43+09:00"
   },
   "6e196dae54c6": {
    "outcome": "queued",
    "url": "https://www.emsa.europa.eu/newsroom/latest-news/item/5725-polex-2026-major-oil-pollution-response-exercise-conducted-off-the-belgian-coast-within-mmo-msns-2026.html",
-   "note": "",
+   "note": "油防除訓練の広報",
    "at": "2026-10-27T14:43+09:00"
   },
   "31e20706f91f": {
    "outcome": "queued",
    "url": "https://www.emsa.europa.eu/newsroom/latest-news/item/5721-emsa-academy-delivers-first-course-on-hydrogen.html",
-   "note": "",
+   "note": "研修講座の実施報告",
    "at": "2026-10-27T14:43+09:00"
   },
   "7ac0dc503870": {
    "outcome": "queued",
    "url": "https://www.emsa.europa.eu/we-do/surveillance/rpas/item/5699-rpas-on-board-oil-spill-recovery-vessel-infosheet.html",
-   "note": "",
+   "note": "装備紹介の資料",
    "at": "2026-10-27T14:43+09:00"
   },
   "0da53613bc6f": {
@@ -249,13 +249,13 @@
   "0ca3ec9a070a": {
    "outcome": "queued",
    "url": "http://www.mlit.go.jp/report/press/kaiji04_hh_000406.html",
-   "note": "",
+   "note": "審議会開催の告知のみ",
    "at": "2026-10-27T14:43+09:00"
   },
   "32e3994c2c33": {
    "outcome": "queued",
    "url": "http://www.mlit.go.jp/report/press/kaiji04_hh_000405.html",
-   "note": "",
+   "note": "審議会開催の告知のみ",
    "at": "2026-10-27T14:43+09:00"
   }
  },
