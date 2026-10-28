@@ -52,6 +52,8 @@ def build_site(settings: dict, paths: Paths) -> int:
         "built_at": now_jst(),
         "pending_mode": settings["publish"]["mode"],
         "analytics": settings.get("analytics", {}) or {},
+        # スタイルを変えたら、ブラウザに古いものを使わせない（ファイルの中身から作る版番号を付ける）
+        "asset_v": hashlib.sha1((PROJECT_ROOT / "static" / "style.css").read_bytes()).hexdigest()[:10],
     }
 
     out = paths.site
