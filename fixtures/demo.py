@@ -203,7 +203,8 @@ _REVIEWS["ballast"]["fix_instructions"] = ["冒頭を発効日と条件から始
 
 # 用語解説の担当・チェックの担当の架空の応答
 _EXPLAIN = {
-    "fire": {"terms": [
+    "fire": {
+        "background": "船の機関室では、高温になる排気管と燃料の配管が近くにあるため、燃料漏れが火災につながりやすい。高温部を覆う断熱材は、国際条約でも求められる基本的な防火対策である。","terms": [
         {"term": "SOLAS条約", "key": "SOLAS", "reuse": False, "headword": "SOLAS条約（海上人命安全条約）",
          "explanation": "船の構造、消火設備、救命設備、無線などについて、国際的な最低限の安全基準を定めた条約。国際航海をする多くの商船が対象になる。"},
         {"term": "排気マニホールド", "key": "排気マニホールド", "reuse": False, "headword": "排気マニホールド",
@@ -219,7 +220,8 @@ _EXPLAIN = {
     ]},
 }
 _EXPLAIN_CHECK = {
-    "fire": {"terms": [
+    "fire": {
+        "background_verdict": "ok","terms": [
         {"key": "SOLAS", "verdict": "ok"},
         {"key": "排気マニホールド", "verdict": "ok"},
         {"key": "固定式CO2消火装置", "verdict": "fix", "reason": "義務化の年は確かめられない",

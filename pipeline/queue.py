@@ -121,6 +121,7 @@ def finalize(paths: Paths, settings: dict, item: dict, facts: dict, draft: dict,
         "impact_japan": draft.get("impact_japan", ""),
         "key_dates": facts.get("key_dates", []),
         "glossary": terms,
+        "background": glossary.background(explained, explain_checked) if explained else None,
         "source": {
             "name": src["name"],
             "url": item["url"],

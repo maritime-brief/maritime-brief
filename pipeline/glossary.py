@@ -83,6 +83,19 @@ def merge(data_dir: Path, explained: dict, checked: dict, slug: str) -> list[dic
     return attached
 
 
+def background(explained: dict | None, checked: dict | None) -> str | None:
+    """背景の一言。チェックで ok なら元の文、fix なら直した文。drop やチェックなしなら付けない。"""
+    text = (explained or {}).get("background")
+    if not text:
+        return None
+    v = (checked or {}).get("background_verdict")
+    if v == "ok":
+        return text.strip()
+    if v == "fix" and (checked or {}).get("background"):
+        return checked["background"].strip()
+    return None
+
+
 def link_first_occurrences(body_md: str, items: list[dict]) -> str:
     """本文中で、各用語が最初に出てくる箇所を用語解説欄へのリンクにする（Markdown のまま）。"""
     out = body_md

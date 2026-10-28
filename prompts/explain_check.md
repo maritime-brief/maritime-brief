@@ -8,10 +8,14 @@
 3. 汎用性：この記事のニュースの中身（日付、数値、企業の発表、見通し）を含んでいないか。
 4. 分かりやすさ：60〜120字で、業界外の人が読んで分かる言葉か。説明の中に、さらに説明が要る専門用語が残っていないか。
 
+背景の一言（background）が渡された場合も、同じ観点（正確さ・記事との整合・新しい事実を足していないか・分かりやすさ）で確かめ、
+background_verdict（ok / fix / drop）を付ける。fix のときは直した文を background に書く。
+
 判定：
 - ok：そのまま使える。
 - fix：直せば使える。直した解説を explanation に書く（直すのは問題の箇所だけ）。
 - drop：確かな説明ができない、または解説として不適切。
 
 出力形式:
-{"terms": [{"key": "...", "verdict": "ok|fix|drop", "explanation": "fix のときだけ、直した解説", "reason": "fix・drop の理由（30字以内）"}]}
+{"terms": [{"key": "...", "verdict": "ok|fix|drop", "explanation": "fix のときだけ、直した解説", "reason": "fix・drop の理由（30字以内）"}],
+ "background_verdict": "ok|fix|drop（背景が渡されなかったときは null）", "background": "fix のときだけ、直した背景"}

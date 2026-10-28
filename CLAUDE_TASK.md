@@ -50,7 +50,7 @@ python -m pipeline.main queue > /tmp/queue.json
 タスクの指示文にある秘密鍵（`-----BEGIN PRIVATE KEY-----` から `-----END PRIVATE KEY-----` まで）を
 `/tmp/mb_queue_key.pem` に書き出し、`chmod 600 /tmp/mb_queue_key.pem` を実行する。
 
-`/tmp/queue.json` の `items` が空なら、「キューは空でした」と報告し、ロックを外して（4. を参照）終了する。
+`/tmp/queue.json` の `items` が空なら、手順2・3を飛ばして「3b. 用語解説の後付け」へ進む。
 
 ### 2. 選別（あなたが行う）
 
@@ -140,20 +140,21 @@ python -m pipeline.main check --id <id> \
 
 **g. 用語解説**（model: sonnet。`revision.explain` が true のとき。合格・保留にかかわらず最終版に付ける）
 
-業界外の読者のために、専門用語の解説を付ける。解説は本文とは別の欄に表示され、原文との照合の対象外。
+業界外の読者のために、専門用語の解説と「業界外の方へ」の背景の一言を付ける。どちらも本文とは別の欄に表示され、
+原文との照合の対象外（そのため、別の担当が正確さを確かめたものだけを使う）。
 1. 辞書にある用語の一覧を取る：`python -m pipeline.main glossary-index > work/<id>/glossary_index.json`
 2. **用語解説の担当**のサブエージェントに任せる。指示に含めるもの：
    - `prompts/common.md` と `prompts/explain.md` の全文
    - 最終版の記事（JSON）と、glossary_index.json の内容
    - 「`work/<id>/source.txt`、`data/queue/` のファイル、元記事のURL、Webは見ないこと。解説は一般的な知識だけで書くこと」
    - 出力先：`work/<id>/explained.json`
-3. `explained.json` に `reuse: false` の語が1つでもあれば、**用語解説のチェックの担当**（model: sonnet、
-   用語解説の担当とは別のサブエージェント）に任せる。指示に含めるもの：
+3. `explained.json` に `reuse: false` の語があるか、`background` が null でなければ、**用語解説のチェックの担当**
+   （model: sonnet、用語解説の担当とは別のサブエージェント）に任せる。指示に含めるもの：
    - `prompts/common.md` と `prompts/explain_check.md` の全文
-   - 最終版の記事（JSON）と、explained.json のうち `reuse: false` の語
+   - 最終版の記事（JSON）と、explained.json のうち `reuse: false` の語と `background`
    - 出力先：`work/<id>/explain_check.json`
-   新しい語がなければ、`{"terms": []}` を `work/<id>/explain_check.json` に書く。
-   チェックを通っていない解説は、h で自動的に捨てられる。
+   どちらもなければ、`{"terms": [], "background_verdict": null}` を `work/<id>/explain_check.json` に書く。
+   チェックを通っていない解説・背景は、h で自動的に捨てられる。
 
 **h. 保存**（あなたが行う）
 
@@ -166,6 +167,26 @@ python -m pipeline.main finalize --id <id> --category <カテゴリ> \
 
 結果の `status`（published / pending）と `reasons` を控えておく。
 エラーになったら、その item は飛ばして次へ進む（キューに残り、次回やり直しになる）。
+
+### 3b. 用語解説の後付け（あなたが進行する）
+
+用語解説が付いていない作成済みの記事（公開中を優先）に、あとから解説を付ける。
+1回に `config/settings.yaml` の `revision.glossary_backfill_per_run` 件まで。
+
+```bash
+python -m pipeline.main glossary-todo --limit <件数> > /tmp/glossary_todo.json
+```
+
+`items` の各記事について、3. の g と同じ手順で用語解説と背景を作ってチェックする
+（作業フォルダは `work/gl-<slug>/`。記事のJSONは `/tmp/glossary_todo.json` の `article` を使う。原文は使わない）。
+そのあと、保存する：
+
+```bash
+python -m pipeline.main attach-glossary --slug <slug> \
+  --explained work/gl-<slug>/explained.json --explain-check work/gl-<slug>/explain_check.json
+```
+
+記事の本文・見出し・リードは変えない。付くのは用語解説と背景の一言だけ。
 
 ### 4. 保存して送る
 
@@ -194,6 +215,7 @@ push が失敗したら、もう一度 `git pull --rebase` してから push す
 - 公開：N件（見出し）
 - 保留：N件（見出しと、保留の主な理由）
 - 修正・推敲：修正で合格に変わった件数、推敲を採用した件数
-- 用語解説：付けた用語の数（辞書の再利用・新規）、チェックで直した・捨てた用語
+- 用語解説：付けた用語の数（辞書の再利用・新規）、チェックで直した・捨てた用語、背景の一言の有無
+- 用語解説の後付け：対象にした記事と、残りの件数
 - 見送り：N件
 - キューの残り：N件

@@ -13,6 +13,13 @@
     <p class="article-lead">{{ a.lead }}</p>
   </header>
 
+  {% if a.background %}
+  <aside class="background" aria-label="業界外の方へ">
+    <p class="background-label">業界外の方へ</p>
+    <p>{{ a.background }}</p>
+  </aside>
+  {% endif %}
+
   {% if a.key_dates %}
   <dl class="soundings" aria-label="主な日付">
     {% for d in a.key_dates %}

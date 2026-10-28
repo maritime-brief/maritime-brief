@@ -285,13 +285,28 @@ def cmd_attach_glossary(args, settings, paths) -> int:
         f = folder / f"{args.slug}.md"
         if f.exists():
             art = load_article(f)
-            art["glossary"] = glossary.merge(paths.data, _read_json(args.explained),
-                                             _read_json(args.explain_check), art["slug"])
+            explained, checked = _read_json(args.explained), _read_json(args.explain_check)
+            art["glossary"] = glossary.merge(paths.data, explained, checked, art["slug"])
+            art["background"] = glossary.background(explained, checked)
             save_article(folder, art)
-            print(json.dumps({"slug": art["slug"], "glossary": [g["term"] for g in art["glossary"]]}, ensure_ascii=False))
+            print(json.dumps({"slug": art["slug"], "glossary": [g["term"] for g in art["glossary"]],
+                              "background": bool(art["background"])}, ensure_ascii=False))
             return 0
     print(json.dumps({"error": f"記事が見つかりません: {args.slug}"}, ensure_ascii=False))
     return 1
+
+
+def cmd_glossary_todo(args, settings, paths) -> int:
+    """用語解説がまだ付いていない作成済みの記事（公開中を優先）。後付けの対象。"""
+    from .store import load_articles
+    todo = []
+    for folder, status in ((paths.published, "published"), (paths.pending, "pending")):
+        for a in load_articles(folder):
+            if "glossary" not in a:
+                todo.append({"slug": a["slug"], "status": status, "title": a["title"],
+                             "article": {k: a.get(k) for k in ("title", "lead", "body", "impact_japan", "tags")}})
+    print(json.dumps({"count": len(todo), "items": todo[: int(args.limit or 3)]}, ensure_ascii=False, indent=1))
+    return 0
 
 
 def cmd_glossary_index(args, settings, paths) -> int:
@@ -353,7 +368,7 @@ def main(argv=None) -> int:
     logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s", datefmt="%H:%M:%S",
                         stream=sys.stderr)
     ap = argparse.ArgumentParser(description="海事ブリーフ 自動更新パイプライン")
-    ap.add_argument("command", choices=["run", "collect", "queue", "unseal", "check", "finalize", "glossary-index", "attach-glossary", "lock", "skip", "review", "build", "check-sources"])
+    ap.add_argument("command", choices=["run", "collect", "queue", "unseal", "check", "finalize", "glossary-index", "glossary-todo", "attach-glossary", "lock", "skip", "review", "build", "check-sources"])
     ap.add_argument("--demo", action="store_true", help="架空データで動作確認（demo/ に出力）")
     ap.add_argument("--mode", choices=["trial", "auto"], help="settings.yaml の公開モードを一時的に上書き")
     ap.add_argument("--id")
@@ -363,6 +378,7 @@ def main(argv=None) -> int:
     ap.add_argument("--history", help="修正・推敲の経過（JSONの配列）")
     ap.add_argument("--out", help="unseal の書き出し先")
     ap.add_argument("--slug", help="attach-glossary の対象記事")
+    ap.add_argument("--limit", help="glossary-todo で返す件数（既定3）")
     ap.add_argument("--explained", help="用語解説の担当の出力（JSON）")
     ap.add_argument("--explain-check", dest="explain_check", help="用語解説のチェックの出力（JSON）")
     ap.add_argument("lock_action", nargs="?", choices=["acquire", "release", "status"], help="lock コマンドの動作")
@@ -385,6 +401,8 @@ def main(argv=None) -> int:
         return cmd_unseal(args, settings, paths)
     if args.command == "attach-glossary":
         return cmd_attach_glossary(args, settings, paths)
+    if args.command == "glossary-todo":
+        return cmd_glossary_todo(args, settings, paths)
     if args.command == "glossary-index":
         return cmd_glossary_index(args, settings, paths)
     if args.command == "lock":

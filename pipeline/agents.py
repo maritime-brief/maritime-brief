@@ -95,7 +95,7 @@ def explain(llm, model: str, draft: dict, dictionary_index: list[dict]) -> dict:
 def explain_check(llm, model: str, draft: dict, explained: dict) -> dict:
     """用語解説のチェックの担当：新しく書かれた解説の正確さと分かりやすさを確かめる。"""
     new_terms = [t for t in explained.get("terms", []) if not t.get("reuse")]
-    if not new_terms:
-        return {"terms": []}
-    payload = {"article": _article_only(draft), "new_terms": new_terms}
+    if not new_terms and not explained.get("background"):
+        return {"terms": [], "background_verdict": None}
+    payload = {"article": _article_only(draft), "new_terms": new_terms, "background": explained.get("background")}
     return llm.call_json("explain_check", model, prompt("explain_check"), json.dumps(payload, ensure_ascii=False), 2000)
