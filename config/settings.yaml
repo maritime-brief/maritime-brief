@@ -79,7 +79,7 @@ categories:
 # goatcounter_code に GoatCounter で決めたコード（例：shipshift）を書き、GitHub の Secrets に
 # GOATCOUNTER_TOKEN（GoatCounter の API キー）を登録すると、トップページと記事ページに「今日よく読まれている記事」が出ます。
 analytics:
-  goatcounter_code: ""
+  goatcounter_code: "shipshift"
   ranking_hours: 24     # 直近何時間の閲覧数で順位を付けるか
   ranking_size: 5       # 表示する件数
 
