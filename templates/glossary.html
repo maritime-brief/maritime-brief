@@ -1,25 +1,49 @@
 {% extends "base.html" %}
 {% block description %}海事の専門用語を、業界の外の人にも分かる言葉で解説します｜{{ site.name }}{% endblock %}
 {% block content %}
-<article class="article">
+<article class="article glossary-page">
   <header class="article-head">
     <h1 class="article-title">用語集</h1>
     <p class="article-lead">記事に出てくる海事の専門用語を、業界の外の人にも分かる言葉で解説しています。{{ terms|length }}語。</p>
   </header>
   {% if terms %}
-  <dl class="glossary-list">
-    {% for t in terms %}
-    <div id="{{ t.id }}">
-      <dt>{{ t.headword }}{% if t.original %}<span class="term-original" lang="en">{{ t.original }}</span>{% endif %}</dt>
-      <dd>
-        <p class="term-summary">{{ t.summary }}</p>
-        {% if t.detail %}<p class="term-detail">{{ t.detail }}</p>{% endif %}
-        {% if t.related_links %}<p class="term-related">関連：{% for r in t.related_links %}{% if r.id %}<a href="#{{ r.id }}">{{ r.label }}</a>{% else %}{{ r.label }}{% endif %}{% if not loop.last %}、{% endif %}{% endfor %}</p>{% endif %}
-        {% if t.articles %}<p class="term-related">この用語が出てくる記事：{% for a in t.articles %}<a href="articles/{{ a.slug }}.html">{{ a.title }}</a>{% if not loop.last %}、{% endif %}{% endfor %}</p>{% endif %}
-      </dd>
+  <nav class="gl-index" aria-label="用語集の索引">
+    <div class="gl-index-row">
+      {% for n in nav if n.key == "0-9" %}{% if n.has %}<a href="#{{ n.id }}">{{ n.key }}</a>{% else %}<span aria-disabled="true">{{ n.key }}</span>{% endif %}{% endfor %}
+      {% for n in nav if n.key|length == 1 and n.key.isascii() %}{% if n.has %}<a href="#{{ n.id }}">{{ n.key }}</a>{% else %}<span aria-disabled="true">{{ n.key }}</span>{% endif %}{% endfor %}
     </div>
-    {% endfor %}
-  </dl>
+    <div class="gl-index-row gl-index-kana">
+      {% for n in nav if not n.key.isascii() %}{% if n.has %}<a href="#{{ n.id }}">{{ n.key }}</a>{% else %}<span aria-disabled="true">{{ n.key }}</span>{% endif %}{% endfor %}
+    </div>
+  </nav>
+
+  {% for s in sections %}
+  <section class="gl-section" id="{{ s.id }}" aria-labelledby="{{ s.id }}-h">
+    <h2 id="{{ s.id }}-h" class="gl-letter">{{ s.key }}{% if not s.key.isascii() and s.key != "他" %}<span class="gl-letter-sub">行</span>{% endif %}</h2>
+    {% if s.terms %}
+    <dl class="glossary-list">
+      {% for t in s.terms %}
+      <div id="{{ t.id }}">
+        <dt>{{ t.headword }}{% if t.original %}<span class="term-original" lang="en">{{ t.original }}</span>{% endif %}
+          {% if t.reading %}<span class="term-reading">{{ t.reading }}</span>{% endif %}</dt>
+        <dd>
+          <p class="term-summary">{{ t.summary }}</p>
+          {% if t.detail %}<p class="term-detail">{{ t.detail }}</p>{% endif %}
+          {% if t.related_links %}<p class="term-related">関連：{% for r in t.related_links %}{% if r.id %}<a href="#{{ r.id }}">{{ r.label }}</a>{% else %}{{ r.label }}{% endif %}{% if not loop.last %}、{% endif %}{% endfor %}</p>{% endif %}
+          {% if t.articles %}<p class="term-related">この用語が出てくる記事：{% for a in t.articles %}<a href="articles/{{ a.slug }}.html">{{ a.title }}</a>{% if not loop.last %}、{% endif %}{% endfor %}</p>{% endif %}
+        </dd>
+      </div>
+      {% endfor %}
+    </dl>
+    {% endif %}
+    {% if s.refs %}
+    <ul class="gl-refs">
+      {% for r in s.refs %}<li><span class="gl-ref-abbr">{{ r.label }}</span> → <a href="#{{ r.to.id }}">{{ r.to.headword }}</a></li>{% endfor %}
+    </ul>
+    {% endif %}
+    <p class="gl-top"><a href="#main">索引に戻る ↑</a></p>
+  </section>
+  {% endfor %}
   {% else %}
   <div class="empty"><p>まだ用語はありません。</p><p>記事に用語解説が付くと、ここに集まります。</p></div>
   {% endif %}

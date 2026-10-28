@@ -111,7 +111,24 @@ def build_site(settings: dict, paths: Paths) -> int:
          for k, v in terms.items()),
         key=lambda x: x["headword"],
     )
-    render("glossary.html", out / "glossary.html", "", terms=gl, page_title="用語集")
+    # 索引：0-9、A-Z、あ-わ（50音の行）。かっこ内に略語がある用語は、その頭文字の欄にも案内を出す
+    groups: dict[str, dict] = {}
+    for g in gl:
+        key, sort_key, kind = glossary.index_group(g["headword"], g.get("reading"))
+        groups.setdefault(key, {"terms": [], "refs": []})["terms"].append((sort_key, g))
+        abbr = glossary.abbreviation(g["headword"])
+        if abbr:
+            k2, s2, _ = glossary.index_group(abbr, None)
+            groups.setdefault(k2, {"terms": [], "refs": []})["refs"].append((s2, {"label": abbr, "to": g}))
+    nav_keys = ["0-9"] + [chr(c) for c in range(ord("A"), ord("Z") + 1)] + [r for r, _ in glossary.KANA_ROWS] + ["他"]
+    sections = []
+    for k in nav_keys:
+        if k in groups:
+            sections.append({"key": k, "id": "idx-" + ("num" if k == "0-9" else k),
+                             "terms": [x for _, x in sorted(groups[k]["terms"], key=lambda y: y[0])],
+                             "refs": [x for _, x in sorted(groups[k]["refs"], key=lambda y: y[0].upper())]})
+    nav = [{"key": k, "id": "idx-" + ("num" if k == "0-9" else k), "has": k in groups} for k in nav_keys if k != "他" or k in groups]
+    render("glossary.html", out / "glossary.html", "", terms=gl, sections=sections, nav=nav, page_title="用語集")
     render("search.html", out / "search.html", "", page_title="検索")
 
     # 検索用の索引（記事と用語集）。検索はブラウザの中で行う

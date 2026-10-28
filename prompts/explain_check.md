@@ -5,6 +5,7 @@
 1. 正確さ：summary・detail が一般的な知識として正しいか。誤り、古い情報、言い過ぎ（「必ず」「すべての」など）がないか。
    年号・数値・条文番号は、確実に正しいと言えない場合は誤りとして扱う。例えを使っている場合は、誤解を招かないか。
 2. 原語（original）：綴りと正式名称が正しいか。確かでなければ null に直す（推測の綴りを残さない）。
+   読み（reading）：見出し語の読みとして正しいひらがなか（業界で一般的な読み方か）。
 3. 記事との整合：記事の内容と食い違わないか（記事が渡された場合）。
 4. 汎用性：この記事のニュースの中身（日付、数値、企業の発表、見通し）を含んでいないか。
 5. 分かりやすさ：summary は25〜45字、detail は200〜350字で、業界外の人が読んで分かる言葉か。
@@ -21,6 +22,6 @@ background_verdict（ok / fix / drop）を付ける。fix のときは直した�
 
 出力形式:
 {"terms": [{"key": "...", "verdict": "ok|fix|drop",
-            "original": "fix で原語を直すとき", "summary": "fix で直すとき", "detail": "fix で直すとき",
+            "reading": "fix で読みを直すとき", "original": "fix で原語を直すとき", "summary": "fix で直すとき", "detail": "fix で直すとき",
             "related": ["fix で直すとき"], "reason": "fix・drop の理由（30字以内）"}],
  "background_verdict": "ok|fix|drop（背景が渡されなかったときは null）", "background": "fix のときだけ、直した背景"}

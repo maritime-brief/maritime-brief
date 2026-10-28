@@ -32,6 +32,7 @@
         <span class="flag flag-{{ c.flag }}" aria-hidden="true"></span>{{ c.label }}
       </a>
       {% endfor %}
+      <a class="nav-glossary" href="{{ root }}glossary.html" {% if page_title == "用語集" %}aria-current="page"{% endif %}>用語集</a>
     </nav>
   </div>
 </header>

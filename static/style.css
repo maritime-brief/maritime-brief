@@ -218,3 +218,33 @@ details.fold > .muted { margin: .75rem 0 1rem; }
 .term-detail { line-height: 1.85; }
 .term-related { font-size: .8125rem; }
 .prose a[href^="#g-"] { text-decoration-style: dotted; text-decoration-thickness: 1px; }
+
+/* ---- ヘッダーの用語集リンク ---- */
+.catnav .nav-glossary { margin-left: .25rem; padding-left: 1.25rem; border-left: 1px solid var(--rule); }
+
+/* ---- 用語集の索引 ---- */
+.gl-index { position: sticky; top: 0; z-index: 5; margin: 0 0 1.5rem; padding: .6rem 0; background: var(--paper); border-bottom: 1px solid var(--rule); }
+.gl-index-row { display: flex; flex-wrap: wrap; gap: .15rem; }
+.gl-index-row + .gl-index-row { margin-top: .35rem; }
+.gl-index a, .gl-index span { display: inline-flex; align-items: center; justify-content: center; min-width: 2rem; height: 2rem; padding: 0 .35rem; font-family: var(--font-num); font-weight: 600; font-size: 1rem; }
+.gl-index-kana a, .gl-index-kana span { font-family: var(--font-text); font-weight: 700; font-size: .9375rem; }
+.gl-index a { text-decoration: none; color: var(--ink); background: var(--paper-deep); }
+.gl-index a:hover { background: var(--ink); color: var(--paper); }
+.gl-index span[aria-disabled] { color: var(--rule); }
+.gl-section { scroll-margin-top: 8.5rem; margin-bottom: 2rem; }
+.gl-letter { margin: 0 0 .25rem; padding-bottom: .25rem; font-family: var(--font-num); font-size: 1.75rem; font-weight: 600; color: var(--sounding); border-bottom: 2px solid var(--sounding); }
+.gl-letter-sub { margin-left: .2em; font-family: var(--font-text); font-size: .875rem; font-weight: 500; }
+.glossary-list > div { scroll-margin-top: 8.5rem; }
+.term-reading { display: block; margin-top: .1rem; font-size: .75rem; font-weight: 400; color: var(--ink-soft); letter-spacing: .05em; }
+.gl-refs { list-style: none; margin: .5rem 0 0; padding: 0; font-size: .875rem; color: var(--ink-soft); }
+.gl-refs li { padding: .2rem 0; }
+.gl-ref-abbr { font-family: var(--font-num); font-weight: 600; color: var(--ink); }
+.gl-top { margin: .5rem 0 0; font-size: .8125rem; text-align: right; }
+.gl-top a { text-decoration: none; color: var(--ink-soft); }
+
+@media (max-width: 40rem) {
+  .gl-index-row { flex-wrap: nowrap; overflow-x: auto; -webkit-overflow-scrolling: touch; scrollbar-width: none; }
+  .gl-index-row::-webkit-scrollbar { display: none; }
+  .gl-index a, .gl-index span { flex: none; }
+  .gl-section, .glossary-list > div { scroll-margin-top: 6.5rem; }
+}

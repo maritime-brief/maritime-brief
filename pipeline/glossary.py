@@ -41,7 +41,7 @@ def index(terms: dict) -> list[dict]:
     return [{"key": k, "headword": v.get("headword", k)} for k, v in terms.items()]
 
 
-FIELDS = ("original", "summary", "detail", "related")
+FIELDS = ("reading", "original", "summary", "detail", "related")
 
 
 def _apply_check(t: dict, c: dict) -> dict | None:
@@ -135,6 +135,7 @@ def display(entry: dict) -> dict:
     """表示用。古い形式（explanation だけ）の用語も表示できるようにする。"""
     return {
         "headword": entry.get("headword"),
+        "reading": entry.get("reading"),
         "original": entry.get("original"),
         "summary": entry.get("summary") or entry.get("explanation", ""),
         "detail": entry.get("detail") or (entry.get("explanation", "") if entry.get("summary") else ""),
@@ -179,3 +180,54 @@ def link_first_occurrences(body_md: str, items: list[dict]) -> str:
                 break
             pos = k + 1
     return out
+
+
+# ---------------------------------------------------------------- 用語集ページの索引
+import unicodedata
+
+KANA_ROWS = [("あ", "あいうえおぁぃぅぇぉゔ"), ("か", "かきくけこ"), ("さ", "さしすせそ"), ("た", "たちつてとっ"),
+             ("な", "なにぬねの"), ("は", "はひふへほ"), ("ま", "まみむめも"), ("や", "やゆよゃゅょ"),
+             ("ら", "らりるれろ"), ("わ", "わをんゎ")]
+
+
+def _to_hira(s: str) -> str:
+    out = []
+    for ch in s:
+        o = ord(ch)
+        out.append(chr(o - 0x60) if 0x30A1 <= o <= 0x30F6 else ch)
+    return "".join(out)
+
+
+def _base_kana(ch: str) -> str:
+    """濁点・半濁点を外した清音のひらがな（が→か、ぱ→は）。"""
+    return unicodedata.normalize("NFD", _to_hira(ch))[0]
+
+
+def index_group(headword: str, reading: str | None) -> tuple[str, str, str]:
+    """（索引のグループ、グループ内の並び順キー、グループの種類）を返す。種類は num / alpha / kana / other。"""
+    head = unicodedata.normalize("NFKC", headword or "").strip()
+    if head[:1].isdigit():
+        return "0-9", head, "num"
+    if head[:1].isascii() and head[:1].isalpha():
+        return head[0].upper(), head.upper(), "alpha"
+    yomi = _to_hira(unicodedata.normalize("NFKC", reading or ""))
+    if not yomi and head and ("\u3040" <= _to_hira(head[0]) <= "\u309f"):
+        yomi = _to_hira(head)
+    if yomi:
+        first = _base_kana(yomi[0])
+        for row, chars in KANA_ROWS:
+            if first in chars:
+                return row, yomi, "kana"
+    return "他", head, "other"
+
+
+ABBR_RE = re.compile(r"[（(]([A-Za-z][A-Za-z0-9 .\-]+)[)）]")
+
+
+def abbreviation(headword: str) -> str | None:
+    """見出し語のかっこの中の略語・英語名（例：「承認原則（AiP）」→「AiP」）。見出し語が英字で始まる場合は不要なので None。"""
+    head = headword or ""
+    if head[:1].isascii():
+        return None
+    m = ABBR_RE.search(head)
+    return m.group(1).strip() if m else None

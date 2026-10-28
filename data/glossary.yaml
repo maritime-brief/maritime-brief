@@ -15,6 +15,7 @@ terms:
     related:
     - EU MRV
     - EMP
+    reading: ねんじはいしゅつりょうほうこくしょ
   AiP:
     headword: 承認原則（AiP）
     status: auto
@@ -29,6 +30,7 @@ terms:
     related:
     - 船級協会
     - HAZID
+    reading: しょうにんげんそく
   CII:
     headword: CII（炭素強度指標）
     status: auto
@@ -71,6 +73,7 @@ terms:
     related:
     - EU MRV
     - AER
+    reading: はいしゅつもにたりんぐけいかく
   EU MRV:
     headword: EU MRV
     status: auto
@@ -115,6 +118,7 @@ terms:
     related:
     - HAZOP
     - AiP
+    reading: はざーどとくてい
   HAZOP:
     headword: 危険性・操作性の検討（HAZOP）
     status: auto
@@ -128,6 +132,7 @@ terms:
     detail: HAZOPは、設備の設計や操作の手順について、「流れる量が多すぎたら」「流れが止まったら」「温度が高すぎたら」というように、通常の状態からのずれを一つずつ想定し、そのずれが危険や運転上の問題につながらないかを点検する手法です。専門家のチームが図面や手順書を見ながら、順番に確認していきます。もともと化学プラントなどで広く使われてきた方法で、配管や機器が複雑につながる設備の見落としを減らせます。HAZIDが「どんな危険があるか」を広く洗い出すのに対し、HAZOPは設計の細部を詳しく調べる段階で使われます。
     related:
     - HAZID
+    reading: きけんせいそうさせいのけんとう
   ILO漁業労働条約:
     headword: ILO漁業労働条約
     status: auto
@@ -274,6 +279,7 @@ terms:
     - 旗国
     - 船級協会
     - IMO
+    reading: にんていきかん
   RoPaxフェリー:
     headword: RoPaxフェリー
     status: auto
@@ -303,6 +309,7 @@ terms:
     related:
     - バンカリング
     - 低引火点燃料
+    reading: どうじさぎょう
   Thetis-MRV:
     headword: Thetis-MRV
     status: auto
@@ -332,6 +339,7 @@ terms:
     - 低引火点燃料
     - メタンスリップ
     - バンカリング
+    reading: でゅあるふゅーえる
   ドライドック:
     headword: ドライドック
     status: auto
@@ -346,6 +354,7 @@ terms:
     related:
     - 造船所
     - 船級
+    reading: どらいどっく
   ハイブリッド電気推進:
     headword: ハイブリッド電気推進
     status: auto
@@ -358,6 +367,7 @@ terms:
     summary: 発電機と電池の電気でモーターを回し、船を進める方式のこと
     detail: ハイブリッド電気推進は、船のプロペラを電気モーターで回し、その電気を発電機用エンジンやバッテリーなど複数の電源から供給する方式です。従来のように大きなエンジンが直接プロペラを回すのではなく、電気を介して力を伝えます。低速で走るときや港で停まっているときは電池を使い、高速で走るときは発電機を使うといった切り替えができ、エンジンを効率のよい状態で動かしやすくなります。結果として燃料消費や排出ガス、騒音を抑えられるため、フェリーや作業船、各種の特殊船で採用が進んでいます。
     related: []
+    reading: はいぶりっどでんきすいしん
   バラスト:
     headword: バラスト
     status: auto
@@ -371,6 +381,7 @@ terms:
     detail: バラストは、船の重心や傾き、前後の釣り合いを整えるために積む重りで、多くは専用のタンクに入れた海水が使われます。船は荷物を積んでいないと軽く浮き上がりすぎて不安定になり、荷物の積み方によっては傾きも生じます。そこで荷物の量や配置に合わせてバラスト水を出し入れし、船の姿勢と安全を保ちます。人間が荷物を背負うとき、重さの偏りで体を傾けて均衡を取るのに似ています。なお、バラスト水を各地の海へ排出すると、生き物が運ばれて生態系に影響する問題があり、国際的なルールで管理されています。
     related:
     - バラスト水管理条約
+    reading: ばらすと
   バンカリング:
     headword: バンカリング
     status: auto
@@ -387,6 +398,7 @@ terms:
     related:
     - 低引火点燃料
     - 同時作業（SIMOPS）
+    reading: ばんかりんぐ
   メタンスリップ:
     headword: メタンスリップ
     status: auto
@@ -401,6 +413,7 @@ terms:
     related:
     - LNG燃料船
     - 温室効果ガス
+    reading: めたんすりっぷ
   低引火点燃料:
     headword: 低引火点燃料
     status: auto
@@ -415,6 +428,7 @@ terms:
     related:
     - バンカリング
     - デュアルフューエル
+    reading: ていいんかてんねんりょう
   係留・位置保持システム:
     headword: 係留・位置保持システム
     status: auto
@@ -429,6 +443,7 @@ terms:
     related:
     - 浮体式洋上風力
     - アンカー
+    reading: けいりゅういちほじしすてむ
   冗長性:
     headword: 冗長性（じょうちょうせい）
     status: auto
@@ -444,6 +459,7 @@ terms:
     - 二重化
     - 非常用発電機
     - 船級
+    reading: じょうちょうせい
   喫水線:
     headword: 喫水線（きっすいせん）
     status: auto
@@ -459,6 +475,7 @@ terms:
     - 満載喫水線
     - 浮力
     - 乾舷
+    reading: きっすいせん
   寄港国検査:
     headword: 寄港国検査
     status: auto
@@ -474,6 +491,7 @@ terms:
     - 旗国
     - SOLAS条約
     - 船級協会
+    reading: きこうこくけんさ
   旗国:
     headword: 旗国
     status: auto
@@ -490,6 +508,7 @@ terms:
     - 旗国当局
     - 寄港国検査
     - 船級協会
+    reading: きこく
   旗国当局:
     headword: 旗国当局
     status: auto
@@ -506,6 +525,7 @@ terms:
     - 旗国
     - 船級協会
     - 寄港国検査
+    reading: きこくとうきょく
   暫定指針:
     headword: 暫定指針
     status: auto
@@ -521,6 +541,7 @@ terms:
     - IMO
     - 海上安全委員会
     - SOLAS条約
+    reading: ざんていししん
   概念設計:
     headword: 概念設計
     status: auto
@@ -536,6 +557,7 @@ terms:
     - 基本設計
     - 詳細設計
     - 基本設計承認（AiP）
+    reading: がいねんせっけい
   浮体式洋上風力:
     headword: 浮体式洋上風力
     status: auto
@@ -551,6 +573,7 @@ terms:
     - 着床式洋上風力
     - 作業支援船
     - 係留
+    reading: ふたいしきようじょうふうりょく
   海上安全委員会:
     headword: 海上安全委員会（MSC）
     status: auto
@@ -566,6 +589,7 @@ terms:
     - IMO
     - SOLAS条約
     - 暫定指針
+    reading: かいじょうあんぜんいいんかい
   空気潤滑システム:
     headword: 空気潤滑システム
     status: auto
@@ -581,6 +605,7 @@ terms:
     - EEDI
     - 省エネ装置
     - 燃費
+    reading: くうきじゅんかつしすてむ
   第三国港:
     headword: 第三国港
     status: auto
@@ -596,6 +621,7 @@ terms:
     - EU域内港
     - FuelEU Maritime
     - EU ETS
+    reading: だいさんごくこう
   総トン数:
     headword: 総トン数
     status: auto
@@ -611,6 +637,7 @@ terms:
     - 載貨重量トン数
     - IMO
     - 旗国
+    reading: そうとんすう
   総所有コスト:
     headword: 総所有コスト（TCO）
     status: auto
@@ -626,6 +653,7 @@ terms:
     - 運航費
     - 燃料費
     - 設備投資
+    reading: そうしょゆうこすと
   船橋ウイング:
     headword: 船橋ウイング
     status: auto
@@ -641,6 +669,7 @@ terms:
     - 船橋
     - 水先人
     - 接岸
+    reading: せんきょううぃんぐ
   船級協会:
     headword: 船級協会
     status: auto
@@ -657,6 +686,7 @@ terms:
     - 旗国
     - SOLAS条約
     - IACS
+    reading: せんきゅうきょうかい
   英国ETS:
     headword: 排出量取引制度（ETS）
     status: auto
@@ -672,6 +702,7 @@ terms:
     - EU ETS
     - カーボンプライシング
     - 排出枠
+    reading: はいしゅつりょうとりひきせいど
   貨物槽:
     headword: 貨物槽（カーゴタンク）
     status: auto
@@ -687,6 +718,7 @@ terms:
     - LNG運搬船
     - タンカー
     - 断熱
+    reading: かもつそう
   質量流量計:
     headword: 質量流量計（MFM）
     status: auto
@@ -702,6 +734,7 @@ terms:
     - バンカリング
     - 燃料油
     - 計量
+    reading: しつりょうりゅうりょうけい
   防舷材:
     headword: 防舷材（ぼうげんざい）
     status: auto
@@ -717,6 +750,7 @@ terms:
     - 岸壁
     - 接岸
     - 係船
+    reading: ぼうげんざい
   風力推進システム:
     headword: 風力推進システム
     status: auto
@@ -732,3 +766,4 @@ terms:
     - 補助推進
     - ローターセイル
     - 省エネ技術
+    reading: ふうりょくすいしんしすてむ
