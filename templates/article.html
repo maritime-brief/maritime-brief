@@ -31,15 +31,15 @@
   <div class="prose">{{ a.body_linked | md | safe }}</div>
 
   {% if a.impact_japan %}
-  <details class="impact">
-    <summary><span class="impact-title">日本への影響</span><span class="impact-hint" aria-hidden="true"></span></summary>
+  <section class="impact" aria-labelledby="impact-h">
+    <h2 id="impact-h">日本への影響</h2>
     <p>{{ a.impact_japan }}</p>
-  </details>
+  </section>
   {% endif %}
 
   {% if a.glossary_items %}
-  <section class="glossary" aria-labelledby="glossary-h">
-    <h2 id="glossary-h">用語解説</h2>
+  <details class="glossary fold" id="glossary">
+    <summary><span class="fold-title">用語解説<span class="fold-count">（{{ a.glossary_items|length }}語）</span></span><span class="fold-hint" aria-hidden="true"></span></summary>
     <dl>
       {% for g in a.glossary_items %}
       <div id="g-{{ g.n }}">
@@ -53,7 +53,23 @@
       {% endfor %}
     </dl>
     <p class="muted">業界外の読者のための一般的な解説です。ほかの用語は<a href="{{ root }}glossary.html">用語集</a>へ。</p>
-  </section>
+  </details>
+  <script>
+  // 本文の用語リンクから飛んだとき、閉じている用語解説を開いてからその用語へ移動する
+  (function () {
+    var box = document.getElementById("glossary");
+    function openFor(hash) {
+      if (!hash || hash.indexOf("#g-") !== 0) return;
+      var el = document.getElementById(hash.slice(1));
+      if (el && box.contains(el)) { box.open = true; el.scrollIntoView({ block: "start" }); }
+    }
+    document.addEventListener("click", function (e) {
+      var a = e.target.closest && e.target.closest('a[href^="#g-"]');
+      if (a) { e.preventDefault(); history.replaceState(null, "", a.getAttribute("href")); openFor(a.getAttribute("href")); }
+    });
+    openFor(location.hash);
+  })();
+  </script>
   {% endif %}
 
   <section class="source" aria-labelledby="source-h">

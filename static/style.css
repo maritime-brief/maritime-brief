@@ -125,7 +125,6 @@ h1, h2, h3, .lead-title, .entry-title { word-break: auto-phrase; }
 
 /* 用語解説：本文中の用語は点線の下線、欄は海図の注記のように */
 .prose a[href^="#g-"] { text-decoration-style: dotted; text-decoration-thickness: 1px; text-underline-offset: .25em; color: inherit; }
-.glossary { margin: 2rem 0; padding-top: 1rem; border-top: 1px solid var(--rule); }
 .glossary h2 { font-size: 1rem; margin: 0 0 .75rem; }
 .glossary dl, .glossary-list { margin: 0; }
 .glossary dl > div, .glossary-list > div { padding: .6rem 0; border-bottom: 1px dotted var(--rule); scroll-margin-top: 1rem; }
@@ -196,14 +195,21 @@ h1, h2, h3, .lead-title, .entry-title { word-break: auto-phrase; }
 .ranking .muted { margin: .5rem 0 0; font-size: .8125rem; }
 .article ~ .ranking { margin-top: 3rem; }
 
-/* ---- 日本への影響（折りたたみ） ---- */
-details.impact { margin: 2rem 0 0; padding: 0; background: var(--paper-deep); border-left: 4px solid var(--sounding); }
-details.impact summary { display: flex; align-items: center; justify-content: space-between; gap: 1rem; padding: .8rem 1.25rem; cursor: pointer; list-style: none; }
-details.impact summary::-webkit-details-marker { display: none; }
-.impact-title { font-weight: 700; }
-.impact-hint::after { content: "開く ＋"; font-size: .8125rem; color: var(--sounding); font-weight: 700; }
-details.impact[open] .impact-hint::after { content: "閉じる −"; }
-details.impact > p { margin: 0; padding: 0 1.25rem 1rem; }
+/* ---- 日本への影響 ---- */
+.impact { margin: 2rem 0; padding: 1rem 1.25rem; background: var(--paper-deep); border-left: 4px solid var(--sounding); }
+.impact h2 { font-size: 1rem; margin: 0 0 .25rem; }
+.impact p { margin: 0; }
+
+/* ---- 折りたたみ（用語解説） ---- */
+details.fold { margin: 2rem 0; padding: 0; border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule); }
+details.fold > summary { display: flex; align-items: center; justify-content: space-between; gap: 1rem; padding: .9rem 0; cursor: pointer; list-style: none; }
+details.fold > summary::-webkit-details-marker { display: none; }
+.fold-title { font-weight: 700; }
+.fold-count { font-weight: 400; font-size: .875rem; color: var(--ink-soft); }
+.fold-hint::after { content: "開く ＋"; font-size: .8125rem; color: var(--sounding); font-weight: 700; }
+details.fold[open] > summary .fold-hint::after { content: "閉じる −"; }
+details.fold > dl { margin: 0; }
+details.fold > .muted { margin: .75rem 0 1rem; }
 
 /* ---- 用語解説（詳細） ---- */
 .term-original { margin-left: .6em; font-family: var(--font-num); font-weight: 500; font-size: .9375rem; letter-spacing: .02em; color: var(--sounding); }
