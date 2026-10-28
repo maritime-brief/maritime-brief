@@ -368,7 +368,7 @@ def check_sources() -> int:
 def main(argv=None) -> int:
     logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s", datefmt="%H:%M:%S",
                         stream=sys.stderr)
-    ap = argparse.ArgumentParser(description="海事ブリーフ 自動更新パイプライン")
+    ap = argparse.ArgumentParser(description="SHIPSHIFT 自動更新パイプライン")
     ap.add_argument("command", choices=["run", "collect", "queue", "unseal", "check", "finalize", "glossary-index", "glossary-todo", "attach-glossary", "lock", "skip", "review", "build", "check-sources"])
     ap.add_argument("--demo", action="store_true", help="架空データで動作確認（demo/ に出力）")
     ap.add_argument("--mode", choices=["trial", "auto"], help="settings.yaml の公開モードを一時的に上書き")

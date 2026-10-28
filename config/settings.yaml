@@ -1,16 +1,17 @@
 # ===========================================================
-# 海事ブリーフ 全体設定
+# SHIPSHIFT（シップシフト） 全体設定
 # 書き換えたら保存するだけで、次回の自動実行から反映されます。
 # ===========================================================
 
 site:
-  name: "海事ブリーフ"
-  tagline: "海外の海事規制・造船・脱炭素と新技術の動きを、日本語で短く。"
+  name: "SHIPSHIFT"
+  name_kana: "シップシフト"
+  tagline: "規制・造船・脱炭素。海運の転換点を、日本語で。"
   # 公開後のURL（GitHub Pages なら https://<ユーザー名>.github.io/<リポジトリ名>）
   base_url: "https://maritime-brief.github.io/maritime-brief"
   # 誤りの指摘・削除依頼の受付先（Googleフォームのリンクやメールアドレス）
   contact_url: "mailto:contact@example.com"
-  operator_name: "海事ブリーフ編集部"
+  operator_name: "SHIPSHIFT編集部"
 
 # 記事を作る方式
 #   claude-app : Claudeのスケジュールされたタスクが記事を書く（APIキー不要。プランの利用枠を使う）

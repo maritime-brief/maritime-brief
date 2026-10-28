@@ -1,4 +1,4 @@
-/* 海事ブリーフ — 海図の紙色と国際信号旗をもとにしたスタイル */
+/* SHIPSHIFT — 海図の紙色と国際信号旗をもとにしたスタイル */
 
 :root {
   --paper: #EEF2F1;      /* 海図の紙 */
@@ -74,7 +74,8 @@ a:hover { color: var(--sounding); }
 }
 .masthead-inner { padding-top: 2rem; padding-bottom: 1rem; }
 .brand { display: block; text-decoration: none; }
-.brand-name { display: block; font-size: clamp(2rem, 6vw, 3.25rem); font-weight: 900; line-height: 1.1; letter-spacing: .04em; }
+.brand-name { display: block; font-family: var(--font-num); font-size: clamp(2.75rem, 9vw, 4.5rem); font-weight: 600; line-height: .95; letter-spacing: .06em; }
+.brand-kana { display: block; margin-top: .3rem; font-size: .8125rem; font-weight: 500; letter-spacing: .3em; color: var(--ink-soft); }
 .brand-tagline { display: block; margin-top: .4rem; color: var(--ink-soft); font-size: .9375rem; }
 .catnav { display: flex; flex-wrap: wrap; gap: .25rem 1.5rem; margin-top: 1.5rem; font-size: .9375rem; font-weight: 500; }
 .catnav a { text-decoration: none; padding: .25rem 0; border-bottom: 2px solid transparent; }

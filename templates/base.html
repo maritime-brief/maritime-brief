@@ -17,6 +17,7 @@
   <div class="wrap masthead-inner">
     <a class="brand" href="{{ root }}index.html">
       <span class="brand-name">{{ site.name }}</span>
+      {% if site.name_kana %}<span class="brand-kana">{{ site.name_kana }}</span>{% endif %}
       <span class="brand-tagline">{{ site.tagline }}</span>
     </a>
     <nav class="catnav" aria-label="カテゴリ">
