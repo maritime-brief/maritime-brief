@@ -137,9 +137,7 @@ def process_queue_api(settings, paths, demo: bool, mode: str) -> dict:
             draft, review, history = revise(llm, settings, it, facts, draft, review, text)
             explained = checked = None
             if settings.get("revision", {}).get("explain", True):
-                explained = agents.explain(llm, models.get("explain", models["write"]), draft,
-                                           glossary.index(glossary.load(paths.data)))
-                checked = agents.explain_check(llm, models.get("explain_check", models["verify"]), draft, explained)
+                explained, checked = explain_flow(llm, settings, paths, draft)
             status, art = q.finalize(paths, settings, it, facts, draft, review, category, mode, text, history,
                                      explained, checked)
             out[status if status == "published" else "pending"] += 1
@@ -181,6 +179,21 @@ def revise(llm, settings, item, facts, draft, review, text) -> tuple[dict, dict,
             if v2 == "pass":
                 draft, review = new, new_review
     return draft, review, history
+
+
+def explain_flow(llm, settings, paths, draft) -> tuple[dict, dict]:
+    """用語解説 → 読者テスト → 用語解説（2回目） → 用語解説のチェック。どの担当も原文は見ない。"""
+    models = settings["models"]
+    m_explain = models.get("explain", models["write"])
+    dictionary = glossary.load(paths.data)
+    explained = agents.explain(llm, m_explain, draft, glossary.index(dictionary))
+    if settings.get("revision", {}).get("reader_test", True):
+        feedback = agents.reader_test(llm, models.get("reader_test", m_explain), draft, explained, dictionary)
+        if feedback.get("missing_terms") or feedback.get("unclear_entries"):
+            explained = agents.explain(llm, m_explain, draft, glossary.index(dictionary), feedback, explained)
+        explained["reader_test"] = feedback
+    checked = agents.explain_check(llm, models.get("explain_check", models["verify"]), draft, explained)
+    return explained, checked
 
 
 def _round(step, verdict, scores, reasons, changes=None, adopted=None) -> dict:
@@ -310,6 +323,27 @@ def cmd_glossary_todo(args, settings, paths) -> int:
     return 0
 
 
+def cmd_glossary_upgrade_todo(args, settings, paths) -> int:
+    """詳しい解説がまだない辞書の用語（古い形式）。詳細版への書き直しの対象。"""
+    todo = glossary.upgrade_todo(paths.data, int(args.limit or 10))
+    print(json.dumps({"count": len(glossary.upgrade_todo(paths.data, 10**6)), "items": todo}, ensure_ascii=False, indent=1))
+    return 0
+
+
+def cmd_glossary_upgrade(args, settings, paths) -> int:
+    """詳細版に書き直した用語を、チェックを通ったものだけ辞書に反映する。"""
+    res = glossary.apply_upgrade(paths.data, _read_json(args.explained), _read_json(args.explain_check))
+    print(json.dumps(res, ensure_ascii=False))
+    return 0
+
+
+def cmd_ranking(args, settings, paths) -> int:
+    """GoatCounter から直近の閲覧数を取り、data/ranking.json に保存する（設定とトークンがあるときだけ）。"""
+    from . import ranking
+    print(json.dumps(ranking.fetch(settings, paths), ensure_ascii=False))
+    return 0
+
+
 def cmd_glossary_index(args, settings, paths) -> int:
     """用語解説の担当に渡す、辞書にある用語の一覧。"""
     print(json.dumps(glossary.index(glossary.load(paths.data)), ensure_ascii=False, indent=1))
@@ -369,7 +403,7 @@ def main(argv=None) -> int:
     logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s", datefmt="%H:%M:%S",
                         stream=sys.stderr)
     ap = argparse.ArgumentParser(description="SHIPSHIFT 自動更新パイプライン")
-    ap.add_argument("command", choices=["run", "collect", "queue", "unseal", "check", "finalize", "glossary-index", "glossary-todo", "attach-glossary", "lock", "skip", "review", "build", "check-sources"])
+    ap.add_argument("command", choices=["run", "collect", "queue", "unseal", "check", "finalize", "glossary-index", "glossary-todo", "attach-glossary", "glossary-upgrade-todo", "glossary-upgrade", "ranking", "lock", "skip", "review", "build", "check-sources"])
     ap.add_argument("--demo", action="store_true", help="架空データで動作確認（demo/ に出力）")
     ap.add_argument("--mode", choices=["trial", "auto"], help="settings.yaml の公開モードを一時的に上書き")
     ap.add_argument("--id")
@@ -402,6 +436,12 @@ def main(argv=None) -> int:
         return cmd_unseal(args, settings, paths)
     if args.command == "attach-glossary":
         return cmd_attach_glossary(args, settings, paths)
+    if args.command == "glossary-upgrade-todo":
+        return cmd_glossary_upgrade_todo(args, settings, paths)
+    if args.command == "glossary-upgrade":
+        return cmd_glossary_upgrade(args, settings, paths)
+    if args.command == "ranking":
+        return cmd_ranking(args, settings, paths)
     if args.command == "glossary-todo":
         return cmd_glossary_todo(args, settings, paths)
     if args.command == "glossary-index":

@@ -1,5 +1,5 @@
 {% extends "base.html" %}
-{% from "_macros.html" import entry, empty_state %}
+{% from "_macros.html" import entry, empty_state, ranking_box %}
 {% block content %}
 {% if articles %}
 {% set top = articles[0] %}
@@ -18,6 +18,8 @@
   {% endif %}
   <p class="entry-source">出典：{{ top.source.name }}</p>
 </section>
+
+{{ ranking_box(ranking, ranking_hours, root) }}
 
 <section aria-labelledby="latest">
   <h2 id="latest" class="section-title">新着</h2>

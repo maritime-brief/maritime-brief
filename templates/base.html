@@ -10,6 +10,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600&family=Zen+Kaku+Gothic+New:wght@400;500;700;900&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="{{ root }}static/style.css">
+{% if analytics.goatcounter_code %}<script data-goatcounter="https://{{ analytics.goatcounter_code }}.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>{% endif %}
 </head>
 <body>
 <a class="skip" href="#main">本文へ移動</a>
@@ -20,6 +21,11 @@
       {% if site.name_kana %}<span class="brand-kana">{{ site.name_kana }}</span>{% endif %}
       <span class="brand-tagline">{{ site.tagline }}</span>
     </a>
+    <form class="sitesearch" role="search" action="{{ root }}search.html" method="get">
+      <label class="visually-hidden" for="site-q">サイト内を検索</label>
+      <input id="site-q" type="search" name="q" placeholder="記事・用語を検索" autocomplete="off">
+      <button type="submit">検索</button>
+    </form>
     <nav class="catnav" aria-label="カテゴリ">
       {% for key, c in categories.items() if c.nav %}
       <a href="{{ root }}category/{{ key }}.html" {% if cat_key == key %}aria-current="page"{% endif %}>

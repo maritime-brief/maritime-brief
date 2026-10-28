@@ -122,9 +122,6 @@ h1, h2, h3, .lead-title, .entry-title { word-break: auto-phrase; }
 .prose h2 { font-size: 1.125rem; margin: 2rem 0 .5rem; }
 .prose h3 { font-size: 1rem; margin: 1.5rem 0 .5rem; }
 
-.impact { margin: 2rem 0; padding: 1rem 1.25rem; background: var(--paper-deep); border-left: 4px solid var(--sounding); }
-.impact h2 { font-size: 1rem; margin: 0 0 .25rem; }
-.impact p { margin: 0; }
 
 /* 用語解説：本文中の用語は点線の下線、欄は海図の注記のように */
 .prose a[href^="#g-"] { text-decoration-style: dotted; text-decoration-thickness: 1px; text-underline-offset: .25em; color: inherit; }
@@ -170,3 +167,48 @@ h1, h2, h3, .lead-title, .entry-title { word-break: auto-phrase; }
 .background { margin: 0 0 1.5rem; padding: .75rem 1rem; border: 1px dashed var(--sounding); max-width: var(--measure); }
 .background-label { margin: 0 0 .25rem; font-size: .8125rem; font-weight: 700; color: var(--sounding); }
 .background p:last-child { margin: 0; font-size: .9375rem; }
+
+/* ---- サイト内検索 ---- */
+.visually-hidden { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+.sitesearch { display: flex; gap: .4rem; margin-top: 1.25rem; max-width: 26rem; }
+.sitesearch input, .search-big input {
+  flex: 1; min-width: 0; padding: .45rem .7rem; font: inherit; font-size: .9375rem; color: var(--ink);
+  background: var(--paper); border: 1px solid var(--rule); border-radius: 0;
+}
+.sitesearch input:focus, .search-big input:focus { border-color: var(--sounding); outline: 2px solid var(--focus); outline-offset: 0; }
+.sitesearch button, .search-big button {
+  padding: .45rem .9rem; font: inherit; font-size: .9375rem; font-weight: 700; color: var(--paper);
+  background: var(--ink); border: 1px solid var(--ink); cursor: pointer;
+}
+.search-big { display: flex; gap: .5rem; max-width: 38rem; margin: 1rem 0 .75rem; }
+.search-big input { padding: .7rem .9rem; font-size: 1.0625rem; }
+.search-results mark { background: color-mix(in srgb, var(--signal-yellow) 45%, transparent); color: inherit; padding: 0 .05em; }
+
+/* ---- 今日よく読まれている記事 ---- */
+.ranking { max-width: 46rem; margin: 0 0 2.5rem; padding: 1rem 1.25rem; background: var(--paper-deep); }
+.ranking .section-title { margin-bottom: .75rem; }
+.ranking-list { list-style: none; margin: 0; padding: 0; }
+.ranking-list li { display: grid; grid-template-columns: 2rem 1fr; gap: .5rem; align-items: baseline; padding: .4rem 0; border-top: 1px dotted var(--rule); }
+.ranking-list li:first-child { border-top: 0; }
+.ranking-list .rank { font-size: 1.5rem; font-weight: 600; color: var(--sounding); line-height: 1; }
+.ranking-list a { text-decoration: none; font-weight: 700; line-height: 1.55; }
+.ranking-list a:hover { text-decoration: underline; }
+.ranking .muted { margin: .5rem 0 0; font-size: .8125rem; }
+.article ~ .ranking { margin-top: 3rem; }
+
+/* ---- 日本への影響（折りたたみ） ---- */
+details.impact { margin: 2rem 0 0; padding: 0; background: var(--paper-deep); border-left: 4px solid var(--sounding); }
+details.impact summary { display: flex; align-items: center; justify-content: space-between; gap: 1rem; padding: .8rem 1.25rem; cursor: pointer; list-style: none; }
+details.impact summary::-webkit-details-marker { display: none; }
+.impact-title { font-weight: 700; }
+.impact-hint::after { content: "開く ＋"; font-size: .8125rem; color: var(--sounding); font-weight: 700; }
+details.impact[open] .impact-hint::after { content: "閉じる −"; }
+details.impact > p { margin: 0; padding: 0 1.25rem 1rem; }
+
+/* ---- 用語解説（詳細） ---- */
+.term-original { margin-left: .6em; font-family: var(--font-num); font-weight: 500; font-size: .9375rem; letter-spacing: .02em; color: var(--sounding); }
+.glossary dd p, .glossary-list dd p { margin: .25rem 0 0; }
+.term-summary { font-weight: 500; color: var(--ink); }
+.term-detail { line-height: 1.85; }
+.term-related { font-size: .8125rem; }
+.prose a[href^="#g-"] { text-decoration-style: dotted; text-decoration-thickness: 1px; }

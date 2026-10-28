@@ -17,3 +17,19 @@
   <p>自動更新で記事が作られると、ここに新しい順に並びます。試験運用中は、保留フォルダの記事を承認すると公開されます。</p>
 </div>
 {%- endmacro %}
+
+
+{% macro ranking_box(ranking, hours, root) -%}
+{% if ranking %}
+<section class="ranking" aria-labelledby="ranking-h">
+  <h2 id="ranking-h" class="section-title">今日よく読まれている記事</h2>
+  <ol class="ranking-list">
+    {% for r in ranking %}
+    <li><span class="rank num" aria-hidden="true">{{ r.rank }}</span>
+      <a href="{{ root }}articles/{{ r.a.slug }}.html">{{ r.a.title }}</a></li>
+    {% endfor %}
+  </ol>
+  <p class="muted">直近{{ hours }}時間の閲覧数による。1時間ごとに更新。</p>
+</section>
+{% endif %}
+{%- endmacro %}

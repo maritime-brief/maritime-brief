@@ -7,3 +7,4 @@ __pycache__/
 
 # 暗号化の秘密鍵は絶対にリポジトリに入れない
 *key*.pem
+data/ranking.json

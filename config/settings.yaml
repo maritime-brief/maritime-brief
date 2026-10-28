@@ -34,6 +34,7 @@ models:
   polish: "claude-sonnet-5-5"   # 推敲
   explain: "claude-sonnet-5-5"  # 用語解説
   explain_check: "claude-sonnet-5-5"  # 用語解説のチェック
+  reader_test: "claude-sonnet-5-5"    # 読者テスト（業界外の読者役）
 
 # 1回の実行あたりの上限（費用の上限にもなります）
 limits:
@@ -48,7 +49,9 @@ revision:
   max_fix_rounds: 3     # 保留になった記事を「修正担当」が直して再検証する最大回数
   polish: true          # 合格した記事を「推敲担当」がさらに良くする（推敲後も合格した場合だけ採用）
   explain: true         # 最終版に「用語解説」と「業界外の方へ」の背景を付ける（業界外の読者向け）
+  reader_test: true     # 業界外の読者役が分からない点を挙げ、用語解説を1回直す
   glossary_backfill_per_run: 3   # 用語解説が付いていない既存の記事に、1回の実行で後付けする件数
+  glossary_upgrade_per_run: 10   # 古い形式（短い解説だけ）の辞書の用語を、1回の実行で詳細版に書き直す数
 
 # 検証の基準（これを超えた記事は保留になります）
 verify:
@@ -71,6 +74,14 @@ categories:
   technology:   { label: "脱炭素・新技術", flag: "technology", nav: true }
   safety:       { label: "安全・事故", flag: "safety", nav: false }
   other:        { label: "その他", flag: "other", nav: false }
+
+# 閲覧数の集計とランキング（GoatCounter）
+# goatcounter_code に GoatCounter で決めたコード（例：shipshift）を書き、GitHub の Secrets に
+# GOATCOUNTER_TOKEN（GoatCounter の API キー）を登録すると、トップページと記事ページに「今日よく読まれている記事」が出ます。
+analytics:
+  goatcounter_code: ""
+  ranking_hours: 24     # 直近何時間の閲覧数で順位を付けるか
+  ranking_size: 5       # 表示する件数
 
 # アフィリエイト（収益化の段階になったら enabled: true に）
 affiliate:

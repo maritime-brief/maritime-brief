@@ -204,30 +204,50 @@ _REVIEWS["ballast"]["fix_instructions"] = ["冒頭を発効日と条件から始
 # 用語解説の担当・チェックの担当の架空の応答
 _EXPLAIN = {
     "fire": {
-        "background": "船の機関室では、高温になる排気管と燃料の配管が近くにあるため、燃料漏れが火災につながりやすい。高温部を覆う断熱材は、国際条約でも求められる基本的な防火対策である。","terms": [
+        "background": "船の機関室では、高温になる排気管と燃料の配管が近くにあるため、燃料漏れが火災につながりやすい。高温部を覆う断熱材は、国際条約でも求められる基本的な防火対策である。",
+        "terms": [
         {"term": "SOLAS条約", "key": "SOLAS", "reuse": False, "headword": "SOLAS条約（海上人命安全条約）",
-         "explanation": "船の構造、消火設備、救命設備、無線などについて、国際的な最低限の安全基準を定めた条約。国際航海をする多くの商船が対象になる。"},
+         "original": "International Convention for the Safety of Life at Sea",
+         "summary": "船の安全について、世界共通の最低限の基準を定めた条約。",
+         "detail": "船の構造、消火設備、救命ボート、無線設備などについて、国際的な最低限の安全基準を定めた条約。国際航海をする多くの商船が対象で、各国はこの基準を自国の法令に取り入れて船を検査する。タイタニック号の事故をきっかけに生まれ、その後も事故や技術の変化に合わせて改正が重ねられている。船の安全に関するルールを語るときの土台になる条約で、海運のニュースでは頻繁に名前が出てくる。",
+         "related": ["IMO", "旗国"]},
         {"term": "排気マニホールド", "key": "排気マニホールド", "reuse": False, "headword": "排気マニホールド",
-         "explanation": "エンジンの各シリンダーから出る高温の排ガスを1本にまとめる管。表面が非常に熱くなるため、断熱材で覆って火災を防ぐ。"},
+         "original": "Exhaust manifold",
+         "summary": "エンジンの排ガスを1本の管にまとめる部品。",
+         "detail": "エンジンの各シリンダーから出る高温の排ガスを、1本の管にまとめて外へ送る部品。自動車のエンジンにも同じ部品がある。表面は数百度に達することがあり、燃料や油が触れると発火するおそれがあるため、船では断熱材で覆うことが求められている。整備で断熱材を外したあとに戻し忘れると、火災の原因になりうる。",
+         "related": ["SOLAS"]},
         {"term": "固定式のCO2消火装置", "key": "固定式CO2消火装置", "reuse": False, "headword": "固定式CO2消火装置",
-         "explanation": "機関室などに常設された消火設備で、二酸化炭素で部屋を満たして火を消す。この装置は1960年に義務化された。"},
+         "original": "Fixed CO2 fire-extinguishing system",
+         "summary": "部屋を二酸化炭素で満たして火を消す、据え付けの消火設備。",
+         "detail": "機関室などに常設された消火設備で、二酸化炭素を一気に放出して部屋を満たし、酸素を減らして火を消す。この装置は1960年に義務化された。水を使わないので機械を傷めにくい一方、人がいると窒息の危険があるため、全員が退避したことを確かめてから使う。",
+         "related": []},
     ]},
     "ballast": {"terms": [
         {"term": "バラスト水", "key": "バラスト水", "reuse": False, "headword": "バラスト水",
-         "explanation": "荷物が少ないときに船の姿勢を安定させるため、船内のタンクに積む海水。別の海域で排出すると外来生物を運ぶため、国際条約で管理が求められている。"},
+         "original": "Ballast water",
+         "summary": "船の姿勢を安定させるために、船内のタンクに積む海水。",
+         "detail": "荷物が少ないときに船が浮き上がりすぎて不安定にならないよう、船内のタンクに積む海水。荷物を積む港で排出する。ある海域でくんだ水を遠く離れた別の海域で捨てると、その中の生物が外来種として広がるおそれがあるため、国際条約で処理や記録が求められている。船の運航に欠かせない一方で、環境対策の対象にもなっている。",
+         "related": ["旗国"]},
         {"term": "旗国", "key": "旗国", "reuse": False, "headword": "旗国",
-         "explanation": "船が籍を置く国。船の安全や設備が国際基準を満たしているかを確認し、証書を出す責任を負う。"},
+         "original": "Flag State",
+         "summary": "船が籍を置いている国のこと。",
+         "detail": "船が登録されている国のこと。船は、旗国の法律の下で運航される。旗国は、船の安全や設備が国際基準を満たしているかを確かめて証書を出す責任を負う。人に例えると国籍に近い。実際の持ち主の国と旗国が違うことも多く、税金や手続きの事情から、パナマやリベリアなどに登録される船が多い。",
+         "related": ["SOLAS"]},
     ]},
 }
 _EXPLAIN_CHECK = {
     "fire": {
-        "background_verdict": "ok","terms": [
+        "background_verdict": "ok", "terms": [
         {"key": "SOLAS", "verdict": "ok"},
         {"key": "排気マニホールド", "verdict": "ok"},
         {"key": "固定式CO2消火装置", "verdict": "fix", "reason": "義務化の年は確かめられない",
-         "explanation": "機関室などに常設された消火設備で、二酸化炭素で部屋を満たし、酸素を減らして火を消す。人がいると危険なため、退避を確かめてから使う。"},
+         "detail": "機関室などに常設された消火設備で、二酸化炭素を一気に放出して部屋を満たし、酸素を減らして火を消す。水を使わないので機械を傷めにくい一方、人がいると窒息の危険があるため、全員が退避したことを確かめてから使う。船の火災対策の柱の一つで、作動の手順は乗組員の訓練でもくり返し確認される。"},
     ]},
     "ballast": {"terms": [{"key": "バラスト水", "verdict": "ok"}, {"key": "旗国", "verdict": "ok"}]},
+}
+_READER = {
+    "fire": {"understanding": 4, "missing_terms": [], "unclear_entries": [], "background_comment": "火災の起きやすさが分かった"},
+    "ballast": {"understanding": 4, "missing_terms": [], "unclear_entries": [], "background_comment": "背景がない"},
 }
 
 _TRIAGE = {
@@ -273,5 +293,6 @@ def mock_handlers():
         "fix": lambda u: dict(_FIXED[key_from(u)]),
         "explain": lambda u: json.loads(json.dumps(_EXPLAIN[key_from(u)], ensure_ascii=False)),
         "explain_check": lambda u: json.loads(json.dumps(_EXPLAIN_CHECK[key_from(u)], ensure_ascii=False)),
+        "reader_test": lambda u: dict(_READER[key_from(u)]),
         "polish": lambda u: dict(_POLISHED.get(key_from(u), {"changes": []})),
     }

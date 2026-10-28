@@ -50,7 +50,7 @@ python -m pipeline.main queue > /tmp/queue.json
 タスクの指示文にある秘密鍵（`-----BEGIN PRIVATE KEY-----` から `-----END PRIVATE KEY-----` まで）を
 `/tmp/mb_queue_key.pem` に書き出し、`chmod 600 /tmp/mb_queue_key.pem` を実行する。
 
-`/tmp/queue.json` の `items` が空なら、手順2・3を飛ばして「3b. 用語解説の後付け」へ進む。
+`/tmp/queue.json` の `items` が空なら、手順2・3を飛ばして「3b. 用語解説の後付け」と「3c. 用語辞書の詳細版への書き直し」へ進む。
 
 ### 2. 選別（あなたが行う）
 
@@ -148,7 +148,17 @@ python -m pipeline.main check --id <id> \
    - 最終版の記事（JSON）と、glossary_index.json の内容
    - 「`work/<id>/source.txt`、`data/queue/` のファイル、元記事のURL、Webは見ないこと。解説は一般的な知識だけで書くこと」
    - 出力先：`work/<id>/explained.json`
-3. `explained.json` に `reuse: false` の語があるか、`background` が null でなければ、**用語解説のチェックの担当**
+3. **読者テストの担当**（model: sonnet、ほかの担当とは別のサブエージェント。`revision.reader_test` が true のとき）に任せる。
+   業界外の読者になりきって、記事と用語解説でまだ分からない点を挙げる担当。指示に含めるもの：
+   - `prompts/common.md` と `prompts/reader_test.md` の全文
+   - 最終版の記事（JSON）、explained.json の `background`、付いている用語の解説
+     （`reuse: true` の語は、`data/glossary.yaml` にあるその語の summary と detail を渡す）
+   - 「原文、`data/queue/`、Webは見ないこと」
+   - 出力先：`work/<id>/reader_test.json`
+   `missing_terms` か `unclear_entries` が1件でもあれば、**用語解説の担当**にもう一度任せる（2回目）。
+   1回目と同じ指示に、reader_test.json の内容（reader_feedback）と1回目の explained.json（previous）を加え、
+   出力先は `work/<id>/explained.json`（上書き）。2回目の後は読者テストをくり返さない。
+4. `explained.json` に `reuse: false` の語があるか、`background` が null でなければ、**用語解説のチェックの担当**
    （model: sonnet、用語解説の担当とは別のサブエージェント）に任せる。指示に含めるもの：
    - `prompts/common.md` と `prompts/explain_check.md` の全文
    - 最終版の記事（JSON）と、explained.json のうち `reuse: false` の語と `background`
@@ -188,6 +198,29 @@ python -m pipeline.main attach-glossary --slug <slug> \
 
 記事の本文・見出し・リードは変えない。付くのは用語解説と背景の一言だけ。
 
+### 3c. 用語辞書の詳細版への書き直し（あなたが進行する）
+
+古い形式（短い解説だけ）の辞書の用語を、原語・一言・詳しい解説・関連用語のある詳細版に書き直す。
+1回に `config/settings.yaml` の `revision.glossary_upgrade_per_run` 語まで。記事の本文は変わらない
+（記事の用語解説欄は辞書から表示されるので、辞書を直すと、その用語を使う全記事に反映される）。
+
+```bash
+python -m pipeline.main glossary-upgrade-todo --limit <語数> > /tmp/upgrade_todo.json
+```
+
+`items` が空なら何もしない。空でなければ、作業フォルダ `work/upgrade/` で：
+1. **用語解説の担当**に任せる。指示に含めるもの：`prompts/common.md` と `prompts/explain.md` の全文、
+   `/tmp/upgrade_todo.json` の `items`、そして次の文：
+   「記事はありません。各用語について、current（今の短い解説）を参考に、新しい語の書き方の4つの欄で書き直してください。
+   key と headword は変えず、term には headword を入れ、reuse は false、background は null にしてください。」
+   出力先：`work/upgrade/explained.json`
+2. **用語解説のチェックの担当**に任せる（記事は「なし」として、用語の一覧だけを渡す）。出力先：`work/upgrade/explain_check.json`
+3. 反映する：
+```bash
+python -m pipeline.main glossary-upgrade --explained work/upgrade/explained.json --explain-check work/upgrade/explain_check.json
+```
+チェックを通らなかった語は、古い解説のまま残る（次の回にもう一度対象になる）。
+
 ### 4. 保存して送る
 
 先に、5. の報告と同じ内容を `data/runs/<YYYYMMDD-HHMM>.md`（日本時間）に保存する。
@@ -217,5 +250,7 @@ push が失敗したら、もう一度 `git pull --rebase` してから push す
 - 修正・推敲：修正で合格に変わった件数、推敲を採用した件数
 - 用語解説：付けた用語の数（辞書の再利用・新規）、チェックで直した・捨てた用語、背景の一言の有無
 - 用語解説の後付け：対象にした記事と、残りの件数
+- 読者テスト：各記事の理解度（1〜5）と、追加・書き直しになった用語
+- 用語辞書の詳細版への書き直し：書き直した語、古いまま残った語、残りの語数
 - 見送り：N件
 - キューの残り：N件

@@ -4,15 +4,18 @@
 <article class="article">
   <header class="article-head">
     <h1 class="article-title">用語集</h1>
-    <p class="article-lead">記事に出てくる海事の専門用語を、業界の外の人にも分かる言葉で解説しています。</p>
+    <p class="article-lead">記事に出てくる海事の専門用語を、業界の外の人にも分かる言葉で解説しています。{{ terms|length }}語。</p>
   </header>
   {% if terms %}
   <dl class="glossary-list">
     {% for t in terms %}
-    <div id="{{ t.key }}">
-      <dt>{{ t.headword }}</dt>
-      <dd>{{ t.explanation }}
-        {% if t.articles %}<span class="muted">　関連記事：{% for a in t.articles %}<a href="articles/{{ a.slug }}.html">{{ a.title }}</a>{% if not loop.last %}、{% endif %}{% endfor %}</span>{% endif %}
+    <div id="{{ t.id }}">
+      <dt>{{ t.headword }}{% if t.original %}<span class="term-original" lang="en">{{ t.original }}</span>{% endif %}</dt>
+      <dd>
+        <p class="term-summary">{{ t.summary }}</p>
+        {% if t.detail %}<p class="term-detail">{{ t.detail }}</p>{% endif %}
+        {% if t.related_links %}<p class="term-related">関連：{% for r in t.related_links %}{% if r.id %}<a href="#{{ r.id }}">{{ r.label }}</a>{% else %}{{ r.label }}{% endif %}{% if not loop.last %}、{% endif %}{% endfor %}</p>{% endif %}
+        {% if t.articles %}<p class="term-related">この用語が出てくる記事：{% for a in t.articles %}<a href="articles/{{ a.slug }}.html">{{ a.title }}</a>{% if not loop.last %}、{% endif %}{% endfor %}</p>{% endif %}
       </dd>
     </div>
     {% endfor %}

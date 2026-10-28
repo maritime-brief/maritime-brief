@@ -86,16 +86,41 @@ def _review_for_writer(review: dict) -> dict:
                                        "translation_likeness", "structure_similarity", "comment")}
 
 
-def explain(llm, model: str, draft: dict, dictionary_index: list[dict]) -> dict:
-    """用語解説の担当：完成した記事の専門用語に、業界外の読者向けの解説を付ける（原文は渡さない）。"""
+def explain(llm, model: str, draft: dict, dictionary_index: list[dict],
+            reader_feedback: dict | None = None, previous: dict | None = None) -> dict:
+    """用語解説の担当：完成した記事の専門用語に、業界外の読者向けの解説を付ける（原文は渡さない）。
+    reader_feedback を渡すと、読者テストの指摘に沿って2回目の解説を作る。"""
     payload = {"article": _article_only(draft), "dictionary": dictionary_index}
-    return llm.call_json("explain", model, prompt("explain"), json.dumps(payload, ensure_ascii=False), 2500)
+    if reader_feedback:
+        payload.update({"reader_feedback": reader_feedback, "previous": previous})
+    return llm.call_json("explain", model, prompt("explain"), json.dumps(payload, ensure_ascii=False), 5000)
 
 
-def explain_check(llm, model: str, draft: dict, explained: dict) -> dict:
+def reader_test(llm, model: str, draft: dict, explained: dict, dictionary: dict) -> dict:
+    """読者テストの担当：業界外の読者になりきって、記事と用語解説で分からない点を挙げる。"""
+    entries = []
+    for t in explained.get("terms", []):
+        src = dictionary.get(t.get("key"), {}) if t.get("reuse") else t
+        entries.append({"key": t.get("key"), "term": t.get("term"),
+                        "summary": src.get("summary") or src.get("explanation"), "detail": src.get("detail")})
+    payload = {"article": _article_only(draft), "background": explained.get("background"), "glossary": entries}
+    return llm.call_json("reader_test", model, prompt("reader_test"), json.dumps(payload, ensure_ascii=False), 1500)
+
+
+def explain_check(llm, model: str, draft: dict | None, explained: dict) -> dict:
     """用語解説のチェックの担当：新しく書かれた解説の正確さと分かりやすさを確かめる。"""
     new_terms = [t for t in explained.get("terms", []) if not t.get("reuse")]
     if not new_terms and not explained.get("background"):
         return {"terms": [], "background_verdict": None}
-    payload = {"article": _article_only(draft), "new_terms": new_terms, "background": explained.get("background")}
-    return llm.call_json("explain_check", model, prompt("explain_check"), json.dumps(payload, ensure_ascii=False), 2000)
+    payload = {"article": _article_only(draft) if draft else None, "new_terms": new_terms,
+               "background": explained.get("background")}
+    return llm.call_json("explain_check", model, prompt("explain_check"), json.dumps(payload, ensure_ascii=False), 5000)
+
+
+def explain_upgrade(llm, model: str, todo: list[dict]) -> dict:
+    """用語辞書の古い形式の解説を、詳細版（原語・一言・詳しく・関連用語）に書き直す。"""
+    payload = {"mode": "upgrade",
+               "instruction": "記事はありません。各用語について、current（今の短い解説）を参考に、新しい語の書き方の4つの欄で書き直してください。"
+                              "key と headword は変えず、term には headword を入れ、reuse は false にしてください。background は null にしてください。",
+               "terms_to_upgrade": todo}
+    return llm.call_json("explain", model, prompt("explain"), json.dumps(payload, ensure_ascii=False), 8000)

@@ -1,5 +1,5 @@
 {% extends "base.html" %}
-{% from "_macros.html" import entry %}
+{% from "_macros.html" import entry, ranking_box %}
 {% block description %}{{ a.lead }}{% endblock %}
 {% block content %}
 {% set c = categories.get(a.category, categories['other']) %}
@@ -30,22 +30,29 @@
 
   <div class="prose">{{ a.body_linked | md | safe }}</div>
 
+  {% if a.impact_japan %}
+  <details class="impact">
+    <summary><span class="impact-title">日本への影響</span><span class="impact-hint" aria-hidden="true"></span></summary>
+    <p>{{ a.impact_japan }}</p>
+  </details>
+  {% endif %}
+
   {% if a.glossary_items %}
   <section class="glossary" aria-labelledby="glossary-h">
     <h2 id="glossary-h">用語解説</h2>
     <dl>
       {% for g in a.glossary_items %}
-      <div id="g-{{ g.n }}"><dt>{{ g.headword }}</dt><dd>{{ g.explanation }}</dd></div>
+      <div id="g-{{ g.n }}">
+        <dt>{{ g.headword }}{% if g.original %}<span class="term-original" lang="en">{{ g.original }}</span>{% endif %}</dt>
+        <dd>
+          <p class="term-summary">{{ g.summary }}</p>
+          {% if g.detail %}<p class="term-detail">{{ g.detail }}</p>{% endif %}
+          {% if g.related_links %}<p class="term-related">関連：{% for r in g.related_links %}{% if r.id %}<a href="{{ root }}glossary.html#{{ r.id }}">{{ r.label }}</a>{% else %}{{ r.label }}{% endif %}{% if not loop.last %}、{% endif %}{% endfor %}</p>{% endif %}
+        </dd>
+      </div>
       {% endfor %}
     </dl>
-    <p class="muted">業界外の読者のための一般的な解説です。<a href="{{ root }}glossary.html">用語集</a></p>
-  </section>
-  {% endif %}
-
-  {% if a.impact_japan %}
-  <section class="impact" aria-labelledby="impact-h">
-    <h2 id="impact-h">日本への影響</h2>
-    <p>{{ a.impact_japan }}</p>
+    <p class="muted">業界外の読者のための一般的な解説です。ほかの用語は<a href="{{ root }}glossary.html">用語集</a>へ。</p>
   </section>
   {% endif %}
 
@@ -72,6 +79,8 @@
   </aside>
   {% endif %}
 </article>
+
+{{ ranking_box(ranking, ranking_hours, root) }}
 
 {% if related %}
 <section aria-labelledby="related-h" class="related">

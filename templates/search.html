@@ -1,0 +1,73 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="search-page" aria-labelledby="search-h">
+  <h1 id="search-h" class="article-title">検索</h1>
+  <form class="search-big" role="search" action="search.html" method="get">
+    <label class="visually-hidden" for="q">検索する言葉</label>
+    <input id="q" type="search" name="q" placeholder="例：FuelEU、メタノール、船級協会" autocomplete="off">
+    <button type="submit">検索</button>
+  </form>
+  <p id="search-status" class="muted" aria-live="polite">記事の見出し・本文と、用語集から探します。</p>
+  <ol id="search-results" class="entries search-results"></ol>
+</section>
+<script>
+(function () {
+  var input = document.getElementById("q"), list = document.getElementById("search-results"),
+      status = document.getElementById("search-status"), index = null;
+  var params = new URLSearchParams(location.search), q0 = params.get("q") || "";
+  input.value = q0;
+  function norm(s) { return (s || "").normalize("NFKC").toLowerCase(); }
+  function esc(s) { return (s || "").replace(/[&<>"']/g, function (c) { return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]; }); }
+  function mark(text, words) {
+    var out = esc(text);
+    words.forEach(function (w) {
+      if (!w) return;
+      var re = new RegExp(esc(w).replace(/[.*+?^${}()|[\]\\]/g, "\\$&"), "gi");
+      out = out.replace(re, function (m) { return "<mark>" + m + "</mark>"; });
+    });
+    return out;
+  }
+  function score(item, words) {
+    var title = norm(item.title), lead = norm(item.lead), rest = norm([item.text, (item.tags || []).join(" "), (item.terms || []).join(" "), item.original].join(" "));
+    var total = 0;
+    for (var i = 0; i < words.length; i++) {
+      var w = words[i], s = 0;
+      if (title.indexOf(w) >= 0) s += 5;
+      if (lead.indexOf(w) >= 0) s += 3;
+      if (rest.indexOf(w) >= 0) s += 1;
+      if (s === 0) return 0;   // すべての言葉を含むものだけ
+      total += s;
+    }
+    return total + (item.type === "term" && words.length === 1 && title.indexOf(words[0]) === 0 ? 3 : 0);
+  }
+  function run(q) {
+    var words = norm(q).split(/\s+/).filter(Boolean);
+    list.innerHTML = "";
+    if (!words.length) { status.textContent = "記事の見出し・本文と、用語集から探します。"; return; }
+    var hits = index.map(function (it) { return { it: it, s: score(it, words) }; })
+                    .filter(function (h) { return h.s > 0; })
+                    .sort(function (a, b) { return b.s - a.s; });
+    status.textContent = hits.length ? "「" + q + "」の検索結果：" + hits.length + "件" :
+      "「" + q + "」に当てはまる記事や用語は見つかりませんでした。言葉を短くするか、別の言い方で探してください。";
+    hits.slice(0, 50).forEach(function (h) {
+      var it = h.it, li = document.createElement("li");
+      li.className = "entry search-hit";
+      var label = it.type === "term" ? "用語" : (it.category || "記事");
+      var meta = it.type === "term" ? (it.original ? esc(it.original) : "") : esc(it.date || "");
+      li.innerHTML = '<span class="entry-date num">' + (it.type === "term" ? "" : esc((it.date || "").slice(5))) + '</span>' +
+        '<div class="entry-body"><p class="entry-cat">' + esc(label) + (meta && it.type === "term" ? "　" + meta : "") + '</p>' +
+        '<h3 class="entry-title"><a href="' + esc(it.url) + '">' + mark(it.title, words) + '</a></h3>' +
+        '<p class="entry-lead">' + mark(it.lead, words) + '</p></div>';
+      list.appendChild(li);
+    });
+  }
+  fetch("search-index.json").then(function (r) { return r.json(); }).then(function (data) {
+    index = data; if (q0) run(q0);
+    input.addEventListener("input", function () {
+      var q = input.value; history.replaceState(null, "", q ? "?q=" + encodeURIComponent(q) : location.pathname); run(q);
+    });
+  }).catch(function () { status.textContent = "検索の準備ができませんでした。ページを再読み込みしてください。"; });
+  document.querySelector(".search-big").addEventListener("submit", function (e) { e.preventDefault(); if (index) run(input.value); });
+})();
+</script>
+{% endblock %}

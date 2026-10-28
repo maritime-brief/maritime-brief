@@ -1,7 +1,10 @@
 """公開済みの記事から静的サイト（HTML・RSS・サイトマップ）を作る。"""
 from __future__ import annotations
 
+import hashlib
 import html
+import json
+import re
 import shutil
 from datetime import datetime
 from email.utils import format_datetime
@@ -10,7 +13,7 @@ import markdown
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 
 from .config import PROJECT_ROOT, Paths
-from . import glossary
+from . import glossary, ranking
 from .store import load_articles, now_jst
 
 
@@ -26,6 +29,15 @@ def _date(value, fmt: str = "%Y.%m.%d") -> str:
         return str(value)[:10]
 
 
+def term_id(key: str) -> str:
+    """用語集ページでの用語のアンカー（記号や日本語を含む key でも安全な形に）。"""
+    return "t-" + hashlib.sha1(key.encode("utf-8")).hexdigest()[:8]
+
+
+def _plain(md_text: str) -> str:
+    return re.sub(r"\s+", " ", re.sub(r"[#>*_`\[\]()]", "", md_text or "")).strip()
+
+
 def build_site(settings: dict, paths: Paths) -> int:
     site_cfg, cats = settings["site"], settings["categories"]
     articles = [a for a in load_articles(paths.published) if a.get("status") == "published"]
@@ -39,6 +51,7 @@ def build_site(settings: dict, paths: Paths) -> int:
         "affiliate": settings.get("affiliate", {}),
         "built_at": now_jst(),
         "pending_mode": settings["publish"]["mode"],
+        "analytics": settings.get("analytics", {}) or {},
     }
 
     out = paths.site
@@ -53,14 +66,32 @@ def build_site(settings: dict, paths: Paths) -> int:
 
     terms = glossary.load(paths.data)
     published_slugs = {a["slug"]: a for a in articles}
+
+    def related_links(entry: dict) -> list[dict]:
+        out_ = []
+        for r in entry.get("related", []) or []:
+            out_.append({"label": terms[r].get("headword", r) if r in terms else r,
+                         "id": term_id(r) if r in terms else None})
+        return out_
+
     for a in articles:
         # 解説の本文は辞書から引く（辞書を直せば全記事に反映される）
-        a["glossary_items"] = [
-            {"n": i, "term": g["term"], "headword": terms[g["key"]].get("headword", g["term"]),
-             "explanation": terms[g["key"]]["explanation"]}
-            for i, g in enumerate(a.get("glossary") or [], 1) if g.get("key") in terms
-        ]
+        a["glossary_items"] = []
+        for i, g in enumerate(a.get("glossary") or [], 1):
+            if g.get("key") in terms:
+                d = glossary.display(terms[g["key"]])
+                a["glossary_items"].append({"n": i, "term": g["term"], "id": term_id(g["key"]), **d,
+                                            "related_links": related_links(terms[g["key"]])})
         a["body_linked"] = glossary.link_first_occurrences(a.get("body", ""), a["glossary_items"])
+
+    # 1日の記事ランキング（GoatCounter の設定がない、またはまだデータがないときは表示しない）
+    rk = ranking.load(paths) or {}
+    size = int(common["analytics"].get("ranking_size", 5))
+    common["ranking"] = [
+        {"rank": n, "a": published_slugs[r["slug"]], "count": r["count"]}
+        for n, r in enumerate([r for r in rk.get("items", []) if r["slug"] in published_slugs][:size], 1)
+    ]
+    common["ranking_hours"] = rk.get("window_hours", 24)
 
     render("index.html", out / "index.html", "", articles=articles[:60], page_title=None)
     for key, cat in cats.items():
@@ -75,12 +106,23 @@ def build_site(settings: dict, paths: Paths) -> int:
                aff_items=aff_items, page_title=a["title"])
     render("about.html", out / "about.html", "", page_title="編集方針と出典について")
     gl = sorted(
-        ({"key": k, "headword": v.get("headword", k), "explanation": v["explanation"],
+        ({"key": k, "id": term_id(k), **glossary.display(v), "related_links": related_links(v),
           "articles": [published_slugs[s] for s in v.get("used_in", []) if s in published_slugs][:5]}
          for k, v in terms.items()),
         key=lambda x: x["headword"],
     )
     render("glossary.html", out / "glossary.html", "", terms=gl, page_title="用語集")
+    render("search.html", out / "search.html", "", page_title="検索")
+
+    # 検索用の索引（記事と用語集）。検索はブラウザの中で行う
+    index = [{"type": "article", "url": f"articles/{a['slug']}.html", "title": a["title"], "lead": a["lead"],
+              "date": _date(a["date"]), "category": cats.get(a.get("category"), {}).get("label", ""),
+              "tags": a.get("tags", []), "terms": [g["term"] for g in a["glossary_items"]],
+              "text": _plain(a.get("body", "")) + " " + (a.get("impact_japan") or "")}
+             for a in articles]
+    index += [{"type": "term", "url": f"glossary.html#{g['id']}", "title": g["headword"], "lead": g["summary"],
+               "original": g.get("original") or "", "text": g.get("detail") or ""} for g in gl]
+    (out / "search-index.json").write_text(json.dumps(index, ensure_ascii=False), encoding="utf-8")
 
     _write_feed(out, site_cfg, articles[:30])
     _write_sitemap(out, site_cfg, articles, cats)
@@ -110,7 +152,7 @@ def _write_feed(out, site_cfg, articles) -> None:
 
 def _write_sitemap(out, site_cfg, articles, cats) -> None:
     base = site_cfg["base_url"].rstrip("/")
-    urls = [f"{base}/", f"{base}/about.html", f"{base}/glossary.html"] + [f"{base}/category/{k}.html" for k in cats]
+    urls = [f"{base}/", f"{base}/about.html", f"{base}/glossary.html", f"{base}/search.html"] + [f"{base}/category/{k}.html" for k in cats]
     urls += [f"{base}/articles/{a['slug']}.html" for a in articles]
     body = "".join(f"<url><loc>{html.escape(u)}</loc></url>" for u in urls)
     (out / "sitemap.xml").write_text(
