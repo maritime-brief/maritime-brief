@@ -472,6 +472,51 @@
  "leads": [],
  "runs": [
   {
+   "at": "2026-10-28T12:20+09:00",
+   "step": "collect",
+   "queued": 0,
+   "leads": 0,
+   "per_source": {
+    "mca-notices": {
+     "fetched": 10,
+     "new": 0
+    },
+    "mca-news": {
+     "fetched": 10,
+     "new": 0
+    },
+    "emsa": {
+     "fetched": 1,
+     "new": 0
+    },
+    "mlit": {
+     "fetched": 3,
+     "new": 0
+    },
+    "ec-transport": {
+     "fetched": 1,
+     "new": 0
+    },
+    "mpa-singapore": {
+     "fetched": 4,
+     "new": 0
+    },
+    "dnv": {
+     "fetched": 6,
+     "new": 0
+    },
+    "lloyds-register": {
+     "fetched": 10,
+     "new": 0
+    },
+    "sdir": {
+     "fetched": 10,
+     "new": 0
+    }
+   },
+   "expired": 0
+  },
+  {
    "at": "2026-10-28T08:13+09:00",
    "step": "collect",
    "queued": 6,
