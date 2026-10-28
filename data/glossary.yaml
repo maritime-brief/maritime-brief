@@ -17,11 +17,12 @@ terms:
     - EMP
     reading: ねんじはいしゅつりょうほうこくしょ
   AiP:
-    headword: 承認原則（AiP）
-    status: auto
+    headword: 基本設計承認（AiP）
+    status: approved
     added: '2026-10-28'
     aliases:
-    - 承認原則
+    - AiP
+    - 基本設計承認
     used_in:
     - 20261027-dnv-90337fad18e5
     original: Approval in Principle
@@ -30,7 +31,7 @@ terms:
     related:
     - 船級協会
     - HAZID
-    reading: しょうにんげんそく
+    reading: きほんせっけいしょうにん
   CII:
     headword: CII（炭素強度指標）
     status: auto
