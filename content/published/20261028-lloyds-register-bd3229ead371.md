@@ -65,6 +65,20 @@ check:
     adopted: false
 corrections: []
 approved_by_human: true
+glossary:
+- key: ハイブリッド電気推進
+  term: ハイブリッド電気推進
+- key: 冗長性
+  term: 冗長性
+- key: LNG運搬船
+  term: LNG運搬船
+- key: 概念設計
+  term: 概念設計
+- key: 総所有コスト
+  term: 総所有コスト
+- key: 貨物槽
+  term: 貨物槽
+background: 船からの温室効果ガスの排出削減が国際的に求められるなか、LNG運搬船でも燃費や運航の柔軟性を高める推進方式が探られている。電気推進やバッテリーは注目される技術だが、新しい設計では安全性の確認が欠かせない。
 ---
 200,000m³級LNG運搬船の概念設計では、ハイブリッド電気推進のシステム構成、冗長性の考え方、バッテリー統合が安全性検証の対象として扱われる。Lloyd's Register、Shell、GTTは、この設計に関する共同開発プロジェクトを始めた。
 

@@ -1,0 +1,237 @@
+# 用語辞書。記事の「用語解説」欄とサイトの用語集に使われます。
+# 解説を直したら status を approved にしてください（AIが上書きしなくなります）。
+terms:
+  AER:
+    headword: 年次排出量報告書（AER）
+    explanation: 事業者が一定期間に出した温室効果ガスの排出量をまとめ、第三者の検証を受けたうえで当局に出す報告書。排出枠の精算や課金の土台になるデータ。
+    status: auto
+    added: '2026-10-28'
+    aliases:
+    - 年次排出量報告書（AER）
+    used_in:
+    - 20261028-dnv-800a211afad7
+  EMP:
+    headword: 排出モニタリング計画（EMP）
+    explanation: 船ごとに、燃料の使用量や排出量をどう測り、記録し、集計するかを定めた計画書。データの信頼性を支える基礎で、検証機関や当局の確認を受ける。
+    status: auto
+    added: '2026-10-28'
+    aliases:
+    - 排出モニタリング計画（EMP）
+    used_in:
+    - 20261028-dnv-800a211afad7
+  EU MRV:
+    headword: EU MRV
+    explanation: EU域内の港に出入りする大型船に、CO2などの排出量の測定・報告・検証（MRV）を義務づけるEUの制度。EUの排出量取引の対象量を決める基礎データにもなる。
+    status: auto
+    added: '2026-10-28'
+    aliases:
+    - EU MRV
+    used_in:
+    - 20261028-dnv-800a211afad7
+  FuelEU Maritime:
+    headword: FuelEU Maritime
+    explanation: EU域内の港に出入りする船が使う燃料の温室効果ガス強度を、段階的に下げさせるEUの規則。バイオ燃料やアンモニアなど低炭素燃料の利用を促す狙いがある。
+    status: auto
+    added: '2026-10-28'
+    aliases:
+    - FuelEU Maritime
+    used_in:
+    - 20261028-dnv-800a211afad7
+  IMO:
+    headword: IMO（国際海事機関）
+    explanation: 国際海事機関の略。海運の安全や環境保護について国際ルールを決める国連の専門機関で、加盟国はそのルールを国内の法令に取り入れる。
+    status: auto
+    added: '2026-10-28'
+    aliases:
+    - IMO
+    used_in:
+    - 20261028-dnv-e1ae50dbd145
+  ISM会社:
+    headword: ISM会社
+    explanation: ISMコード（国際安全管理規則）に基づき、船の安全管理と運航に責任を負う会社。船主とは別の会社のこともあり、船舶管理の窓口になる。
+    status: auto
+    added: '2026-10-28'
+    aliases:
+    - ISM会社
+    used_in:
+    - 20261028-dnv-800a211afad7
+  LNG燃料船:
+    headword: LNG燃料船
+    explanation: 液化天然ガス（LNG）を燃料に使う船。重油より燃焼時の硫黄酸化物や二酸化炭素が少ないが、燃え残ったメタンが出ることが課題とされる。
+    status: auto
+    added: '2026-10-28'
+    aliases:
+    - LNG燃料船
+    used_in:
+    - 20261028-lloyds-register-6bdedd90bb8d
+  LNG運搬船:
+    headword: LNG運搬船
+    explanation: 天然ガスをマイナス160度前後に冷やして液体（LNG）にし、専用のタンクで運ぶ船。ガスを海外から届けるエネルギー輸送を支える、特殊で高価な船種。
+    status: auto
+    added: '2026-10-28'
+    aliases:
+    - LNG運搬船
+    used_in:
+    - 20261028-lloyds-register-bd3229ead371
+  MEPC:
+    headword: MEPC（海洋環境保護委員会）
+    explanation: IMOの中で、船による海洋汚染や大気汚染、温室効果ガスの対策ルールを議論する委員会。環境規制の改正はここで審議される。
+    status: auto
+    added: '2026-10-28'
+    aliases:
+    - MEPC
+    used_in:
+    - 20261028-lloyds-register-6bdedd90bb8d
+  Recognized Organization:
+    headword: 認定機関（Recognized Organization）
+    explanation: 旗国の政府から、船の検査や証書の発行などを代わりに行うことを認められた船級協会などの機関。略称はRO。認める機関は国ごとに決まる。
+    status: auto
+    added: '2026-10-28'
+    aliases:
+    - Recognized Organization
+    used_in:
+    - 20261028-dnv-9c74c7c97e97
+  ハイブリッド電気推進:
+    headword: ハイブリッド電気推進
+    explanation: 発電機やバッテリーなど複数の電源から供給した電気でモーターを回し、プロペラを動かす方式。運航状況に合わせて電源を使い分け、燃料の無駄を減らしやすい。
+    status: auto
+    added: '2026-10-28'
+    aliases:
+    - ハイブリッド電気推進
+    used_in:
+    - 20261028-lloyds-register-bd3229ead371
+  バンカリング:
+    headword: バンカリング
+    explanation: 船に燃料を補給すること。燃料供給船や陸上の施設から船へ燃料を送るため、燃料の種類ごとに安全な手順や設備が求められる。
+    status: auto
+    added: '2026-10-28'
+    aliases:
+    - バンカリング
+    used_in:
+    - 20261028-dnv-e1ae50dbd145
+  メタンスリップ:
+    headword: メタンスリップ
+    explanation: エンジンで燃やしきれなかったメタンが、排ガスとして大気中に漏れ出る現象。メタンは強力な温室効果ガスなので、LNG燃料船の環境性能を左右する。
+    status: auto
+    added: '2026-10-28'
+    aliases:
+    - メタンスリップ
+    used_in:
+    - 20261028-lloyds-register-6bdedd90bb8d
+  低引火点燃料:
+    headword: 低引火点燃料
+    explanation: 火がつきやすい（引火点が低い）燃料の総称。メタノールやLNGなどが含まれ、漏れや火災を防ぐための特別な設計や取り扱いが必要になる。
+    status: auto
+    added: '2026-10-28'
+    aliases:
+    - 低引火点燃料
+    used_in:
+    - 20261028-dnv-e1ae50dbd145
+  係留・位置保持システム:
+    headword: 係留・位置保持システム
+    explanation: 海に浮かぶ設備が流されないよう、チェーンやロープなどで海底につないで位置を保つ仕組み。浮体式設備の安全を支える重要な部分。
+    status: auto
+    added: '2026-10-28'
+    aliases:
+    - 係留・位置保持システム
+    used_in:
+    - 20261028-dnv-9c74c7c97e97
+  冗長性:
+    headword: 冗長性（じょうちょうせい）
+    explanation: 機器の一部が故障しても船が動き続けられるよう、予備の装置や別の経路をあらかじめ備えておく考え方。洋上では助けを呼びにくいため、安全のうえで重要になる。
+    status: auto
+    added: '2026-10-28'
+    aliases:
+    - 冗長性
+    used_in:
+    - 20261028-lloyds-register-bd3229ead371
+  旗国:
+    headword: 旗国
+    explanation: 船が登録されている国のこと。船は旗国の法律の下に置かれ、安全や環境の基準を満たしているかの検査や承認は旗国が責任を持つ。
+    status: auto
+    added: '2026-10-28'
+    aliases:
+    - 旗国
+    used_in:
+    - 20261028-dnv-e1ae50dbd145
+  旗国当局:
+    headword: 旗国当局
+    explanation: 船が登録されている国（旗国）の政府機関。船の安全や環境の基準を定めて検査や証書発行を行い、その一部を船級協会に任せることもある。
+    status: auto
+    added: '2026-10-28'
+    aliases:
+    - 旗国当局
+    used_in:
+    - 20261028-dnv-9c74c7c97e97
+  暫定指針:
+    headword: 暫定指針
+    explanation: 正式な条約や規則ができる前に、新しい技術を安全に使えるよう国際機関が示す暫定的な基準。運用の経験を踏まえて見直されていく。
+    status: auto
+    added: '2026-10-28'
+    aliases:
+    - 暫定指針
+    used_in:
+    - 20261028-dnv-e1ae50dbd145
+  概念設計:
+    headword: 概念設計
+    explanation: 船の大きさ、推進方式、主要な設備など、全体の方向性を決める設計の初期段階。詳細な図面を作る前に、実現できるかや安全性、採算を確かめる役割がある。
+    status: auto
+    added: '2026-10-28'
+    aliases:
+    - 概念設計
+    used_in:
+    - 20261028-lloyds-register-bd3229ead371
+  浮体式洋上風力:
+    headword: 浮体式洋上風力
+    explanation: 海に浮かべた土台の上に風車を載せて発電する方式。海底に直接固定できない深い海でも設置でき、沿岸の水深が深い国で注目されている。
+    status: auto
+    added: '2026-10-28'
+    aliases:
+    - 浮体式洋上風力
+    used_in:
+    - 20261028-dnv-9c74c7c97e97
+  海上安全委員会:
+    headword: 海上安全委員会（MSC）
+    explanation: IMOの中で、船の安全に関する規則や指針を審議し、採択や承認を行う委員会。下部の小委員会がまとめた案も、ここでの承認を経て確定する。
+    status: auto
+    added: '2026-10-28'
+    aliases:
+    - 海上安全委員会
+    used_in:
+    - 20261028-dnv-e1ae50dbd145
+  総所有コスト:
+    headword: 総所有コスト（TCO）
+    explanation: 船や設備を買う代金だけでなく、燃料費、整備費、運航にかかる費用なども含め、使う期間全体で必要になる費用の合計。方式どうしを公平に比べる物差しになる。
+    status: auto
+    added: '2026-10-28'
+    aliases:
+    - 総所有コスト
+    used_in:
+    - 20261028-lloyds-register-bd3229ead371
+  船級協会:
+    headword: 船級協会
+    explanation: 船や海洋構造物が安全基準を満たすかを、設計・建造・検査の面から確かめる第三者機関。保険の引き受けや入港の際の信頼の目安にもなる。
+    status: auto
+    added: '2026-10-28'
+    aliases:
+    - 船級協会
+    used_in:
+    - 20261028-dnv-9c74c7c97e97
+  英国ETS:
+    headword: 排出量取引制度（ETS）
+    explanation: 排出できる量に上限を決め、排出枠を企業どうしで売り買いさせて温室効果ガスを減らす仕組み。英国にも独自の制度があり、排出枠が足りなければ購入が必要になる。
+    status: auto
+    added: '2026-10-28'
+    aliases:
+    - 英国ETS
+    used_in:
+    - 20261028-dnv-800a211afad7
+  貨物槽:
+    headword: 貨物槽（カーゴタンク）
+    explanation: 船の中で貨物を積んで保つタンク。LNG運搬船では超低温の液体を断熱して閉じ込める必要があり、船の安全性と積載量を左右する中心的な設備になる。
+    status: auto
+    added: '2026-10-28'
+    aliases:
+    - 貨物槽
+    used_in:
+    - 20261028-lloyds-register-bd3229ead371
