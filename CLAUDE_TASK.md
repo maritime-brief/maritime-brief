@@ -170,7 +170,7 @@ python -m pipeline.main finalize --id <id> --category <カテゴリ> \
 
 ### 3b. 用語解説の後付け（あなたが進行する）
 
-用語解説が付いていない作成済みの記事（公開中を優先）に、あとから解説を付ける。
+用語解説が付いていない公開中の記事に、あとから解説を付ける（保留中の記事は、承認されて公開されてから対象になる）。
 1回に `config/settings.yaml` の `revision.glossary_backfill_per_run` 件まで。
 
 ```bash

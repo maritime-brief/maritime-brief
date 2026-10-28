@@ -297,10 +297,11 @@ def cmd_attach_glossary(args, settings, paths) -> int:
 
 
 def cmd_glossary_todo(args, settings, paths) -> int:
-    """用語解説がまだ付いていない作成済みの記事（公開中を優先）。後付けの対象。"""
+    """用語解説がまだ付いていない公開中の記事。後付けの対象。
+    保留中の記事は、承認されて公開されてから対象になる（却下されるかもしれない記事に手間をかけない）。"""
     from .store import load_articles
     todo = []
-    for folder, status in ((paths.published, "published"), (paths.pending, "pending")):
+    for folder, status in ((paths.published, "published"),):
         for a in load_articles(folder):
             if "glossary" not in a:
                 todo.append({"slug": a["slug"], "status": status, "title": a["title"],
