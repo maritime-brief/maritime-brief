@@ -55,6 +55,16 @@ check:
     adopted: false
 corrections: []
 approved_by_human: true
+glossary:
+- key: ILO漁業労働条約
+  term: ILO漁業労働条約
+- key: 旗国
+  term: 旗国
+- key: 寄港国検査
+  term: 寄港国検査
+- key: MSN
+  term: MSN
+background: 漁船で働く人の労働条件は、国際条約で最低基準が決められ、各国がそれを国内の規則にして検査と証書で守らせている。この通知は、そうした国内ルールの運用の仕方を関係者に知らせる文書の一つである。
 ---
 英国漁船の乗組員の生活・労働条件に関する調査・検査と書類の取扱いを定めた通知MSN 1885(F)に、改正1が公示された。改正1が更新するのは参照情報のみである。
 

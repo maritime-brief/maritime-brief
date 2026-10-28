@@ -67,6 +67,20 @@ check:
     adopted: true
 corrections: []
 approved_by_human: true
+glossary:
+- key: バンカリング
+  term: バンカリング
+- key: HAZID
+  term: HAZID
+- key: HAZOP
+  term: HAZOP
+- key: SIMOPS
+  term: SIMOPS
+- key: デュアルフューエル
+  term: デュアルフューエル
+- key: 質量流量計
+  term: 質量流量計
+background: 海運では温室効果ガスの排出を減らすため、重油に替わる燃料としてメタノールやエタノールなどの代替燃料が検討されている。燃料ごとに性質が違うため、安全な補給の手順づくりが普及の前提になる。
 ---
 シンガポールで初となるエタノールの燃料補給（バンカリング）作業が完了した。作業は荷役作業と並行する同時作業（SIMOPS）として実施された。事前にはハザード特定（HAZID）と危険性・操作性の検討（HAZOP）のワークショップが行われ、乗組員はメタノール・バンカリングの経験を基に、燃料取扱いと緊急対応の訓練を受けた。
 

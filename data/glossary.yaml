@@ -10,6 +10,33 @@ terms:
     - 年次排出量報告書（AER）
     used_in:
     - 20261028-dnv-800a211afad7
+  AiP:
+    headword: 承認原則（AiP）
+    explanation: 新しい船の設計が、定められた要件に照らして実現できそうかを船級協会などが確認する初期段階の証書。詳細設計や建造の承認ではなく、構想の確認にとどまります。
+    status: auto
+    added: '2026-10-28'
+    aliases:
+    - 承認原則
+    used_in:
+    - 20261027-dnv-90337fad18e5
+  CII:
+    headword: CII（炭素強度指標）
+    explanation: 船の1年間の運航で、貨物の輸送量あたりにどれだけCO2を出したかを測り、A〜Eで格付けする指標。IMOが定め、成績の悪い船は改善が求められる。
+    status: auto
+    added: '2026-10-28'
+    aliases:
+    - CII
+    used_in:
+    - 20261027-lloyds-register-5e0798b98585
+  EEA協定:
+    headword: EEA協定（欧州経済領域協定）
+    explanation: EU加盟国と、ノルウェー・アイスランドなどが結ぶ協定。EUの単一市場のルールを、EUに入っていない国にも適用するための仕組み。
+    status: auto
+    added: '2026-10-28'
+    aliases:
+    - EEA協定
+    used_in:
+    - 20261028-sdir-c9537a3baf3e
   EMP:
     headword: 排出モニタリング計画（EMP）
     explanation: 船ごとに、燃料の使用量や排出量をどう測り、記録し、集計するかを定めた計画書。データの信頼性を支える基礎で、検証機関や当局の確認を受ける。
@@ -37,6 +64,35 @@ terms:
     - FuelEU Maritime
     used_in:
     - 20261028-dnv-800a211afad7
+    - 20261028-sdir-c9537a3baf3e
+    - 20261027-lloyds-register-5e0798b98585
+  HAZID:
+    headword: ハザード特定（HAZID）
+    explanation: 作業や設備に潜む危険を、関係者が集まって事前に洗い出す手法。事故が起きる前に対策を決めるため、新しい燃料や作業を始めるときによく使われる。
+    status: auto
+    added: '2026-10-28'
+    aliases:
+    - HAZID
+    used_in:
+    - 20261028-mpa-singapore-b80ef6f5b9d7
+  HAZOP:
+    headword: 危険性・操作性の検討（HAZOP）
+    explanation: 設計や操作手順について「流量が多すぎたら」「止まったら」など通常からのずれを一つずつ想定し、危険や運転上の問題を点検する手法。化学・プラント分野で広く使われる。
+    status: auto
+    added: '2026-10-28'
+    aliases:
+    - HAZOP
+    used_in:
+    - 20261028-mpa-singapore-b80ef6f5b9d7
+  ILO漁業労働条約:
+    headword: ILO漁業労働条約
+    explanation: 国際労働機関（ILO）が定めた、漁船で働く人の労働条件の最低基準を示す条約。居住設備や労働時間などを扱い、加盟国は国内の規則で守らせる。
+    status: auto
+    added: '2026-10-28'
+    aliases:
+    - ILO漁業労働条約
+    used_in:
+    - 20261028-mca-notices-7c9eaa7b0cdb
   IMO:
     headword: IMO（国際海事機関）
     explanation: 国際海事機関の略。海運の安全や環境保護について国際ルールを決める国連の専門機関で、加盟国はそのルールを国内の法令に取り入れる。
@@ -55,6 +111,15 @@ terms:
     - ISM会社
     used_in:
     - 20261028-dnv-800a211afad7
+  LNG:
+    headword: LNG（液化天然ガス）
+    explanation: 天然ガスをマイナス160度前後まで冷やして液体にした燃料。体積が小さくなり運びやすく、重油より硫黄酸化物や二酸化炭素が少ないため、船の燃料にも使われます。
+    status: auto
+    added: '2026-10-28'
+    aliases:
+    - LNG
+    used_in:
+    - 20261027-dnv-90337fad18e5
   LNG燃料船:
     headword: LNG燃料船
     explanation: 液化天然ガス（LNG）を燃料に使う船。重油より燃焼時の硫黄酸化物や二酸化炭素が少ないが、燃え残ったメタンが出ることが課題とされる。
@@ -73,6 +138,15 @@ terms:
     - LNG運搬船
     used_in:
     - 20261028-lloyds-register-bd3229ead371
+  MAIB:
+    headword: MAIB（英国海難調査局）
+    explanation: 英国で起きた船の事故などを調べる政府の調査機関。責任追及ではなく原因を究明し、再発防止の提言を出すことが目的。
+    status: auto
+    added: '2026-10-28'
+    aliases:
+    - MAIB
+    used_in:
+    - 20261027-maib-2324868cf013
   MEPC:
     headword: MEPC（海洋環境保護委員会）
     explanation: IMOの中で、船による海洋汚染や大気汚染、温室効果ガスの対策ルールを議論する委員会。環境規制の改正はここで審議される。
@@ -82,6 +156,15 @@ terms:
     - MEPC
     used_in:
     - 20261028-lloyds-register-6bdedd90bb8d
+  MSN:
+    headword: MSN（Merchant Shipping Notice）
+    explanation: 英国の海事当局が、商船や漁船に関わる規則の内容や守り方を関係者に知らせるために出す通知。規則の適用範囲や求める事項を示す。
+    status: auto
+    added: '2026-10-28'
+    aliases:
+    - MSN
+    used_in:
+    - 20261028-mca-notices-7c9eaa7b0cdb
   Recognized Organization:
     headword: 認定機関（Recognized Organization）
     explanation: 旗国の政府から、船の検査や証書の発行などを代わりに行うことを認められた船級協会などの機関。略称はRO。認める機関は国ごとに決まる。
@@ -91,6 +174,51 @@ terms:
     - Recognized Organization
     used_in:
     - 20261028-dnv-9c74c7c97e97
+  RoPaxフェリー:
+    headword: RoPaxフェリー
+    explanation: トラックや乗用車が自力で乗り降りでき、旅客も運ぶフェリーのこと。車両用の甲板を持ち、物流と人の移動の両方を支える船種。
+    status: auto
+    added: '2026-10-28'
+    aliases:
+    - RoPaxフェリー
+    used_in:
+    - 20261027-maib-2324868cf013
+  SIMOPS:
+    headword: 同時作業（SIMOPS）
+    explanation: 荷役と燃料補給など、複数の作業を同時に進めること。時間を節約できる一方、作業同士が干渉しないよう安全面の調整が欠かせない。
+    status: auto
+    added: '2026-10-28'
+    aliases:
+    - SIMOPS
+    used_in:
+    - 20261028-mpa-singapore-b80ef6f5b9d7
+  Thetis-MRV:
+    headword: Thetis-MRV
+    explanation: 欧州海上安全機関（EMSA）が運営する、EUの海運の排出量報告用の電子システム。船社の報告の提出や、当局による確認に使われる。
+    status: auto
+    added: '2026-10-28'
+    aliases:
+    - Thetis-MRV
+    used_in:
+    - 20261028-sdir-c9537a3baf3e
+  デュアルフューエル:
+    headword: デュアルフューエル
+    explanation: 2種類の燃料を使い分けられるエンジンや船のこと。重油などの従来燃料と別の燃料を切り替えて使え、環境規制への対応策として注目される。
+    status: auto
+    added: '2026-10-28'
+    aliases:
+    - デュアルフューエル
+    used_in:
+    - 20261028-mpa-singapore-b80ef6f5b9d7
+  ドライドック:
+    headword: ドライドック
+    explanation: 水を抜いて船を陸上のような状態で置ける、船の修理や点検のための設備。水中にある船底や破損部分を直接調べて直せる。
+    status: auto
+    added: '2026-10-28'
+    aliases:
+    - ドライドック
+    used_in:
+    - 20261027-maib-2324868cf013
   ハイブリッド電気推進:
     headword: ハイブリッド電気推進
     explanation: 発電機やバッテリーなど複数の電源から供給した電気でモーターを回し、プロペラを動かす方式。運航状況に合わせて電源を使い分け、燃料の無駄を減らしやすい。
@@ -100,6 +228,15 @@ terms:
     - ハイブリッド電気推進
     used_in:
     - 20261028-lloyds-register-bd3229ead371
+  バラスト:
+    headword: バラスト
+    explanation: 船の傾きや前後の釣り合い、安定を調整するため、専用タンクに出し入れする海水などの重し。積荷の状況に合わせて船の姿勢を保つ。
+    status: auto
+    added: '2026-10-28'
+    aliases:
+    - バラスト
+    used_in:
+    - 20261027-maib-2324868cf013
   バンカリング:
     headword: バンカリング
     explanation: 船に燃料を補給すること。燃料供給船や陸上の施設から船へ燃料を送るため、燃料の種類ごとに安全な手順や設備が求められる。
@@ -109,6 +246,8 @@ terms:
     - バンカリング
     used_in:
     - 20261028-dnv-e1ae50dbd145
+    - 20261028-mpa-singapore-b80ef6f5b9d7
+    - 20261027-dnv-90337fad18e5
   メタンスリップ:
     headword: メタンスリップ
     explanation: エンジンで燃やしきれなかったメタンが、排ガスとして大気中に漏れ出る現象。メタンは強力な温室効果ガスなので、LNG燃料船の環境性能を左右する。
@@ -145,6 +284,24 @@ terms:
     - 冗長性
     used_in:
     - 20261028-lloyds-register-bd3229ead371
+  喫水線:
+    headword: 喫水線（きっすいせん）
+    explanation: 船が水に浮かんだとき、船体と水面が接する線。この線より下に穴が開くと海水が入るため、船の安全上とても重要な位置。
+    status: auto
+    added: '2026-10-28'
+    aliases:
+    - 喫水線
+    used_in:
+    - 20261027-maib-2324868cf013
+  寄港国検査:
+    headword: 寄港国検査
+    explanation: 外国の船が自国の港に入ったときに、その国の当局が、船が国際的な安全や労働条件などの基準を満たしているかを確かめる検査。基準に満たない船を減らす役割がある。
+    status: auto
+    added: '2026-10-28'
+    aliases:
+    - 寄港国検査
+    used_in:
+    - 20261028-mca-notices-7c9eaa7b0cdb
   旗国:
     headword: 旗国
     explanation: 船が登録されている国のこと。船は旗国の法律の下に置かれ、安全や環境の基準を満たしているかの検査や承認は旗国が責任を持つ。
@@ -154,6 +311,7 @@ terms:
     - 旗国
     used_in:
     - 20261028-dnv-e1ae50dbd145
+    - 20261028-mca-notices-7c9eaa7b0cdb
   旗国当局:
     headword: 旗国当局
     explanation: 船が登録されている国（旗国）の政府機関。船の安全や環境の基準を定めて検査や証書発行を行い、その一部を船級協会に任せることもある。
@@ -163,6 +321,7 @@ terms:
     - 旗国当局
     used_in:
     - 20261028-dnv-9c74c7c97e97
+    - 20261027-lloyds-register-5e0798b98585
   暫定指針:
     headword: 暫定指針
     explanation: 正式な条約や規則ができる前に、新しい技術を安全に使えるよう国際機関が示す暫定的な基準。運用の経験を踏まえて見直されていく。
@@ -199,6 +358,33 @@ terms:
     - 海上安全委員会
     used_in:
     - 20261028-dnv-e1ae50dbd145
+  空気潤滑システム:
+    headword: 空気潤滑システム
+    explanation: 船底に空気の泡を送り込み、船体と水との摩擦を減らして燃費を良くする省エネ装置。エンジンの負担が減り、排出削減につながる。
+    status: auto
+    added: '2026-10-28'
+    aliases:
+    - 空気潤滑システム
+    used_in:
+    - 20261027-lloyds-register-5e0798b98585
+  第三国港:
+    headword: 第三国港
+    explanation: EU加盟国ではない国にある港のこと。EUの海運規則では、EU域内の港と域外の港とで、算入する排出量やエネルギーの扱いが変わる。
+    status: auto
+    added: '2026-10-28'
+    aliases:
+    - 第三国港
+    used_in:
+    - 20261028-sdir-c9537a3baf3e
+  総トン数:
+    headword: 総トン数
+    explanation: 船の内部の容積をもとに決める、船の大きさを表す指標。貨物の重さではない。規則の対象になる船を分ける基準としてよく使われる。
+    status: auto
+    added: '2026-10-28'
+    aliases:
+    - 総トン
+    used_in:
+    - 20261028-sdir-c9537a3baf3e
   総所有コスト:
     headword: 総所有コスト（TCO）
     explanation: 船や設備を買う代金だけでなく、燃料費、整備費、運航にかかる費用なども含め、使う期間全体で必要になる費用の合計。方式どうしを公平に比べる物差しになる。
@@ -208,6 +394,15 @@ terms:
     - 総所有コスト
     used_in:
     - 20261028-lloyds-register-bd3229ead371
+  船橋ウイング:
+    headword: 船橋ウイング
+    explanation: 船の操縦室（船橋）の両側に張り出した通路状の部分。ここから船の側面や岸壁との距離を直接確認でき、接岸や補給作業の見張りに使われます。
+    status: auto
+    added: '2026-10-28'
+    aliases:
+    - 船橋ウイング
+    used_in:
+    - 20261027-dnv-90337fad18e5
   船級協会:
     headword: 船級協会
     explanation: 船や海洋構造物が安全基準を満たすかを、設計・建造・検査の面から確かめる第三者機関。保険の引き受けや入港の際の信頼の目安にもなる。
@@ -217,6 +412,7 @@ terms:
     - 船級協会
     used_in:
     - 20261028-dnv-9c74c7c97e97
+    - 20261027-lloyds-register-5e0798b98585
   英国ETS:
     headword: 排出量取引制度（ETS）
     explanation: 排出できる量に上限を決め、排出枠を企業どうしで売り買いさせて温室効果ガスを減らす仕組み。英国にも独自の制度があり、排出枠が足りなければ購入が必要になる。
@@ -235,3 +431,30 @@ terms:
     - 貨物槽
     used_in:
     - 20261028-lloyds-register-bd3229ead371
+  質量流量計:
+    headword: 質量流量計（MFM）
+    explanation: 配管を流れる液体の質量を直接測る計器。燃料補給では量に応じて代金が決まるため、供給量を正確に記録する手段として重要になる。
+    status: auto
+    added: '2026-10-28'
+    aliases:
+    - 質量流量計
+    used_in:
+    - 20261028-mpa-singapore-b80ef6f5b9d7
+  防舷材:
+    headword: 防舷材（ぼうげんざい）
+    explanation: 船が岸壁に着くとき、船体と岸壁がぶつかる衝撃をやわらげるために付けるクッション材。ゴム製が多く、船や設備の損傷を防ぐ。
+    status: auto
+    added: '2026-10-28'
+    aliases:
+    - 防舷材
+    used_in:
+    - 20261027-maib-2324868cf013
+  風力推進システム:
+    headword: 風力推進システム
+    explanation: 帆や回転する円筒などで風の力を船の推進に利用し、エンジンの燃料消費を減らす装置。燃料を燃やす量が減るため、排出削減につながる。
+    status: auto
+    added: '2026-10-28'
+    aliases:
+    - 風力推進システム
+    used_in:
+    - 20261027-lloyds-register-5e0798b98585
