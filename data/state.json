@@ -479,10 +479,67 @@
    "url": "https://www.gov.uk/guidance/how-to-become-an-mca-approved-doctor",
    "note": "医師の募集告知で重要度1",
    "at": "2026-10-29T07:15+09:00"
+  },
+  "1530811ab763": {
+   "outcome": "queued",
+   "url": "https://www.emsa.europa.euhttps%3A//www.emsa.europa.eu/newsroom/latest-news/item/5852-ten-operations-in-parallel-for-emsa%E2%80%99s-rpas-service.html",
+   "note": "",
+   "at": "2026-10-30T12:22+09:00"
+  },
+  "aef98cff82d0": {
+   "outcome": "queued",
+   "url": "https://www.mpa.gov.sg/media-centre/details/no-25-of-2026-preventing-personal-electronic-devices-distraction-during-navigational-watchkeeping",
+   "note": "",
+   "at": "2026-10-30T12:22+09:00"
   }
  },
  "leads": [],
  "runs": [
+  {
+   "at": "2026-10-30T12:22+09:00",
+   "step": "collect",
+   "queued": 2,
+   "leads": 0,
+   "per_source": {
+    "mca-notices": {
+     "fetched": 0,
+     "new": 0
+    },
+    "mca-news": {
+     "fetched": 10,
+     "new": 0
+    },
+    "emsa": {
+     "fetched": 2,
+     "new": 1
+    },
+    "mlit": {
+     "fetched": 0,
+     "new": 0
+    },
+    "ec-transport": {
+     "fetched": 1,
+     "new": 0
+    },
+    "mpa-singapore": {
+     "fetched": 4,
+     "new": 1
+    },
+    "dnv": {
+     "fetched": 5,
+     "new": 0
+    },
+    "lloyds-register": {
+     "fetched": 10,
+     "new": 0
+    },
+    "sdir": {
+     "fetched": 10,
+     "new": 0
+    }
+   },
+   "expired": 0
+  },
   {
    "at": "2026-10-30T07:15+09:00",
    "step": "collect",
