@@ -27,6 +27,7 @@ for line in open("candidates.txt"):
         rec["status"] = r.status_code; rec["final"] = r.url; rec["len"] = len(r.text)
         rec["ctype"] = r.headers.get("content-type", "")
         t = r.text
+        import os; os.makedirs("raw", exist_ok=True); open(f"raw/{name}.html","w").write(t)
         rec["feeds"] = re.findall(r'<link[^>]+type="application/(?:rss|atom)\+xml"[^>]*>', t)[:5]
         if "xml" in rec["ctype"] or t.lstrip().startswith("<?xml"):
             rec["xml_titles"] = re.findall(r"<title[^>]*>(.*?)</title>", t, re.S)[:15]

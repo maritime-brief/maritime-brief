@@ -1,0 +1,698 @@
+===== iacs 200 True 55177 
+===== iacs-feed 404 True 16436 
+===== iacs-rss 404 True 16429 
+===== abs 200 True 466148 
+   https://ww2.eagle.org/en/Products-and-Services/classification-services.html | Class my Vessel
+   https://ww2.eagle.org/content/eagle/en/Products-and-Services/abs-advisory-services | Advisory Services
+   https://ww2.eagle.org/en/rules-and-resources/abs-engineering-reviews.html | Engineering Reviews
+   https://ww2.eagle.org/en/rules-and-resources/abs-smart-scheduler.html | ABS Smart Scheduler™
+   https://ww2.eagle.org/en/rules-and-resources/rules-and-guides-v2.html | ABS Rule Manager
+   https://ww2.eagle.org/en/rules-and-resources/rules-and-guides-v2/quick-start-and-help.html | Quick Start and Help
+   https://ww2.eagle.org/en/rules-and-resources/rules-and-guides-v2/Notice-of-Rule-Changes-old.html | Rule Manager: Notice of Rule Changes
+   https://ww2.eagle.org/en/rules-and-resources/regulatory-news.html | Regulatory Updates
+   https://ww2.eagle.org/en/rules-and-resources/flag-port-state-information.html | Flag and Port State
+   https://ww2.eagle.org/en/rules-and-resources/flag-port-state-information/psc-quarterly-report.html | Port State Control Reports
+   https://ww2.eagle.org/en/rules-and-resources/flag-port-state-information/resources.html | If Your Ship Is Detained
+   https://ww2.eagle.org/en/rules-and-resources/flag-port-state-information/flag-and-port-state-updates | Flag and Port State Updates
+   https://ww2.eagle.org/en/rules-and-resources/old-abs-engineering-reviews.html | Engineering Reviews
+   https://ww2.eagle.org/en/rules-and-resources/engineering-software.html | Engineering Applications
+   https://ww2.eagle.org/en/rules-and-resources/engineering-software/engineering-software.html | Engineering Applications
+   https://ww2.eagle.org/en/rules-and-resources/engineering-software/marine-engineering-software.html | Marine Engineering Applications
+   https://ww2.eagle.org/en/rules-and-resources/engineering-software/offshore-engineering-software.html | Offshore Engineering Applications
+   https://ww2.eagle.org/en/rules-and-resources/my-freedom.html | ABS MyFreedom™ Portal
+   https://ww2.eagle.org/en/rules-and-resources/my-freedom/MyFreedom.html | ABS MyFreedom™ Portal
+   https://ww2.eagle.org/en/rules-and-resources/databases/e-certificates.html | E-Certificates Database
+   https://ww2.eagle.org/en/rules-and-resources/databases/material-manufacturers.html | Material Manufacturers Database
+   https://ww2.eagle.org/en/rules-and-resources/databases/service-suppliers.html | Service Suppliers Database
+   https://ww2.eagle.org/en/rules-and-resources/databases/newly-classed-vessels.html | Newly Classed Vessels​
+   https://ww2.eagle.org/en/rules-and-resources/forms/pda-requests.html | Type Approval - PDA Requests
+   https://ww2.eagle.org/en/rules-and-resources/forms/service-suppliers.html | Service Suppliers
+   https://ww2.eagle.org/en/rules-and-resources/forms/material-manufacturers.html | Material Manufacturers
+   https://ww2.eagle.org/en/rules-and-resources/forms/container-certification.html | Container Certification
+   https://ww2.eagle.org/en/rules-and-resources/forms/change-of-customer-information-form.html | Change of Customer Information Form
+   https://ww2.eagle.org/en/rules-and-resources/forms/abs-myfreedom-client-portal-registration.html | ABS MyFreedom Client Portal Registration
+   https://ww2.eagle.org/en/rules-and-resources/regulatory-updates.html | Regulatory Updates
+   https://ww2.eagle.org/en/rules-and-resources/regulatory-updates/regulatory-trends.html | Regulatory Trends
+   https://ww2.eagle.org/en/rules-and-resources/regulatory-updates/global-trade-compliance-and-sanction | Global Trade Compliance and Sanctions
+   https://ww2.eagle.org/en/rules-and-resources/regulatory-updates/regulatory-lessons.html | Regulatory Lessons
+   https://ww2.eagle.org/en/rules-and-resources/regulatory-updates/Safety-in-Minutes-Lessons.html | Safety in Minutes Video Series
+   https://ww2.eagle.org/en/rules-and-resources/regulatory-updates/regulatory-news.html | ABS Regulatory News
+   https://ww2.eagle.org/en/rules-and-resources/regulatory-updates/fueleu-maritime.html | FuelEU Maritime
+   https://ww2.eagle.org/en/rules-and-resources/regulatory-updates/safe-carriage-of-industrial-personne | Safe Carriage of Industrial Personnel
+   https://ww2.eagle.org/en/rules-and-resources/regulatory-updates/electronic-record-books-under-marpol | Electronic Record Books Under MARPOL and BWM Conventions
+   https://ww2.eagle.org/en/rules-and-resources/regulatory-updates/SOLAS-requirements-on-board-ships.ht | SOLAS Requirements for Lifting Appliances and Anchor Handlin
+   https://ww2.eagle.org/en/rules-and-resources/regulatory-updates/Maritime-Cybersecurity.html | Maritime Cybersecurity
+   https://ww2.eagle.org/en/rules-and-resources/regulatory-updates/Ship-Construction-File-Archive.html | Ship Construction File Archive
+   https://ww2.eagle.org/en/rules-and-resources/regulatory-updates/regulatory-applications.html | Regulatory Applications
+   https://ww2.eagle.org/en/rules-and-resources/regulatory-updates/vida-regulatory-rqmts.html | Vessel Incidental Discharge Act (VIDA)
+   https://ww2.eagle.org/en/rules-and-resources/regulatory-updates/flag-administration-statutory-author | Flag Administrations Delegating Statutory Authority to ABS
+   https://ww2.eagle.org/en/rules-and-resources/regulatory-updates/SOLAS-Pilot-Transfer-Arrangements.ht | SOLAS Pilot Transfer Arrangements
+   https://ww2.eagle.org/en/rules-and-resources/regulatory-updates/biofouling-guidelines.html | Biofouling Guidelines
+   https://ww2.eagle.org/en/rules-and-resources/regulatory-updates/ch4-and-n2o-emissions-measurement-an | CH4 and N2O Emissions Measurement and Reporting
+   https://ww2.eagle.org/en/rules-and-resources/regulatory-updates/ism-mass-code.html | International Code of Safety for Maritime Autonomous Surface
+   https://ww2.eagle.org/en/rules-and-resources/regulatory-updates/us-reflag-process-guidelines.html | U.S. Reflag Process Guidelines
+   https://ww2.eagle.org/en/rules-and-resources/myfreedom-help-center.html | MyFreedom Help Center
+   https://ww2.eagle.org/en/Products-and-Services/classification-services/classification-services.html | Classification Services
+   https://ww2.eagle.org/en/Products-and-Services/classification-services/transfer-of-class.html | Transfer of Class
+   https://ww2.eagle.org/en/Products-and-Services/classification-services/3d-model-for-class-approval.h | 3D Models for Class Approval
+   https://ww2.eagle.org/en/Products-and-Services/classification-services/engineering-reviews.html | Engineering Reviews
+   https://ww2.eagle.org/en/Products-and-Services/classification-services/rapid-response.html | Rapid Response Damage Assessment (RRDA)
+   https://ww2.eagle.org/en/Products-and-Services/vendor-certification.html | Approval and Certification
+   https://ww2.eagle.org/en/Products-and-Services/vendor-certification/approved-manufacturers-and-produ | Material Manufacturers
+   https://ww2.eagle.org/en/Products-and-Services/vendor-certification/eu-marine-equipment-directive.ht | EU Marine Equipment Directive
+   https://ww2.eagle.org/en/Products-and-Services/vendor-certification/EU-Mutual-Recognition.html | EU Mutual Recognition
+   https://ww2.eagle.org/en/Products-and-Services/vendor-certification/container-certification.html | Container Certification
+   https://ww2.eagle.org/en/Products-and-Services/vendor-certification/periodic-inspections.html | Periodic Container Inspection
+   https://ww2.eagle.org/en/Products-and-Services/vendor-certification/welding-and-non-destructive-exam | Welding and Non-Destructive Examination (NDE)
+   https://ww2.eagle.org/en/Products-and-Services/vendor-certification/uscg-independent-lab.html | Independent Lab for USCG
+   https://ww2.eagle.org/en/Products-and-Services/vendor-certification/statement-of-compliance.html | Statement of Compliance
+   https://ww2.eagle.org/en/Products-and-Services/vendor-certification/service-supplier.html | Service Supplier
+   https://ww2.eagle.org/en/Products-and-Services/vendor-certification/abs-cybersafety-for-resilience.h | ABS Cyber Resilience Program
+   https://ww2.eagle.org/en/Products-and-Services/vendor-certification/brazil-local-content-certificati | Brazil Local Content Certification
+   https://ww2.eagle.org/en/Products-and-Services/vendor-certification/independent-third-party-certific | Independent Third Party Certification and Inspection Service
+   https://ww2.eagle.org/en/Products-and-Services/abs-company-or-ship-audit.html | Conventional Audit
+   https://ww2.eagle.org/en/Products-and-Services/abs-company-or-ship-audit/ship-audit.html | Streamlined Audit
+   https://ww2.eagle.org/en/Products-and-Services/marine/shuttle-tanker.html | Shuttle Tankers
+   https://ww2.eagle.org/en/Products-and-Services/marine/condition-assessment-program-cap.html | Condition Assessment Program (CAP)
+   https://ww2.eagle.org/en/Products-and-Services/marine/marine-sustainability.html | Marine Sustainability
+   https://ww2.eagle.org/en/Products-and-Services/marine/Yachts.html | ABS Yacht Certification
+   https://ww2.eagle.org/en/Products-and-Services/marine/brazil-inland-waterways.html | Brazil Inland Waterways
+   https://ww2.eagle.org/en/Products-and-Services/offshore-energy.html | Global Offshore
+   https://ww2.eagle.org/en/Products-and-Services/offshore-energy/specialized-support-vessels.html | Offshore Support Vessels
+   https://ww2.eagle.org/en/Products-and-Services/offshore-energy/offshore-wind.html | Offshore Wind Projects
+   https://ww2.eagle.org/en/Products-and-Services/offshore-energy/offshore-wind-farm-vessels.html | Offshore Wind Vessels
+   https://ww2.eagle.org/en/Products-and-Services/offshore-energy/subsea-services.html | Subsea Solutions
+   https://ww2.eagle.org/en/Products-and-Services/offshore-energy/offshore-space-support.html | Offshore Space Support
+   https://ww2.eagle.org/en/Products-and-Services/offshore-energy/fpso.html | Floating Production Storage and Offloading (FPSOs)
+   https://ww2.eagle.org/en/Products-and-Services/offshore-energy/offshore-decommissioning.html | Offshore Decommissioning
+   https://ww2.eagle.org/en/Products-and-Services/offshore-energy/offshore-data-centers.html | Offshore Data Centers
+   https://ww2.eagle.org/en/Products-and-Services/offshore-energy/floating-liquefied-natural-gas.html | Floating Liquefied Natural Gas (FLNG)
+   https://ww2.eagle.org/en/Products-and-Services/offshore-energy/transmission-and-electrification.html | Transmission and Electrification
+   https://ww2.eagle.org/en/Products-and-Services/offshore-energy/ammonia-and-hydrogen-production.html | Ammonia and Hydrogen Production
+   https://ww2.eagle.org/en/Products-and-Services/offshore-energy/offshore-nuclear.html | Offshore Nuclear
+   https://ww2.eagle.org/en/Products-and-Services/global-government.html | Global Government
+   https://ww2.eagle.org/en/Products-and-Services/global-government/rules-and-guides-for-naval-ships.ht | Rules and Guides for Naval Ships
+   https://ww2.eagle.org/en/Products-and-Services/global-government/service-life-evaluation-program-sle | Service Life Evaluation
+   https://ww2.eagle.org/en/Products-and-Services/global-government/life-cycle-services-naval-governmen | Life-Cycle Services
+   https://ww2.eagle.org/en/Products-and-Services/sustainability.html | Sustainability and Decarbonization
+   https://ww2.eagle.org/en/Products-and-Services/sustainability/simeee.html | Simulation-based Energy Efficiency Evaluation Service (SIM E
+   https://ww2.eagle.org/en/Products-and-Services/sustainability/carbon-accounting.html | Greenhouse Gas Inventory and Carbon Accounting
+   https://ww2.eagle.org/en/Products-and-Services/sustainability/ccus.html | Carbon Capture, Utilization, and Storage (CCUS)
+   https://ww2.eagle.org/en/Products-and-Services/sustainability/alternative-power-sources.html | Alternative Power Sources
+   https://ww2.eagle.org/en/Products-and-Services/sustainability/methanol-value-chain.html | Methanol Value Chain
+   https://ww2.eagle.org/en/Products-and-Services/sustainability/gas-solutions.html | Global Gas Solutions
+   https://ww2.eagle.org/en/Products-and-Services/sustainability/carbon-intensity-indicator.html | Carbon Intensity Indicator (CII)
+   https://ww2.eagle.org/en/Products-and-Services/sustainability/carbon-diligence-platform.html | Carbon Diligence Platform
+   https://ww2.eagle.org/en/Products-and-Services/sustainability/greenhouse-gas.html | Greenhouse Gas (GHG) Rating Improvement
+   https://ww2.eagle.org/en/Products-and-Services/sustainability/wind-propulsion.html | Wind Propulsion Technologies
+   https://ww2.eagle.org/en/Products-and-Services/digital-solutions.html | Digital Solutions
+   https://ww2.eagle.org/en/Products-and-Services/digital-solutions/mdf-alliance-program.html | ABS My Digital Fleet™ Alliance Program
+   https://ww2.eagle.org/en/Products-and-Services/digital-solutions/my-digital-fleet.html | ABS My Digital Fleet™
+   https://ww2.eagle.org/en/Products-and-Services/cyber.html | Cybersecurity Services
+   https://ww2.eagle.org/en/Products-and-Services/cyber/abs-cybersafety.html | ABS CyberSafety® Program
+   https://ww2.eagle.org/en/Products-and-Services/cyber/abs-cyber-resilience-program.html | ABS Cyber Resilience Program
+   https://ww2.eagle.org/en/Products-and-Services/maritime-training.html | Maritime Training
+   https://ww2.eagle.org/en/Products-and-Services/maritime-training/training-certification.html | Training Certification
+   https://ww2.eagle.org/en/Products-and-Services/maritime-training/public-course-training-schedule.htm | Public Course Training Schedule
+   https://ww2.eagle.org/en/Products-and-Services/maritime-training/abs-training-centers.html | ABS Training Centers
+   https://ww2.eagle.org/en/innovation-and-technology/academic-engagement.html | Academic Engagement
+   https://ww2.eagle.org/en/innovation-and-technology/technology-advancements.html | Technology Advancement
+   https://ww2.eagle.org/en/innovation-and-technology/technology-advancements/additive-manufacturing.ht | Additive Manufacturing
+   https://ww2.eagle.org/en/innovation-and-technology/technology-advancements/subsea-processing-systems | Subsea Processing Systems
+   https://ww2.eagle.org/en/innovation-and-technology/technology-advancements/abs-tech-trends.html | Maritime Technology Trends
+   https://ww2.eagle.org/en/innovation-and-technology/technology-advancements/technology-center.html | ABS Global Technology Centers
+   https://ww2.eagle.org/en/innovation-and-technology/technology-advancements/remote-inspection-techniq | Remote Inspection Techniques
+   https://ww2.eagle.org/en/innovation-and-technology/technology-advancements/electrification.html | Electrification for Marine and Offshore
+   https://ww2.eagle.org/en/innovation-and-technology/industry-partnerships.html | Industry Partnerships
+   https://ww2.eagle.org/en/innovation-and-technology/industry-partnerships/industrypartnerships3.html | Industry Partnerships
+   https://ww2.eagle.org/en/innovation-and-technology/data-and-digitalization.html | Data and Digitalization
+   https://ww2.eagle.org/en/innovation-and-technology/data-and-digitalization/ai-driven-inspections1.ht | AI Driven Inspections
+   https://ww2.eagle.org/en/innovation-and-technology/data-and-digitalization/condition-based-survey.ht | Condition-based Survey
+   https://ww2.eagle.org/en/innovation-and-technology/data-and-digitalization/data-quality.html | Data Quality and Infrastructure
+   https://ww2.eagle.org/en/innovation-and-technology/data-and-digitalization/smart_technologies_for_sh | Smart Technologies for Shipyards
+   https://ww2.eagle.org/en/innovation-and-technology/data-and-digitalization/smart-functionality-marin | Smart Functionality
+   https://ww2.eagle.org/en/innovation-and-technology/knowledge-center.html | Knowledge Center
+   https://ww2.eagle.org/en/news/events-calendar.html | Events Calendar
+   https://ww2.eagle.org/en/news/events-calendar/innovation-summit.html | Innovation Summit 2026
+   https://ww2.eagle.org/en/news/publications/advisories.html | Advisories and Debriefs
+   https://ww2.eagle.org/en/news/press-room.html | Press Release Archives
+   https://ww2.eagle.org/en/news/flag-states-updates-ukraine.html | Ukraine: Key Maritime Information
+   https://ww2.eagle.org/en/news/offshore-wind.html | Offshore Wind News
+   https://ww2.eagle.org/en/news/sustainability-news.html | Sustainability News
+   https://ww2.eagle.org/en/news/podcast/sustainability-outlook-whats-next-for-shipping.html | Sustainability Outlook: What's Next for Shipping
+   https://ww2.eagle.org/en/news/podcast/countdown-to-fueleu-maritime.html | Countdown To FuelEU Maritime
+   https://ww2.eagle.org/en/news/newsroom-search.html | ABS Newsroom Search
+   https://ww2.eagle.org/en/about-us/who-we-are/spirit-of-abs.html | The Spirit of ABS
+   https://ww2.eagle.org/en/about-us/who-we-are/Wavesite.html | ABS Wavesight ™
+   https://ww2.eagle.org/en/about-us/abs-careers/about-abs.html | Company Overview
+   https://ww2.eagle.org/en/about-us/abs-careers/abs-campus-recruitment.html | Early Careers and Internships
+   https://ww2.eagle.org/en/about-us/safety/mariner-personal-safety.html | Mariner Personal Safety
+   https://ww2.eagle.org/en/about-us/safety/workplace-design.html | Workplace Design
+   https://ww2.eagle.org/en/about-us/safety/management-organization.html | Management and Organization
+   https://ww2.eagle.org/en/about-us/find-us/abs-world-headquarters.html | ABS World Headquarters
+   https://ww2.eagle.org/en/about-us/find-us/search-online-directory.html | Search Online Directory
+   https://ww2.eagle.org/en/about-us/abs-policies-and-notices-page.html | ABS Policies and Notices Page
+   https://ww2.eagle.org/en/rules-and-resources/rules-and-guides/rules-and-guides-main.html | Rules and Guides
+   https://ww2.eagle.org/en/rules-and-resources/rules-and-guides/archives.html | Rules and Guides Archives
+   https://ww2.eagle.org/en/rules-and-resources/rules-and-guides/vendor-rule-books.html | Vendor Rule Books
+   https://ww2.eagle.org/en/publication-flip/regulatory-trends-impact.html | Regulatory Trends
+   https://ww2.eagle.org/content/dam/eagle/rules-and-resources/ABS-Vessel-Records/abs-newly-classed-ves | Newly Classed Vessels​
+   https://ww2.eagle.org/en/Products-and-Services/offshore-energy/offshore-support-vessels.html | Offshore Support Vessels
+   https://ww2.eagle.org/en/Products-and-Services/offshore-energy/offshore-renewables.html | Offshore Renewables
+   https://ww2.eagle.org/en/Products-and-Services/offshore-energy/offshore-wind-vessels.html | Offshore Wind Vessels
+   https://ww2.eagle.org/en/Products-and-Services/offshore-energy/subsea-solutions.html | Subsea Solutions
+   https://ww2.eagle.org/en/news/newsroom.html | News and Events
+   https://ww2.eagle.org/en/news/podcast.html | Setting Course: An ABS Podcast
+   https://ww2.eagle.org/en/rules-and-resources/advisories.html | Advisories and Debriefs
+   https://ww2.eagle.org/en/rules-and-resources/rules-and-guides.html | Rules and Guides
+   https://ww2.eagle.org/en/rules-and-resources/databases.html | Search Databases
+===== bv 200 True 152755 
+   https://marine-offshore.bureauveritas.com/marine/ship-classification/ships-in-service | Ships in Service
+   https://marine-offshore.bureauveritas.com/marine/ship-classification/container-ships | Container ships
+   https://marine-offshore.bureauveritas.com/marine/ship-classification/fishing-vessels | Fishing vessels
+   https://marine-offshore.bureauveritas.com/marine/ship-classification/inland-navigation | Inland navigation
+   https://marine-offshore.bureauveritas.com/marine/ship-classification/offshore-service-vessels | Offshore support vessels
+   https://marine-offshore.bureauveritas.com/marine/ship-classification/oil-chemical-tankers | Oil & chemical tankers
+   https://marine-offshore.bureauveritas.com/marine-classification/regulatory-updates/eu-regulatory-new | EU Regulatory News
+   https://marine-offshore.bureauveritas.com/marine/cybersecurity/chart | CHART by Bureau Veritas
+   https://marine-offshore.bureauveritas.com/advisory-solutions/sustainable-solutions/energy-efficiency | Energy Efficiency
+   https://marine-offshore.bureauveritas.com/advisory-solutions/sustainable-solutions/energy-modeling | Energy Modeling
+   https://marine-offshore.bureauveritas.com/advisory-solutions/sustainable-solutions/carbon-index-supp | Carbon Index Support
+   https://marine-offshore.bureauveritas.com/advisory-solutions/engineering-solutions/structural-integr | Structural Integrity
+   https://marine-offshore.bureauveritas.com/advisory-solutions/engineering-solutions/technical-assista | Technical Assistance
+   https://marine-offshore.bureauveritas.com/advisory-solutions/assurance-solutions/compliance-surveys- | Compliance Surveys & Audits
+   https://marine-offshore.bureauveritas.com/advisory-solutions/matdan/marine-warranty | Marine Warranty
+   https://marine-offshore.bureauveritas.com/advisory-solutions/matdan/risk-assessment | Risk Assessment
+   https://marine-offshore.bureauveritas.com/digital/digital-applications/approval-explorer | Approval Explorer
+   https://marine-offshore.bureauveritas.com/digital/digital-applications/machinery-maintenance | Machinery Maintenance
+   https://marine-offshore.bureauveritas.com/digital/digital-applications/move-fleet-service-applicatio | MOVE - Fleet in service application
+   https://marine-offshore.bureauveritas.com/digital/digital-applications/optimum-survey-planning | Optimum Survey Planning
+   https://marine-offshore.bureauveritas.com/digital/digital-applications/veristar-dangerous-goods-bulk | Veristar Dangerous Goods & Bulk
+   https://marine-offshore.bureauveritas.com/digital/digital-applications/veristar-project-management | Veristar Project Management
+   https://marine-offshore.bureauveritas.com/digital/digital-applications/utm-data-platform | UTM Data Platform
+   https://marine-offshore.bureauveritas.com/newsroom/bv-classed-114000-dwt-lr2-tanker-aegean-shipping- | Image Oct. 14 2026 BV-Classed 114,000 DWT LR2 Tanker for Aeg
+   https://marine-offshore.bureauveritas.com/newsroom/bv-supports-successful-delivery-175000-cbm-lng-ca | Image Oct. 8 2026 BV Supports Successful Delivery of 175,000
+   https://marine-offshore.bureauveritas.com/newsroom/european-affairs-report-september-2026-edition | Image Oct. 1 2026 European Affairs Report September 2026 Edi
+   https://marine-offshore.bureauveritas.com/marine-classification/statutory-certification/imo-amendmen | Image IMO amendments Navigating statutory requirements
+   https://marine-offshore.bureauveritas.com/sites/g/files/zypfnx136/files/media/document/BVMO%20Genera | general conditions
+===== rina 200 None 135008 
+   https://www.rina.org/en/sectors/aerospace-defence | Aerospace and defence
+   https://www.rina.org/en/sectors/construction-development | Construction and development
+   https://www.rina.org/en/sectors/financial-institutions | Financial institutions
+   https://www.rina.org/en/sectors/heavy-industries | Heavy industries
+   https://www.rina.org/en/sectors/infrastructure-mobility | Infrastructure and mobility
+   https://www.rina.org/en/business/marine | Classification and statutory certification
+   https://www.rina.org/en/business/consulting-engineering | Consulting engineering
+   https://www.rina.org/en/business/digital-solutions | Digital solutions
+   https://www.rina.org/en/expertise/innovation-laboratories | Innovation laboratories
+   https://www.rina.org/en/company/practices | Engineering practices
+   https://www.rina.org/en/company/diversity-inclusion | Diversity, Equity & Inclusion
+   https://www.rina.org/en/company/purpose-vision-mission | Purpose, vision and mission
+   https://www.rina.org/en/company/compliance | Compliance and policies
+   https://www.rina.org/en/company/governance | Governance model
+   https://www.rina.org/en/northamerica/ | English - North America
+   https://www.rina.org/en/media/press/2026/10/23/paolo-moretti-group-chief-executive-officer | Company RINA: Paolo Moretti appointed Group Chief Executive 
+   https://www.rina.org/en/media/press/2026/10/12/ai-driven-ship-operations | Marine China Merchants Energy Shipping and RINA Partner to E
+   https://www.rina.org/en/media/press/2026/10/06/rina-ptt-mou | Energy RINA and PTT sign strategic agreements to advance inn
+   https://www.rina.org/en/media/press/2026/09/10/pt-lrt-jakarta-mou | Transport & Infrastructure RINA and PT LRT Jakarta sign MoU 
+   https://www.rina.org/en/media/press/2026/08/27/mermaid | Marine RINA unveils Mermaid, a future-ready ship design for 
+   https://www.rina.org/en/media/press/2026/07/27/ansaldo-energia-rina-nuclear | Energy Nuclear: Ansaldo Energia and RINA Sign Agreement to D
+   https://www.rina.org/en/media/press/2026/07/07/foreship-design-greek-domestic-market | Marine consulting services Foreship develops energy-efficien
+   https://www.rina.org/en/media/press/2026/06/17/hellenic-advisory-committee-2026 | Marine RINA's Hellenic Advisory Committee 2026 brings togeth
+   https://www.rina.org/en/media/press/2026/06/16/indonesia-h2watt-hydrogen-hub | Energy RINA Secures Safety Assessment Contract for Indonesia
+   https://www.rina.org/en/media/press/2026/06/04/baker-hughes | Marine Baker Hughes’ fuel flexible NovaLT™ 16 Gas Turbine Ce
+   https://www.rina.org/en/media/press/2026/05/28/gt-wings | Marine GT Wings introduces performance assessment tool for J
+   https://www.rina.org/en/media/press/2026/05/20/drift-energy-approval-in-principle | Marine RINA awards first AiP for energy-harvesting ship 20 M
+   https://www.rina.org/en/media/Publications/2025/06/26/sustainability-report-2024 | Sustainability report
+   https://www.rina.org/en/company/at-a-glance | RINA at a glance
+   https://www.rina.org/en/business/marine/marine-digital-applications | Marine digital applications
+===== ccs 200 True 85706 
+   https://www.ccs.org.cn/ccswzen/internationalShipsList?columnid=201900002000000123 | Register of Ships
+   https://www.ccs.org.cn/ccswzen/suspendedList?columnid=201900002000000120 | Changes of Class Status
+   https://www.ccs.org.cn/ccswzen/articleDetail?id=202206090444109127&columnId=202206090211003288 | Contact List of Management of Supplier Approval of CCS
+   https://www.ccs.org.cn/ccswz/articleDetail?id=202206090159700714 | Software Download
+   https://www.ccs.org.cn/ccswzen/applicationAgreement?columnid=202206090462995926 | Service Report of Supplier
+   https://www.ccs.org.cn/ccswzen/maritimeLabourList?columnid=201900002000000450 | MLC Certification Information
+   https://www.ccs.org.cn/ccswzen/applicationAgreement?columnid=201900002000000253 | Application Forms Download
+   https://www.ccs.org.cn/ccswzen/applicationAgreement?columnid=201920000000000065 | Approval/Inspection of Marine Product
+   https://www.ccs.org.cn/ccswzen/applicationAgreement?columnid=201920000000000263 | Application For Offshore Installations
+   https://www.ccs.org.cn/ccswzen/applicationAgreement?columnid=201920000000000179 | Approval Application by Service Supplier
+   https://www.ccs.org.cn/ccswzen/applicationAgreement?columnid=201920000000000025 | New Building Application
+   https://www.ccs.org.cn/ccswzen/applicationAgreement?columnid=201920000000000068 | Application for company or ship audit
+   https://www.ccs.org.cn/ccswzen/applicationAgreement?columnid=201920000000000026 | Application For Classification
+   https://www.ccs.org.cn/ccswzen/applicationAgreement?columnid=201920000000000066 | Application For Surveys And Issue Of Certificates Of Ship In
+   https://www.ccs.org.cn/ccswzen/columnList?columnid=201900006000000014 | Technical Innovation
+   https://www.ccs.org.cn/ccswzen/columnList?columnid=202006161157478270 | Intelligent & Digital Technology
+   https://www.ccs.org.cn/ccswzen/columnList?columnid=202006161139685352 | Green Technology
+   https://www.ccs.org.cn/ccswzen/special?columnid=201900002000000011&id=0 | Rules & Guidelines
+   https://www.ccs.org.cn/ccswzen/circularNotice?columnid=201900002000000071 | Circulars & Instructions
+   https://www.ccs.org.cn/ccswzen/special?columnid=202206080248772574&id=0 | IMO Resolution & Circular
+   https://www.ccs.org.cn/ccswzen/columnDetail?columnid=201900002000000296 | Technical Service Product
+   https://www.ccs.org.cn/ccswzen/columnDetail?columnid=202012080298590548 | Engineering Software
+   https://www.ccs.org.cn/ccswzen/columnDetail?columnid=202012070410829065 | Offshore Business
+   https://www.ccs.org.cn/ccswzen/columnDetail?columnid=201920000000000220 | Testing Facility
+   https://www.ccs.org.cn/ccswzen/columnList?columnid=202012070464246896 | Comprehensive Laboratory for Green Ecological Shipping
+   https://www.ccs.org.cn/ccswzen/columnList?columnid=202012070435660437 | Ship Cyber Security Laboratory
+   https://www.ccs.org.cn/ccswzen/columnDetail?columnid=202011250455744744 | Ship Intelligent Technology and Safety Laboratory
+   https://www.ccs.org.cn/ccswzen/columnDetail?columnid=202011250418694544 | New Survey Technology and Equipment Laboratory
+   https://www.ccs.org.cn/ccswzen/columnDetail?columnid=201920000000000278 | COMPASS Series Software
+   https://www.ccs.org.cn/ccswzen/columnList?columnid=202007171176731956 | Rules & Guidelines Information
+   https://www.ccs.org.cn/ccswzen/articleDetail?id=202511050494806280&columnId=202101040581503047 | Two 174000m3 LNG carriers for Qatar Energy were named and de
+   https://www.ccs.org.cn/ccswzen/columnDetail?columnid=201900002000000225 | CCS Top Management
+   https://www.ccs.org.cn/ccswzen/columnDetail?columnid=201900002000000036 | Social Responsibility
+   https://www.ccs.org.cn/ccswzen/columnDetail?columnid=202011130176071039 | Green and Environmental Protection
+   https://www.ccs.org.cn/ccswzen/columnDetail?columnid=202011260424450606 | Occupational health, safety and environment policy of China 
+   https://www.ccs.org.cn/ccswzen/ccsReportIndex?columnid=202001050630401766 | CCS Annual Report
+   https://www.ccs.org.cn/ccswzen/contact?columnid=202006031013151326 | CCS Vision To build a unique, first-rate international class
+   https://www.ccs.org.cn/ccswzen/about?columnid=201912240228526379 | CCS Mission Safety, Environmental protection and Creating va
+   https://www.ccs.org.cn/ccswzen/articleDetail?id=202610280253009147 | CCS Attends ShipTek International Maritime Conference in Dub
+   https://www.ccs.org.cn/ccswzen/articleDetail?id=202610211046572812 | Preview: CCS-Hosted Digitalization and Intelligentization Fo
+   https://www.ccs.org.cn/ccswzen/articleDetail?id=202610200291808200 | “GUO QIANG HAI”, China’s First Vessel Awarded CCS GSC1 Class
+   https://www.ccs.org.cn/ccswzen/articleDetail?id=202610200247766409 | China Classification Society-Surveyed 50,000 DWT MR Product 
+   https://www.ccs.org.cn/ccswzen/articleDetail?id=202608201017309164&columnId=202007171176731956 | Guidelines for Verification of Digital systems of Ships and 
+   https://www.ccs.org.cn/ccswzen/file/download?fileid=202608201045567319 | Download attachments
+   https://www.ccs.org.cn/ccswzen/articleDetail?id=202608210315997804&columnId=202007171176731956 | Guidelines on Calculation and Verification of the Energy Eff
+   https://www.ccs.org.cn/ccswzen/file/download?fileid=202608210334349742 | Download attachments
+   https://www.ccs.org.cn/ccswzen/articleDetail?id=202606290162313776&columnId=202007171176731956 | Rules for Materials and Welding 2026
+   https://www.ccs.org.cn/ccswzen/file/download?fileid=202606290150811882 | Download attachments
+   https://www.ccs.org.cn/ccswzen/articleDetail?id=202606290115400168&columnId=202007171176731956 | Rules for Construction of Sea-going Ships Engaged on Domesti
+   https://www.ccs.org.cn/ccswzen/file/download?fileid=0 | Download attachments
+   https://www.ccs.org.cn/ccswzen/articleDetail?id=202606150427191840&columnId=202007171176731956 | Rules for Classification of Sea-Going Steel Ships 2026 Amend
+   https://www.ccs.org.cn/ccswzen/file/download?fileid=202606150442257064 | Download attachments
+   https://www.ccs.org.cn/ccswzen/articleDetail?id=202607020379262044&columnId=202007171176731956 | Guidelines for Survey of Intelligent Cargo Management of Che
+   https://www.ccs.org.cn/ccswzen/file/download?fileid=202607020363793136 | Download attachments
+   https://www.ccs.org.cn/ccswzen/@{gotoRecruit?columnid=201912240263169292} | Talent recruitment
+   https://www.ccs.org.cn/ccswzen/columnDetail?columnid=201920000000000324 | Customer Personal Information Protection Policy
+===== irs 200 True 98026 
+   https://www.irclass.org/marine/ship-classification/ | Classification Survey
+   https://www.irclass.org/marine/statutory-survey/ | Statutory Survey
+   https://www.irclass.org/marine/type-and-works-approval/ | Type & Works Approval
+   https://www.irclass.org/marine/software/ | Technical Software
+   https://www.irclass.org/marine/approval-and-certification-services/ | Approval and Certification Services
+   https://www.irclass.org/marine/cyber-risk-management/ | Cyber Risk Management
+   https://www.irclass.org/offshore/offshore/ | Offshore Classification & Certification
+   https://www.irclass.org/marine-technical-services/condition-assessment-programme-cap-for-oil-tankers | Condition Assessment Programme
+   https://www.irclass.org/marine-technical-services/noise-vibration-measurement-analysis-for-new-exist | Noise & Vibration
+   https://www.irclass.org/marine-technical-services/noise-prediction-analysis-for-new-built-vessels-be | Noise Prediction
+   https://www.irclass.org/marine-technical-services/other-technical-services/ | Other Technical Services
+   https://www.irclass.org/marine-technical-services/load-and-draft-measurement-system-certification-1/ | Load and Draft Measurement System Certification
+   https://www.irclass.org/academy/segment/ship-design-and-ship-building/ | Ship Design and Ship Building
+   https://www.irclass.org/academy/segment/ports-and-terminals/ | Ports and Terminals
+   https://www.irclass.org/academy/segment/maritime-management-system/ | Maritime Management System
+   https://www.irclass.org/academy/segment/commercial-and-legal/ | Commercial and Legal
+   https://www.irclass.org/research-and-development/software/ | Technical Software
+   https://www.irclass.org/research-and-development/rules-classification-notes-and-guidelines/ | Rules, Classification Notes and Guidelines
+   https://www.irclass.org/media/6453/maritime.zip | Mobile Application
+   https://www.irclass.org/about-irclass/policies-and-disclosures/ | Policies and Disclosures
+===== kr 200 True 3469 
+===== parismou-feed 200 True 34934 
+  XML: ['News – Paris MoU', 'M/V &#8220;LIRA&#8221; &#8211; IMO no: 8516744 refused acces', 'Lifting of Refusal of Access of M/V &#8220;SEA BREEZE&#8221;', 'Lifting of Refusal of Acces of M/V &#8220;EVEREST&#8221; &#8', 'M/V &#8220;VULIN&#8221; &#8211; IMO no: 9015448 refused acce', 'M/V &#8220;CORSICA&#8221; &#8211; IMO no: 9222352 refused ac', 'M/V &#8220;RIWAL&#8221; &#8211; IMO no: 9051208 refused acce', 'M/V &#8220;BAHAR&#8221; &#8211; IMO no: 8230156 refused acce', 'Paris and Tokyo MoUs launch 2026 Concentrated Inspection Cam', 'M/V &#8220;ADOMY&#8221; &#8211; IMO no: 9085900 refused acce', 'M/V &#8220;LIKA&#8221; &#8211; IMO no: 7377701 refused acces']
+   https://parismou.org/posts/news/feed/ | https://parismou.org Tue, 20 Oct 2026 12:09:30 +0000 en-GB h
+===== tokyomou 404 True 168262 
+   https://www.tokyo-mou.org/about/memorandum/ | Memorandum of Understanding
+   https://www.tokyo-mou.org/about/code-of-practice/ | Code of Good Practice
+   https://www.tokyo-mou.org/about/organization/ | Organizational Structure
+   https://www.tokyo-mou.org/about/members/ | Member Authorities and observers
+   https://www.tokyo-mou.org/about/committee/ | Port State Control Committee
+   https://www.tokyo-mou.org/about/secretariat/ | Tokyo MOU Secretariat
+   https://www.tokyo-mou.org/inspections-detentions/nir/ | New Inspection Regime
+   https://www.tokyo-mou.org/inspections-detentions/under-performing-ships/ | Under-performing Ships
+   https://www.tokyo-mou.org/inspections-detentions/performance-lists/ | Performance Lists
+   https://www.tokyo-mou.org/inspections-detentions/detention-procedures/ | Detention Appeals & Reviews
+   https://www.tokyo-mou.org/inspections-detentions/background-table-for-ro-relation/ | Background Table for RO Relation
+   https://www.tokyo-mou.org/inspections-detentions/ro-responsibility/ | Criteria for RO Responsibility
+   https://www.tokyo-mou.org/inspections-detentions/deficiency-codes/ | Deficiency Codes
+===== ics 200 True 65328 
+   https://www.ics-shipping.org/news-and-press/press/ | Press releases and statements
+   https://www.ics-shipping.org/news-and-press/ics-leadership-insights/ | ICS Leadership Insights monthly publication
+   https://www.ics-shipping.org/press-release/vehicle-carrier-safety-forum-publishes-new-fire-drill-gui | Vehicle Carrier Safety Forum publishes new Fire Drill Guidel
+   https://www.ics-shipping.org/press-release/hong-kong-global-maritime-trade-summit-to-return-for-thir | Hong Kong Global Maritime Trade Summit to return for third e
+   https://www.ics-shipping.org/press-release/international-chamber-of-shipping-expands-collection-of-f | International Chamber of Shipping expands collection of free
+   https://www.ics-shipping.org/statement/joint-association-letter-requesting-extension-to-suspension-o | Joint Association Letter Requesting Extension to Suspension 
+   https://www.ics-shipping.org/press-release/international-chamber-of-shipping-addresses-un-security-c | International Chamber of Shipping addresses UN Security Coun
+   https://www.ics-shipping.org/statement/ship-recycling-joint-industry-open-letter/ | Ship Recycling – Joint Industry Open Letter
+   https://www.ics-shipping.org/statement/ics-statement-on-recent-media-reports/ | ICS Statement on recent media reports
+   https://www.ics-shipping.org/statement/shipping-industry-welcomes-the-proposed-inclusion-of-indian-s | Shipping industry welcomes the proposed inclusion of Indian 
+   https://www.ics-shipping.org/statement/joint-open-letter-in-relation-to-no-compulsory-tolls-or-charg | Joint open letter in relation to no compulsory tolls or char
+   https://www.ics-shipping.org/statement/ics-secretary-general-statement-on-unacceptable-dangers-facin | ICS Secretary General statement on unacceptable dangers faci
+   https://www.ics-shipping.org/services/publications/ | ICS Publications
+   https://www.ics-shipping.org/services/ics-maritime-hub-link/ | ICS Maritime Hub
+===== wsc-rss 200 True 80931 
+  XML: ['News - World Shipping Council', 'Dual-fuel fleet passes 500 ships on the water as investment ', 'World Shipping Council launch digital global Whale Chart wit', 'Joint association letter: Request to Extend Suspension of th', 'Open Letter to the Environment and Transport Ministers of th', 'One in ten inspected cargo units found with safety deficienc', 'WSC calls on governments to close battery cargo safety gap', 'Shipping industry welcomes the proposed inclusion of Indian ', 'WSC: EC Proposal Reinforces Performance-Based Approach to Re', 'WSC: ETS rightly reinvests more into maritime decarbonisatio', 'World Shipping Council releases Containers Lost at Sea Repor', 'WSC welcomes evacuation plan for ships in Persian Gulf']
+   https://www.worldshipping.org/s/Joint-Association-Letter-Sec-301-Vessel-Fee-Suspension-Extension-Req | A copy of the letter is available here.
+   https://www.worldshipping.org/regulatory-filings/batteries-sp188-exemptions-in-containerized-transpo | submitting a paper for consideration by the IMO
+===== gmf 200 True 900110 
+===== mmmczcs 200 True 561146 
+===== maritimenz 200 True 163894 
+   https://www.maritimenz.govt.nz/readiness-and-response/reporting-incidents/incident-notification/ | Notify Maritime NZ
+   https://www.maritimenz.govt.nz/commercial-operators/small-domestic-vessels-under-500gt/ | Small domestic vessels under 500gt
+   https://www.maritimenz.govt.nz/commercial-operators/small-domestic-vessels-under-500gt/your-safety-s | Your safety system
+   https://www.maritimenz.govt.nz/commercial-operators/small-domestic-vessels-under-500gt/vessel-requir | Vessel requirements under 500GT
+   https://www.maritimenz.govt.nz/commercial-operators/small-domestic-vessels-under-500gt/crewing-under | Crewing under 500gt
+   https://www.maritimenz.govt.nz/commercial-operators/commercial-fishing/ | Commercial fishing
+   https://www.maritimenz.govt.nz/commercial-operators/commercial-fishing/operating-in-the-commercial-f | Operating in the commercial fishing sector
+   https://www.maritimenz.govt.nz/commercial-operators/commercial-fishing/what-rules-apply-to-fishing-v | What rules apply to fishing vessels
+   https://www.maritimenz.govt.nz/commercial-operators/commercial-fishing/health-and-safety-for-fishing | Health and safety for fishing vessels
+   https://www.maritimenz.govt.nz/commercial-operators/commercial-fishing/look-out-and-watchkeeping/ | Look-out and watchkeeping
+   https://www.maritimenz.govt.nz/commercial-operators/commercial-fishing/who-we-work-with/ | Who we work with
+   https://www.maritimenz.govt.nz/commercial-operators/aquaculture/operating-in-the-aquaculture-sector/ | Operating in the Aquaculture sector
+   https://www.maritimenz.govt.nz/commercial-operators/passenger-vessels-under-500gt/ | Passenger vessels under 500GT
+   https://www.maritimenz.govt.nz/commercial-operators/passenger-vessels-under-500gt/passenger-vessel-o | Passenger vessel operator requirements
+   https://www.maritimenz.govt.nz/commercial-operators/passenger-vessels-under-500gt/adventure-activity | Adventure activity resources
+   https://www.maritimenz.govt.nz/commercial-operators/oil-gas-and-mineral-activity/ | Oil, Gas and Mineral Activity
+   https://www.maritimenz.govt.nz/commercial-operators/oil-gas-and-mineral-activity/agency-roles-in-off | Agency roles in offshore oil, gas and mineral activity in Ne
+   https://www.maritimenz.govt.nz/commercial-operators/oil-gas-and-mineral-activity/requirements-overse | Requirements overseen by Maritime NZ
+   https://www.maritimenz.govt.nz/commercial-operators/oil-gas-and-mineral-activity/safety-zones-and-pr | Safety zones and precautionary areas
+   https://www.maritimenz.govt.nz/commercial-operators/oil-gas-and-mineral-activity/offshore-installati | Offshore Installation Oil Spill Contingency Plans and Insura
+   https://www.maritimenz.govt.nz/commercial-operators/port-operators-and-operations/ | Port Operators and Operations
+   https://www.maritimenz.govt.nz/commercial-operators/port-operators-and-operations/operating-in-port- | Operating in port environments
+   https://www.maritimenz.govt.nz/commercial-operators/port-operators-and-operations/navigating-ports-a | Navigating ports and harbours (pilotage)
+   https://www.maritimenz.govt.nz/commercial-operators/port-operators-and-operations/operating-safely-o | Operating safely on ports
+   https://www.maritimenz.govt.nz/commercial-operators/operating-a-solas-ship-nz-flagged/ | Operating a SOLAS ship (NZ flagged)
+   https://www.maritimenz.govt.nz/commercial-operators/operating-a-solas-ship-nz-flagged/why-flag-to-ne | Why flag to New Zealand
+   https://www.maritimenz.govt.nz/commercial-operators/operating-a-solas-ship-nz-flagged/understanding- | Understanding your regulatory framework
+   https://www.maritimenz.govt.nz/commercial-operators/operating-a-solas-ship-nz-flagged/classification | Classification surveys
+   https://www.maritimenz.govt.nz/commercial-operators/operating-a-solas-ship-nz-flagged/international- | International Safety Management Code
+   https://www.maritimenz.govt.nz/commercial-operators/operating-a-solas-ship-nz-flagged/conventions-an | Conventions and rules
+   https://www.maritimenz.govt.nz/commercial-operators/operating-a-solas-ship-nz-flagged/maritime-nz-au | Maritime NZ Audits Inspections
+   https://www.maritimenz.govt.nz/commercial-operators/operating-a-solas-ship-nz-flagged/crewing-nz-fla | Crewing (NZ flagged)
+   https://www.maritimenz.govt.nz/commercial-operators/foreign-flagged-vessels/ | Foreign Flagged Vessels
+   https://www.maritimenz.govt.nz/commercial-operators/foreign-flagged-vessels/pre-arrival-requirements | Pre-arrival requirements overview
+   https://www.maritimenz.govt.nz/commercial-operators/foreign-flagged-vessels/operating-in-nz-waters/ | Operating in NZ waters
+   https://www.maritimenz.govt.nz/commercial-operators/foreign-flagged-vessels/recruitment-and-placemen | Recruitment and placement services
+   https://www.maritimenz.govt.nz/commercial-operators/foreign-flagged-vessels/port-state-control/ | Port State Control
+   https://www.maritimenz.govt.nz/commercial-operators/foreign-flagged-vessels/international-cargo/ | International cargo
+   https://www.maritimenz.govt.nz/commercial-operators/all-commercial-operators/ | All Commercial Operators
+   https://www.maritimenz.govt.nz/commercial-operators/all-commercial-operators/cargo-and-dangerous-goo | Cargo and dangerous goods
+   https://www.maritimenz.govt.nz/commercial-operators/all-commercial-operators/environmental-requireme | Environmental requirements
+   https://www.maritimenz.govt.nz/commercial-operators/all-commercial-operators/health-and-safety-at-wo | Health and Safety at Work
+   https://www.maritimenz.govt.nz/commercial-operators/all-commercial-operators/ship-registration/ | Ship Registration
+   https://www.maritimenz.govt.nz/commercial-operators/all-commercial-operators/applying-for-an-exempti | Applying for an exemption
+   https://www.maritimenz.govt.nz/commercial-operators/all-commercial-operators/maritime-updates/ | Maritime Updates
+   https://www.maritimenz.govt.nz/seafarers/getting-certified/ | Getting certified
+   https://www.maritimenz.govt.nz/seafarers/getting-certified/how-to-apply-for-other-seafarer-certifica | How to apply for other seafarer certificates
+   https://www.maritimenz.govt.nz/seafarers/getting-certified/replacement-certificates/ | Replacement certificates
+   https://www.maritimenz.govt.nz/seafarers/getting-certified/recognition-of-foreign-certificates/ | Recognition of foreign certificates
+   https://www.maritimenz.govt.nz/seafarers/getting-certified/authority-to-act/ | Authority to Act
+   https://www.maritimenz.govt.nz/seafarers/getting-certified/background-to-seacert/ | Background to SeaCert
+   https://www.maritimenz.govt.nz/seafarers/supporting-information/ | Supporting information
+   https://www.maritimenz.govt.nz/seafarers/supporting-information/acceptable-forms-of-id/ | Acceptable forms of ID
+   https://www.maritimenz.govt.nz/seafarers/supporting-information/medical-fitness/ | Medical fitness
+   https://www.maritimenz.govt.nz/seafarers/supporting-information/ministry-of-justice-criminal-record- | Ministry of Justice Criminal Record checks
+   https://www.maritimenz.govt.nz/seafarers/supporting-information/forms-and-guidelines/ | Forms and guidelines
+   https://www.maritimenz.govt.nz/seafarers/supporting-information/operating-limits-explained/ | Operating limits explained
+   https://www.maritimenz.govt.nz/seafarers/supporting-information/ancillary-certificates-of-proficienc | Ancillary certificates of proficiency
+   https://www.maritimenz.govt.nz/seafarers/supporting-information/evidence-of-sea-service/ | Evidence of sea service
+   https://www.maritimenz.govt.nz/seafarers/supporting-information/certification-fees-and-charges/ | Certification fees and charges
+   https://www.maritimenz.govt.nz/seafarers/working-at-sea/your-rights-and-responsibilities/ | Your rights and responsibilities
+   https://www.maritimenz.govt.nz/seafarers/working-at-sea/career-progression-pathways/ | Career progression pathways
+   https://www.maritimenz.govt.nz/seafarers/getting-help/seafarer-welfare/ | Seafarer welfare
+   https://www.maritimenz.govt.nz/seafarers/getting-help/support-services/ | Support services
+   https://www.maritimenz.govt.nz/seafarers/getting-help/seafarer-welfare-council/ | Seafarer Welfare Council
+   https://www.maritimenz.govt.nz/seafarers/pilots/pilotage-exemption-certificates/ | Pilotage exemption certificates
+   https://www.maritimenz.govt.nz/seafarers/pilots/becoming-a-pilot/ | Becoming a pilot
+   https://www.maritimenz.govt.nz/seafarers/pilots/pilot-licensing/ | Pilot licensing
+   https://www.maritimenz.govt.nz/seafarers/pilots/pilot-training-and-ongoing-proficiency/ | Pilot training and ongoing proficiency
+   https://www.maritimenz.govt.nz/recreational-craft/getting-started/ | Getting started
+   https://www.maritimenz.govt.nz/recreational-craft/on-the-water/rules-and-safety/ | Rules and safety
+   https://www.maritimenz.govt.nz/recreational-craft/on-the-water/rules-on-the-water/ | Rules on the water
+   https://www.maritimenz.govt.nz/recreational-craft/on-the-water/environmental-responsibilities/ | Environmental responsibilities
+   https://www.maritimenz.govt.nz/recreational-craft/on-the-water/applying-to-hold-a-temporary-maritime | Applying to hold a temporary maritime event
+   https://www.maritimenz.govt.nz/recreational-craft/your-craft/vessel-specific-information/ | Vessel specific information
+   https://www.maritimenz.govt.nz/recreational-craft/new-zealand-safer-boating-forum/ | New Zealand Safer Boating Forum
+   https://www.maritimenz.govt.nz/recreational-craft/maritime-transport-lifejackets-on-recreational-cra | Maritime Transport (Lifejackets on Recreational Craft) Amend
+   https://www.maritimenz.govt.nz/surveyors-and-third-parties/recognised-surveyors-overview/ | Recognised Surveyors overview
+   https://www.maritimenz.govt.nz/surveyors-and-third-parties/recognised-surveyors-overview/becoming-a- | Becoming a Recognised Surveyor
+   https://www.maritimenz.govt.nz/surveyors-and-third-parties/conducting-surveys/ | Conducting surveys
+   https://www.maritimenz.govt.nz/surveyors-and-third-parties/conducting-surveys/surveying-under-moss/ | Surveying under MOSS
+   https://www.maritimenz.govt.nz/surveyors-and-third-parties/conducting-surveys/surveying-for-ballast- | Surveying for Ballast Water Management (BWM)
+   https://www.maritimenz.govt.nz/surveyors-and-third-parties/conducting-surveys/resources-for-surveyor | Resources for surveyors
+   https://www.maritimenz.govt.nz/surveyors-and-third-parties/find-a-recognised-surveyor-or-third-party | Find a Recognised Surveyor or Third Party Regulator
+   https://www.maritimenz.govt.nz/surveyors-and-third-parties/find-a-recognised-surveyor-or-third-party | Recognised Surveyors
+   https://www.maritimenz.govt.nz/surveyors-and-third-parties/find-a-recognised-surveyor-or-third-party | Recognised Compass Adjustors
+   https://www.maritimenz.govt.nz/surveyors-and-third-parties/find-a-recognised-surveyor-or-third-party | Recognised Design Approvers
+   https://www.maritimenz.govt.nz/surveyors-and-third-parties/find-a-recognised-surveyor-or-third-party | Recognised Radio Inspectors
+   https://www.maritimenz.govt.nz/surveyors-and-third-parties/find-a-recognised-surveyor-or-third-party | Recognised Radio Surveyors
+   https://www.maritimenz.govt.nz/surveyors-and-third-parties/find-a-recognised-surveyor-or-third-party | Authorised Persons
+   https://www.maritimenz.govt.nz/surveyors-and-third-parties/find-a-recognised-surveyor-or-third-party | Approved Inspection Agencies
+   https://www.maritimenz.govt.nz/surveyors-and-third-parties/find-a-recognised-surveyor-or-third-party | Approved Medical Practitioners
+   https://www.maritimenz.govt.nz/surveyors-and-third-parties/find-a-recognised-surveyor-or-third-party | List of Recognised Organisations
+   https://www.maritimenz.govt.nz/surveyors-and-third-parties/news-and-updates/ | News and updates
+   https://www.maritimenz.govt.nz/readiness-and-response/overview/how-readiness-and-response-works/ | How Readiness and Response works
+   https://www.maritimenz.govt.nz/readiness-and-response/overview/our-role-in-the-system/ | Our role in the system
+   https://www.maritimenz.govt.nz/readiness-and-response/in-an-emergency/ | In an emergency
+   https://www.maritimenz.govt.nz/readiness-and-response/navigational-safety-and-communications/ | Navigational safety and communications
+   https://www.maritimenz.govt.nz/readiness-and-response/navigational-safety-and-communications/aids-to | Aids to navigation
+   https://www.maritimenz.govt.nz/readiness-and-response/navigational-safety-and-communications/hazards | Hazards to navigation
+   https://www.maritimenz.govt.nz/readiness-and-response/beacons-and-communications/ | Beacons and communications
+   https://www.maritimenz.govt.nz/readiness-and-response/beacons-and-communications/maritime-radio-serv | Maritime radio service for New Zealand
+   https://www.maritimenz.govt.nz/readiness-and-response/maritime-incident-readiness-and-response-mirr/ | Maritime Incident Readiness and Response (MIRR)
+   https://www.maritimenz.govt.nz/readiness-and-response/maritime-incident-readiness-and-response-mirr/ | Rescue Coordination Centre (RCCNZ)
+   https://www.maritimenz.govt.nz/readiness-and-response/maritime-incident-readiness-and-response-mirr/ | Maritime Incident Response
+   https://www.maritimenz.govt.nz/readiness-and-response/maritime-incident-readiness-and-response-mirr/ | Oil pollution response
+   https://www.maritimenz.govt.nz/readiness-and-response/reporting-incidents/ | Reporting incidents
+   https://www.maritimenz.govt.nz/readiness-and-response/reporting-incidents/accident-reporting-definit | Accident reporting definitions
+   https://www.maritimenz.govt.nz/readiness-and-response/reporting-incidents/incidents-and-investigatio | Incidents and investigations
+   https://www.maritimenz.govt.nz/readiness-and-response/reporting-incidents/notification-faqs/ | Notification FAQs
+   https://www.maritimenz.govt.nz/readiness-and-response/reporting-incidents/other-notifications/ | Other notifications
+   https://www.maritimenz.govt.nz/readiness-and-response/reporting-incidents/incident-notification-proc | Incident notification process
+   https://www.maritimenz.govt.nz/readiness-and-response/reporting-incidents/what-must-be-reported/ | What must be reported
+   https://www.maritimenz.govt.nz/readiness-and-response/reporting-incidents/reporting-summaries/ | Reporting summaries
+   https://www.maritimenz.govt.nz/about-us/who-we-are/our-organisation/ | Our organisation
+   https://www.maritimenz.govt.nz/about-us/who-we-are/our-ministers-and-governance/ | Our Ministers and Governance
+   https://www.maritimenz.govt.nz/about-us/who-we-are/people-we-work-with/ | People we work with
+   https://www.maritimenz.govt.nz/about-us/who-we-are/how-we-are-funded/ | How we are funded
+   https://www.maritimenz.govt.nz/about-us/who-we-are/our-history-and-heritage/ | Our history and heritage
+   https://www.maritimenz.govt.nz/about-us/our-regulatory-approach/ | Our regulatory approach
+   https://www.maritimenz.govt.nz/about-us/our-regulatory-approach/harm-prevention-programmes/ | Harm Prevention Programmes
+   https://www.maritimenz.govt.nz/about-us/our-regulatory-approach/operational-policies/ | Operational Policies
+   https://www.maritimenz.govt.nz/about-us/our-regulatory-approach/position-statements/ | Position Statements
+   https://www.maritimenz.govt.nz/about-us/our-strategy-and-performance/ | Our strategy and performance
+   https://www.maritimenz.govt.nz/about-us/our-strategy-and-performance/corporate-publications/ | Corporate publications
+   https://www.maritimenz.govt.nz/about-us/our-strategy-and-performance/legislation-we-administer/ | Legislation we administer
+   https://www.maritimenz.govt.nz/about-us/our-strategy-and-performance/service-charter/ | Service Charter
+   https://www.maritimenz.govt.nz/about-us/our-strategy-and-performance/reducing-our-carbon-footprint/ | Reducing our carbon footprint
+   https://www.maritimenz.govt.nz/about-us/rules/latest-rule-updates/ | Latest rule updates
+   https://www.maritimenz.govt.nz/about-us/rules/material-incorporated-by-reference/ | Material incorporated by reference
+   https://www.maritimenz.govt.nz/about-us/rules/technical-clarifications/ | Technical Clarifications
+   https://www.maritimenz.govt.nz/about-us/rules/40-series-reform-project/ | 40 Series Reform project
+   https://www.maritimenz.govt.nz/about-us/rules/overview-of-maritime-and-marine-protection-rules/ | Overview of maritime and marine protection rules
+   https://www.maritimenz.govt.nz/about-us/rules/consistency-accountability-statements/ | Consistency Accountability Statements
+   https://www.maritimenz.govt.nz/about-us/consultations/dce-40-series-package-3/ | DCE 40 Series Package 3
+   https://www.maritimenz.govt.nz/about-us/consultations/closed-consultations/ | Closed consultations
+   https://www.maritimenz.govt.nz/about-us/reviews-and-request/ | Reviews and request
+   https://www.maritimenz.govt.nz/about-us/reviews-and-request/official-information-act-requests/ | Official Information Act requests
+   https://www.maritimenz.govt.nz/about-us/reviews-and-request/apply-for-a-review-of-licensing-decision | Apply for a review of licensing decision
+   https://www.maritimenz.govt.nz/about-us/reviews-and-request/review-of-a-notice-under-hswa/ | Review of a notice under HSWA
+===== tc-atom 200 None 464 
+===== tc-atom2 200 None 19279 
+  XML: ['Roberts Bank Terminal 2 listed as a project of national inte', 'Canada launches new task force to make trade faster, simpler', 'UPDATED –\xa0Government of Canada to make a significant announc', 'Government of Canada invests $7.3 million in new infrastruct', 'The Government of Canada to announce investment in new infra', 'The Government of Canada invests $254 million to support tra', 'Minister MacKinnon to make an important announcement regardi', 'Transport Canada evaluating a proposed update of the joint v', 'Government of Canada invests in stronger air connectivity in', 'Transport Minister Steven MacKinnon announces new leadership', 'Minister of Transport announces expanded air transport agree', 'Government of Canada celebrates the opening of Canadian Nort']
+===== clima-rss 200 True 40432 
+  XML: ['Climate Action | News', 'European Commission logo', 'Council publishes 2025 international climate finance figures', 'Commission presents Climate Resilience Framework for a bette', 'Commission welcomes political agreement on rules enhancing s', 'Commission invests €3.4 billion in net-zero technology proje', 'Commission hosts a high-level policy dialogue on the role of', 'Mayors meet with EU leaders in Brussels to advance affordabl', 'Apply now to be a European Climate Pact Ambassador!', 'EU local leaders and authorities gather to discuss affordabl', 'Multilateralism: Council sets EU position ahead of climate c', 'Young people meet with Commissioner Hoekstra to discuss EU c']
+===== dma 200 True 83770 
+   https://www.dma.dk/safety-at-sea/navigational-information/nautical-information | Nautical information
+   https://www.dma.dk/safety-at-sea/navigational-information/new-shipping-routes-in-kattegat-and-skager | New shipping routes in Kattegat and Skagerrak
+   https://www.dma.dk/safety-at-sea/safety-of-navigation/marine-aids-to-navigation | Marine aids to navigation
+   https://www.dma.dk/safety-at-sea/safety-of-navigation/construction-works-at-sea | Construction works at sea
+   https://www.dma.dk/safety-at-sea/safety-of-navigation/exemption-from-reporting-obligation | Exemption from reporting obligation
+   https://www.dma.dk/safety-at-sea/safety-of-navigation/mandatory-ship-reporting-systems-msrs-and-vess | Mandatory Ship Reporting Systems (MSRS) and Vessel Traffic S
+   https://www.dma.dk/safety-at-sea/ship-safety/occupational-health | Occupational health
+   https://www.dma.dk/safety-at-sea/ship-safety/batteries-lng-and-oil | Batteries, LNG and oil
+   https://www.dma.dk/safety-at-sea/ship-safety/carriage-of-dangerous-goods | Carriage of dangerous goods
+   https://www.dma.dk/safety-at-sea/ship-safety/maritime-security-isps | Maritime security - ISPS
+   https://www.dma.dk/safety-at-sea/ship-safety/market-surveillance-of-marine-equipment | Market surveillance of marine equipment
+   https://www.dma.dk/safety-at-sea/commercial-diving/diving-training-programmes | Diving training programmes
+   https://www.dma.dk/safety-at-sea/commercial-diving/medical-examinations | Medical examinations
+   https://www.dma.dk/safety-at-sea/safety-for-passengers/passenger-insurance | Passenger insurance
+   https://www.dma.dk/safety-at-sea/safety-for-passengers/passenger-rights | Passenger rights
+   https://www.dma.dk/about-us/boards-and-tribunals/danish-pleasure-craft-safety-board | Danish Pleasure Craft Safety Board
+   https://www.dma.dk/ship-survey-and-registration/ship-survey/order-and-pay-for-surveys | Order and pay for surveys
+   https://www.dma.dk/ship-survey-and-registration/ship-survey/passenger-ship-surveys | Passenger ship surveys
+   https://www.dma.dk/ship-survey-and-registration/ship-survey/self-monitoring | Self-monitoring
+   https://www.dma.dk/ship-survey-and-registration/ship-survey/inform-about-conversions | Inform about conversions
+   https://www.dma.dk/ship-survey-and-registration/ship-survey/information-for-yards-workshops-and-vess | Information for yards, workshops and vessel owners
+   https://www.dma.dk/ship-survey-and-registration/ship-survey/classification-societies | Classification societies
+   https://www.dma.dk/ship-survey-and-registration/ship-survey/insurance-maritime-claims | Insurance - maritime claims
+   https://www.dma.dk/ship-survey-and-registration/port-state-control-psc/company-performance | Company performance
+   https://www.dma.dk/ship-survey-and-registration/port-state-control-psc/inspection-intervals | Inspection intervals
+   https://www.dma.dk/ship-survey-and-registration/port-state-control-psc/reporting-port-calls | Reporting port calls
+   https://www.dma.dk/ship-survey-and-registration/port-state-control-psc/scope-of-inspections | Scope of inspections
+   https://www.dma.dk/ship-survey-and-registration/port-state-control-psc/ship-risk-profile | Ship risk profile
+   https://www.dma.dk/ship-survey-and-registration/port-state-control-psc/top-priority-factors-and-unex | Top priority factors and unexpected factors
+   https://www.dma.dk/ship-survey-and-registration/ship-registration-and-fees/what-does-the-introductio | What does the introduction of a digital ship register entail
+   https://www.dma.dk/ship-survey-and-registration/ship-registration-and-fees/certificates-and-transcri | Certificates and transcripts
+   https://www.dma.dk/ship-survey-and-registration/ship-registration-and-fees/bareboat-registration | Bareboat registration
+   https://www.dma.dk/ship-survey-and-registration/ship-registration-and-fees/registration-and-re-regis | Registration and re-registration of a ship in the Danish
+   https://www.dma.dk/ship-survey-and-registration/ship-registration-and-fees/change-of-ownership | Change of ownership
+   https://www.dma.dk/ship-survey-and-registration/ship-registration-and-fees/power-of-attorney | Power of attorney
+   https://www.dma.dk/ship-survey-and-registration/ship-registration-and-fees/the-danish-ship-registers | The Danish Ship Registers
+   https://www.dma.dk/ship-survey-and-registration/ship-registration-and-fees/registration-of-mortgage- | Registration of mortgage and negative pledges
+   https://www.dma.dk/ship-survey-and-registration/ship-registration-and-fees/deletion-of-a-ship-when-a | Deletion of a ship, when and how?
+   https://www.dma.dk/ship-survey-and-registration/ship-registration-and-fees/search-the-ship-registers | Search the Ship Registers
+   https://www.dma.dk/ship-survey-and-registration/ship-registration-and-fees/ship-register-rules | Ship Register rules
+   https://www.dma.dk/ship-survey-and-registration/ship-registration-and-fees/guides-digital-ship-regis | Guides - Digital Ship Register
+   https://www.dma.dk/ship-survey-and-registration/apply-for-a-certificate/danish-ships-mlc-certificate | Danish ships' MLC certificates
+   https://www.dma.dk/ship-survey-and-registration/apply-for-a-certificate/guidance-for-ship-station-li | Guidance for Ship Station License
+   https://www.dma.dk/ship-survey-and-registration/authorisations/tables-and-guidelines | Tables and guidelines
+   https://www.dma.dk/ship-survey-and-registration/flying-the-danish-flag/cargo-ships-below-500-gt | Cargo ships below 500 GT
+   https://www.dma.dk/ship-survey-and-registration/flying-the-danish-flag/cargo-ships-above-500-gt | Cargo ships above 500 GT
+   https://www.dma.dk/ship-survey-and-registration/flying-the-danish-flag/passenger-ships-on-internatio | Passenger ships on international voyages
+   https://www.dma.dk/seafarers-and-manning/discharge-book-and-certificates/are-you-a-recent-graduate | Are you a recent graduate?
+   https://www.dma.dk/seafarers-and-manning/discharge-book-and-certificates/certificate-of-competency | Certificate of competency
+   https://www.dma.dk/seafarers-and-manning/discharge-book-and-certificates/reacquisition-of-certificat | Re-acquisition of certificate
+   https://www.dma.dk/seafarers-and-manning/discharge-book-and-certificates/radio-certificate | Radio certificate
+   https://www.dma.dk/seafarers-and-manning/discharge-book-and-certificates/seagoing-service | Seagoing services
+   https://www.dma.dk/seafarers-and-manning/discharge-book-and-certificates/certificate-of-proficiency | Certificate of proficiency
+   https://www.dma.dk/seafarers-and-manning/discharge-book-and-certificates/refreshing-qualifications | STCW Refresher requirements
+   https://www.dma.dk/seafarers-and-manning/discharge-book-and-certificates/certificate-of-recognition | Certificate of recognition
+   https://www.dma.dk/seafarers-and-manning/discharge-book-and-certificates/education-and-seagoing-serv | Education and seagoing service from the navy
+   https://www.dma.dk/seafarers-and-manning/discharge-book-and-certificates/verify-stcw-certificate | Verify STCW certificate
+   https://www.dma.dk/seafarers-and-manning/discharge-book-and-certificates/seafarers-on-danish-ships | Seafarers on Danish ships
+   https://www.dma.dk/seafarers-and-manning/discharge-book-and-certificates/digital-certificates | Digital certificates for seafarers
+   https://www.dma.dk/seafarers-and-manning/safe-manning-document/fishing-vessels | Fishing vessels
+   https://www.dma.dk/seafarers-and-manning/safe-manning-document/exemption-for-safe-manning-document | Exemption for safe manning document
+   https://www.dma.dk/seafarers-and-manning/safe-manning-document/short-handed-sailing | Short-handed sailing
+   https://www.dma.dk/seafarers-and-manning/person-in-charge-of-medical-care/approved-medical-guides | Approved medical guides
+   https://www.dma.dk/seafarers-and-manning/person-in-charge-of-medical-care/description-of-course-cent | Description of course centre
+   https://www.dma.dk/seafarers-and-manning/person-in-charge-of-medical-care/download-inventory-lists | Download inventory lists
+   https://www.dma.dk/seafarers-and-manning/person-in-charge-of-medical-care/radio-medical-record | Radio Medical Record
+   https://www.dma.dk/seafarers-and-manning/person-in-charge-of-medical-care/approved-alternatives-medi | Exemption for medicine
+   https://www.dma.dk/seafarers-and-manning/person-in-charge-of-medical-care/faq-for-persons-in-charge- | FAQ for persons in charge of medical care
+   https://www.dma.dk/seafarers-and-manning/person-in-charge-of-medical-care/guidelines-and-manuals | Guidelines and manuals
+   https://www.dma.dk/seafarers-and-manning/person-in-charge-of-medical-care/which-regulations-apply | Which regulations apply?
+   https://www.dma.dk/seafarers-and-manning/person-in-charge-of-medical-care/news-medical-care | News - medical care
+   https://www.dma.dk/seafarers-and-manning/conditions-of-employment-mlc/conditions-of-employment | Conditions of employment
+   https://www.dma.dk/seafarers-and-manning/conditions-of-employment-mlc/social-security-and-repatriati | Social security and repatriation
+   https://www.dma.dk/seafarers-and-manning/conditions-of-employment-mlc/complain-about-working-and-liv | Complain about working and living conditions
+   https://www.dma.dk/seafarers-and-manning/conditions-of-employment-mlc/faq-on-employment | FAQ on employment
+   https://www.dma.dk/seafarers-and-manning/conditions-of-employment-mlc/foreign-seafarers-on-danish-sh | Foreign seafarers on Danish ships
+   https://www.dma.dk/seafarers-and-manning/medical-practitioners-and-health/medical-examinations | Medical examinations
+   https://www.dma.dk/seafarers-and-manning/medical-practitioners-and-health/medical-examiners | Medical examiners
+   https://www.dma.dk/seafarers-and-manning/medical-practitioners-and-health/faq-about-medical-practiti | FAQ about medical practitioners and health
+   https://www.dma.dk/seafarers-and-manning/maritime-courses/education-plans | Education plans
+   https://www.dma.dk/seafarers-and-manning/maritime-courses/school-and-course-approvals | School and course approvals
+   https://www.dma.dk/recreational-sailing/recreational-vessels/manning-recreational-craft | Manning recreational craft
+   https://www.dma.dk/recreational-sailing/recreational-vessels/faq-on-sailing-under-the-influence-of-a | FAQ on sailing under the influence of alcohol
+   https://www.dma.dk/recreational-sailing/recreational-vessels/buying-a-second-hand-recreational-craft | Buying a second-hand recreational craft
+   https://www.dma.dk/recreational-sailing/recreational-vessels/radio-in-recreational-vessels | Radio in recreational vessels
+   https://www.dma.dk/recreational-sailing/recreational-vessels/register-a-recreational-craft | Register a recreational craft
+   https://www.dma.dk/recreational-sailing/recreational-vessels/traffic-separation-systems | Traffic separation systems
+   https://www.dma.dk/recreational-sailing/recreational-vessels/hiring-out-a-recreational-craft | Hiring out a recreational craft
+   https://www.dma.dk/recreational-sailing/recreational-vessels/personal-watercraft | Personal watercraft
+   https://www.dma.dk/recreational-sailing/training-programmes-and-personal-certificates/training-requi | Training requirements
+   https://www.dma.dk/recreational-sailing/training-programmes-and-personal-certificates/personal-water | Personal watercraft certificate
+   https://www.dma.dk/recreational-sailing/training-programmes-and-personal-certificates/power-boat-cer | Power boat certificate
+   https://www.dma.dk/recreational-sailing/training-programmes-and-personal-certificates/certificate-of | Certificate of Competency for recreational sailors
+   https://www.dma.dk/recreational-sailing/training-programmes-and-personal-certificates/certificate-of | Certificate of Competency as Yacht Master
+   https://www.dma.dk/recreational-sailing/training-programmes-and-personal-certificates/certificate-of | Certificate of proficiency in motor operation
+   https://www.dma.dk/recreational-sailing/training-programmes-and-personal-certificates/src-certificat | SRC certificate
+   https://www.dma.dk/recreational-sailing/training-programmes-and-personal-certificates/canal-certific | Canal certificates
+   https://www.dma.dk/recreational-sailing/training-programmes-and-personal-certificates/issuance-of-ce | Issue of certificates
+   https://www.dma.dk/recreational-sailing/training-programmes-and-personal-certificates/requirements-f | Requirements for issuance of certificates
+   https://www.dma.dk/recreational-sailing/training-programmes-and-personal-certificates/sailing-abroad | Sailing abroad for recreational sailors
+   https://www.dma.dk/recreational-sailing/training-programmes-and-personal-certificates/use-of-foreign | Use of foreign leisure certificates in Denmark
+   https://www.dma.dk/recreational-sailing/approved-providers-of-exams-for-recreational-sailors/approve | Approved providers of exams for recreational sailors
+   https://www.dma.dk/recreational-sailing/approved-providers-of-exams-for-recreational-sailors/guideli | Guidelines to become approved providers
+   https://www.dma.dk/recreational-sailing/approved-providers-of-exams-for-recreational-sailors/faq-pro | FAQ - providers, censors and tests
+   https://www.dma.dk/institutional-sailing/passenger-sailing-max-12-persons/recreational-or-commercial | Recreational or commercial voyages?
+   https://www.dma.dk/institutional-sailing/passenger-sailing-max-12-persons/is-the-vessel-required-to- | Is the vessel required to be surveyed?
+   https://www.dma.dk/institutional-sailing/passenger-sailing-max-12-persons/requirements-for-the-vesse | Requirements for the vessel
+   https://www.dma.dk/institutional-sailing/passenger-sailing-max-12-persons/safety-instructions | Safety instructions
+   https://www.dma.dk/institutional-sailing/training-and-institutional-sailing/education-and-training-r | Education and training requirements
+   https://www.dma.dk/institutional-sailing/training-and-institutional-sailing/faq-for-schools-and-inst | FAQ for schools and institutions
+   https://www.dma.dk/institutional-sailing/training-and-institutional-sailing/is-the-vessel-required-t | Is the vessel required to be surveyed?
+   https://www.dma.dk/institutional-sailing/training-and-institutional-sailing/safety-instructions | Safety instructions
+   https://www.dma.dk/growth-and-framework-conditions/eu/eu-baltic-sea-strategy | EU Baltic Sea Strategy
+   https://www.dma.dk/growth-and-framework-conditions/framework-conditions/economic-framework-condition | Economic framework conditions
+   https://www.dma.dk/growth-and-framework-conditions/framework-conditions/general-framework-conditions | General framework conditions
+   https://www.dma.dk/growth-and-framework-conditions/maritime-sanctions/general-information | General information
+   https://www.dma.dk/growth-and-framework-conditions/maritime-sanctions/sanctions-against-russia-and-b | Sanctions against Russia and Belarus
+   https://www.dma.dk/growth-and-framework-conditions/maritime-sanctions/sanctions-against-russia-and-b | Sale of tankers
+   https://www.dma.dk/growth-and-framework-conditions/maritime-sanctions/other-sanctions | Other sanctions
+   https://www.dma.dk/growth-and-framework-conditions/maritime-sanctions/sanctions-against-russia-and-b | Register sale of oil tankers
+   https://www.dma.dk/growth-and-framework-conditions/rules-and-legislation/technical-regulations | Technical regulations
+   https://www.dma.dk/growth-and-framework-conditions/setting-up-a-maritime-business/ship-registration | Ship registration
+   https://www.dma.dk/growth-and-framework-conditions/strategic-sector-cooperation/sector-coorperation- | Sector Coorperation with Ghana
+   https://www.dma.dk/growth-and-framework-conditions/strategic-sector-cooperation/sector-coorperation- | Sector Coorperation with Kenya
+   https://www.dma.dk/growth-and-framework-conditions/strategic-sector-cooperation/sector-coorperation- | Sector Coorperation with China
+   https://www.dma.dk/growth-and-framework-conditions/events/digital@sea | Digital@Sea International
+===== gard 200 True 159020 
+   https://gard.no/products-and-services/products/shipowners/ | Products and services
+   https://gard.no/products-and-services/products/charterers-and-traders/ | Charterers and traders
+   https://gard.no/products-and-services/products/offshore-contractors/ | Offshore contractors
+   https://gard.no/products-and-services/products/energy-e-and-p/ | Energy exploration and production
+   https://gard.no/about-gard/corporate-governance-and-compliance/ | Governance and Compliance
+   https://gard.no/about-gard/finance-and-risk-management/ | Finance and risk management
+   https://gard.no/about-gard/sponsorships-and-donations/ | Sponsorship and Donations
+   https://gard.no/about-gard/media-contact/ | Media relations
+   https://gard.no/products-and-services/services/loss-prevention/ | Loss prevention
+   https://gard.no/document/safety-campaigns/ | Safety campaigns
+   https://gard.no/en/circulars/ | Member Circulars
+===== ammonia 200 True 1086 
+  XML: ['Ammonia Energy Association', 'Ammonia Energy Association']
+===== nyk 200 True 60545 
+   https://www.nyk.com/scripts/contact_oth_jp/index.asp | ãåãåãã
+   https://www.nyk.com/profile/mission/ | æ¥æ¬éµè¹ã°ã«ã¼ãä¼æ¥­çå¿µ
+   https://www.nyk.com/profile/service/ | äºæ¥­æ¡å TOP
+   https://www.nyk.com/profile/service/liner/ | å®æè¹äºæ¥­
+   https://www.nyk.com/profile/service/car/ | èªåè»äºæ¥­
+   https://www.nyk.com/profile/service/dry/ | ãã©ã¤ãã«ã¯äºæ¥­
+   https://www.nyk.com/profile/service/energy/ | ã¨ãã«ã®ã¼äºæ¥­
+   https://www.nyk.com/profile/service/others/ | ãã®ä»ã®äºæ¥­
+   https://www.nyk.com/profile/group/ | ã°ã«ã¼ãä¼ç¤¾ä¸è¦§
+   https://www.nyk.com/sustainability/message/ | ãããã³ãããã¡ã³ã
+   https://www.nyk.com/sustainability/concept/ | æ¥æ¬éµè¹ã°ã«ã¼ãã®ãµã¹ããããªãã£çµå¶
+   https://www.nyk.com/sustainability/contribution/ | ç¤¾ä¼èª²é¡è§£æ±ºã¸ã®ææ¦
+   https://www.nyk.com/sustainability/report/ | ãµã¹ããããªãã£ã¬ãã¼ã
+   https://www.nyk.com/sustainability/guide/ | éç¤ºã¹ã¿ã³ãã¼ãå¯¾ç §è¡¨
+   https://www.nyk.com/sustainability/evaluate/ | ç¤¾ä¼ããã®è©ä¾¡
+   https://www.nyk.com/sustainability/news/ | ãµã¹ããããªãã£ãã¥ã¼ã¹
+   https://www.nyk.com/sustainability/sustainable-finance/ | ãµã¹ãããã«ãã¡ã¤ãã³ã¹
+   https://www.nyk.com/ir/financial/ | æ¥­ç¸¾ã»è²¡åæ å ±
+   https://www.nyk.com/ir/schedule/ | IRã¹ã±ã¸ã¥ã¼ã«
+   https://www.nyk.com/ir/library/ | IRã©ã¤ãã©ãªã¼
+   https://www.nyk.com/ir/investors/ | åäººæè³å®¶ã®çãã¾ã¸
+   https://www.nyk.com/ir/faq/ | FAQã»ãåãåãã
+   https://www.nyk.com/news/2026/20261028_01.html | 2026å¹´10æ28æ¥ ãã¬ã¹ãªãªã¼ã¹ ãProgress Report 2
+   https://www.nyk.com/news/2026/20261027_01.html | 2026å¹´10æ27æ¥ å ±åãªãªã¼ã¹ ã¢ã³ã¢ãã¢çæè
+   https://www.nyk.com/news/2026/20261023_01.html | 2026å¹´10æ23æ¥ ãç¥ãã æ±äº¬æ¹¾ã¯ã«ã¼ãºè¹ãLA
+   https://www.nyk.com/news/2026/20260925_01.html | 2026å¹´09æ25æ¥ ãã¬ã¹ãªãªã¼ã¹ ã¢ã¸ã¢ã»å¤§æ´å·
+   https://www.nyk.com/news/2026/20260918_03.html | 2026å¹´09æ18æ¥ ãã¬ã¹ãªãªã¼ã¹ ä¸çåãã¢ã³ã
+   https://www.nyk.com/news/2026/20260918_02.html | 2026å¹´09æ18æ¥ ãã¬ã¹ãªãªã¼ã¹ ãNYKã¬ãã¼ã20
+   https://www.nyk.com/news/2026/ | ãã¥ã¼ã¹ãªãªã¼ã¹ä¸è¦§
+   https://www.nyk.com/ir/news/ | IRãã¥ã¼ã¹ä¸è¦§
+   https://www.nyk.com/news/2026/20261030.html | 2026å¹´10æ30æ¥ ãã¬ã¹ãªãªã¼ã¹ 2026å¹´åº¦ãç¤¾é·ã
+   https://www.nyk.com/ir/news/2026/__icsFiles/afieldfile/2026/10/29/20261029jpn.pdf | 2026å¹´10æ29æ¥ é©æéç¤º 2027å¹´3ææ æ¥­ç¸¾äºæ³ã
+   https://www.nyk.com/news/2026/20261026.html | 2026å¹´10æ26æ¥ å ±åãªãªã¼ã¹ LNGãã³ã«ãªã³ã°è
+   https://www.nyk.com/news/2026/20261022_01.html | 2026å¹´10æ22æ¥ å ±åãªãªã¼ã¹ ä¸çã®æ£®æåçæ
+   https://www.nyk.com/news/2026/20261019_01.html | 2026å¹´10æ19æ¥ ãç¥ãã NYKSMè¨­ç«25å¨å¹´è¨å¿µå¼å
+   https://www.nyk.com/news/2026/20261013.html | 2026å¹´10æ13æ¥ ãã¬ã¹ãªãªã¼ã¹ Malaysia LNGç¤¾ã¨æ
+   https://www.nyk.com/news/2026/20261009_03.html | 2026å¹´10æ09æ¥ ãç¥ãã å½ç¤¾7åç®ã®ãã©ã³ã¸ã
+   https://www.nyk.com/news/2026/20261009_2.html | 2026å¹´10æ09æ¥ ãç¥ãã 2026å¹´åº¦éå¤§äºæ å¯¾å¿è
+   https://www.nyk.com/news/2026/20261009_1.html | 2026å¹´10æ09æ¥ ãç¥ãã ShipTek Awards 2026ã§ãGree
+   https://www.nyk.com/news/2026/20261008.html | 2026å¹´10æ08æ¥ ãç¥ãã LNGçæãã³ã«ãªã³ã°è
+   https://www.nyk.com/news/2026/20261002_2.html | 2026å¹´10æ02æ¥ ãç¥ãã ç±³å½ã·ãªã³ã³ãã¬ã¼ã
+   https://www.nyk.com/news/2026/20261001_01.html | 2026å¹´10æ02æ¥ ãã¬ã¹ãªãªã¼ã¹ åµæ¥­141å¨å¹´ãè¨
+   https://www.nyk.com/news/2026/20260929_01.html | 2026å¹´09æ29æ¥ ãã¬ã¹ãªãªã¼ã¹ ãã«ã¦ã§ã¼ã®Tr
+   https://www.nyk.com/news/2026/20260925_03.html | 2026å¹´09æ25æ¥ ãã¬ã¹ãªãªã¼ã¹ Diamond Global Energ
+   https://www.nyk.com/news/2026/20260925_2.html | 2026å¹´09æ25æ¥ ãç¥ãã IMOã§æµ·äºæ¥­çããªã¼ã
+   https://www.nyk.com/news/2026/20260918_01.html | 2026å¹´09æ18æ¥ ãç¥ãã ãããã ä¸­é¨ãã£ã³ã
+   https://www.nyk.com/news/2026/20260916_02.html | 2026å¹´09æ16æ¥ ãç¥ãã å½ç¤¾ã°ã«ã¼ãã®MTIãã
+   https://www.nyk.com/news/2026/20260916_01.html | 2026å¹´09æ16æ¥ ãç¥ãã ç³åç°å¢å¤§è£ãæ¿åºé
+   https://www.nyk.com/news/2026/20260915_01.html | 2026å¹´09æ15æ¥ å ±åãªãªã¼ã¹ å½å CCSäºæ¥­ã®å®ç
+   https://www.nyk.com/news/2026/20260914_01.html | 2026å¹´09æ14æ¥ ãã¬ã¹ãªãªã¼ã¹ ã¯ã«ã¼ãºè¹ãAM
+   https://www.nyk.com/news/2026/20260911_01.html | 2026å¹´09æ11æ¥ ãç¥ãã ãã£ãªãã³ã§ã®æµ·äºå­
+   https://www.nyk.com/news/2026/20260904.html | 2026å¹´09æ04æ¥ ãç¥ãã 2026å¹´ãã©ã¤ãã«ã¯å®å
+   https://www.nyk.com/news/2026/20260902_01.html | 2026å¹´09æ02æ¥ ãç¥ãã ä¸çå ±éã®ãæ¥æ¬éµè
+   https://www.nyk.com/news/2026/20260901_02.html | 2026å¹´09æ01æ¥ ãç¥ãã LNGãã³ã«ãªã³ã°å¤§æã
+   https://www.nyk.com/app-files/pdf/social010.pdf | Slavery and Human Trafficking Statement
+   https://www.nyk.com/english/gdpr/ | NYK Privacy Policy (GDPR)
+===== mol 200 True 452 
+===== nmri 200 None 21181 
+   https://www.nmri.go.jp/event/seminar/ | è¬æ¼ä¼ã»ã»ããã¼
+   https://www.nmri.go.jp/event/presentation/ | ç ç©¶çºè¡¨ä¼
+   https://www.nmri.go.jp/service/contribution/ | å¤é¨é£æºåã³è²¢ç®
+   https://www.nmri.go.jp/study/research_organization/ | ç ç©¶çµç¹ãã¨ã®ç ç©¶
+   https://www.nmri.go.jp/news/press/ | ãã¬ã¹ãªãªã¼ã¹
+   https://www.nmri.go.jp/news/mail_news/ | æµ·æç ã¡ã¼ã«ãã¥ã¼ã¹
+   https://www.nmri.go.jp/news/topics/ | ç ç©¶ãããã¯ã¹

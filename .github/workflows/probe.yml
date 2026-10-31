@@ -16,4 +16,4 @@ jobs:
       - run: python probe.py
       - run: |
           git config user.name probe-bot; git config user.email probe@example.invalid
-          git add result.json; git commit -m "probe result"; git push
+          git add result.json raw; git commit -m "probe result"; git push
