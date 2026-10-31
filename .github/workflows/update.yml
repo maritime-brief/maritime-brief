@@ -1,0 +1,83 @@
+# SHIPSHIFT 自動更新
+#  - 毎日 日本時間 6:40 / 11:40 / 17:40 に、新着を収集してサイトを作り直す
+#    （engine: api のときは、ここで記事作成まで行う。claude-app のときは記事作成をClaudeのタスクが行う）
+#  - 保留記事の status を書き換えて保存（push）すると、承認・却下を反映してサイトを作り直す
+#  - 毎時17分に「今日よく読まれている記事」を集計し直してサイトを作り直す（GoatCounter を設定したとき）
+#  - Actions 画面の「Run workflow」ボタンで手動実行もできる
+name: update
+
+on:
+  schedule:
+    - cron: "40 21 * * *"  # 日本時間 6:40
+    - cron: "40 2 * * *"   # 日本時間 11:40
+    - cron: "40 8 * * *"   # 日本時間 17:40
+    - cron: "17 * * * *"   # 毎時17分：ランキングの更新だけ
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "content/**"
+      - "data/queue/**"
+      - "data/glossary.yaml"
+      - "config/**"
+      - "templates/**"
+      - "static/**"
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: 必要なライブラリを入れる
+        run: pip install -r requirements.txt
+
+      - name: ランキングの集計（GoatCounter を設定したときだけ）
+        env:
+          GOATCOUNTER_TOKEN: ${{ secrets.GOATCOUNTER_TOKEN }}
+        run: python -m pipeline.main ranking
+
+      - name: "収集（engine が api なら記事作成も）"
+        if: github.event_name != 'push' && github.event.schedule != '17 * * * *'
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python -m pipeline.main run
+
+      - name: 承認・却下の反映とサイトの作り直し（記事が送られてきたとき）
+        if: github.event_name == 'push'
+        run: python -m pipeline.main review
+
+      - name: サイトの作り直し（毎時のランキング更新のとき）
+        if: github.event.schedule == '17 * * * *'
+        run: python -m pipeline.main build
+
+      - name: 記事と記録を保存
+        run: |
+          git config user.name "maritime-brief-bot"
+          git config user.email "maritime-brief-bot@users.noreply.github.com"
+          git add content data
+          git diff --cached --quiet || git commit -m "自動更新 $(TZ=Asia/Tokyo date '+%Y-%m-%d %H:%M')"
+          git pull --rebase --autostash
+          git push
+
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+      - id: deploy
+        uses: actions/deploy-pages@v4

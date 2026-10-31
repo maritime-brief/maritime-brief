@@ -1,0 +1,19 @@
+name: probe
+on:
+  push:
+    branches: [probe-sources]
+    paths: ["candidates.txt", "probe.py"]
+permissions:
+  contents: write
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.12"}
+      - run: pip install requests
+      - run: python probe.py
+      - run: |
+          git config user.name probe-bot; git config user.email probe@example.invalid
+          git add result.json; git commit -m "probe result"; git push
