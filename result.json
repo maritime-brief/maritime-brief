@@ -25,68 +25,6 @@
   ],
   "head": ""
  },
- "iacs-feed": {
-  "url": "https://iacs.org.uk/feed/",
-  "robots_status": 200,
-  "robots_allowed": true,
-  "robots_excerpt": "# As a condition of accessing this website, you agree to abide by the following\n# content signals:\n\n# (a)  If a Content-Signal = yes, you may collect content for the corresponding\n#      use.\n# (b)  If a Content-Signal = no, you may not collect content for the\n#      corresponding use.\n# (c)  If the website operator does not include a Content-Signal for a\n#      corresponding use, the website operator neither grants nor restricts\n#      permission via Content-Signal with respect to the corresponding use.\n\n# The content signals and their meanings are:\n\n# search:   building a search index and providing search results (e.g., returning\n#           hyperlinks and short excerpts from your website's contents). Search does not\n#           include providing AI-generated search summaries.\n# ai-input",
-  "status": 404,
-  "final": "https://iacs.org.uk/feed/",
-  "len": 16436,
-  "ctype": "text/html; charset=utf-8",
-  "feeds": [],
-  "links": [
-   [
-    "https://iacs.org.uk/",
-    "IACS - International Association of Classification Societies"
-   ],
-   [
-    "https://iacs.org.uk/contact",
-    "Contact Support"
-   ],
-   [
-    "https://iacs.org.uk/disclaimer-and-copyright-policy",
-    "IACS Disclaimer and Copyright Policy"
-   ],
-   [
-    "https://iacs.org.uk/terms-and-conditions",
-    "Terms and Conditions"
-   ]
-  ],
-  "head": "",
-  "body_head": "<!doctype html>\n  <html data-n-head-ssr lang=\"en\" data-n-head=\"%7B%22lang%22:%7B%22ssr%22:%22en%22%7D%7D\">\n    <head >\n      <title>Safer and Cleaner Shipping - IACS</title><meta data-n-head=\"ssr\" charset=\"utf-8\"><meta data-n-head=\"ssr\" name=\"viewport\" content=\"width=device-width, initial-scale=1\"><"
- },
- "iacs-rss": {
-  "url": "https://iacs.org.uk/rss",
-  "robots_status": 200,
-  "robots_allowed": true,
-  "robots_excerpt": "# As a condition of accessing this website, you agree to abide by the following\n# content signals:\n\n# (a)  If a Content-Signal = yes, you may collect content for the corresponding\n#      use.\n# (b)  If a Content-Signal = no, you may not collect content for the\n#      corresponding use.\n# (c)  If the website operator does not include a Content-Signal for a\n#      corresponding use, the website operator neither grants nor restricts\n#      permission via Content-Signal with respect to the corresponding use.\n\n# The content signals and their meanings are:\n\n# search:   building a search index and providing search results (e.g., returning\n#           hyperlinks and short excerpts from your website's contents). Search does not\n#           include providing AI-generated search summaries.\n# ai-input",
-  "status": 404,
-  "final": "https://iacs.org.uk/rss",
-  "len": 16429,
-  "ctype": "text/html; charset=utf-8",
-  "feeds": [],
-  "links": [
-   [
-    "https://iacs.org.uk/",
-    "IACS - International Association of Classification Societies"
-   ],
-   [
-    "https://iacs.org.uk/contact",
-    "Contact Support"
-   ],
-   [
-    "https://iacs.org.uk/disclaimer-and-copyright-policy",
-    "IACS Disclaimer and Copyright Policy"
-   ],
-   [
-    "https://iacs.org.uk/terms-and-conditions",
-    "Terms and Conditions"
-   ]
-  ],
-  "head": "",
-  "body_head": "<!doctype html>\n  <html data-n-head-ssr lang=\"en\" data-n-head=\"%7B%22lang%22:%7B%22ssr%22:%22en%22%7D%7D\">\n    <head >\n      <title>Safer and Cleaner Shipping - IACS</title><meta data-n-head=\"ssr\" charset=\"utf-8\"><meta data-n-head=\"ssr\" name=\"viewport\" content=\"width=device-width, initial-scale=1\"><"
- },
  "abs": {
   "url": "https://ww2.eagle.org/en/news/press-room.html",
   "robots_status": 200,
@@ -1537,1222 +1475,6 @@
   ],
   "head": ""
  },
- "bv": {
-  "url": "https://marine-offshore.bureauveritas.com/newsroom",
-  "robots_status": 200,
-  "robots_allowed": true,
-  "robots_excerpt": "#\r\n# robots.txt\r\n#\r\n# This file is to prevent the crawling and indexing of certain parts\r\n# of your site by web crawlers and spiders run by sites like Yahoo!\r\n# and Google. By telling these \"robots\" where not to go on your site,\r\n# you save bandwidth and server resources.\r\n#\r\n# This file will be ignored unless it is at the root of your host:\r\n# Used:    http://example.com/robots.txt\r\n# Ignored: http://example.com/site/robots.txt\r\n#\r\n# For more information about the robots.txt standard, see:\r\n# http://www.robotstxt.org/robotstxt.html\r\n\r\nUser-agent: *\r\n# CSS, JS, Images\r\nAllow: /core/*.css$\r\nAllow: /core/*.css?\r\nAllow: /core/*.js$\r\nAllow: /core/*.js?\r\nAllow: /core/*.gif\r\nAllow: /core/*.jpg\r\nAllow: /core/*.jpeg\r\nAllow: /core/*.png\r\nAllow: /core/*.svg\r\nAllow: /profiles/*.css$\r\nAllow: /profiles",
-  "status": 200,
-  "final": "https://marine-offshore.bureauveritas.com/newsroom",
-  "len": 152755,
-  "ctype": "text/html; charset=UTF-8",
-  "feeds": [],
-  "links": [
-   [
-    "https://marine-offshore.bureauveritas.com/",
-    "Marine & Offshore"
-   ],
-   [
-    "https://marine-offshore.bureauveritas.com/decarbonization_service",
-    "Decarbonization Services"
-   ],
-   [
-    "https://marine-offshore.bureauveritas.com/insight/future-shipping-team",
-    "Future Shipping Team"
-   ],
-   [
-    "https://marine-offshore.bureauveritas.com/ship_efficiency",
-    "Ship Energy Efficiency"
-   ],
-   [
-    "https://marine-offshore.bureauveritas.com/low_carbon_technologies",
-    "Low carbon Technologies"
-   ],
-   [
-    "https://marine-offshore.bureauveritas.com/electrification-onshore-power",
-    "Electrification and onshore power supply"
-   ],
-   [
-    "https://marine-offshore.bureauveritas.com/energy_saving_devices",
-    "Energy Saving Devices"
-   ],
-   [
-    "https://marine-offshore.bureauveritas.com/wind-propulsion",
-    "Wind Propulsion"
-   ],
-   [
-    "https://marine-offshore.bureauveritas.com/shipping-decarbonization/carbon-capture-storage-ccs",
-    "Onboard Carbon Capture"
-   ],
-   [
-    "https://marine-offshore.bureauveritas.com/expertise-sustainability/nuclear-propulsion-electricity-production",
-    "Nuclear in maritime"
-   ],
-   [
-    "https://marine-offshore.bureauveritas.com/sustainability/ultra-low-emission-vessels",
-    "Ultra-Low Emission"
-   ],
-   [
-    "https://marine-offshore.bureauveritas.com/marine_sustainability",
-    "Marine Sustainability"
-   ],
-   [
-    "https://marine-offshore.bureauveritas.com/sustainability/underwater-radiated-noise-urn",
-    "Underwater Noise"
-   ],
-   [
-    "https://marine-offshore.bureauveritas.com/sustainability-services-financiers-and-shipowners",
-    "Green Financing"
-   ],
-   [
-    "https://marine-offshore.bureauveritas.com/shipping-decarbonization/future-fuels",
-    "Alternative Fuels"
-   ],
-   [
-    "https://marine-offshore.bureauveritas.com/shipping_decarbonization_regulations",
-    "Shipping Decarbonization Regulations"
-   ],
-   [
-    "https://marine-offshore.bureauveritas.com/sustainability/fit-for-55",
-    "EU Shipping Regulations"
-   ],
-   [
-    "https://marine-offshore.bureauveritas.com/expertise-sustainability/net-zero-framework",
-    "IMO Mid-term Measures"
-   ],
-   [
-    "https://marine-offshore.bureauveritas.com/shipping-decarbonization/carbon-index",
-    "IMO Carbon Footprint Indexes"
-   ],
-   [
-    "https://marine-offshore.bureauveritas.com/marine",
-    "Explore our marine services"
-   ],
-   [
-    "https://marine-offshore.bureauveritas.com/marine/ship-classification/ships-in-service",
-    "Ships in Service"
-   ],
-   [
-    "https://marine-offshore.bureauveritas.com/marine-classification/our-services-ship-type",
-    "Our Services per Ship type"
-   ],
-   [
-    "https://marine-offshore.bureauveritas.com/marine/ship-classification/container-ships",
-    "Container ships"
-   ],
-   [
-    "https://marine-offshore.bureauveritas.com/marine/ship-classification/fishing-vessels",
-    "Fishing vessels"
-   ],
-   [
-    "https://marine-offshore.bureauveritas.com/marine/ship-classification/inland-navigation",
-    "Inland navigation"
-   ],
-   [
-    "https://marine-offshore.bureauveritas.com/marine/ship-classification/offshore-service-vessels",
-    "Offshore support vessels"
-   ],
-   [
-    "https://marine-offshore.bureauveritas.com/marine/ship-classification/oil-chemical-tankers",
-    "Oil & chemical tankers"
-   ],
-   [
-    "https://marine-offshore.bureauveritas.com/marine/statutory-certification",
-    "Statutory certification"
-   ],
-   [
-    "https://marine-offshore.bureauveritas.com/regulatory-updates",
-    "Regulatory Updates"
-   ],
-   [
-    "https://marine-offshore.bureauveritas.com/marine-classification/regulatory-updates",
-    "IMO Regulatory News & Trends"
-   ],
-   [
-    "https://marine-offshore.bureauveritas.com/marine-classification/regulatory-updates/eu-regulatory-news",
-    "EU Regulatory News"
-   ],
-   [
-    "https://marine-offshore.bureauveritas.com/marine-classification/cyber-services",
-    "In-service Vessels"
-   ],
-   [
-    "https://marine-offshore.bureauveritas.com/marine/cybersecurity/chart",
-    "CHART by Bureau Veritas"
-   ],
-   [
-    "https://marine-offshore.bureauveritas.com/marine/materials-equipment-certification",
-    "Materials & equipment certification"
-   ],
-   [
-    "https://marine-offshore.bureauveritas.com/classification-rules-rule-notes-guidance-notes",
-    "Rules & Guidelines"
-   ],
-   [
-    "https://marine-offshore.bureauveritas.com/research-development",
-    "Research & Development"
-   ],
-   [
-    "https://marine-offshore.bureauveritas.com/gas-value-chain",
-    "Gas Value Chain"
-   ],
-   [
-    "https://marine-offshore.bureauveritas.com/maritime-machine-learning-systems",
-    "Maritime Machine Learning System"
-   ],
-   [
-    "https://marine-offshore.bureauveritas.com/marine/autonomous-ships",
-    "Autonomous ships"
-   ],
-   [
-    "https://marine-offshore.bureauveritas.com/offshore/offshore-validation-verification",
-    "Validation & verification"
-   ],
-   [
-    "https://marine-offshore.bureauveritas.com/offshore/offshore-certification",
-    "Certification & Accreditation"
-   ],
-   [
-    "https://marine-offshore.bureauveritas.com/classification-rules-rule-notes-guidance-notes",
-    "Rules & Guidelines"
-   ],
-   [
-    "https://marine-offshore.bureauveritas.com/research-development",
-    "Research & Development"
-   ],
-   [
-    "https://marine-offshore.bureauveritas.com/offshore-center-excellence",
-    "Offshore Center of Excellence"
-   ],
-   [
-    "https://marine-offshore.bureauveritas.com/offering-technical-advisory-services-assist-our-clients-decision-making-enhancing-safety-efficiency",
-    "Explore Advisory Solution"
-   ],
-   [
-    "https://marine-offshore.bureauveritas.com/advisory-solutions/sustainable-solutions",
-    "Sustainable Solutions"
-   ],
-   [
-    "https://marine-offshore.bureauveritas.com/advisory-solutions/sustainable-solutions/energy-efficiency",
-    "Energy Efficiency"
-   ],
-   [
-    "https://marine-offshore.bureauveritas.com/advisory-solutions/sustainable-solutions/energy-modeling",
-    "Energy Modeling"
-   ],
-   [
-    "https://marine-offshore.bureauveritas.com/advisory-solutions/sustainable-solutions/carbon-index-support",
-    "Carbon Index Support"
-   ],
-   [
-    "https://marine-offshore.bureauveritas.com/magazine/bv-solutions-mo-leads-charge-towards-sustainable-shipping-finance",
-    "Green Financing"
-   ],
-   [
-    "https://marine-offshore.bureauveritas.com/engineering-solutions",
-    "Engineering Solutions"
-   ],
-   [
-    "https://marine-offshore.bureauveritas.com/elastic-shaft-alignment",
-    "Elastic Shaft Alignment"
-   ],
-   [
-    "https://marine-offshore.bureauveritas.com/noise-vibration",
-    "Noise & Vibration"
-   ],
-   [
-    "https://marine-offshore.bureauveritas.com/onboard-measurement",
-    "Onboard Measurements"
-   ],
-   [
-    "https://marine-offshore.bureauveritas.com/seakeepinganticipating-vessel-behavior-sea",
-    "Seakeeping Studies"
-   ],
-   [
-    "https://marine-offshore.bureauveritas.com/advisory-solutions/engineering-solutions/structural-integrity",
-    "Structural Integrity"
-   ],
-   [
-    "https://marine-offshore.bureauveritas.com/advisory-solutions/engineering-solutions/technical-assistance",
-    "Technical Assistance"
-   ],
-   [
-    "https://marine-offshore.bureauveritas.com/needs/alternative-design-studiesenabling-alternative-design-without-compromising-safety",
-    "Alternative Design"
-   ],
-   [
-    "https://marine-offshore.bureauveritas.com/qualitative-quantitative-analysis",
-    "Quantitative & Qualitative Analysis"
-   ],
-   [
-    "https://marine-offshore.bureauveritas.com/needs/reliability-maintenance",
-    "Reliability & Maintenance"
-   ],
-   [
-    "https://marine-offshore.bureauveritas.com/assurance-solutions",
-    "Assurance Solutions"
-   ],
-   [
-    "https://marine-offshore.bureauveritas.com/asset-conversion",
-    "Asset Conversion"
-   ],
-   [
-    "https://marine-offshore.bureauveritas.com/advisory-solutions/assurance-solutions/compliance-surveys-audits",
-    "Compliance Surveys & Audits"
-   ],
-   [
-    "https://marine-offshore.bureauveritas.com/condition-assessment-securing-impartial-overview-assets-status",
-    "Condition Assessment"
-   ],
-   [
-    "https://marine-offshore.bureauveritas.com/dp-assurance-consultancy",
-    "DP Assurance & Consultancy"
-   ],
-   [
-    "https://marine-offshore.bureauveritas.com/life-extension-studies",
-    "Life Extension Studies"
-   ],
-   [
-    "https://marine-offshore.bureauveritas.com/marine-assurance-services-supporting-safe-and-efficient-operations-throughout-assets-lifetime",
-    "Marine Assurance"
-   ],
-   [
-    "https://marine-offshore.bureauveritas.com/project-assurance",
-    "Project Assurance"
-   ],
-   [
-    "https://marine-offshore.bureauveritas.com/asset-management-solutions",
-    "Asset Management"
-   ],
-   [
-    "https://marine-offshore.bureauveritas.com/asset-integrity-managementoptimizing-asset-efficiency-safety-and-environment",
-    "Asset Integrity Management"
-   ],
-   [
-    "https://marine-offshore.bureauveritas.com/condition-based-maintenanceleveraging-data-produce-customized-solutions",
-    "Condition-based Maintenance"
-   ],
-   [
-    "https://marine-offshore.bureauveritas.com/decommissioningensuring-full-preparedness-avoid-unexpected-surprises",
-    "Decommissioning"
-   ],
-   [
-    "https://marine-offshore.bureauveritas.com/marine-managementsystems",
-    "Marine Management Systems"
-   ],
-   [
-    "https://marine-offshore.bureauveritas.com/operational-excellence-demonstrating-excellence-safety-environment-and-cost-efficiency",
-    "Operational Excellence"
-   ],
-   [
-    "https://marine-offshore.bureauveritas.com/risk-based-approach",
-    "Risk-Based Approach"
-   ],
-   [
-    "https://marine-offshore.bureauveritas.com/advisory-solutions/cyber-services-suite",
-    "Cyber services suite"
-   ],
-   [
-    "https://marine-offshore.bureauveritas.com/ballast-water-management-bwmassisting-shipowners-seamlessly-implement-bwm-convention",
-    "Ballast Water Management (BWM)"
-   ],
-   [
-    "https://marine-offshore.bureauveritas.com/emissions-monitoringsupporting-shipping-industrys-energy-transition",
-    "Emissions Monitoring"
-   ],
-   [
-    "https://marine-offshore.bureauveritas.com/ship-recycling-inventory-hazardous-materials",
-    "Ship Reycling & IHM"
-   ],
-   [
-    "https://marine-offshore.bureauveritas.com/underwater-radiated-noise",
-    "Underwater Radiated Noise"
-   ],
-   [
-    "https://marine-offshore.bureauveritas.com/advisory-solutions/matdan/marine-warranty",
-    "Marine Warranty"
-   ],
-   [
-    "https://marine-offshore.bureauveritas.com/advisory-solutions/matdan/risk-assessment",
-    "Risk Assessment"
-   ],
-   [
-    "https://marine-offshore.bureauveritas.com/digital/digital-efficiency",
-    "Digital Efficiency"
-   ],
-   [
-    "https://marine-offshore.bureauveritas.com/digital/digital-applications",
-    "Digital Applications"
-   ],
-   [
-    "https://marine-offshore.bureauveritas.com/digital/digital-applications/approval-explorer",
-    "Approval Explorer"
-   ],
-   [
-    "https://marine-offshore.bureauveritas.com/digital/digital-applications/machinery-maintenance",
-    "Machinery Maintenance"
-   ],
-   [
-    "https://marine-offshore.bureauveritas.com/digital/digital-applications/move-fleet-service-application",
-    "MOVE - Fleet in service application"
-   ],
-   [
-    "https://marine-offshore.bureauveritas.com/digital/digital-applications/optimum-survey-planning",
-    "Optimum Survey Planning"
-   ],
-   [
-    "https://marine-offshore.bureauveritas.com/digital/digital-applications/veristar-dangerous-goods-bulk",
-    "Veristar Dangerous Goods & Bulk"
-   ],
-   [
-    "https://marine-offshore.bureauveritas.com/veristar-equipment",
-    "Veristar Equipment"
-   ],
-   [
-    "https://marine-offshore.bureauveritas.com/digital/digital-applications/veristar-project-management",
-    "Veristar Project Management"
-   ],
-   [
-    "https://marine-offshore.bureauveritas.com/digital/digital-applications/utm-data-platform",
-    "UTM Data Platform"
-   ],
-   [
-    "https://marine-offshore.bureauveritas.com/digital-classification",
-    "Digital Classification"
-   ],
-   [
-    "https://marine-offshore.bureauveritas.com/digital/digital-classification",
-    "3D Classification"
-   ],
-   [
-    "https://marine-offshore.bureauveritas.com/digital-classification/remote-augmented-surveys",
-    "Tech-enabled surveys"
-   ],
-   [
-    "https://marine-offshore.bureauveritas.com/digital/digital-classification-0",
-    "Augmented Surveyor 3D (AGS 3D)"
-   ],
-   [
-    "https://marine-offshore.bureauveritas.com/digital/maritime-industry-40",
-    "Maritime Industry 4.0"
-   ],
-   [
-    "https://marine-offshore.bureauveritas.com/move-bureau-veritas",
-    "SMART HUB - MOVE"
-   ],
-   [
-    "https://marine-offshore.bureauveritas.com/Rules_Explorer_amplified_with_an_AI_assistant",
-    "Rules Explorer amplified with an AI assistant"
-   ],
-   [
-    "https://marine-offshore.bureauveritas.com/news-insights/business-insights",
-    "Business Insights"
-   ],
-   [
-    "https://marine-offshore.bureauveritas.com/news-insights",
-    "Events & Webinars"
-   ],
-   [
-    "https://marine-offshore.bureauveritas.com/who-we-are/our-subsidiaries",
-    "OUR SUBSIDIARIES"
-   ],
-   [
-    "https://marine-offshore.bureauveritas.com/news-insights/bv-trustmakers",
-    "Meet BV Trustmakers"
-   ],
-   [
-    "https://marine-offshore.bureauveritas.com/newsroom/bureau-veritas-launches-cruise-center-excellence-miami",
-    "Image Oct. 30 2026 Bureau Veritas Launches Cruise Center of Excellence in Miami Read More"
-   ],
-   [
-    "https://marine-offshore.bureauveritas.com/newsroom/bureau-veritas-grants-type-approval-wingds-groundbreaking-variable-compression-ratio",
-    "Image Oct. 21 2026 Bureau Veritas Grants Type Approval to WinGD’s Groundbreaking Variable Compression Ratio Technology R"
-   ],
-   [
-    "https://marine-offshore.bureauveritas.com/newsroom/bureau-veritas-celebrates-naming-union-maritimes-wind-assisted-aframax-product-tanker",
-    "Image Oct. 19 2026 Bureau Veritas Celebrates the Naming of Union Maritime's Wind-Assisted Aframax Product Tanker ALBERT "
-   ],
-   [
-    "https://marine-offshore.bureauveritas.com/newsroom/bv-classed-114000-dwt-lr2-tanker-aegean-shipping-delivered",
-    "Image Oct. 14 2026 BV-Classed 114,000 DWT LR2 Tanker for Aegean Shipping Delivered Read More"
-   ],
-   [
-    "https://marine-offshore.bureauveritas.com/newsroom/bureau-veritas-supports-landmark-deep-water-floating-wind-project-through-marine-warranty",
-    "Image Oct. 9 2026 Bureau Veritas Supports Landmark Deep-Water Floating Wind Project Through Marine Warranty Survey Servi"
-   ],
-   [
-    "https://marine-offshore.bureauveritas.com/newsroom/bv-supports-successful-delivery-175000-cbm-lng-carrier-yangzijiang-xinfu",
-    "Image Oct. 8 2026 BV Supports Successful Delivery of 175,000 cbm LNG Carrier at Yangzijiang Xinfu Read More"
-   ],
-   [
-    "https://marine-offshore.bureauveritas.com/newsroom/european-affairs-report-september-2026-edition",
-    "Image Oct. 1 2026 European Affairs Report September 2026 Edition Read More"
-   ],
-   [
-    "https://marine-offshore.bureauveritas.com/newsroom/dimension-consultants-and-bureau-veritas-sign-mou-cable-lay-vessel-design-and-mission",
-    "Image Sep. 30 2026 Dimension Consultants and Bureau Veritas Sign MOU on Cable Lay Vessel Design and Mission Equipment Re"
-   ],
-   [
-    "https://marine-offshore.bureauveritas.com/newsroom/brittany-ferries-adrena-and-bureau-veritas-achieve-6-energy-savings-through-digital-twin",
-    "Image Sep. 24 2026 Brittany Ferries, Adrena and Bureau Veritas achieve up to 6% energy savings through digital twin-opti"
-   ],
-   [
-    "https://marine-offshore.bureauveritas.com/newsroom/12th-session-carriage-cargoes-and-containers-sub-committee-ccc-12",
-    "Image Sep. 18 2026 THE 12th SESSION OF THE CARRIAGE OF CARGOES AND CONTAINERS SUB-COMMITTEE (CCC 12) Read More"
-   ],
-   [
-    "https://marine-offshore.bureauveritas.com/classification-rules-rule-notes-guidance-notes",
-    "Image Rules & Guidelines Bureau Veritas develops rules and guidance notes."
-   ],
-   [
-    "https://marine-offshore.bureauveritas.com/software",
-    "Image Software Comply with regulatory requirements and optimize your unit’s design with our software programs."
-   ],
-   [
-    "https://marine-offshore.bureauveritas.com/training-solutionsshowing-expert-knowledge",
-    "Image Training solutions Discover our training offer for all businesses."
-   ],
-   [
-    "https://marine-offshore.bureauveritas.com/newsroom?type=class_statutory_news",
-    "Image Class & Statutory News Get the most recent Class & Statutory information."
-   ],
-   [
-    "https://marine-offshore.bureauveritas.com/flag-recognition/",
-    "Image Flag authorizations Display the list of Flag Authorities and delegations granted to Bureau Veritas."
-   ],
-   [
-    "https://marine-offshore.bureauveritas.com/bv-fleet/",
-    "Image BV Fleet Easily locate Bureau Veritas classed ships with our on-line register."
-   ],
-   [
-    "https://marine-offshore.bureauveritas.com/research-development",
-    "Image Research & Development Read about our main R&D projects and publications."
-   ],
-   [
-    "https://marine-offshore.bureauveritas.com/marine-classification/statutory-certification/imo-amendments",
-    "Image IMO amendments Navigating statutory requirements"
-   ],
-   [
-    "https://marine-offshore.bureauveritas.com/our-careers",
-    "VISIT OUR CAREER PAGE"
-   ],
-   [
-    "https://marine-offshore.bureauveritas.com/sites/g/files/zypfnx136/files/media/document/BVMO%20General%20Conditions%20vMarch%202026.pdf",
-    "general conditions"
-   ],
-   [
-    "https://marine-offshore.bureauveritas.com/information-notice-users",
-    "information notice to users"
-   ]
-  ],
-  "head": ""
- },
- "rina": {
-  "url": "https://www.rina.org/en/media/press",
-  "robots_status": 404,
-  "status": 200,
-  "final": "https://www.rina.org/en/media/press",
-  "len": 135008,
-  "ctype": "text/html; charset=utf-8",
-  "feeds": [],
-  "links": [
-   [
-    "https://www.rina.org/en/sectors/aerospace-defence",
-    "Aerospace and defence"
-   ],
-   [
-    "https://www.rina.org/en/sectors/construction-development",
-    "Construction and development"
-   ],
-   [
-    "https://www.rina.org/en/sectors/financial-institutions",
-    "Financial institutions"
-   ],
-   [
-    "https://www.rina.org/en/sectors/heavy-industries",
-    "Heavy industries"
-   ],
-   [
-    "https://www.rina.org/en/sectors/infrastructure-mobility",
-    "Infrastructure and mobility"
-   ],
-   [
-    "https://www.rina.org/en/business/marine",
-    "Classification and statutory certification"
-   ],
-   [
-    "https://www.rina.org/en/business/consulting-engineering",
-    "Consulting engineering"
-   ],
-   [
-    "https://www.rina.org/en/business/digital-solutions",
-    "Digital solutions"
-   ],
-   [
-    "https://www.rina.org/en/decarbonisation",
-    "Decarbonisation and energy transition"
-   ],
-   [
-    "https://www.rina.org/en/expertise/innovation-laboratories",
-    "Innovation laboratories"
-   ],
-   [
-    "https://www.rina.org/en/rdi",
-    "Research, Development and Innovation"
-   ],
-   [
-    "https://www.rina.org/en/open-innovation-hub",
-    "Open Innovation Hubs"
-   ],
-   [
-    "https://www.rina.org/en/company/practices",
-    "Engineering practices"
-   ],
-   [
-    "https://www.rina.org/en/company/diversity-inclusion",
-    "Diversity, Equity & Inclusion"
-   ],
-   [
-    "https://www.rina.org/en/charting-new-horizons",
-    "2030 Strategic plan"
-   ],
-   [
-    "https://www.rina.org/en/company/purpose-vision-mission",
-    "Purpose, vision and mission"
-   ],
-   [
-    "https://www.rina.org/en/company/compliance",
-    "Compliance and policies"
-   ],
-   [
-    "https://www.rina.org/en/company/governance",
-    "Governance model"
-   ],
-   [
-    "https://www.rina.org/de",
-    "Deutsch - Germany"
-   ],
-   [
-    "https://www.rina.org/en/australia",
-    "English - Australia"
-   ],
-   [
-    "https://www.rina.org/en/india",
-    "English - India"
-   ],
-   [
-    "https://www.rina.org/en/northamerica/",
-    "English - North America"
-   ],
-   [
-    "http://www.rina.org/es",
-    "Español - Spain"
-   ],
-   [
-    "https://www.rina.org/it",
-    "Italiano - Italy"
-   ],
-   [
-    "https://www.rina.org/pl",
-    "Polski - Poland"
-   ],
-   [
-    "https://www.rina.org/br",
-    "Português - Brasil"
-   ],
-   [
-    "https://www.rina.org/ro",
-    "Română - Romania"
-   ],
-   [
-    "https://www.rina.org/bg",
-    "Български - Bulgaria"
-   ],
-   [
-    "https://www.rina.org/en/open-innovation-hub",
-    "Open Innovation Hubs"
-   ],
-   [
-    "https://www.rina.org/en/company/practices",
-    "Engineering practices"
-   ],
-   [
-    "https://www.rina.org/en/company/diversity-inclusion",
-    "Diversity, Equity & Inclusion"
-   ],
-   [
-    "https://www.rina.org/en/charting-new-horizons",
-    "2030 Strategic plan"
-   ],
-   [
-    "https://www.rina.org/en/company/purpose-vision-mission",
-    "Purpose, vision and mission"
-   ],
-   [
-    "https://www.rina.org/en/company/compliance",
-    "Compliance and policies"
-   ],
-   [
-    "https://www.rina.org/en/company/governance",
-    "Governance model"
-   ],
-   [
-    "https://www.rina.org/de",
-    "Deutsch - Germany"
-   ],
-   [
-    "https://www.rina.org/en/australia",
-    "English - Australia"
-   ],
-   [
-    "https://www.rina.org/en/india",
-    "English - India"
-   ],
-   [
-    "https://www.rina.org/en/northamerica/",
-    "English - North America"
-   ],
-   [
-    "http://www.rina.org/es",
-    "Español - Spain"
-   ],
-   [
-    "https://www.rina.org/it",
-    "Italiano - Italy"
-   ],
-   [
-    "https://www.rina.org/pl",
-    "Polski - Poland"
-   ],
-   [
-    "https://www.rina.org/br",
-    "Português - Brasil"
-   ],
-   [
-    "https://www.rina.org/ro",
-    "Română - Romania"
-   ],
-   [
-    "https://www.rina.org/bg",
-    "Български - Bulgaria"
-   ],
-   [
-    "https://www.rina.org/en/sectors/aerospace-defence",
-    "Aerospace and defence"
-   ],
-   [
-    "https://www.rina.org/en/sectors/construction-development",
-    "Construction and development"
-   ],
-   [
-    "https://www.rina.org/en/sectors/financial-institutions",
-    "Financial institutions"
-   ],
-   [
-    "https://www.rina.org/en/sectors/heavy-industries",
-    "Heavy industries"
-   ],
-   [
-    "https://www.rina.org/en/sectors/infrastructure-mobility",
-    "Infrastructure and mobility"
-   ],
-   [
-    "https://www.rina.org/en/business/marine",
-    "Classification and statutory certification"
-   ],
-   [
-    "https://www.rina.org/en/business/consulting-engineering",
-    "Consulting engineering"
-   ],
-   [
-    "https://www.rina.org/en/business/digital-solutions",
-    "Digital solutions"
-   ],
-   [
-    "https://www.rina.org/en/decarbonisation",
-    "Decarbonisation and energy transition"
-   ],
-   [
-    "https://www.rina.org/en/expertise/innovation-laboratories",
-    "Innovation laboratories"
-   ],
-   [
-    "https://www.rina.org/en/rdi",
-    "Research, Development and Innovation"
-   ],
-   [
-    "https://www.rina.org/en/open-innovation-hub",
-    "Open Innovation Hubs"
-   ],
-   [
-    "https://www.rina.org/en/company/practices",
-    "Engineering practices"
-   ],
-   [
-    "https://www.rina.org/en/company/diversity-inclusion",
-    "Diversity, Equity & Inclusion"
-   ],
-   [
-    "https://www.rina.org/en/charting-new-horizons",
-    "2030 Strategic plan"
-   ],
-   [
-    "https://www.rina.org/en/company/purpose-vision-mission",
-    "Purpose, vision and mission"
-   ],
-   [
-    "https://www.rina.org/en/company/compliance",
-    "Compliance and policies"
-   ],
-   [
-    "https://www.rina.org/en/company/governance",
-    "Governance model"
-   ],
-   [
-    "https://www.rina.org/de",
-    "Deutsch - Germany"
-   ],
-   [
-    "https://www.rina.org/en/australia",
-    "English - Australia"
-   ],
-   [
-    "https://www.rina.org/en/india",
-    "English - India"
-   ],
-   [
-    "https://www.rina.org/en/northamerica/",
-    "English - North America"
-   ],
-   [
-    "http://www.rina.org/es",
-    "Español - Spain"
-   ],
-   [
-    "https://www.rina.org/it",
-    "Italiano - Italy"
-   ],
-   [
-    "https://www.rina.org/pl",
-    "Polski - Poland"
-   ],
-   [
-    "https://www.rina.org/br",
-    "Português - Brasil"
-   ],
-   [
-    "https://www.rina.org/ro",
-    "Română - Romania"
-   ],
-   [
-    "https://www.rina.org/bg",
-    "Български - Bulgaria"
-   ],
-   [
-    "https://www.rina.org/en/media/press/2026/10/23/paolo-moretti-group-chief-executive-officer",
-    "Company RINA: Paolo Moretti appointed Group Chief Executive Officer 23 Oct 2026"
-   ],
-   [
-    "https://www.rina.org/en/media/press/2026/10/12/ai-driven-ship-operations",
-    "Marine China Merchants Energy Shipping and RINA Partner to Explore AI-Driven Ship Operations and Next-Generation Maritim"
-   ],
-   [
-    "https://www.rina.org/en/media/press/2026/10/06/rina-ptt-mou",
-    "Energy RINA and PTT sign strategic agreements to advance innovation and decarbonization across the energy and maritime s"
-   ],
-   [
-    "https://www.rina.org/en/media/press/2026/09/10/pt-lrt-jakarta-mou",
-    "Transport & Infrastructure RINA and PT LRT Jakarta sign MoU to explore cooperation 10 Sep 2026"
-   ],
-   [
-    "https://www.rina.org/en/media/press/2026/08/27/mermaid",
-    "Marine RINA unveils Mermaid, a future-ready ship design for an uncertain decarbonisation future 27 Aug 2026"
-   ],
-   [
-    "https://www.rina.org/en/media/press/2026/07/27/ansaldo-energia-rina-nuclear",
-    "Energy Nuclear: Ansaldo Energia and RINA Sign Agreement to Develop the Italian Supply Chain 27 Jul 2026"
-   ],
-   [
-    "https://www.rina.org/en/media/press/2026/07/07/foreship-design-greek-domestic-market",
-    "Marine consulting services Foreship develops energy-efficient ferry design for the Greek domestic market 07 Jul 2026"
-   ],
-   [
-    "https://www.rina.org/en/media/press/2026/06/17/hellenic-advisory-committee-2026",
-    "Marine RINA's Hellenic Advisory Committee 2026 brings together industry leaders to explore shipping's evolving challenge"
-   ],
-   [
-    "https://www.rina.org/en/media/press/2026/06/16/indonesia-h2watt-hydrogen-hub",
-    "Energy RINA Secures Safety Assessment Contract for Indonesia’s H2WATT Hydrogen Hub 16 Jun 2026"
-   ],
-   [
-    "https://www.rina.org/en/media/press/2026/06/04/baker-hughes",
-    "Marine Baker Hughes’ fuel flexible NovaLT™ 16 Gas Turbine Certified by RINA for Marine Propulsion 04 Jun 2026"
-   ],
-   [
-    "https://www.rina.org/en/media/press/2026/05/28/gt-wings",
-    "Marine GT Wings introduces performance assessment tool for Jet Sail wind propulsion approved by RINA 28 May 2026"
-   ],
-   [
-    "https://www.rina.org/en/media/press/2026/05/20/drift-energy-approval-in-principle",
-    "Marine RINA awards first AiP for energy-harvesting ship 20 May 2026"
-   ],
-   [
-    "https://www.rina.org/en/media/Publications/2025/06/26/sustainability-report-2024",
-    "Sustainability report"
-   ],
-   [
-    "https://www.rina.org/de",
-    "Deutsch - Germany"
-   ],
-   [
-    "https://www.rina.org/en/australia",
-    "English - Australia"
-   ],
-   [
-    "https://www.rina.org/en/india",
-    "English - India"
-   ],
-   [
-    "https://www.rina.org/en/northamerica/",
-    "English - North America"
-   ],
-   [
-    "http://www.rina.org/es",
-    "Español - Spain"
-   ],
-   [
-    "https://www.rina.org/it",
-    "Italiano - Italy"
-   ],
-   [
-    "https://www.rina.org/pl",
-    "Polski - Poland"
-   ],
-   [
-    "https://www.rina.org/br",
-    "Português - Brasil"
-   ],
-   [
-    "https://www.rina.org/ro",
-    "Română - Romania"
-   ],
-   [
-    "https://www.rina.org/bg",
-    "Български - Bulgaria"
-   ],
-   [
-    "https://www.rina.org/en/company/at-a-glance",
-    "RINA at a glance"
-   ],
-   [
-    "https://www.rina.org/en/company/diversity-inclusion",
-    "Diversity, Equity & Inclusion"
-   ],
-   [
-    "https://www.rina.org/en/business/marine/marine-digital-applications",
-    "Marine digital applications"
-   ],
-   [
-    "https://www.rina.org/en/accreditations",
-    "RINA accreditations"
-   ]
-  ],
-  "head": ""
- },
- "ccs": {
-  "url": "https://www.ccs.org.cn/ccswzen/",
-  "robots_status": 200,
-  "robots_allowed": true,
-  "robots_excerpt": "ï»¿<!DOCTYPE html>\r\n<html>\r\n  <head>\r\n    <title>ä¸­å½è¹çº§ç¤¾</title>\r\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\"/>\r\n    <meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\"/>\r\n\t<link rel=\"stylesheet\" href=\"css/common.css\">\r\n\t<link rel=\"stylesheet\" href=\"css/style.css\">\r\n   \r\n  </head>\r\n  \r\n    <style>\r\n    .body-div {\r\n\t\theight: 95vh;\r\n\t\tbackground-image: url(images/bg.png);\r\n\t\tbackground-size: cover;\r\n    }\r\n\t\r\n\t.div-ccs {\r\n\t\twidth: 150px;\r\n\t\theight: 53px;\r\n\t\tbackground-image: url(images/ccs.png);\r\n\t\tbackground-size: 100% 100%;\r\n\t\tbackground-repeat: no-repeat;\r\n\t\tmargin-left: calc(30% - 50px);;\r\n    }\r\n\t\r\n\t.div-center {\r\n      display: flex;\r\n      justify-content: center;\r\n      align-items: center;\r\n      height: 70%;\r\n      margin-top: 30px;\r\n    }\r\n\t\r\n\t",
-  "status": 200,
-  "final": "https://www.ccs.org.cn/ccswzen/",
-  "len": 85706,
-  "ctype": "text/html;charset=UTF-8",
-  "feeds": [],
-  "links": [
-   [
-    "https://www.ccs.org.cn/electrocert/veryfication!index.do?lan=en",
-    "E-Certificate & E-Document Verification"
-   ],
-   [
-    "https://www.ccs.org.cn/electrocert/veryfication!index.do?lan=en",
-    "E-Certificate & E-Document Verification"
-   ],
-   [
-    "https://www.ccs.org.cn/electrocert/veryfication!index.do?lan=en",
-    "E-Certificate & E-Document Verification"
-   ],
-   [
-    "https://www.ccs.org.cn/electrocert/veryfication!index.do?lan=en",
-    "E-Certificate & E-Document Verification"
-   ],
-   [
-    "https://www.ccs.org.cn/ccswzen/internationalShipsList?columnid=201900002000000123",
-    "Register of Ships"
-   ],
-   [
-    "https://www.ccs.org.cn/ccswzen/suspendedList?columnid=201900002000000120",
-    "Changes of Class Status"
-   ],
-   [
-    "https://www.ccs.org.cn/ccswzen/articleDetail?id=202206090444109127&columnId=202206090211003288",
-    "Contact List of Management of Supplier Approval of CCS"
-   ],
-   [
-    "https://www.ccs.org.cn/ccswz/articleDetail?id=202206090159700714",
-    "Software Download"
-   ],
-   [
-    "https://www.ccs.org.cn/ccswzen/applicationAgreement?columnid=202206090462995926",
-    "Service Report of Supplier"
-   ],
-   [
-    "https://www.ccs.org.cn/ccswzen/maritimeLabourList?columnid=201900002000000450",
-    "MLC Certification Information"
-   ],
-   [
-    "https://www.ccs.org.cn/ccswzen/applicationAgreement?columnid=201900002000000253",
-    "Application Forms Download"
-   ],
-   [
-    "https://www.ccs.org.cn/ccswzen/applicationAgreement?columnid=201920000000000065",
-    "Approval/Inspection of Marine Product"
-   ],
-   [
-    "https://www.ccs.org.cn/ccswzen/applicationAgreement?columnid=201920000000000263",
-    "Application For Offshore Installations"
-   ],
-   [
-    "https://www.ccs.org.cn/ccswzen/applicationAgreement?columnid=201920000000000179",
-    "Approval Application by Service Supplier"
-   ],
-   [
-    "https://www.ccs.org.cn/ccswzen/applicationAgreement?columnid=201920000000000025",
-    "New Building Application"
-   ],
-   [
-    "https://www.ccs.org.cn/ccswzen/applicationAgreement?columnid=201920000000000068",
-    "Application for company or ship audit"
-   ],
-   [
-    "https://www.ccs.org.cn/ccswzen/applicationAgreement?columnid=201920000000000026",
-    "Application For Classification"
-   ],
-   [
-    "https://www.ccs.org.cn/ccswzen/applicationAgreement?columnid=201920000000000066",
-    "Application For Surveys And Issue Of Certificates Of Ship In Service"
-   ],
-   [
-    "https://www.ccs.org.cn/ccswzen/columnList?columnid=201900006000000014",
-    "Technical Innovation"
-   ],
-   [
-    "https://www.ccs.org.cn/ccswzen/columnList?columnid=202006161157478270",
-    "Intelligent & Digital Technology"
-   ],
-   [
-    "https://www.ccs.org.cn/ccswzen/columnList?columnid=202006161139685352",
-    "Green Technology"
-   ],
-   [
-    "https://www.ccs.org.cn/ccswzen/special?columnid=201900002000000011&id=0",
-    "Rules & Guidelines"
-   ],
-   [
-    "https://www.ccs.org.cn/ccswzen/circularNotice?columnid=201900002000000071",
-    "Circulars & Instructions"
-   ],
-   [
-    "https://www.ccs.org.cn/ccswzen/special?columnid=202206080248772574&id=0",
-    "IMO Resolution & Circular"
-   ],
-   [
-    "https://www.ccs.org.cn/ccswzen/columnDetail?columnid=201900002000000296",
-    "Technical Service Product"
-   ],
-   [
-    "https://www.ccs.org.cn/ccswzen/columnDetail?columnid=202012080298590548",
-    "Engineering Software"
-   ],
-   [
-    "https://www.ccs.org.cn/ccswzen/columnDetail?columnid=202012070410829065",
-    "Offshore Business"
-   ],
-   [
-    "https://www.ccs.org.cn/ccswzen/columnDetail?columnid=201920000000000220",
-    "Testing Facility"
-   ],
-   [
-    "https://www.ccs.org.cn/ccswzen/columnList?columnid=202012070464246896",
-    "Comprehensive Laboratory for Green Ecological Shipping"
-   ],
-   [
-    "https://www.ccs.org.cn/ccswzen/columnList?columnid=202012070435660437",
-    "Ship Cyber Security Laboratory"
-   ],
-   [
-    "https://www.ccs.org.cn/ccswzen/columnDetail?columnid=202011250455744744",
-    "Ship Intelligent Technology and Safety Laboratory"
-   ],
-   [
-    "https://www.ccs.org.cn/ccswzen/columnDetail?columnid=202011250418694544",
-    "New Survey Technology and Equipment Laboratory"
-   ],
-   [
-    "https://www.ccs.org.cn/ccswzen/columnDetail?columnid=201920000000000278",
-    "COMPASS Series Software"
-   ],
-   [
-    "https://www.ccs.org.cn/ccswzen/columnList?columnid=202007171176731956",
-    "Rules & Guidelines Information"
-   ],
-   [
-    "https://www.ccs.org.cn/ccswzen/special?columnid=201900002000000011&id=0",
-    "Rules & Guidelines"
-   ],
-   [
-    "https://www.ccs.org.cn/ccswzen/circularNotice?columnid=201900002000000071",
-    "Circulars & Instructions"
-   ],
-   [
-    "https://www.ccs.org.cn/ccswzen/articleDetail?id=202511050494806280&columnId=202101040581503047",
-    "Two 174000m3 LNG carriers for Qatar Energy were named and delivered on the same day."
-   ],
-   [
-    "https://www.ccs.org.cn/ccswzen/columnDetail?columnid=201900002000000225",
-    "CCS Top Management"
-   ],
-   [
-    "https://www.ccs.org.cn/ccswzen/columnDetail?columnid=201900002000000036",
-    "Social Responsibility"
-   ],
-   [
-    "https://www.ccs.org.cn/ccswzen/columnDetail?columnid=202011130176071039",
-    "Green and Environmental Protection"
-   ],
-   [
-    "https://www.ccs.org.cn/ccswzen/columnDetail?columnid=202011260424450606",
-    "Occupational health, safety and environment policy of China Classification Society"
-   ],
-   [
-    "https://www.ccs.org.cn/ccswzen/ccsReportIndex?columnid=202001050630401766",
-    "CCS Annual Report"
-   ],
-   [
-    "https://www.ccs.org.cn/ccswzen/columnDetail?columnid=201900002000000225",
-    "CCS Top Management"
-   ],
-   [
-    "https://www.ccs.org.cn/ccswzen/contact?columnid=202006031013151326",
-    "CCS Vision To build a unique, first-rate international classification society upon technology and credibility."
-   ],
-   [
-    "https://www.ccs.org.cn/ccswzen/about?columnid=201912240228526379",
-    "CCS Mission Safety, Environmental protection and Creating value for clients and society."
-   ],
-   [
-    "https://www.ccs.org.cn/ccswzen/about?columnid=201912240228526379",
-    "CCS Spirit Unity, Devotion,Impartiality and Efficiency."
-   ],
-   [
-    "https://www.ccs.org.cn/ccswzen/articleDetail?id=202610280253009147",
-    "CCS Attends ShipTek International Maritime Conference in Dubai"
-   ],
-   [
-    "https://www.ccs.org.cn/ccswzen/articleDetail?id=202610211046572812",
-    "Preview: CCS-Hosted Digitalization and Intelligentization Forum to Debut at 2026 North Bund Forum"
-   ],
-   [
-    "https://www.ccs.org.cn/ccswzen/articleDetail?id=202610200291808200",
-    "“GUO QIANG HAI”, China’s First Vessel Awarded CCS GSC1 Class Notation for Newbuilding Carbon Footprint, Named and Delive"
-   ],
-   [
-    "https://www.ccs.org.cn/ccswzen/articleDetail?id=202610200247766409",
-    "China Classification Society-Surveyed 50,000 DWT MR Product Tanker “ZHI NENG YUN FAN” Named and Delivered"
-   ],
-   [
-    "https://www.ccs.org.cn/ccswzen/special?columnid=201900002000000011&id=0",
-    "Rules & Guidelines"
-   ],
-   [
-    "https://www.ccs.org.cn/ccswzen/special?columnid=201900002000000011&id=0",
-    "Click here to view, retrieve, and download more CCS rules & guidelines"
-   ],
-   [
-    "https://www.ccs.org.cn/ccswzen/articleDetail?id=202608201017309164&columnId=202007171176731956",
-    "Guidelines for Verification of Digital systems of Ships and Offshore Installations 2026"
-   ],
-   [
-    "https://www.ccs.org.cn/ccswzen/file/download?fileid=202608201045567319",
-    "Download attachments"
-   ],
-   [
-    "https://www.ccs.org.cn/ccswzen/articleDetail?id=202608210315997804&columnId=202007171176731956",
-    "Guidelines on Calculation and Verification of the Energy Efficiency Design Index (EEDI) of International Sea-going Ships"
-   ],
-   [
-    "https://www.ccs.org.cn/ccswzen/file/download?fileid=202608210334349742",
-    "Download attachments"
-   ],
-   [
-    "https://www.ccs.org.cn/ccswzen/articleDetail?id=202606290162313776&columnId=202007171176731956",
-    "Rules for Materials and Welding 2026"
-   ],
-   [
-    "https://www.ccs.org.cn/ccswzen/file/download?fileid=202606290150811882",
-    "Download attachments"
-   ],
-   [
-    "https://www.ccs.org.cn/ccswzen/articleDetail?id=202606290115400168&columnId=202007171176731956",
-    "Rules for Construction of Sea-going Ships Engaged on Domestic Voyages 2026"
-   ],
-   [
-    "https://www.ccs.org.cn/ccswzen/file/download?fileid=0",
-    "Download attachments"
-   ],
-   [
-    "https://www.ccs.org.cn/ccswzen/articleDetail?id=202606150427191840&columnId=202007171176731956",
-    "Rules for Classification of Sea-Going Steel Ships 2026 Amendment"
-   ],
-   [
-    "https://www.ccs.org.cn/ccswzen/file/download?fileid=202606150442257064",
-    "Download attachments"
-   ],
-   [
-    "https://www.ccs.org.cn/ccswzen/articleDetail?id=202607020379262044&columnId=202007171176731956",
-    "Guidelines for Survey of Intelligent Cargo Management of Chemical Tankers 2026"
-   ],
-   [
-    "https://www.ccs.org.cn/ccswzen/file/download?fileid=202607020363793136",
-    "Download attachments"
-   ],
-   [
-    "https://www.ccs.org.cn/ccswzen/circularNotice?columnid=201900002000000071",
-    "Circulars & Instructions"
-   ],
-   [
-    "https://www.ccs.org.cn/ccswzen/circularNotice?columnid=201900002000000071",
-    "Inquire about the circular notification technology you are interested in"
-   ],
-   [
-    "https://www.ccs.org.cn/ccswzen/contact?columnid=202006031013151326",
-    "Service Network"
-   ],
-   [
-    "https://www.ccs.org.cn/ccswzen/@{gotoRecruit?columnid=201912240263169292}",
-    "Talent recruitment"
-   ],
-   [
-    "https://www.ccs.org.cn/ccswzen/columnDetail?columnid=201920000000000324",
-    "Customer Personal Information Protection Policy"
-   ],
-   [
-    "https://www.ccs.org.cn/ccswzen/columnDetail?columnid=201920000000000324",
-    "Customer Personal Information Protection Policy"
-   ]
-  ],
-  "head": ""
- },
  "irs": {
   "url": "https://www.irclass.org/media-and-publications/news/",
   "robots_status": 200,
@@ -2874,606 +1596,6 @@
    ]
   ],
   "head": ""
- },
- "kr": {
-  "url": "https://www.krs.co.kr/eng/Contents/NewsAndPress/News.aspx",
-  "robots_status": 200,
-  "robots_allowed": true,
-  "robots_excerpt": "\r\n\r\n\r\n\r\n   <style>\r\n    /* Main --------------------------------------------------------- */\r\n\t    .main_wrap {position:relative; width:100%; min-height:100%; background-image:url(\"/images/common/infra_bg.jpg\"); background-size:cover;}\r\n\t    .login {width:500px;  position:absolute; left:50%; top:20%; margin-left:-220px;}\r\n\t    .login h1 {width:100%; margin: 0; padding:15px 0; text-align:center; font-weight:normal; color:#fff; font-size:18px; background:#056272; background-repeat:no-repeat; background-position:0 0;}\r\n\t    h2.logo {margin: 0 ; text-align:left; padding:20px 0 10px 30px;}\r\n\t    .title-wrap {width:100%; margin: 0; padding:10px 0; text-align:center; font-weight:normal; color:#fff; font-size:18px; background:#0c899f; background-repeat:no-repeat; background-position:0 0;}\r\n       ",
-  "status": 200,
-  "final": "https://www.krs.co.kr/eng/Contents/NewsAndPress/News.aspx",
-  "len": 3469,
-  "ctype": "text/html; charset=utf-8",
-  "feeds": [],
-  "links": [],
-  "head": ""
- },
- "parismou-feed": {
-  "url": "https://parismou.org/posts/news/feed/",
-  "robots_status": 200,
-  "robots_allowed": true,
-  "robots_excerpt": "User-agent: *\nDisallow: /wp-admin/\nAllow: /wp-admin/admin-ajax.php\n\nSitemap: https://parismou.org/wp-sitemap.xml\n",
-  "status": 200,
-  "final": "https://parismou.org/posts/news/feed/",
-  "len": 34934,
-  "ctype": "application/rss+xml; charset=UTF-8",
-  "feeds": [],
-  "xml_titles": [
-   "News – Paris MoU",
-   "M/V &#8220;LIRA&#8221; &#8211; IMO no: 8516744 refused access to the Paris MoU region",
-   "Lifting of Refusal of Access of M/V &#8220;SEA BREEZE&#8221; &#8211; IMO no: 9361988",
-   "Lifting of Refusal of Acces of M/V &#8220;EVEREST&#8221; &#8211; IMO no: 8411633",
-   "M/V &#8220;VULIN&#8221; &#8211; IMO no: 9015448 refused access to the Paris MoU region",
-   "M/V &#8220;CORSICA&#8221; &#8211; IMO no: 9222352 refused access to the Paris MoU region",
-   "M/V &#8220;RIWAL&#8221; &#8211; IMO no: 9051208 refused access to the Paris MoU region",
-   "M/V &#8220;BAHAR&#8221; &#8211; IMO no: 8230156 refused access to the Paris MoU region",
-   "Paris and Tokyo MoUs launch 2026 Concentrated Inspection Campaign on Cargo Securing",
-   "M/V &#8220;ADOMY&#8221; &#8211; IMO no: 9085900 refused access to the Paris MoU region",
-   "M/V &#8220;LIKA&#8221; &#8211; IMO no: 7377701 refused access to the Paris MoU region"
-  ],
-  "links": [
-   [
-    "https://parismou.org/posts/news/feed/",
-    "https://parismou.org Tue, 20 Oct 2026 12:09:30 +0000 en-GB hourly 1 https://wordpress.org/?v=7.1.4 M/V “LIRA” – IMO no: "
-   ]
-  ],
-  "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\"\n\txmlns:content=\"http://purl.org/rss/1.0/modules/content/\"\n\txmlns:wfw=\"http://wellformedweb.org/CommentAPI/\"\n\txmlns:dc=\"http://purl.org/dc/elements/1.1/\"\n\txmlns:atom=\"http://www.w3.org/2005/Atom\"\n\txmlns:sy=\"http://purl.org/rss/1.0/modules/syndication/\"\n\txmlns:slash=\"http://purl.org/rss/1.0/modules/slash/\"\n\t>\n\n<channel>\n\t<title>News – Paris MoU</title>\n\t<atom:link href=\"https://parismou.org/posts/news/feed/\" rel=\"self\" type=\"application/rss+xml\" />\n\t<link>https://parismou.org</link>\n\t<description></description>\n\t<lastBuildDate>Tue, 20 Oct 2026 12:09:30 +0000</lastBuildDate>\n\t<language>en-GB</language>\n\t<sy:updatePeriod>\n\thourly\t</sy:updatePeriod>\n\t<sy:updateFrequency>\n\t1\t</sy:updateFrequency>\n\t<generator>https://wordpress.org/?v=7.1.4</generator>\n\t<item>\n\t\t<title>M/V &#8220;LIRA&#8221; &#8211; IMO no: 8516744 refused access to the Paris MoU region</title>\n\t\t<link>https://parismou.org/m-v-lira-imo-no-8516744-refused-access-to-the-paris-mou-region/</link>\n\t\t\n\t\t<dc:creator><![CDATA[Ingrid]]></dc:creator>\n\t\t<pubDate>Tue, 20 Oct 2026 12:04:24 +0000</pubDate>\n\t\t\t\t<category><![CDATA[News]]></category>\n\t\t<guid isPermaLink=\"false\">https://parismou.org/?p=5024</guid>\n\n\t\t\t\t\t<description><![CDATA[]]></description>\n\t\t\t\t\t\t\t\t\t\t<content:encoded><![CDATA[\n<section class=\"default-block tekst-media with-margin rechts bg-none\">\n\t<div class=\"container\">\n        <div class=\"row align-items-center justify-content-center\">\n            <div class"
- },
- "tokyomou": {
-  "url": "https://www.tokyo-mou.org/news/",
-  "robots_status": 200,
-  "robots_allowed": true,
-  "robots_excerpt": "User-agent: *\nDisallow: /wp/wp-admin/\nAllow: /wp/wp-admin/admin-ajax.php\n\n# START YOAST BLOCK\n# ---------------------------\nUser-agent: *\nDisallow: /?s=\nDisallow: /page/*/?s=\nDisallow: /search/\nDisallow: /wp-json/\nDisallow: /?rest_route=\n\nUser-agent: AdsBot\nDisallow: /\n\nSitemap: https://www.tokyo-mou.org/sitemap_index.xml\n# ---------------------------\n# END YOAST BLOCK",
-  "status": 404,
-  "final": "https://www.tokyo-mou.org/news/",
-  "len": 168262,
-  "ctype": "text/html; charset=UTF-8",
-  "feeds": [],
-  "links": [
-   [
-    "https://www.tokyo-mou.org/about/memorandum/",
-    "Memorandum of Understanding"
-   ],
-   [
-    "https://www.tokyo-mou.org/about/code-of-practice/",
-    "Code of Good Practice"
-   ],
-   [
-    "https://www.tokyo-mou.org/about/organization/",
-    "Organizational Structure"
-   ],
-   [
-    "https://www.tokyo-mou.org/about/members/",
-    "Member Authorities and observers"
-   ],
-   [
-    "https://www.tokyo-mou.org/about/committee/",
-    "Port State Control Committee"
-   ],
-   [
-    "https://www.tokyo-mou.org/about/secretariat/",
-    "Tokyo MOU Secretariat"
-   ],
-   [
-    "https://www.tokyo-mou.org/inspections-detentions/",
-    "Inspections & Detentions"
-   ],
-   [
-    "https://www.tokyo-mou.org/inspections-detentions/nir/",
-    "New Inspection Regime"
-   ],
-   [
-    "https://www.tokyo-mou.org/inspections-detentions/under-performing-ships/",
-    "Under-performing Ships"
-   ],
-   [
-    "https://www.tokyo-mou.org/inspections-detentions/performance-lists/",
-    "Performance Lists"
-   ],
-   [
-    "https://www.tokyo-mou.org/inspections-detentions/detention-procedures/",
-    "Detention Appeals & Reviews"
-   ],
-   [
-    "https://www.tokyo-mou.org/inspections-detentions/background-table-for-ro-relation/",
-    "Background Table for RO Relation"
-   ],
-   [
-    "https://www.tokyo-mou.org/inspections-detentions/ro-responsibility/",
-    "Criteria for RO Responsibility"
-   ],
-   [
-    "https://www.tokyo-mou.org/inspections-detentions/deficiency-codes/",
-    "Deficiency Codes"
-   ],
-   [
-    "https://www.tokyo-mou.org/safety-bulletin/",
-    "Safety Bulletin"
-   ],
-   [
-    "https://www.tokyo-mou.org/guidelines-procedures/",
-    "Guidelines & Procedures"
-   ],
-   [
-    "https://www.tokyo-mou.org/deficiency-photos/",
-    "Deficiency Photos"
-   ],
-   [
-    "https://www.tokyo-mou.org/30th-anniversary/",
-    "30th Anniversary"
-   ],
-   [
-    "https://www.tokyo-mou.org/about/memorandum/",
-    "Memorandum of Understanding"
-   ],
-   [
-    "https://www.tokyo-mou.org/about/code-of-practice/",
-    "Code of Good Practice"
-   ],
-   [
-    "https://www.tokyo-mou.org/about/organization/",
-    "Organizational Structure"
-   ],
-   [
-    "https://www.tokyo-mou.org/about/members/",
-    "Member Authorities and observers"
-   ],
-   [
-    "https://www.tokyo-mou.org/about/committee/",
-    "Port State Control Committee"
-   ],
-   [
-    "https://www.tokyo-mou.org/about/secretariat/",
-    "Tokyo MOU Secretariat"
-   ],
-   [
-    "https://www.tokyo-mou.org/inspections-detentions/",
-    "Inspections & Detentions"
-   ],
-   [
-    "https://www.tokyo-mou.org/inspections-detentions/nir/",
-    "New Inspection Regime"
-   ],
-   [
-    "https://www.tokyo-mou.org/inspections-detentions/under-performing-ships/",
-    "Under-performing Ships"
-   ],
-   [
-    "https://www.tokyo-mou.org/inspections-detentions/performance-lists/",
-    "Performance Lists"
-   ],
-   [
-    "https://www.tokyo-mou.org/inspections-detentions/detention-procedures/",
-    "Detention Appeals & Reviews"
-   ],
-   [
-    "https://www.tokyo-mou.org/inspections-detentions/background-table-for-ro-relation/",
-    "Background Table for RO Relation"
-   ],
-   [
-    "https://www.tokyo-mou.org/inspections-detentions/ro-responsibility/",
-    "Criteria for RO Responsibility"
-   ],
-   [
-    "https://www.tokyo-mou.org/inspections-detentions/deficiency-codes/",
-    "Deficiency Codes"
-   ],
-   [
-    "https://www.tokyo-mou.org/safety-bulletin/",
-    "Safety Bulletin"
-   ],
-   [
-    "https://www.tokyo-mou.org/guidelines-procedures/",
-    "Guidelines & Procedures"
-   ],
-   [
-    "https://www.tokyo-mou.org/deficiency-photos/",
-    "Deficiency Photos"
-   ],
-   [
-    "https://www.tokyo-mou.org/30th-anniversary/",
-    "30th Anniversary"
-   ],
-   [
-    "https://www.tokyo-mou.org/about/memorandum/",
-    "Memorandum of Understanding"
-   ],
-   [
-    "https://www.tokyo-mou.org/about/code-of-practice/",
-    "Code of Good Practice"
-   ],
-   [
-    "https://www.tokyo-mou.org/about/organization/",
-    "Organizational Structure"
-   ],
-   [
-    "https://www.tokyo-mou.org/about/members/",
-    "Member Authorities and observers"
-   ],
-   [
-    "https://www.tokyo-mou.org/about/committee/",
-    "Port State Control Committee"
-   ],
-   [
-    "https://www.tokyo-mou.org/about/secretariat/",
-    "Tokyo MOU Secretariat"
-   ],
-   [
-    "https://www.tokyo-mou.org/inspections-detentions/nir/",
-    "New Inspection Regime"
-   ],
-   [
-    "https://www.tokyo-mou.org/inspections-detentions/under-performing-ships/",
-    "Under-performing Ships"
-   ],
-   [
-    "https://www.tokyo-mou.org/inspections-detentions/performance-lists/",
-    "Performance Lists"
-   ],
-   [
-    "https://www.tokyo-mou.org/inspections-detentions/detention-procedures/",
-    "Detention Appeals & Reviews"
-   ],
-   [
-    "https://www.tokyo-mou.org/inspections-detentions/background-table-for-ro-relation/",
-    "Background Table for RO Relation"
-   ],
-   [
-    "https://www.tokyo-mou.org/inspections-detentions/ro-responsibility/",
-    "Criteria for RO Responsibility"
-   ],
-   [
-    "https://www.tokyo-mou.org/inspections-detentions/deficiency-codes/",
-    "Deficiency Codes"
-   ],
-   [
-    "https://www.tokyo-mou.org/safety-bulletin/",
-    "Safety Bulletin"
-   ],
-   [
-    "https://www.tokyo-mou.org/guidelines-procedures/",
-    "Guidelines & Procedures"
-   ],
-   [
-    "https://www.tokyo-mou.org/deficiency-photos/",
-    "Deficiency Photos"
-   ],
-   [
-    "https://www.tokyo-mou.org/30th-anniversary/",
-    "30th Anniversary"
-   ],
-   [
-    "https://www.tokyo-mou.org/about/memorandum/",
-    "Memorandum of Understanding"
-   ],
-   [
-    "https://www.tokyo-mou.org/about/code-of-practice/",
-    "Code of Good Practice"
-   ],
-   [
-    "https://www.tokyo-mou.org/about/organization/",
-    "Organizational Structure"
-   ],
-   [
-    "https://www.tokyo-mou.org/about/members/",
-    "Member Authorities and observers"
-   ],
-   [
-    "https://www.tokyo-mou.org/about/committee/",
-    "Port State Control Committee"
-   ],
-   [
-    "https://www.tokyo-mou.org/about/secretariat/",
-    "Tokyo MOU Secretariat"
-   ],
-   [
-    "https://www.tokyo-mou.org/inspections-detentions/nir/",
-    "New Inspection Regime"
-   ],
-   [
-    "https://www.tokyo-mou.org/inspections-detentions/under-performing-ships/",
-    "Under-performing Ships"
-   ],
-   [
-    "https://www.tokyo-mou.org/inspections-detentions/performance-lists/",
-    "Performance Lists"
-   ],
-   [
-    "https://www.tokyo-mou.org/inspections-detentions/detention-procedures/",
-    "Detention Appeals & Reviews"
-   ],
-   [
-    "https://www.tokyo-mou.org/inspections-detentions/background-table-for-ro-relation/",
-    "Background Table for RO Relation"
-   ],
-   [
-    "https://www.tokyo-mou.org/inspections-detentions/ro-responsibility/",
-    "Criteria for RO Responsibility"
-   ],
-   [
-    "https://www.tokyo-mou.org/inspections-detentions/deficiency-codes/",
-    "Deficiency Codes"
-   ],
-   [
-    "https://www.tokyo-mou.org/safety-bulletin/",
-    "Safety Bulletin"
-   ],
-   [
-    "https://www.tokyo-mou.org/guidelines-procedures/",
-    "Guidelines & Procedures"
-   ],
-   [
-    "https://www.tokyo-mou.org/deficiency-photos/",
-    "Deficiency Photos"
-   ],
-   [
-    "https://www.tokyo-mou.org/30th-anniversary/",
-    "30th Anniversary"
-   ],
-   [
-    "https://www.tokyo-mou.org/about/",
-    "About Tokyo MOU"
-   ],
-   [
-    "https://www.tokyo-mou.org/about/memorandum/",
-    "Memorandum of Understanding"
-   ],
-   [
-    "https://www.tokyo-mou.org/about/code-of-practice/",
-    "Code of Good Practice"
-   ],
-   [
-    "https://www.tokyo-mou.org/about/organization/",
-    "Organizational Structure"
-   ],
-   [
-    "https://www.tokyo-mou.org/about/members/",
-    "Member Authorities and observers"
-   ],
-   [
-    "https://www.tokyo-mou.org/about/committee/",
-    "Port State Control Committee"
-   ],
-   [
-    "https://www.tokyo-mou.org/about/secretariat/",
-    "Tokyo MOU Secretariat"
-   ],
-   [
-    "https://www.tokyo-mou.org/inspections-detentions/",
-    "Inspections & Detentions"
-   ],
-   [
-    "https://www.tokyo-mou.org/inspections-detentions/under-performing-ships/",
-    "Under-performing Ships"
-   ],
-   [
-    "https://www.tokyo-mou.org/inspections-detentions/performance-lists/",
-    "Performance Lists"
-   ],
-   [
-    "https://www.tokyo-mou.org/inspections-detentions/detention-procedures/",
-    "Detention Appeals & Reviews"
-   ],
-   [
-    "https://www.tokyo-mou.org/inspections-detentions/ro-responsibility/",
-    "Criteria for RO Responsibility"
-   ],
-   [
-    "https://www.tokyo-mou.org/inspections-detentions/deficiency-codes/",
-    "Deficiency Codes"
-   ],
-   [
-    "https://www.tokyo-mou.org/safety-bulletin/",
-    "Safety Bulletin"
-   ],
-   [
-    "https://www.tokyo-mou.org/guidelines-procedures/",
-    "Guidelines & Procedures"
-   ],
-   [
-    "https://www.tokyo-mou.org/deficiency-photos/",
-    "Deficiency Photos"
-   ],
-   [
-    "https://www.tokyo-mou.org/30th-anniversary/",
-    "30th Anniversary"
-   ],
-   [
-    "https://www.tokyo-mou.org/inspections-detentions/under-performing-ships/",
-    "Under-performing ships"
-   ]
-  ],
-  "head": "",
-  "body_head": "<!DOCTYPE html>\n<html lang=\"en-US\">\n<head>\n\t<meta charset=\"UTF-8\" />\n\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" />\n<meta name='robots' content='noindex, follow' />\n\n\t<!-- This site is optimized with the Yoast SEO plugin v28.8 - https://yoast.com/product/yoast-seo-wordpress/"
- },
- "ics": {
-  "url": "https://www.ics-shipping.org/news-and-press/press/",
-  "robots_status": 200,
-  "robots_allowed": true,
-  "robots_excerpt": "User-agent: *\r\nAllow: /\r\n\r\nUser-agent: Amazonbot\r\nDisallow: /\r\n\r\nUser-agent: Applebot-Extended\r\nDisallow: /\r\n\r\nUser-agent: Bytespider\r\nDisallow: /\r\n\r\nUser-agent: CCBot\r\nAllow: /\r\n\r\nUser-agent: ClaudeBot\r\nAllow: /\r\n\r\nUser-agent: Google-Extended\r\nAllow: /\r\n\r\nUser-agent: GPTBot\r\nAllow: /\r\n\r\nUser-agent: meta-externalagent\r\nDisallow: /\r\n\r\nDisallow: /cdn-cgi/\r\n\r\nSitemap: https://www.ics-shipping.org/publications/sitemap.xml\r\nSitemap: https://www.ics-shipping.org/academy/sitemap.xml\r\nSitemap: https://www.ics-shipping.org/maritimehub/sitemap.xml\r\n",
-  "status": 200,
-  "final": "https://www.ics-shipping.org/news-and-press/press/",
-  "len": 65328,
-  "ctype": "text/html; charset=UTF-8",
-  "feeds": [],
-  "links": [
-   [
-    "https://www.ics-shipping.org/sign-up/",
-    "Sign up for updates"
-   ],
-   [
-    "https://www.ics-shipping.org/representing-shipping/",
-    "Representing shipping"
-   ],
-   [
-    "https://www.ics-shipping.org/explaining/",
-    "Explaining shipping"
-   ],
-   [
-    "https://www.ics-shipping.org/supporting-shipping/",
-    "Supporting shipping"
-   ],
-   [
-    "https://www.ics-shipping.org/sign-up/",
-    "Sign up for updates"
-   ],
-   [
-    "https://www.ics-shipping.org/news-and-press/press/",
-    "Press releases and statements"
-   ],
-   [
-    "https://www.ics-shipping.org/news-and-press/ics-leadership-insights/",
-    "ICS Leadership Insights monthly publication"
-   ],
-   [
-    "https://www.ics-shipping.org/press-release/vehicle-carrier-safety-forum-publishes-new-fire-drill-guidelines-for-vehicle-carrying-vessels/",
-    "Vehicle Carrier Safety Forum publishes new Fire Drill Guidelines for Vehicle Carrying Vessels"
-   ],
-   [
-    "https://www.ics-shipping.org/press-release/hong-kong-global-maritime-trade-summit-to-return-for-third-edition/",
-    "Hong Kong Global Maritime Trade Summit to return for third edition"
-   ],
-   [
-    "https://www.ics-shipping.org/press-release/international-chamber-of-shipping-expands-collection-of-free-practical-resources-for-seafarers-and-shipping-companies-worldwide/",
-    "International Chamber of Shipping expands collection of free practical resources for seafarers and shipping companies wo"
-   ],
-   [
-    "https://www.ics-shipping.org/statement/joint-association-letter-requesting-extension-to-suspension-of-the-section-301-china-built-vessel-fees/",
-    "Joint Association Letter Requesting Extension to Suspension of the Section 301 China-Built Vessel Fees"
-   ],
-   [
-    "https://www.ics-shipping.org/press-release/international-chamber-of-shipping-addresses-un-security-council-on-maritime-security-and-freedom-of-navigation/",
-    "International Chamber of Shipping addresses UN Security Council on maritime security and freedom of navigation"
-   ],
-   [
-    "https://www.ics-shipping.org/statement/ship-recycling-joint-industry-open-letter/",
-    "Ship Recycling – Joint Industry Open Letter"
-   ],
-   [
-    "https://www.ics-shipping.org/statement/ics-statement-on-recent-media-reports/",
-    "ICS Statement on recent media reports"
-   ],
-   [
-    "https://www.ics-shipping.org/statement/shipping-industry-welcomes-the-proposed-inclusion-of-indian-ship-recycling-yards-on-the-european-list/",
-    "Shipping industry welcomes the proposed inclusion of Indian ship recycling yards on the European List"
-   ],
-   [
-    "https://www.ics-shipping.org/statement/joint-open-letter-in-relation-to-no-compulsory-tolls-or-charges-being-introduced-in-the-strait-of-hormuz/",
-    "Joint open letter in relation to no compulsory tolls or charges being introduced in the Strait of Hormuz"
-   ],
-   [
-    "https://www.ics-shipping.org/statement/ics-secretary-general-statement-on-unacceptable-dangers-facing-seafarers/",
-    "ICS Secretary General statement on unacceptable dangers facing seafarers"
-   ],
-   [
-    "https://www.ics-shipping.org/representing-shipping/",
-    "Representing shipping"
-   ],
-   [
-    "https://www.ics-shipping.org/explaining/",
-    "Explaining shipping"
-   ],
-   [
-    "https://www.ics-shipping.org/supporting-shipping/",
-    "Supporting shipping"
-   ],
-   [
-    "https://www.ics-shipping.org/services/publications/",
-    "ICS Publications"
-   ],
-   [
-    "https://www.ics-shipping.org/services/ics-maritime-hub-link/",
-    "ICS Maritime Hub"
-   ],
-   [
-    "https://www.ics-shipping.org/sign-up/",
-    "Sign up for updates"
-   ],
-   [
-    "https://www.ics-shipping.org/news-and-press/press/",
-    "Press releases and statements"
-   ],
-   [
-    "https://www.ics-shipping.org/competition-law-compliance-policies/",
-    "Competition law compliance policies"
-   ]
-  ],
-  "head": ""
- },
- "wsc-rss": {
-  "url": "https://www.worldshipping.org/news?format=rss",
-  "robots_status": 200,
-  "robots_allowed": true,
-  "robots_excerpt": "# Squarespace Robots Txt\n\nUser-agent: AI2Bot\nUser-agent: Ai2Bot-Dolma\nUser-agent: aiHitBot\nUser-agent: Amazonbot\nUser-agent: anthropic-ai\nUser-agent: Applebot-Extended\nUser-agent: Bytespider\nUser-agent: CCBot\nUser-agent: ClaudeBot\nUser-agent: cohere-ai\nUser-agent: cohere-training-data-crawler\nUser-agent: DuckAssistBot\nUser-agent: FacebookBot\nUser-agent: Google-Extended\nUser-agent: GoogleOther\nUser-agent: GoogleOther-Image\nUser-agent: GoogleOther-Video\nUser-agent: GPTBot\nUser-agent: img2dataset\nUser-agent: Meta-ExternalAgent\nUser-agent: MyCentralAIScraperBot\nUser-agent: omgili\nUser-agent: omgilibot\nUser-agent: Quora-Bot\nUser-agent: TikTokSpider\nUser-agent: YouBot\nUser-agent: AdsBot-Google\nUser-agent: AdsBot-Google-Mobile\nUser-agent: AdsBot-Google-Mobile-Apps\nUser-agent: *\nDisallow: /config\n",
-  "status": 200,
-  "final": "https://www.worldshipping.org/news?format=rss",
-  "len": 80931,
-  "ctype": "application/rss+xml; charset=UTF-8",
-  "feeds": [],
-  "xml_titles": [
-   "News - World Shipping Council",
-   "Dual-fuel fleet passes 500 ships on the water as investment exceeds $200 billion&nbsp;",
-   "World Shipping Council launch digital global Whale Chart with HUB Ocean&nbsp;",
-   "Joint association letter: Request to Extend Suspension of the Section 301 China-Built Vessel Fees",
-   "Open Letter to the Environment and Transport Ministers of the European Union",
-   "One in ten inspected cargo units found with safety deficiencies",
-   "WSC calls on governments to close battery cargo safety gap",
-   "Shipping industry welcomes the proposed inclusion of Indian ship recycling yards on the European List",
-   "WSC: EC Proposal Reinforces Performance-Based Approach to Responsible Ship Recycling",
-   "WSC: ETS rightly reinvests more into maritime decarbonisation, but new port rules risk targeting competition rather than emissions",
-   "World Shipping Council releases Containers Lost at Sea Report: 2026 Update",
-   "WSC welcomes evacuation plan for ships in Persian Gulf",
-   "Misdeclared dangerous goods remain a persistent threat to shipping and supply chains&nbsp;",
-   "WSC statement on agreement to reopen Strait of Hormuz",
-   "Dual-fuel container ship and vehicle carrier fleet passes 1,200 vessels as orders and deliveries rise"
-  ],
-  "links": [
-   [
-    "https://www.worldshipping.org/dual-fuel-fleet-dashboard",
-    "https://www.worldshipping.org/dual-fuel-fleet-dashboard"
-   ],
-   [
-    "https://www.worldshipping.org/s/JoeKramek-KimberlyMathisen.jpg",
-    "download a high-resolution version of this image."
-   ],
-   [
-    "https://www.worldshipping.org/whales",
-    "WSC’s Whales webpage"
-   ],
-   [
-    "http://www.worldshipping.org",
-    "www.worldshipping.org"
-   ],
-   [
-    "https://www.worldshipping.org/s/Joint-Association-Letter-Sec-301-Vessel-Fee-Suspension-Extension-Request.pdf",
-    "A copy of the letter is available here."
-   ],
-   [
-    "https://www.worldshipping.org/regulatory-filings/consolidated-results-of-container-inspection-programmes-1",
-    "Read the full report here"
-   ],
-   [
-    "https://www.worldshipping.org/regulatory-filings/batteries-sp188-exemptions-in-containerized-transport",
-    "submitting a paper for consideration by the IMO"
-   ],
-   [
-    "https://www.worldshipping.org/dual-fuel-fleet-dashboard",
-    "https://www.worldshipping.org/dual-fuel-fleet-dashboard"
-   ],
-   [
-    "https://www.worldshipping.org/news/shipping-industry-united-in-support-of-imo-as-its-global-regulator-and-successful-implementation-of-imo-ghg-reduction-pathway",
-    "joint industry statement"
-   ],
-   [
-    "https://www.worldshipping.org/combatting-illegal-wildlife-trafficking",
-    "Illegal Wildlife Trafficking"
-   ],
-   [
-    "https://www.worldshipping.org/freedom-of-navigation",
-    "the situation in the Strait of Hormuz"
-   ]
-  ],
-  "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<!--Generated by Site-Server v@build.version@ (http://www.squarespace.com) on Fri, 30 Oct 2026 20:00:07 GMT\n--><rss xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" xmlns:wfw=\"http://wellformedweb.org/CommentAPI/\" xmlns:itunes=\"http://www.itunes.com/dtds/podcast-1.0.dtd\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:media=\"http://www.rssboard.org/media-rss\" version=\"2.0\"><channel><title>News - World Shipping Council</title><link>https://www.worldshipping.org/news/</link><lastBuildDate>Wed, 21 Oct 2026 15:35:38 +0000</lastBuildDate><language>en-US</language><generator>Site-Server v@build.version@ (http://www.squarespace.com)</generator><description><![CDATA[]]></description><item><title>Dual-fuel fleet passes 500 ships on the water as investment exceeds $200 billion&nbsp;</title><dc:creator>Jordan Gribble</dc:creator><pubDate>Thu, 22 Oct 2026 10:00:40 +0000</pubDate><link>https://www.worldshipping.org/news/dual-fuel-fleet-passes-500-ships-on-the-water-as-investment-exceeds-200-billionnbsp</link><guid isPermaLink=\"false\">5ff6c5336c885a268148bdcc:602a44c2c6bed064bd48923e:6ad8db8d33559e1de048b361</guid><description><![CDATA[More than 500 dual-fuel container ships and vehicle carriers are now \r\noperating worldwide, with total investment in dual-fuel ships delivered and \r\non order surpassing $200 billion USD, according to the latest World \r\nShipping Council (WSC) Dual-Fuel Fleet Dashboard.]]></description><content:encoded><![CDATA["
  },
  "gmf": {
   "url": "https://globalmaritimeforum.org/library/",
@@ -4156,76 +2278,6 @@
    ]
   ],
   "head": ""
- },
- "tc-atom": {
-  "url": "https://api.io.canada.ca/io-server/gc/news/en/v2?dept=transportcanada&type=newsreleases&sort=publishedDate&orderBy=desc&pick=20&format=atom",
-  "robots_status": 404,
-  "status": 200,
-  "final": "https://api.io.canada.ca/io-server/gc/news/en/v2?dept=transportcanada&type=newsreleases&sort=publishedDate&orderBy=desc&pick=20&format=atom",
-  "len": 464,
-  "ctype": "application/xml; charset=utf-8",
-  "feeds": [],
-  "xml_titles": [],
-  "links": [],
-  "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><feed xmlns=\"http://www.w3.org/2005/Atom\"><subtitle>Canada News Centre</subtitle><updated>Invalid date</updated><link href=\"http://localhost:8181/io-server/gc/news/en/v2?dept=transportcanada&amp;type=newsreleases&amp;sort=publishedDate&amp;orderBy=desc&amp;pick=20&amp;format=atom\" rel=\"self\"/><id>https://www.canada.ca/en/news.html</id><logo>https://www.canada.ca/etc/designs/canada/wet-boew/assets/wmms-blk.svg</logo></feed>"
- },
- "tc-atom2": {
-  "url": "https://api.io.canada.ca/io-server/gc/news/en/v2?dept=departmentoftransport&sort=publishedDate&orderBy=desc&pick=20&format=atom",
-  "robots_status": 404,
-  "status": 200,
-  "final": "https://api.io.canada.ca/io-server/gc/news/en/v2?dept=departmentoftransport&sort=publishedDate&orderBy=desc&pick=20&format=atom",
-  "len": 19279,
-  "ctype": "application/xml; charset=utf-8",
-  "feeds": [],
-  "xml_titles": [
-   "Roberts Bank Terminal 2 listed as a project of national interest to strengthen Canada's trade sovereignty",
-   "Canada launches new task force to make trade faster, simpler and more efficient",
-   "UPDATED – Government of Canada to make a significant announcement at the Port of Vancouver to support trade diversification in Canada",
-   "Government of Canada invests $7.3 million in new infrastructure at P.E.I.’s Wood Islands ferry terminal to support safe ferry service",
-   "The Government of Canada to announce investment in new infrastructure at Northumberland Ferries’ Wood Islands terminal to support safe ferry service",
-   "The Government of Canada invests $254 million to support trade diversification and increase trade capacity in the Saint John Trade Corridor",
-   "Minister MacKinnon to make an important announcement regarding trade diversification",
-   "Transport Canada evaluating a proposed update of the joint venture between Air Canada and United Airlines",
-   "Government of Canada invests in stronger air connectivity in Norman Wells and Fort Simpson",
-   "Transport Minister Steven MacKinnon announces new leadership appointments at VIA Rail and CATSA",
-   "Minister of Transport announces expanded air transport agreement with Côte d'Ivoire",
-   "Government of Canada celebrates the opening of Canadian North's new cargo facility at Ottawa International Airport",
-   "Government of Canada celebrates the opening of Canadian North's new cargo facility at Ottawa International Airport",
-   "Canada and Alberta to collaborate on High-Speed Rail",
-   "The Government of Canada invests $85.5 million to rehabilitate the Rankin Inlet Airport and strengthen Arctic and northern connectivity"
-  ],
-  "links": [],
-  "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><feed xmlns=\"http://www.w3.org/2005/Atom\"><subtitle>Canada News Centre</subtitle><updated>2026-10-30T15:49:47-04:00</updated><link href=\"http://localhost:8181/io-server/gc/news/en/v2?dept=departmentoftransport&amp;sort=publishedDate&amp;orderBy=desc&amp;pick=20&amp;format=atom\" rel=\"self\"/><id>https://www.canada.ca/en/news.html</id><logo>https://www.canada.ca/etc/designs/canada/wet-boew/assets/wmms-blk.svg</logo><entry><title>Roberts Bank Terminal 2 listed as a project of national interest to strengthen Canada's trade sovereignty</title><id>https://www.canada.ca/en/transport-canada/news/2026/10/roberts-bank-terminal-2-listed-as-a-project-of-national-interest-to-strengthen-canadas-trade-sovereignty.html</id><summary type=\"html\">The world is increasingly more uncertain. Geopolitical tension is reshaping trade, supply chains are under pressure, and there is an increased global competition for capital, and market access. </summary><author><name>Transport Canada</name></author><category term=\"news releases\"/><updated>2026-10-30T15:49:47-04:00</updated><link href=\"https://www.canada.ca/en/transport-canada/news/2026/10/roberts-bank-terminal-2-listed-as-a-project-of-national-interest-to-strengthen-canadas-trade-sovereignty.html\"/></entry><entry><title>Canada launches new task force to make trade faster, simpler and more efficient</title><id>https://www.canada.ca/en/transport-canada/news/2026/10/canada-launches-new-task-force-to-make-trade-faster-"
- },
- "clima-rss": {
-  "url": "https://climate.ec.europa.eu/node/2/rss_en",
-  "robots_status": 200,
-  "robots_allowed": true,
-  "robots_excerpt": "#\n# robots.txt\n#\n# This file is to prevent the crawling and indexing of certain parts\n# of your site by web crawlers and spiders run by sites like Yahoo!\n# and Google. By telling these \"robots\" where not to go on your site,\n# you save bandwidth and server resources.\n#\n# This file will be ignored unless it is at the root of your host:\n# Used:    http://example.com/robots.txt\n# Ignored: http://example.com/site/robots.txt\n#\n# For more information about the robots.txt standard, see:\n# http://www.robotstxt.org/robotstxt.html\n\nUser-agent: *\n# CSS, JS, Images\nAllow: /core/*.css$\nAllow: /core/*.css?\nAllow: /core/*.js$\nAllow: /core/*.js?\nAllow: /core/*.gif\nAllow: /core/*.jpg\nAllow: /core/*.jpeg\nAllow: /core/*.png\nAllow: /core/*.svg\nAllow: /profiles/*.css$\nAllow: /profiles/*.css?\nAllow: /profiles/*.",
-  "status": 200,
-  "final": "https://climate.ec.europa.eu/node/2/rss_en",
-  "len": 40432,
-  "ctype": "application/rss+xml; charset=utf-8",
-  "feeds": [],
-  "xml_titles": [
-   "Climate Action | News",
-   "European Commission logo",
-   "Council publishes 2025 international climate finance figures",
-   "Commission presents Climate Resilience Framework for a better prepared and protected Europe",
-   "Commission welcomes political agreement on rules enhancing stability and long-term resilience of EU carbon market",
-   "Commission invests €3.4 billion in net-zero technology projects",
-   "Commission hosts a high-level policy dialogue on the role of forest-based value chains in the EU’s climate transition",
-   "Mayors meet with EU leaders in Brussels to advance affordable energy and climate resilience",
-   "Apply now to be a European Climate Pact Ambassador!",
-   "EU local leaders and authorities gather to discuss affordable energy, housing and climate resilience",
-   "Multilateralism: Council sets EU position ahead of climate change and biodiversity summits",
-   "Young people meet with Commissioner Hoekstra to discuss EU climate action ahead of COP31 ",
-   "Supporting clean transport in rural Sweden",
-   "Revised 2027 EU ETS1 and initial 2027 EU ETS2 auction calendars published",
-   "President von der Leyen attends UN General Assembly underscoring the EU's commitment to multilateralism"
-  ],
-  "links": [],
-  "head": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<rss xmlns:atom=\"http://www.w3.org/2005/Atom\" version=\"2.0\">\n  <channel>\n    <title>Climate Action | News</title>\n    <link>https://climate.ec.europa.eu/news-other-reads/news_en</link>\n    <atom:link href=\"https://climate.ec.europa.eu/node/2/rss_en\" rel=\"self\" type=\"application/rss+xml\"/>\n    <description>Climate Action | News</description>\n    <language>en</language>\n    <copyright>© European Union, 1995-2026</copyright>\n          <image>\n        <url>https://climate.ec.europa.eu/themes/contrib/oe_theme/dist/ec/images/logo/positive/logo-ec--en.svg</url>\n        <title>European Commission logo</title>\n        <link>https://climate.ec.europa.eu/news-other-reads/news_en</link>\n      </image>\n        \n    <item>\n  <title>Council publishes 2025 international climate finance figures</title>\n  <atom:id>https://climate.ec.europa.eu/node/2361</atom:id>\n  <link>https://www.consilium.europa.eu/en/press/press-releases/2026/10/29/council-publishes-2025-international-climate-finance-figures/</link>\n  <guid>https://www.consilium.europa.eu/en/press/press-releases/2026/10/29/council-publishes-2025-international-climate-finance-figures/</guid>\n  <description>&lt;p&gt;In 2025, the EU and its 27 member states contributed €32.3 billion in climate finance from public sources and mobilised an additional amount of €9.3 billion of private finance to support developing countries to reduce their greenhouse gas emissions and adapt to the impacts of climate change."
  },
  "dma": {
   "url": "https://www.dma.dk/news",
@@ -4952,7 +3004,7 @@
   "robots_excerpt": "User-agent: *\nDisallow: /products-and-services/$\nDisallow: /products-and-services/products/$\nDisallow: /products-and-services/services/$\nDisallow: /about-gard/sustainability/$\n",
   "status": 200,
   "final": "https://gard.no/en/insights/",
-  "len": 159020,
+  "len": 160148,
   "ctype": "text/html; charset=utf-8",
   "feeds": [],
   "links": [
@@ -5043,329 +3095,400 @@
   ],
   "head": ""
  },
- "ammonia": {
-  "url": "https://ammoniaenergy.org/feed/",
+ "tokyomou": {
+  "url": "https://www.tokyo-mou.org/",
   "robots_status": 200,
   "robots_allowed": true,
-  "robots_excerpt": "User-agent: *\nDisallow: /wp-admin/\nAllow: /wp-admin/admin-ajax.php\n\nSitemap: https://ammoniaenergy.org/sitemap.xml\n",
+  "robots_excerpt": "User-agent: *\nDisallow: /wp/wp-admin/\nAllow: /wp/wp-admin/admin-ajax.php\n\n# START YOAST BLOCK\n# ---------------------------\nUser-agent: *\nDisallow: /?s=\nDisallow: /page/*/?s=\nDisallow: /search/\nDisallow: /wp-json/\nDisallow: /?rest_route=\n\nUser-agent: AdsBot\nDisallow: /\n\nSitemap: https://www.tokyo-mou.org/sitemap_index.xml\n# ---------------------------\n# END YOAST BLOCK",
   "status": 200,
-  "final": "https://ammoniaenergy.org/feed/",
-  "len": 1086,
-  "ctype": "application/rss+xml; charset=UTF-8",
-  "feeds": [],
-  "xml_titles": [
-   "Ammonia Energy Association",
-   "Ammonia Energy Association"
-  ],
-  "links": [],
-  "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\"\n\txmlns:content=\"http://purl.org/rss/1.0/modules/content/\"\n\txmlns:wfw=\"http://wellformedweb.org/CommentAPI/\"\n\txmlns:dc=\"http://purl.org/dc/elements/1.1/\"\n\txmlns:atom=\"http://www.w3.org/2005/Atom\"\n\txmlns:sy=\"http://purl.org/rss/1.0/modules/syndication/\"\n\txmlns:slash=\"http://purl.org/rss/1.0/modules/slash/\"\n\t>\n\n<channel>\n\t<title>Ammonia Energy Association</title>\n\t<atom:link href=\"https://ammoniaenergy.org/feed/\" rel=\"self\" type=\"application/rss+xml\" />\n\t<link>https://ammoniaenergy.org</link>\n\t<description></description>\n\t<lastBuildDate>Fri, 30 Oct 2026 13:51:29 +0000</lastBuildDate>\n\t<language>en-US</language>\n\t<sy:updatePeriod>\n\thourly\t</sy:updatePeriod>\n\t<sy:updateFrequency>\n\t1\t</sy:updateFrequency>\n\t<generator>https://wordpress.org/?v=7.1.4</generator>\n\n<image>\n\t<url>https://ammoniaenergy.org/wp-content/uploads/2019/11/cropped-Artboard-6-e1573502614517-1.png</url>\n\t<title>Ammonia Energy Association</title>\n\t<link>https://ammoniaenergy.org</link>\n\t<width>32</width>\n\t<height>32</height>\n</image> \n</channel>\n</rss>\n"
- },
- "nyk": {
-  "url": "https://www.nyk.com/news/",
-  "robots_status": 200,
-  "robots_allowed": true,
-  "robots_excerpt": "User-agent: *\r\n",
-  "status": 200,
-  "final": "https://www.nyk.com/news/",
-  "len": 60545,
-  "ctype": "text/html",
+  "final": "https://www.tokyo-mou.org/",
+  "len": 201215,
+  "ctype": "text/html; charset=UTF-8",
   "feeds": [],
   "links": [
    [
-    "https://www.nyk.com/scripts/contact_oth_jp/index.asp",
-    "ãåãåãã"
+    "https://www.tokyo-mou.org/about/memorandum/",
+    "Memorandum of Understanding"
    ],
    [
-    "https://www.nyk.com/profile/",
-    "ä¼æ¥­æ å ± TOP"
+    "https://www.tokyo-mou.org/about/code-of-practice/",
+    "Code of Good Practice"
    ],
    [
-    "https://www.nyk.com/profile/mission/",
-    "æ¥æ¬éµè¹ã°ã«ã¼ãä¼æ¥­çå¿µ"
+    "https://www.tokyo-mou.org/about/organization/",
+    "Organizational Structure"
    ],
    [
-    "https://www.nyk.com/profile/service/",
-    "äºæ¥­æ¡å TOP"
+    "https://www.tokyo-mou.org/about/members/",
+    "Member Authorities and observers"
    ],
    [
-    "https://www.nyk.com/profile/service/liner/",
-    "å®æè¹äºæ¥­"
+    "https://www.tokyo-mou.org/about/committee/",
+    "Port State Control Committee"
    ],
    [
-    "https://www.nyk.com/profile/service/car/",
-    "èªåè»äºæ¥­"
+    "https://www.tokyo-mou.org/about/secretariat/",
+    "Tokyo MOU Secretariat"
    ],
    [
-    "https://www.nyk.com/profile/service/dry/",
-    "ãã©ã¤ãã«ã¯äºæ¥­"
+    "https://www.tokyo-mou.org/inspections-detentions/",
+    "Inspections & Detentions"
    ],
    [
-    "https://www.nyk.com/profile/service/energy/",
-    "ã¨ãã«ã®ã¼äºæ¥­"
+    "https://www.tokyo-mou.org/inspections-detentions/nir/",
+    "New Inspection Regime"
    ],
    [
-    "https://www.nyk.com/profile/service/others/",
-    "ãã®ä»ã®äºæ¥­"
+    "https://www.tokyo-mou.org/inspections-detentions/under-performing-ships/",
+    "Under-performing Ships"
    ],
    [
-    "https://www.nyk.com/profile/group/",
-    "ã°ã«ã¼ãä¼ç¤¾ä¸è¦§"
+    "https://www.tokyo-mou.org/inspections-detentions/performance-lists/",
+    "Performance Lists"
    ],
    [
-    "https://www.nyk.com/news/",
-    "ãã¥ã¼ã¹ã«ã¼ã"
+    "https://www.tokyo-mou.org/inspections-detentions/detention-procedures/",
+    "Detention Appeals & Reviews"
    ],
    [
-    "https://www.nyk.com/sustainability/",
-    "ãµã¹ããããªãã£ TOP"
+    "https://www.tokyo-mou.org/inspections-detentions/background-table-for-ro-relation/",
+    "Background Table for RO Relation"
    ],
    [
-    "https://www.nyk.com/sustainability/message/",
-    "ãããã³ãããã¡ã³ã"
+    "https://www.tokyo-mou.org/inspections-detentions/ro-responsibility/",
+    "Criteria for RO Responsibility"
    ],
    [
-    "https://www.nyk.com/sustainability/concept/",
-    "æ¥æ¬éµè¹ã°ã«ã¼ãã®ãµã¹ããããªãã£çµå¶"
+    "https://www.tokyo-mou.org/inspections-detentions/deficiency-codes/",
+    "Deficiency Codes"
    ],
    [
-    "https://www.nyk.com/sustainability/contribution/",
-    "ç¤¾ä¼èª²é¡è§£æ±ºã¸ã®ææ¦"
+    "https://www.tokyo-mou.org/safety-bulletin/",
+    "Safety Bulletin"
    ],
    [
-    "https://www.nyk.com/sustainability/report/",
-    "ãµã¹ããããªãã£ã¬ãã¼ã"
+    "https://www.tokyo-mou.org/guidelines-procedures/",
+    "Guidelines & Procedures"
    ],
    [
-    "https://www.nyk.com/sustainability/guide/",
-    "éç¤ºã¹ã¿ã³ãã¼ãå¯¾ç §è¡¨"
+    "https://www.tokyo-mou.org/deficiency-photos/",
+    "Deficiency Photos"
    ],
    [
-    "https://www.nyk.com/sustainability/evaluate/",
-    "ç¤¾ä¼ããã®è©ä¾¡"
+    "https://www.tokyo-mou.org/30th-anniversary/",
+    "30th Anniversary"
    ],
    [
-    "https://www.nyk.com/sustainability/news/",
-    "ãµã¹ããããªãã£ãã¥ã¼ã¹"
+    "https://www.tokyo-mou.org/about/memorandum/",
+    "Memorandum of Understanding"
    ],
    [
-    "https://www.nyk.com/sustainability/sustainable-finance/",
-    "ãµã¹ãããã«ãã¡ã¤ãã³ã¹"
+    "https://www.tokyo-mou.org/about/code-of-practice/",
+    "Code of Good Practice"
    ],
    [
-    "https://www.nyk.com/ir/",
-    "æ ªä¸»ã»æè³å®¶æ å ± TOP"
+    "https://www.tokyo-mou.org/about/organization/",
+    "Organizational Structure"
    ],
    [
-    "https://www.nyk.com/ir/financial/",
-    "æ¥­ç¸¾ã»è²¡åæ å ±"
+    "https://www.tokyo-mou.org/about/members/",
+    "Member Authorities and observers"
    ],
    [
-    "https://www.nyk.com/ir/schedule/",
-    "IRã¹ã±ã¸ã¥ã¼ã«"
+    "https://www.tokyo-mou.org/about/committee/",
+    "Port State Control Committee"
    ],
    [
-    "https://www.nyk.com/ir/library/",
-    "IRã©ã¤ãã©ãªã¼"
+    "https://www.tokyo-mou.org/about/secretariat/",
+    "Tokyo MOU Secretariat"
    ],
    [
-    "https://www.nyk.com/ir/investors/",
-    "åäººæè³å®¶ã®çãã¾ã¸"
+    "https://www.tokyo-mou.org/inspections-detentions/",
+    "Inspections & Detentions"
    ],
    [
-    "https://www.nyk.com/ir/faq/",
-    "FAQã»ãåãåãã"
+    "https://www.tokyo-mou.org/inspections-detentions/nir/",
+    "New Inspection Regime"
    ],
    [
-    "https://www.nyk.com/",
-    "ããããã¼ã¸"
+    "https://www.tokyo-mou.org/inspections-detentions/under-performing-ships/",
+    "Under-performing Ships"
    ],
    [
-    "https://www.nyk.com/news/2026/20261028_01.html",
-    "2026å¹´10æ28æ¥ ãã¬ã¹ãªãªã¼ã¹ ãProgress Report 2026 NYK Group Decarbonization Storyãï¼è±èªçï¼ãçºè"
+    "https://www.tokyo-mou.org/inspections-detentions/performance-lists/",
+    "Performance Lists"
    ],
    [
-    "https://www.nyk.com/news/2026/20261027_01.html",
-    "2026å¹´10æ27æ¥ å ±åãªãªã¼ã¹ ã¢ã³ã¢ãã¢çæèªåè»å°ç¨è¹4é»ã®å»ºé ã»éèªããã³ã¢ã³ã¢ãã"
+    "https://www.tokyo-mou.org/inspections-detentions/detention-procedures/",
+    "Detention Appeals & Reviews"
    ],
    [
-    "https://www.nyk.com/news/2026/20261023_01.html",
-    "2026å¹´10æ23æ¥ ãç¥ãã æ±äº¬æ¹¾ã¯ã«ã¼ãºè¹ãLADY CRYSTALãã36å¹´éã®èªæµ·ãçµãå¼éã¸"
+    "https://www.tokyo-mou.org/inspections-detentions/background-table-for-ro-relation/",
+    "Background Table for RO Relation"
    ],
    [
-    "https://www.nyk.com/news/2026/20260925_01.html",
-    "2026å¹´09æ25æ¥ ãã¬ã¹ãªãªã¼ã¹ ã¢ã¸ã¢ã»å¤§æ´å·åã®æ´ä¸é¢¨åçºé»æåãæ¯æ´è¹âSOVâãæ°é"
+    "https://www.tokyo-mou.org/inspections-detentions/ro-responsibility/",
+    "Criteria for RO Responsibility"
    ],
    [
-    "https://www.nyk.com/news/2026/20260918_03.html",
-    "2026å¹´09æ18æ¥ ãã¬ã¹ãªãªã¼ã¹ ä¸çåãã¢ã³ã¢ãã¢çæè¹ã¸Ship-to-Shipæ¹å¼ã§çæã¢ã³ã¢ãã"
+    "https://www.tokyo-mou.org/inspections-detentions/deficiency-codes/",
+    "Deficiency Codes"
    ],
    [
-    "https://www.nyk.com/news/2026/20260918_02.html",
-    "2026å¹´09æ18æ¥ ãã¬ã¹ãªãªã¼ã¹ ãNYKã¬ãã¼ã2026ããçºè¡"
+    "https://www.tokyo-mou.org/safety-bulletin/",
+    "Safety Bulletin"
    ],
    [
-    "https://www.nyk.com/news/2026/",
-    "ãã¥ã¼ã¹ãªãªã¼ã¹ä¸è¦§"
+    "https://www.tokyo-mou.org/guidelines-procedures/",
+    "Guidelines & Procedures"
    ],
    [
-    "https://www.nyk.com/ir/news/",
-    "IRãã¥ã¼ã¹ä¸è¦§"
+    "https://www.tokyo-mou.org/deficiency-photos/",
+    "Deficiency Photos"
    ],
    [
-    "https://www.nyk.com/sustainability/news/",
-    "ãµã¹ããããªãã£ãã¥ã¼ã¹ä¸è¦§"
+    "https://www.tokyo-mou.org/30th-anniversary/",
+    "30th Anniversary"
    ],
    [
-    "https://www.nyk.com/news/2026/20261030.html",
-    "2026å¹´10æ30æ¥ ãã¬ã¹ãªãªã¼ã¹ 2026å¹´åº¦ãç¤¾é·ã»è¹æ©é·æè«ä¼ããéå¬"
+    "https://www.tokyo-mou.org/about/memorandum/",
+    "Memorandum of Understanding"
    ],
    [
-    "https://www.nyk.com/ir/news/2026/__icsFiles/afieldfile/2026/10/29/20261029jpn.pdf",
-    "2026å¹´10æ29æ¥ é©æéç¤º 2027å¹´3ææ æ¥­ç¸¾äºæ³ã®ä¿®æ­£ã«é¢ãããç¥ãã [PDF:448KB]"
+    "https://www.tokyo-mou.org/about/code-of-practice/",
+    "Code of Good Practice"
    ],
    [
-    "https://www.nyk.com/news/2026/20261028_01.html",
-    "2026å¹´10æ28æ¥ ãã¬ã¹ãªãªã¼ã¹ ãProgress Report 2026 NYK Group Decarbonization Storyãï¼è±èªçï¼ãçºè"
+    "https://www.tokyo-mou.org/about/organization/",
+    "Organizational Structure"
    ],
    [
-    "https://www.nyk.com/news/2026/20261027_01.html",
-    "2026å¹´10æ27æ¥ å ±åãªãªã¼ã¹ ã¢ã³ã¢ãã¢çæèªåè»å°ç¨è¹4é»ã®å»ºé ã»éèªããã³ã¢ã³ã¢ãã"
+    "https://www.tokyo-mou.org/about/members/",
+    "Member Authorities and observers"
    ],
    [
-    "https://www.nyk.com/news/2026/20261026.html",
-    "2026å¹´10æ26æ¥ å ±åãªãªã¼ã¹ LNGãã³ã«ãªã³ã°è¹ãKEYS AzaleaããLNGçæä¾çµ¦100åéæ"
+    "https://www.tokyo-mou.org/about/committee/",
+    "Port State Control Committee"
    ],
    [
-    "https://www.nyk.com/news/2026/20261023_01.html",
-    "2026å¹´10æ23æ¥ ãç¥ãã æ±äº¬æ¹¾ã¯ã«ã¼ãºè¹ãLADY CRYSTALãã36å¹´éã®èªæµ·ãçµãå¼éã¸"
+    "https://www.tokyo-mou.org/about/secretariat/",
+    "Tokyo MOU Secretariat"
    ],
    [
-    "https://www.nyk.com/news/2026/20261022_01.html",
-    "2026å¹´10æ22æ¥ å ±åãªãªã¼ã¹ ä¸çã®æ£®æåçæ¯æ´ã«52,234æ¬ã®æ¨¹æ¨ãå¯ä»"
+    "https://www.tokyo-mou.org/inspections-detentions/nir/",
+    "New Inspection Regime"
    ],
    [
-    "https://www.nyk.com/news/2026/20261019_01.html",
-    "2026å¹´10æ19æ¥ ãç¥ãã NYKSMè¨­ç«25å¨å¹´è¨å¿µå¼å ¸ãã·ã³ã¬ãã¼ã«ã§éå¬"
+    "https://www.tokyo-mou.org/inspections-detentions/under-performing-ships/",
+    "Under-performing Ships"
    ],
    [
-    "https://www.nyk.com/news/2026/20261013.html",
-    "2026å¹´10æ13æ¥ ãã¬ã¹ãªãªã¼ã¹ Malaysia LNGç¤¾ã¨æ°é å°åLNGè¼¸éè¹ã®é·æå®æå­è¹å¥ç´ãç· çµ"
+    "https://www.tokyo-mou.org/inspections-detentions/performance-lists/",
+    "Performance Lists"
    ],
    [
-    "https://www.nyk.com/news/2026/20261009_03.html",
-    "2026å¹´10æ09æ¥ ãç¥ãã å½ç¤¾7åç®ã®ãã©ã³ã¸ã·ã§ã³ãã³ããçºè¡"
+    "https://www.tokyo-mou.org/inspections-detentions/detention-procedures/",
+    "Detention Appeals & Reviews"
    ],
    [
-    "https://www.nyk.com/news/2026/20261009_2.html",
-    "2026å¹´10æ09æ¥ ãç¥ãã 2026å¹´åº¦éå¤§äºæ å¯¾å¿è¨ç·´ãå®æ½"
+    "https://www.tokyo-mou.org/inspections-detentions/background-table-for-ro-relation/",
+    "Background Table for RO Relation"
    ],
    [
-    "https://www.nyk.com/news/2026/20261009_1.html",
-    "2026å¹´10æ09æ¥ ãç¥ãã ShipTek Awards 2026ã§ãGreen Shipping Excellence Awardããåè³"
+    "https://www.tokyo-mou.org/inspections-detentions/ro-responsibility/",
+    "Criteria for RO Responsibility"
    ],
    [
-    "https://www.nyk.com/news/2026/20261008.html",
-    "2026å¹´10æ08æ¥ ãç¥ãã LNGçæãã³ã«ãªã³ã°è¹ããããããç¡äºæ ã§ç´¯è¨200åã®çæä¾çµ¦ã"
+    "https://www.tokyo-mou.org/inspections-detentions/deficiency-codes/",
+    "Deficiency Codes"
    ],
    [
-    "https://www.nyk.com/news/2026/20261002_2.html",
-    "2026å¹´10æ02æ¥ ãç¥ãã ç±³å½ã·ãªã³ã³ãã¬ã¼ã«æ°æ ç¹ãéè¨­"
+    "https://www.tokyo-mou.org/safety-bulletin/",
+    "Safety Bulletin"
    ],
    [
-    "https://www.nyk.com/news/2026/20261001_01.html",
-    "2026å¹´10æ02æ¥ ãã¬ã¹ãªãªã¼ã¹ åµæ¥­141å¨å¹´ãè¨å¿µãç¤¾é·ããããã¤"
+    "https://www.tokyo-mou.org/guidelines-procedures/",
+    "Guidelines & Procedures"
    ],
    [
-    "https://www.nyk.com/news/2026/20260929_01.html",
-    "2026å¹´09æ29æ¥ ãã¬ã¹ãªãªã¼ã¹ ãã«ã¦ã§ã¼ã®Trudvang CCSãã­ã¸ã§ã¯ãã«åç»ã¸"
+    "https://www.tokyo-mou.org/deficiency-photos/",
+    "Deficiency Photos"
    ],
    [
-    "https://www.nyk.com/news/2026/20260925_03.html",
-    "2026å¹´09æ25æ¥ ãã¬ã¹ãªãªã¼ã¹ Diamond Global Energyåãæ°é LNGè¹ããDIAMOND GAS NEXUSãã¨å½å"
+    "https://www.tokyo-mou.org/30th-anniversary/",
+    "30th Anniversary"
    ],
    [
-    "https://www.nyk.com/news/2026/20260925_2.html",
-    "2026å¹´09æ25æ¥ ãç¥ãã IMOã§æµ·äºæ¥­çããªã¼ãããã¢ã³ã¢ãã¢çæè¹ã®ç¤¾ä¼å®è£ ã¸ã®åãçµ"
+    "https://www.tokyo-mou.org/about/memorandum/",
+    "Memorandum of Understanding"
    ],
    [
-    "https://www.nyk.com/news/2026/20260925_01.html",
-    "2026å¹´09æ25æ¥ ãã¬ã¹ãªãªã¼ã¹ ã¢ã¸ã¢ã»å¤§æ´å·åã®æ´ä¸é¢¨åçºé»æåãæ¯æ´è¹âSOVâãæ°é"
+    "https://www.tokyo-mou.org/about/code-of-practice/",
+    "Code of Good Practice"
    ],
    [
-    "https://www.nyk.com/news/2026/20260918_03.html",
-    "2026å¹´09æ18æ¥ ãã¬ã¹ãªãªã¼ã¹ ä¸çåãã¢ã³ã¢ãã¢çæè¹ã¸Ship-to-Shipæ¹å¼ã§çæã¢ã³ã¢ãã"
+    "https://www.tokyo-mou.org/about/organization/",
+    "Organizational Structure"
    ],
    [
-    "https://www.nyk.com/news/2026/20260918_02.html",
-    "2026å¹´09æ18æ¥ ãã¬ã¹ãªãªã¼ã¹ ãNYKã¬ãã¼ã2026ããçºè¡"
+    "https://www.tokyo-mou.org/about/members/",
+    "Member Authorities and observers"
    ],
    [
-    "https://www.nyk.com/news/2026/20260918_01.html",
-    "2026å¹´09æ18æ¥ ãç¥ãã ãããã ä¸­é¨ãã£ã³ã¡ã¤æ¸¯ã«å½ç¤¾èªåè»å°ç¨è¹ãåå¯æ¸¯"
+    "https://www.tokyo-mou.org/about/committee/",
+    "Port State Control Committee"
    ],
    [
-    "https://www.nyk.com/news/2026/20260916_02.html",
-    "2026å¹´09æ16æ¥ ãç¥ãã å½ç¤¾ã°ã«ã¼ãã®MTIããã·ã¬ã³å¤§å­¦ã¨æ¥ç±³ã®é è¹åéã§ã®ååã«é¢ã"
+    "https://www.tokyo-mou.org/about/secretariat/",
+    "Tokyo MOU Secretariat"
    ],
    [
-    "https://www.nyk.com/news/2026/20260916_01.html",
-    "2026å¹´09æ16æ¥ ãç¥ãã ç³åç°å¢å¤§è£ãæ¿åºé¢ä¿è ããã«ã®ã¼ã»ã¼ã¼ããªã¥ã¼ã¸ã¥æ¸¯ã®ICOã"
+    "https://www.tokyo-mou.org/inspections-detentions/nir/",
+    "New Inspection Regime"
    ],
    [
-    "https://www.nyk.com/news/2026/20260915_01.html",
-    "2026å¹´09æ15æ¥ å ±åãªãªã¼ã¹ å½å CCSäºæ¥­ã®å®ç¾ã«åããæ¨æºåä½å§æ¶²åCOâè¼¸éè¹ã®åºæ¬è¨­"
+    "https://www.tokyo-mou.org/inspections-detentions/under-performing-ships/",
+    "Under-performing Ships"
    ],
    [
-    "https://www.nyk.com/news/2026/20260914_01.html",
-    "2026å¹´09æ14æ¥ ãã¬ã¹ãªãªã¼ã¹ ã¯ã«ã¼ãºè¹ãAMANEãã®å½åã»é²æ°´å¼ãéå¬"
+    "https://www.tokyo-mou.org/inspections-detentions/performance-lists/",
+    "Performance Lists"
    ],
    [
-    "https://www.nyk.com/news/2026/20260911_01.html",
-    "2026å¹´09æ11æ¥ ãç¥ãã ãã£ãªãã³ã§ã®æµ·äºå­¦çå½éäº¤æµã«8æ ¡32åãåå"
+    "https://www.tokyo-mou.org/inspections-detentions/detention-procedures/",
+    "Detention Appeals & Reviews"
    ],
    [
-    "https://www.nyk.com/news/2026/20260904.html",
-    "2026å¹´09æ04æ¥ ãç¥ãã 2026å¹´ãã©ã¤ãã«ã¯å®å ¨å®åè ä¼è­°ãéå¬"
+    "https://www.tokyo-mou.org/inspections-detentions/background-table-for-ro-relation/",
+    "Background Table for RO Relation"
    ],
    [
-    "https://www.nyk.com/news/2026/20260902_01.html",
-    "2026å¹´09æ02æ¥ ãç¥ãã ä¸çå ±éã®ãæ¥æ¬éµè¹ã°ã«ã¼ãè¡åè¦æºããç­å®"
+    "https://www.tokyo-mou.org/inspections-detentions/ro-responsibility/",
+    "Criteria for RO Responsibility"
    ],
    [
-    "https://www.nyk.com/news/2026/20260901_02.html",
-    "2026å¹´09æ01æ¥ ãç¥ãã LNGãã³ã«ãªã³ã°å¤§æãAvenir LNGç¤¾ãã®å ±åéå¶ä½å¶ãçºè¶³"
+    "https://www.tokyo-mou.org/inspections-detentions/deficiency-codes/",
+    "Deficiency Codes"
    ],
    [
-    "https://www.nyk.com/app-files/pdf/social010.pdf",
-    "Slavery and Human Trafficking Statement"
+    "https://www.tokyo-mou.org/safety-bulletin/",
+    "Safety Bulletin"
    ],
    [
-    "https://www.nyk.com/sitemap/",
-    "ãµã¤ãããã"
+    "https://www.tokyo-mou.org/guidelines-procedures/",
+    "Guidelines & Procedures"
    ],
    [
-    "https://www.nyk.com/terms/",
-    "ã¦ã§ããµã¤ãã®ãå©ç¨æ¡ä»¶"
+    "https://www.tokyo-mou.org/deficiency-photos/",
+    "Deficiency Photos"
    ],
    [
-    "https://www.nyk.com/accessibility-policy/",
-    "ã¢ã¯ã»ã·ããªãã£æ¹é"
+    "https://www.tokyo-mou.org/30th-anniversary/",
+    "30th Anniversary"
    ],
    [
-    "https://www.nyk.com/security-policy/",
-    "ã»ã­ã¥ãªãã£æ¹é"
+    "https://www.tokyo-mou.org/about/",
+    "Learn more about Tokyo MOU"
    ],
    [
-    "https://www.nyk.com/privacy-policy/",
-    "åäººæ å ±ä¿è­·æ¹é"
+    "https://www.tokyo-mou.org/safety-bulletin/2026/10/23/safety-bulletin-05-26-improper-extensions-of-statutory-certification/",
+    "Safety Bulletin 05/26 – Improper extensions of Statutory Certification"
    ],
    [
-    "https://www.nyk.com/english/gdpr/",
-    "NYK Privacy Policy (GDPR)"
+    "https://www.tokyo-mou.org/press-releases/2026/10/09/tokyo-mous-changing-of-the-method-of-calculation-of-the-performance-on-flag-and-ro/",
+    "Tokyo MOU’s Changing of the Method of Calculation of the Performance on Flag and RO"
    ],
    [
-    "https://www.nyk.com/research-compliance/research-compliance.pdf",
-    "ç ç©¶æ´»åã«ãããæ³ä»¤é å®"
+    "https://www.tokyo-mou.org/press-releases/2026/09/18/tokyo-mou-port-state-control-committee-37th-meeting-in-singapore/",
+    "Tokyo MOU Port State Control Committee 37th Meeting in Singapore"
+   ],
+   [
+    "https://www.tokyo-mou.org/press-releases/2026/08/03/joint-press-release-on-the-concentrated-inspection-campaign-on-cargo-securing/",
+    "Joint Press Release on the Concentrated Inspection Campaign on Cargo Securing"
+   ],
+   [
+    "https://www.tokyo-mou.org/annual-report/2026/05/01/annual-report-2025/",
+    "Annual Report 2025"
+   ],
+   [
+    "https://www.tokyo-mou.org/wp/wp-content/uploads/INFORMATION-ON-FEES-AND-CHARGES-BY-AUTHORITIES-FOR-FOLLOW-UP-PSC-INSPECTION2026.10.pdf",
+    "Information for PSC Inspection Fees & Charges of Member Authorities"
+   ],
+   [
+    "https://www.tokyo-mou.org/wp/wp-content/uploads/Focal-point-of-Authorities-for-reporting-PSC-corruption-2026.10.pdf",
+    "Focal point of Authorities for reporting PSC corruption"
+   ],
+   [
+    "https://www.tokyo-mou.org/about/",
+    "About Tokyo MOU"
+   ],
+   [
+    "https://www.tokyo-mou.org/about/memorandum/",
+    "Memorandum of Understanding"
+   ],
+   [
+    "https://www.tokyo-mou.org/about/code-of-practice/",
+    "Code of Good Practice"
+   ],
+   [
+    "https://www.tokyo-mou.org/about/organization/",
+    "Organizational Structure"
+   ],
+   [
+    "https://www.tokyo-mou.org/about/members/",
+    "Member Authorities and observers"
+   ],
+   [
+    "https://www.tokyo-mou.org/about/committee/",
+    "Port State Control Committee"
+   ],
+   [
+    "https://www.tokyo-mou.org/about/secretariat/",
+    "Tokyo MOU Secretariat"
+   ],
+   [
+    "https://www.tokyo-mou.org/inspections-detentions/",
+    "Inspections & Detentions"
+   ],
+   [
+    "https://www.tokyo-mou.org/inspections-detentions/under-performing-ships/",
+    "Under-performing Ships"
+   ],
+   [
+    "https://www.tokyo-mou.org/inspections-detentions/performance-lists/",
+    "Performance Lists"
+   ],
+   [
+    "https://www.tokyo-mou.org/inspections-detentions/detention-procedures/",
+    "Detention Appeals & Reviews"
+   ],
+   [
+    "https://www.tokyo-mou.org/inspections-detentions/ro-responsibility/",
+    "Criteria for RO Responsibility"
+   ],
+   [
+    "https://www.tokyo-mou.org/inspections-detentions/deficiency-codes/",
+    "Deficiency Codes"
+   ],
+   [
+    "https://www.tokyo-mou.org/safety-bulletin/",
+    "Safety Bulletin"
+   ],
+   [
+    "https://www.tokyo-mou.org/guidelines-procedures/",
+    "Guidelines & Procedures"
+   ],
+   [
+    "https://www.tokyo-mou.org/deficiency-photos/",
+    "Deficiency Photos"
+   ],
+   [
+    "https://www.tokyo-mou.org/30th-anniversary/",
+    "30th Anniversary"
+   ],
+   [
+    "https://www.tokyo-mou.org/inspections-detentions/under-performing-ships/",
+    "Under-performing ships"
    ]
   ],
   "head": ""
@@ -5383,12 +3506,1638 @@
   "links": [],
   "head": ""
  },
+ "kline": {
+  "url": "https://www.kline.co.jp/ja/news.html",
+  "robots_status": 200,
+  "robots_allowed": true,
+  "robots_excerpt": "User-agent: *\n\nSitemap: https://www.kline.co.jp/sitemap.xml\n",
+  "status": 200,
+  "final": "https://www.kline.co.jp/ja/news.html",
+  "len": 1124058,
+  "ctype": "text/html; charset=UTF-8",
+  "feeds": [],
+  "links": [
+   [
+    "https://www.kline.co.jp/ja/feature02.html",
+    "DRIVE GREEN PROJECT"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/car/car-20261027.html",
+    "2026年10月27日 アンモニア燃料自動車専用船4隻の建造・運航およびアンモニアバンカリング事業の商用化について ～世界初、燃料調達から供給体制までの一体整備により、中部地区から国際海運の脱炭素化を推進～"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/csr/csr-20261026.html",
+    "2026年10月26日 環境セミナー「風力補助推進システムの最新動向と実運用」を開催 ～風力補助推進システム（WAPS）の実運用に関する知見と今後の展望を共有～"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/ir/auto_20261022554611/pdfFile.pdf",
+    "2026年10月23日 2027年３月期 業績予想の修正に関するお知らせ （325KB）"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/fuel/fuel-20261008.html",
+    "2026年10月08日 LNGバンカリング船「かぐや」、200回無事故オペレーション達成 ～Ship to Ship方式によるLNGバンカリングサービスを中部地区で展開～"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/csr/csr-20261007-2.html",
+    "2026年10月07日 LNG船「Puteri Johor」および「Puteri Kedah」がシンガポール海事港湾庁のGreen Ship Awardを受賞"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/lng/lng-20261007-2.html",
+    "2026年10月07日 LNG船「Puteri Johor」および「Puteri Kedah」がシンガポール海事港湾庁のGreen Ship Awardを受賞"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/other/other-20261007.html",
+    "2026年10月07日 グループ3社の拠点を集約した新オフィスの開所式をシンガポールで開催 ～知見・人材・機能を結集し、東南アジアにおける事業基盤を強化～"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/csr/csr-20261007.html",
+    "2026年10月07日 川崎汽船グループ役職員有志による「令和8年熊本地震」災害義援金について"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/ir/auto_20261001544562/pdfFile.pdf",
+    "2026年10月02日 自己株式の消却完了に関するお知らせ （209KB）"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/ir/ir-20261001.html",
+    "2026年10月01日 ｢“K” LINE REPORT 2026｣（日本語版）発行のお知らせ"
+   ],
+   [
+    "https://www.kline.co.jp/ja/ir/finance/shipping.html",
+    "2026年09月30日 海運市況を更新しました"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/ir/auto_20260915536374/pdfFile.pdf",
+    "2026年09月25日 自己株式の消却に関するお知らせ （200KB）"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/other/other-20260925.html",
+    "2026年09月25日 シンガポールで「KME&KMSM Family Day 2026」を開催 ～従業員と家族との交流を通じて事業理解とエンゲージメント向上を促進～"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/ir/auto_20260916537393/pdfFile.pdf",
+    "2026年09月24日 取締役の辞任に関するお知らせ （193KB）"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/lng/lng-20260924.html",
+    "2026年09月24日 マレーシア国営石油ガス会社PETRONASグループ向けLNG船「Puteri Kelantan」が竣工"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/ir/auto_20260915536375/pdfFile.pdf",
+    "2026年09月18日 自己株式の取得状況及び取得終了のお知らせ （208KB）"
+   ],
+   [
+    "https://www.kline.co.jp/ja/ir/individual/seminar.html",
+    "2026年09月18日 【2026年9月8日（火）開催】個人投資家向け会社説明会の関連資料、動画を掲載いたしました"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/ccs/ccs-20260915.html",
+    "2026年09月15日 国内CCS事業の実現に向けた標準型低圧液化CO₂輸送船の基本設計承認（AiP）を取得 ～MILESを活用した標準設計スキーム初の成果～"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/lng/lng-20260910.html",
+    "2026年09月10日 東邦ガス向けLNG船を「TOHO EMERALD」と命名"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/csr/csr-20260907.html",
+    "2026年09月07日 「第20回船主安全対策連絡会」を開催 ～安全・環境・品質のさらなる向上に向けて、船主および船舶管理会社とともに～"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/ir/auto_20260831528794/pdfFile.pdf",
+    "2026年09月01日 自己株式の取得状況に関するお知らせ （204KB）"
+   ],
+   [
+    "https://www.kline.co.jp/ja/ir/finance/shipping.html",
+    "2026年09月01日 海運市況を更新しました"
+   ],
+   [
+    "https://www.kline.co.jp/ja/ir/library/fact.html",
+    "2026年08月31日 「FACTBOOK 2026」（日本語版）を発行いたしました"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/crude_oil_and_lpg/crude_oil_and_lpg-20260828.html",
+    "2026年08月28日 VLCC 3隻の建造契約を日本シップヤード株式会社と締結"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/terminal/terminal-20260819.html",
+    "2026年08月19日 神戸港PC14-17コンテナターミナルでのオペレーション開始について"
+   ],
+   [
+    "https://www.kline.co.jp/ja/ir/individual/seminar.html",
+    "2026年08月18日 個人投資家向け会社説明会開催のお知らせ"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/other/other-20260817.html",
+    "2026年08月17日 川崎汽船が取材協力した自動車専用船の絵本が発売 ～世界の物流を支える船の仕事を次世代へ伝える～"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/ir/ir20260810jp/main/0/link/20260810JA.pdf",
+    "2026年08月10日 「JPX 日経インデックス400」構成銘柄への継続選定に関するお知らせ （158KB）"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/csr/csr-20260807.html",
+    "2026年08月07日 川崎汽船研修所、低引火点燃料船関連3講習で民間初の国土交通省海事局認定を取得 ～代替燃料船の安全運航を支える専門人材育成を推進～"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/csr/csr-20260805.html",
+    "2026年08月05日 「令和8年熊本地震」による被災地・被災者への支援について"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/other/other-20260805.html",
+    "2026年08月05日 2026年度業績予想と中期経営計画の進捗に関する動画を公開"
+   ],
+   [
+    "https://www.kline.co.jp/ja/ir/library/presentation.html",
+    "2026年08月04日 2027年3月期第1四半期決算を発表いたしました"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/ir/auto_20260803506455/pdfFile.pdf",
+    "2026年08月04日 2027年３月期 第１四半期決算短信〔日本基準〕（連結） （385KB）"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/ir/auto_20260729502088/pdfFile.pdf",
+    "2026年08月04日 2026年度第１四半期 決算説明会資料 （2,150KB）"
+   ],
+   [
+    "https://www.kline.co.jp/ja/ir/finance/shipping.html",
+    "2026年08月04日 海運市況を更新しました"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/ir/auto_20260729502060/pdfFile.pdf",
+    "2026年08月03日 自己株式の取得状況に関するお知らせ （204KB）"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/csr/csr-20260730.html",
+    "2026年07月30日 「世界海洋デー」に合わせた世界一斉清掃活動の実施"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/ir/auto_20260724599046/pdfFile.pdf",
+    "2026年07月24日 2027年３月期 業績予想の修正に関するお知らせ （339KB）"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/csr/csr-20260721.html",
+    "2026年07月21日 ESG指数「FTSE4Good Index Series」「FTSE JPX Blossom Japan Index」 「FTSE JPX Blossom Japan Sector Relative Index」の構"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/csr/csr-20260717.html",
+    "2026年07月17日 フィリピン・ミンダナオ島沖における地震被害への支援について"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/lng/lng-20260715.html",
+    "2026年07月15日 カタール国営エネルギー会社 QatarEnergy向けLNG 船”HALWAN”と命名"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/other/other-20260713.html",
+    "2026年07月13日 「海の日記念行事2026」出展のお知らせ"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/csr/csr-20260709.html",
+    "2026年07月09日 ダイトーコーポレーション、2隻目となる電動タグボートの建造を決定 ～高出力化と運航データ活用による効率運航を実現し、東京湾のCNP形成に貢献～"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/offshore_wind/offshore_wind-20260708.html",
+    "2026年07月08日 「浮遊軸型風車（FAWT）」の小型実験機の海上設置が完了 ～低コストな国産洋上風力発電の実現へ、次世代浮体式風車の海上実証を開始～"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/other/other-20260703.html",
+    "2026年07月03日 日経CNBC「トップに聞く」出演のお知らせ"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/lng/lng-20260701.html",
+    "2026年07月01日 マレーシア国営石油ガス会社PETRONASグループ向けLNG船2隻が竣工"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/ir/auto_20260629583339/pdfFile.pdf",
+    "2026年07月01日 自己株式の取得状況に関するお知らせ （204KB）"
+   ],
+   [
+    "https://www.kline.co.jp/ja/ir/finance/shipping.html",
+    "2026年06月30日 海運市況を更新しました"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/other/other-20260629.html",
+    "2026年06月29日 社内向けのDX技術発表会を開催"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/car/car-20260626.html",
+    "2026年06月26日 川崎汽船グループの管理船が「ベストクオリティーシップ2025」を受賞"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/csr/csr-20260626.html",
+    "2026年06月26日 川崎汽船グループの管理船が「ベストクオリティーシップ2025」を受賞"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/car/car-20260623.html",
+    "2026年06月23日 エジプト・カイロ向け鉄道車両の荷役作業および自動車船船内見学会を開催 ～神戸港にてメディア向け見学会を実施～"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/ir/auto_20260618094300_S100YC6B/pdfFile.pdf",
+    "2026年06月18日 有価証券報告書-第158期(2025/04/01-2026/03/31) （1,372KB）"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/csr/csr-20260617.html",
+    "2026年06月17日 「ＳＯＭＰＯサステナビリティ・インデックス」の構成銘柄に継続選定"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/csr/csr-20260609.html",
+    "2026年06月09日 「“K” LINEグループ 環境アワード2026」表彰式を実施"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/other/other-20260608.html",
+    "2026年06月08日 「電子M0チェックシステム」を当社管理船へ導入 ～乗組員の安全性向上と作業負担軽減に向けた取り組み～"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/car/car-20260604.html",
+    "2026年06月04日 欧州近海事業向けLNG燃料自動車専用船4隻の建造契約を締結"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/ccs/ccs-20260603.html",
+    "2026年06月03日 Northern Lights社向け新造液化CO2船の定期傭船が決定"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/ir/auto_20260602558963/pdfFile.pdf",
+    "2026年06月02日 自己株式立会外買付取引（ToSTNeT-3）による自己株式の取得結果に関するお知らせ （296KB）"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/ir/auto_20260601558288/pdfFile.pdf",
+    "2026年06月01日 自己株式立会外買付取引（ToSTNeT-3）による自己株式の買付けに関するお知らせ （236KB）"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/ir/auto_20260529554816/pdfFile.pdf",
+    "2026年05月29日 自己株式取得及び自己株式立会外買付取引（ToSTNeT-3）による自己株式の買付けに係る事項の決定に関するお知らせ （283KB）"
+   ],
+   [
+    "https://www.kline.co.jp/ja/ir/finance/shipping.html",
+    "2026年05月28日 海運市況を更新しました"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/csr/csr-20260528.html",
+    "2026年05月28日 CDP「サプライヤー・エンゲージメント・アセスメント」Aスコア獲得"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/csr/csr-20260522.html",
+    "2026年05月22日 JAL・JR東海と共同で女性技術者による対話型イベントを開催"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/ir/auto_20260521544188/pdfFile.pdf",
+    "2026年05月22日 第158期定時株主総会招集ご通知 交付書面への記載を省略した事項 （572KB）"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/ir/auto_20260521544187/pdfFile.pdf",
+    "2026年05月22日 第158期定時株主総会招集ご通知 （3,144KB）"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/lng/lng-20260520.html",
+    "2026年05月20日 Diamond Global Energy向けLNG船を「DIAMOND GAS JADE」と命名"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/csr/csr-20260520.html",
+    "2026年05月20日 世界的な評価機関「Morningstar Sustainalytics」からESG・気候変動リスクの管理に優れた企業として選出"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/csr/csr-20260519.html",
+    "2026年05月19日 マレーシア海事大学と奨学支援制度に関する覚書を締結"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/ir/ir-20260515/main/0/link/260515JA.pdf",
+    "2026年05月15日 取締役候補者の決定について （148KB）"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/csr/csr-20260512.html",
+    "2026年05月12日 「国際海事女性デー」に合わせて 航空・鉄道業界で活躍する女性技術者との対話型イベントを開催します"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/other/other-20260511.html",
+    "2026年05月11日 2025年度業績結果と中期経営計画の進捗に関する動画を公開"
+   ],
+   [
+    "https://www.kline.co.jp/ja/ir/library/presentation.html",
+    "2026年05月08日 2026年3月期決算を発表いたしました"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/ir/auto_20260508519382/pdfFile.pdf",
+    "2026年05月08日 2025年度本決算 決算説明会資料 （2,822KB）"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/ir/auto_20260507518026/pdfFile.pdf",
+    "2026年05月08日 2026年３月期 決算短信〔日本基準〕（連結） （448KB）"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/csr/csr-20260507.html",
+    "2026年05月07日 世界的なESG投資指標「Dow Jones Best-in-Class Asia Pacific Index」の構成銘柄として15期連続選定"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/csr/csr-20260430.html",
+    "2026年04月30日 中東情勢で乗船勤務が長引く船員を応援する動画を公開 ～ 船上の仲間へ届け!! 家族とつなぐ応援メッセージ ～"
+   ],
+   [
+    "https://www.kline.co.jp/ja/ir/finance/shipping.html",
+    "2026年04月30日 海運市況を更新しました"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/ir/ir-20260430/main/0/link/260430JA.pdf",
+    "2026年04月30日 執行体制について （190KB）"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/ir/ir-20260424/main/0/link/20260424JA.pdf",
+    "2026年04月24日 取締役会の実効性評価について （174KB）"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/fuel/fuel-20260423.html",
+    "2026年04月23日 シンガポールにおける船舶向け燃料アンモニア供給に関する実証事業が、経済産業省が日アセアン経済産業協力委員会（AMEICC）に拠出して行われる令和6年度補正グローバルサウス未来志向型共創等事業費補助金（大型実証 ASE"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/fuel/fuel-20260423.html",
+    "2026年04月23日 シンガポールにおける船舶向け燃料アンモニア供給に関する実証事業が、経済産業省が日アセアン経済産業協力委員会（AMEICC）に拠出して行われる令和6年度補正グローバルサウス未来志向型共創等事業費補助金（大型実証 ASE"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/logistics/logistics-20260422.html",
+    "2026年04月22日 シーゲートコーポレーション、曳船として国内初の環境技術を採用した「びさん丸」の命名・進水式実施 ～バイオ燃料混合装置および超音波による船体防汚装置の搭載～"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/ccs/ccs-20260421.html",
+    "2026年04月21日 アジアにおけるCCUS拠点開発の実現性を調査するコンソーシアムに参画"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/other/other-20260407.html",
+    "2026年04月07日 海事産業向け国際展示会「Sea Japan2026」に出展"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/offshore_wind/offshore_wind-20260403.html",
+    "2026年04月03日 ケイライン・ウインド・サービス株式会社の完全子会社化について"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/offshore_wind/offshore_wind-20260403.html",
+    "2026年04月03日 ケイライン・ウインド・サービス株式会社の完全子会社化について"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/fuel/fuel-20260401.html",
+    "2026年04月01日 自動車船におけるバイオLNG燃料の継続的な使用を開始 ～“K” LINE環境ビジョン「2050年GHG排出ネットゼロ」への取り組み～"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/car/car-20260401.html",
+    "2026年04月01日 自動車船におけるバイオLNG燃料の継続的な使用を開始 ～“K” LINE環境ビジョン「2050年GHG排出ネットゼロ」への取り組み～"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/fuel/fuel-20260401.html",
+    "2026年04月01日 自動車船におけるバイオLNG燃料の継続的な使用を開始 ～“K” LINE環境ビジョン「2050年GHG排出ネットゼロ」への取り組み～"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/other/other-20260401.html",
+    "2026年04月01日 入社式社長挨拶"
+   ],
+   [
+    "https://www.kline.co.jp/ja/ir/finance/shipping.html",
+    "2026年03月30日 海運市況を更新しました"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/csr/csr-20260325.html",
+    "2026年03月25日 川崎汽船、国内グループ会社とコンプライアンス連絡会を開催"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/other/other-20260324.html",
+    "2026年03月24日 経営層向けのDXプログラムを実施"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/csr/csr-20260324-2.html",
+    "2026年03月24日 釧路―日立を結ぶ「第二ほくれん丸」RORO船として日本初 自動運航船としての船舶検査に合格"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/csr/csr-20260324.html",
+    "2026年03月24日 2025年度 “K” LINE安全キャンペーン実施について"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/car/car-20260323.html",
+    "2026年03月23日 日本製の鉄道車両 エジプト・カイロ地下鉄向けに神戸港より自動車船にて初出荷"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/csr/csr-20260319-2.html",
+    "2026年03月19日 モザンビーク共和国における豪雨被害への支援について"
+   ],
+   [
+    "https://www.kline.co.jp/ja/ir/individual/seminar.html",
+    "2026年03月17日 【2026年３月３日及び３月12日開催】個人投資家向け会社説明会の関連資料、動画を掲載いたしました"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/fuel/fuel-20260317.html",
+    "2026年03月17日 住友商事、川崎汽船、日本郵船の３社が、シンガポール港における新造アンモニア燃料供給船に関するMoUを締結"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/fuel/fuel-20260317.html",
+    "2026年03月17日 住友商事、川崎汽船、日本郵船の３社が、シンガポール港における新造アンモニア燃料供給船に関するMoUを締結"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/csr/csr-20260316.html",
+    "2026年03月16日 自動カイトシステム“Seawing”が二つの船級協会から張力検証に関する第三者鑑定を取得"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/csr/csr-20260309.html",
+    "2026年03月09日 「健康経営優良法人2026」に認定"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/offshore_wind/offshore_wind-20260309.html",
+    "2026年03月09日 第17回 WIND EXPO【春】2026 ～国際風力発電展～に出展"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/offshore_wind/offshore_wind-20260309.html",
+    "2026年03月09日 第17回 WIND EXPO【春】2026 ～国際風力発電展～に出展"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/other/other-20260306.html",
+    "2026年03月06日 K MARINE SHIP MANAGEMENT PTE. LTD. ISO 45001認証を取得"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/ccs/ccs-20260305.html",
+    "2026年03月05日 Northern Lights Phase 2 向け液化CO2輸送船の定期傭船契約・造船契約締結セレモニーを開催"
+   ],
+   [
+    "https://www.kline.co.jp/ja/ir/finance/shipping.html",
+    "2026年03月02日 海運市況を更新しました"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/csr/csr-20260227.html",
+    "2026年02月27日 自然資本をテーマにしたコミットメントライン契約を締結"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/other/other-20260226.html",
+    "2026年02月26日 ケイラインシップマネージメントホールディングス株式会社を設立、船舶管理統括体制を強化 ～専門性のさらなる強化と船舶管理会社グループ経営管理の高度化を両立～"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/ir/auto_20260225568995/pdfFile.pdf",
+    "2026年02月26日 会社分割（簡易吸収分割）に関するお知らせ （190KB）"
+   ],
+   [
+    "https://www.kline.co.jp/ja/ir/individual/seminar.html",
+    "2026年02月16日 個人投資家向け会社説明会開催のお知らせ"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/csr/csr-20260206.html",
+    "2026年02月06日 千代田区立九段中等教育学校 2025年度「総合的な学習の時間」への協力について"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/csr/csr-20260205.html",
+    "2026年02月05日 「サステナビリティレポート 2025」発行のお知らせ"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/other/other-20260204.html",
+    "2026年02月04日 2025年度業績予想と中期経営計画の進捗の動画を、当社公式ホームページへ掲載しました"
+   ],
+   [
+    "https://www.kline.co.jp/ja/ir/library/presentation.html",
+    "2026年02月03日 2026年3月期第3四半期決算を発表いたしました"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/ir/auto_20260202544833/pdfFile.pdf",
+    "2026年02月03日 2026年３月期 第３四半期決算短信〔日本基準〕（連結） （385KB）"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/ir/auto_20260128540578/pdfFile.pdf",
+    "2026年02月03日 2025年度第３四半期 決算説明会資料 （2,117KB）"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/ir/ir-20260203/main/0/link/260203JA.pdf",
+    "2026年02月03日 執行体制について （206KB）"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/drybulk/drybulk-20260202/main/0/link/260202JA.pdf",
+    "2026年02月02日 KLPL所有ドライバルク船“DEVON BAY”海難事故の件（第4報） （139KB）"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/ccs/ccs-20260130.html",
+    "2026年01月30日 Northern Lights社向け新造液化CO2船の定期傭船契約を締結 (2026年4月に追加船を受注予定)"
+   ],
+   [
+    "https://www.kline.co.jp/ja/ir/finance/shipping.html",
+    "2026年01月29日 海運市況を更新しました"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/lng/lng-20260128.html",
+    "2026年01月28日 インド国営ガス会社GAIL (India) Limited 社とのLNG輸送船1隻の共同保有について"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/drybulk/drybulk-20260126/main/0/link/20260126JA_Devon%20Bay_pressrelease%203.pdf",
+    "2026年01月26日 KLPL所有ドライバルク船“DEVON BAY”海難事故の件（第3報） （145KB）"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/drybulk/drybulk-20260125/main/0/link/260125JA.pdf",
+    "2026年01月25日 KLPL所有ドライバルク船“DEVON BAY”海難事故の件 （第2報） （139KB）"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/drybulk/drybulk-20260123/main/0/link/20260123JA.pdf",
+    "2026年01月23日 KLPL所有ドライバルク船“DEVON BAY”海難事故の件 （第１報） （132KB）"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/csr/csr-20260120.html",
+    "2026年01月20日 コンプライアンス月間における取り組みについて"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/other/other-20260105.html",
+    "2026年01月05日 2026年 社長年頭所感 『挑戦と前進の一年に』"
+   ],
+   [
+    "https://www.kline.co.jp/ja/ir/individual/seminar.html",
+    "2025年12月26日 【2025年12月18日（木）開催】個人投資家向け会社説明会の関連資料、動画を掲載いたしました"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/fuel/fuel-20251226.html",
+    "2025年12月26日 川崎汽船運航船に中京地区で初めてバイオ燃料を供給 ～脱炭素化に向けた取り組み～"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/car/car-20251226.html",
+    "2025年12月26日 川崎汽船運航船に中京地区で初めてバイオ燃料を供給 ～脱炭素化に向けた取り組み～"
+   ],
+   [
+    "https://www.kline.co.jp/ja/ir/finance/shipping.html",
+    "2025年12月26日 海運市況を更新しました"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/ir/ir20251223JP/main/0/link/20251223JA.pdf",
+    "2025年12月23日 日興アイ・アール「2025年度 全上場企業ホームページ充実度ランキング」総合部門、業種別部門において最優秀サイトに選定 （204KB）"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/car/car-20251223.html",
+    "2025年12月23日 自動車船事業グローバル会議を開催"
+   ],
+   [
+    "https://www.kline.co.jp/ja/ir/individual/seminar.html",
+    "2025年12月22日 【2025年12月8日（月）開催】個人投資家向けオンライン会社説明会の関連資料、動画を掲載いたしました"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/csr/csr-20251222.html",
+    "2025年12月22日 東南アジアにおけるサイクロンによる豪雨被害への支援について"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/ccs/ccs-20251218.html",
+    "2025年12月18日 Northern Lights社と川崎汽船の共同主催 液化CO2船“NORTHERN PHOENIX”お披露目見学会を開催"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/other/other-20251215.html",
+    "2025年12月15日 船員とご家族への感謝を込めた『Crew Family Christmas Party』をフィリピンにて開催"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/csr/csr-20251212-2.html",
+    "2025年12月12日 CDP「気候変動」分野で最高評価「A リスト」に 9回目の選定"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/ir/ir20251212JP/main/0/link/20251212JA.pdf",
+    "2025年12月12日 「大和インターネットIR表彰 2025」優秀賞、サステナビリティ部門優秀賞に選定 （221KB）"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/csr/csr-20251212.html",
+    "2025年12月12日 フィリピンにおける地震および台風被害への支援について"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/csr/csr-20251208.html",
+    "2025年12月08日 インド・デリーにて植樹活動を実施 ～ “K” LINEグループによる環境保全への取り組み ～"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/drybulk/drybulk-20251208.html",
+    "2025年12月08日 2025年度ドライバルク事業ユニットグローバル会議を開催"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/lng/lng-20251204.html",
+    "2025年12月04日 カタール国営エネルギー会社 QatarEnergy向けLNG 船”SHARQ””SHRA’OUH”と命名"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/ccs/ccs-20251203.html",
+    "2025年12月03日 Northern Lights社向け液化CO2船“NORTHERN PHOENIX”が竣工"
+   ],
+   [
+    "https://www.kline.co.jp/ja/ir/library/event/smallmeeting2025.html",
+    "2025年12月02日 社外取締役スモールミーティングについて掲載しました"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/csr/csr-20251201.html",
+    "2025年12月01日 MILES を活⽤した液化 CO2 輸送船・新燃料船等の標準設計スキームに関する覚書締結について"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/other/other-20251201.html",
+    "2025年12月01日 川崎汽船株式会社 Techno-Ocean 2025に出展"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/csr/csr-20251128-2.html",
+    "2025年11月28日 マツダ防府工場主催「自動車専用船見学会」に協力"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/car/car-20251128-2.html",
+    "2025年11月28日 マツダ防府工場主催「自動車専用船見学会」に協力"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/car/car-20251128.html",
+    "2025年11月28日 横浜市消防局との合同による停泊中の船舶火災を想定した消防訓練を実施"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/csr/csr-20251128.html",
+    "2025年11月28日 横浜市消防局との合同による停泊中の船舶火災を想定した消防訓練を実施"
+   ],
+   [
+    "https://www.kline.co.jp/ja/ir/finance/shipping.html",
+    "2025年11月28日 海運市況を更新しました"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/csr/csr-20251127.html",
+    "2025年11月27日 シンガポールで大規模事故対応演習を実施"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/other/other-20251121.html",
+    "2025年11月21日 タイにおける物流事業の再編に関するお知らせ"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/csr/csr-20251114.html",
+    "2025年11月14日 徳島県美波町における藻場再生プロジェクト社内研修実施の件"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/csr/csr-20251112.html",
+    "2025年11月12日 “K” LINE UNIVERSITY 2025を開催"
+   ],
+   [
+    "https://www.kline.co.jp/ja/ir/individual/seminar.html",
+    "2025年11月12日 個人投資家向け会社説明会開催のお知らせ"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/ir/auto_20251110132100_S100WZET/pdfFile.pdf",
+    "2025年11月10日 半期報告書-第158期(2025/04/01-2026/03/31) （124KB）"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/car/car-20251107.html",
+    "2025年11月07日 自動車船における車両火災を想定した消火実験を実施"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/csr/csr-20251107.html",
+    "2025年11月07日 自動車船における車両火災を想定した消火実験を実施"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/ir/ir-20251106.html",
+    "2025年11月06日 ｢“K” LINE REPORT 2025｣（日本語版）発行のお知らせ"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/other/other-20251106.html",
+    "2025年11月06日 2025年度業績予想と中期経営計画の進捗の動画を、当社公式ホームページへ掲載しました"
+   ],
+   [
+    "https://www.kline.co.jp/ja/ir/library/presentation.html",
+    "2025年11月05日 2026年3月期第2四半期決算を発表いたしました"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/ir/auto_20251104586005/pdfFile.pdf",
+    "2025年11月05日 2026年３月期 第２四半期（中間期）決算短信〔日本基準〕（連結） （392KB）"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/ir/auto_20251029580949/pdfFile.pdf",
+    "2025年11月05日 2025年度第２四半期 決算説明会資料 （2,492KB）"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/ir/auto_20251029580943/pdfFile.pdf",
+    "2025年11月04日 当社個別決算における営業外収益（受取配当金）の計上に関するお知らせ （275KB）"
+   ],
+   [
+    "https://www.kline.co.jp/ja/ir/finance/shipping.html",
+    "2025年10月31日 海運市況を更新しました"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/csr/csr-20251010.html",
+    "2025年10月10日 大規模事故対応演習の実施について"
+   ],
+   [
+    "https://www.kline.co.jp/ja/ir/finance/shipping.html",
+    "2025年10月02日 海運市況を更新しました"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/csr/csr-20250926.html",
+    "2025年09月26日 企業版ふるさと納税を活用した徳島県美波町における藻場再生プロジェクト支援実施の件"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/logistics/logistics-20250917.html",
+    "2025年09月17日 シーゲートコーポレーション、電動タグボートの建造契約締結"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/csr/csr-20250917.html",
+    "2025年09月17日 シーゲートコーポレーション、電動タグボートの建造契約締結"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/csr/csr-20250908.html",
+    "2025年09月08日 「第19回船主安全対策連絡会」を開催 ～安全・環境・品質の未来に向けて、船主および船舶管理会社とともに～"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/ccs/ccs-20250908.html",
+    "2025年09月08日 Havstjerne CCSプロジェクトの共同開発に関する覚書締結"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/csr/csr-20250904.html",
+    "2025年09月04日 風力を活用した自動カイトシステム“Seawing”開発フェーズ1完了"
+   ],
+   [
+    "https://www.kline.co.jp/ja/ir/finance/shipping.html",
+    "2025年09月01日 海運市況を更新しました"
+   ],
+   [
+    "https://www.kline.co.jp/ja/ir/library/fact.html",
+    "2025年08月29日 「FACTBOOK 2025」（日本語版）を発行いたしました"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/offshore_wind/offshore_wind-20250821.html",
+    "2025年08月21日 ケイライン・ウインド・サービス株式会社とSNマリン株式会社の資本提携の件"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/offshore_wind/offshore_wind-20250821.html",
+    "2025年08月21日 ケイライン・ウインド・サービス株式会社とSNマリン株式会社の資本提携の件"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/ir/ir20250808jp/main/0/link/20250808JA.pdf",
+    "2025年08月08日 「JPX日経インデックス400」構成銘柄への継続選定に関するお知らせ （118KB）"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/other/other-20250805.html",
+    "2025年08月05日 2025年度業績予想と中期経営計画の進捗の動画を、当社公式ホームページへ掲載しました"
+   ],
+   [
+    "https://www.kline.co.jp/ja/ir/library/presentation.html",
+    "2025年08月04日 2026年3月期第1四半期決算を発表いたしました"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/ir/auto_20250801528093/pdfFile.pdf",
+    "2025年08月04日 2025年度第１四半期決算説明会資料 （2,097KB）"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/ir/auto_20250801527367/pdfFile.pdf",
+    "2025年08月04日 2026年３月期 第１四半期決算短信〔日本基準〕（連結） （385KB）"
+   ],
+   [
+    "https://www.kline.co.jp/ja/ir/finance/shipping.html",
+    "2025年07月31日 海運市況を更新しました"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/other/other-20250730.html",
+    "2025年07月30日 カタール国・ドーハ駐在員事務所開設に関するお知らせ"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/car/car-20250728.html",
+    "2025年07月28日 タイ、レムチャバン港で自動車船火災対応訓練を実施 ～「Fire Drill Exercise on Board 2025」に参加～"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/other/other-20250728.html",
+    "2025年07月28日 タイ、レムチャバン港で自動車船火災対応訓練を実施 ～「Fire Drill Exercise on Board 2025」に参加～"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/csr/csr-20250725.html",
+    "2025年07月25日 「世界海洋デー」に合わせた世界一斉清掃活動の実施"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/crude_oil_and_lpg/crude_oil_and_lpg-20250722.html",
+    "2025年07月22日 川崎汽船グループ船舶管理会社がシンガポール海事港湾庁より「MPA Safety@Sea Awards」を受賞"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/csr/csr-20250722.html",
+    "2025年07月22日 川崎汽船グループ船舶管理会社がシンガポール海事港湾庁より「MPA Safety@Sea Awards」を受賞"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/crude_oil_and_lpg/crude_oil_and_lpg-20250722.html",
+    "2025年07月22日 川崎汽船グループ船舶管理会社がシンガポール海事港湾庁より「MPA Safety@Sea Awards」を受賞"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/csr/csr-20250721.html",
+    "2025年07月21日 日本の外航海運業界による独立行政法人海技教育機構（JMETS）への練習船寄贈に向けた検討開始について"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/car/car-20250718.html",
+    "2025年07月18日 6,900台積みLNG燃料自動車専用船“TETHYS HIGHWAY”竣工"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/csr/csr-20250715.html",
+    "2025年07月15日 ESG指数「FTSE4Good Index Series」「FTSE Blossom Japan Index」 「FTSE Blossom Japan Sector Relative Index」構成銘柄への継続選定"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/car/car-20250701.html",
+    "2025年07月01日 バイオLNG燃料を使用した自動車船の運航を開始 ～“K” LINE環境ビジョン「2050年GHG排出ネットゼロ」への挑戦に向けた取り組み～"
+   ],
+   [
+    "https://www.kline.co.jp/ja/ir/finance/shipping.html",
+    "2025年07月01日 海運市況を更新しました"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/lng/lng-20250627.html",
+    "2025年06月27日 川崎汽船グループ船舶管理会社の管理船が「ベストクオリティーシップ2024」を受賞"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/csr/csr-20250627.html",
+    "2025年06月27日 川崎汽船グループ船舶管理会社の管理船が「ベストクオリティーシップ2024」を受賞"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/drybulk/drybulk-20250627.html",
+    "2025年06月27日 川崎汽船グループ船舶管理会社の管理船が「ベストクオリティーシップ2024」を受賞"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/ir/auto_20250619593675/pdfFile.pdf",
+    "2025年06月19日 エクイティファイナンスに関する当社報道について （116KB）"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/other/other-20250619/main/0/link/20250619.pdf",
+    "2025年06月19日 エクイティファイナンスに関する当社報道について （107KB）"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/ccs/ccs-20250619.html",
+    "2025年06月19日 Northern Lights社向け液化CO2船“NORTHERN PATHFINDER”命名式を開催"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/ir/auto_20250619100400_S100VYMJ/pdfFile.pdf",
+    "2025年06月19日 有価証券報告書-第157期(2024/04/01-2025/03/31) （1,456KB）"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/car/car-20250618.html",
+    "2025年06月18日 Intermodal South America 2025に川崎汽船株式会社初出展"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/ccs/ccs-20250617.html",
+    "2025年06月17日 浮体式液化CO2貯蔵・圧入ユニットおよび液化CO2輸送船の共同開発に関する覚書締結"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/other/other-20250612.html",
+    "2025年06月12日 川崎汽船 「“K”LINE Group 環境アワード2025」表彰を実施"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/csr/csr-20250611.html",
+    "2025年06月11日 「ＳＯＭＰＯサステナビリティ・インデックス」の構成銘柄に継続選定"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/ir/auto_20250605582964/pdfFile.pdf",
+    "2025年06月06日 当社個別決算における営業外収益（受取配当金）の計上に関するお知らせ （275KB）"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/lng/lng-20250604.html",
+    "2025年06月04日 川崎汽船グループ船舶管理会社の管理船「OCEANIC BREEZE」が「気象庁長官表彰」を受賞"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/csr/csr-20250604.html",
+    "2025年06月04日 川崎汽船グループ船舶管理会社の管理船「OCEANIC BREEZE」が「気象庁長官表彰」を受賞"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/other/other-20250603.html",
+    "2025年06月03日 川崎汽船 新CM「海をつなぐ。信頼でつなぐ、ライフライン。」を公開"
+   ],
+   [
+    "https://www.kline.co.jp/ja/ir/library/event.html",
+    "2025年06月03日 投資家、アナリスト向け事業説明会用資料を掲載しました"
+   ],
+   [
+    "https://www.kline.co.jp/ja/ir/finance/shipping.html",
+    "2025年05月28日 海運市況を更新しました"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/car/car-20250526.html",
+    "2025年05月26日 Ro-Ro船のGHG排出原単位に関する算定ガイドラインを策定 ～算定方法の共通化による海運業界全体での脱炭素化の推進～"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/csr/csr-20250526.html",
+    "2025年05月26日 Ro-Ro船のGHG排出原単位に関する算定ガイドラインを策定 ～算定方法の共通化による海運業界全体での脱炭素化の推進～"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/other/other-20250526.html",
+    "2025年05月26日 新船舶運航管理プラットフォームを導入し、レガシー企業文化からの脱却へ"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/ir/auto_20250522562500/pdfFile.pdf",
+    "2025年05月23日 第157期定時株主総会招集ご通知 交付書面への記載を省略した事項 （578KB）"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/ir/auto_20250522562499/pdfFile.pdf",
+    "2025年05月23日 第157期定時株主総会招集ご通知 （4,486KB）"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/csr/csr-20250520.html",
+    "2025年05月20日 シンガポール経営大学からの企業訪問受け入れ"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/other/other-20250508.html",
+    "2025年05月08日 中計の進捗および2024年度本決算説明動画を、当社公式ホームページへ掲載しました"
+   ],
+   [
+    "https://www.kline.co.jp/ja/ir/library/presentation.html",
+    "2025年05月07日 2025年3月期決算を発表いたしました"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/ir/auto_20250507531946/pdfFile.pdf",
+    "2025年05月07日 2024年度本決算決算説明会資料 （3,009KB）"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/ir/auto_20250501529687/pdfFile.pdf",
+    "2025年05月07日 2025年３月期 決算短信〔日本基準〕（連結） （465KB）"
+   ],
+   [
+    "https://www.kline.co.jp/ja/ir/finance/shipping.html",
+    "2025年05月07日 海運市況を更新しました"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/csr/csr-20250502.html",
+    "2025年05月02日 愛知教育大学附属岡崎中学校「ライフワーク」学習への協力、外航船員の体験を説明"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/ir/ir-20250425-2/main/0/link/20250425-2ja.pdf",
+    "2025年04月25日 取締役候補者の決定について （155KB）"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/ir/ir-20250425-1/main/0/link/250425JA.pdf",
+    "2025年04月25日 取締役会の実効性評価について （253KB）"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/ir/auto_20250425524223/pdfFile.pdf",
+    "2025年04月25日 当社個別決算における営業外収益（受取配当金）の計上に関するお知らせ （274KB）"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/lng/lng-20250418.html",
+    "2025年04月18日 カタール国営エネルギー会社 QatarEnergy向けLNG 船“AL TUWAR”と命名"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/csr/csr-20250415.html",
+    "2025年04月15日 ミャンマー地震被害への支援について"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/car/car-20250410.html",
+    "2025年04月10日 7,000台積みLNG燃料自動車専用船“TRITON HIGHWAY”竣工"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/csr/csr-20250407.html",
+    "2025年04月07日 川崎汽船、国内グループ会社がコンプライアンス連絡会を開催"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/logistics/logistics-20250401.html",
+    "2025年04月01日 川崎汽船株式会社の連結子会社（ケイラインロジスティックス株式会社）の持株会社設立及び同社株式の株式会社上組への一部譲渡に関するお知らせ(3)"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/other/other-20250401-2.html",
+    "2025年04月01日 川崎汽船 2025年 新入社員への社長メッセージ"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/other/other-20250401.html",
+    "2025年04月01日 社長就任挨拶"
+   ],
+   [
+    "https://www.kline.co.jp/ja/ir/finance/shipping.html",
+    "2025年03月31日 海運市況を更新しました"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/ir/auto_20250324598947/pdfFile.pdf",
+    "2025年03月28日 役員報酬制度の改定に関するお知らせ （145KB）"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/logistics/logistics-20250325.html",
+    "2025年03月25日 ダイトーコーポレーション、本邦初の自治体策定のフレームワークを活用した電動タグボートを資金使途とするグリーンローン締結"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/csr/csr-20250317.html",
+    "2025年03月17日 2024年度 “K” LINE 安全キャンペーン実施について"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/other/other-20250311.html",
+    "2025年03月11日 英国子会社の組織再編および社名変更に関するお知らせ"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/ir/auto_20250307590264/pdfFile.pdf",
+    "2025年03月10日 自己株式の消却完了に関するお知らせ （385KB）"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/csr/csr-20250310.html",
+    "2025年03月10日 「健康経営優良法人2025」に認定"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/ir/auto_20250226582415/pdfFile.pdf",
+    "2025年03月03日 自己株式の取得状況及び取得終了に関するお知らせ （408KB）"
+   ],
+   [
+    "https://www.kline.co.jp/ja/ir/library/fact.html",
+    "2025年02月28日 「FACTBOOK 2024」（期中更新版）を発行いたしました"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/ir/auto_20250226582398/pdfFile.pdf",
+    "2025年02月27日 自己株式の消却に関するお知らせ （395KB）"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/csr/csr-20250227-2.html",
+    "2025年02月27日 LNG燃料自動車専用船「OCEANUS HIGHWAY」に対して、「Zero-Emission Accelerating Ship Finance」に基づく資金調達を実施"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/car/car-20250227-2.html",
+    "2025年02月27日 LNG燃料自動車専用船「OCEANUS HIGHWAY」に対して、「Zero-Emission Accelerating Ship Finance」に基づく資金調達を実施"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/car/car-20250227.html",
+    "2025年02月27日 6,900台積みLNG燃料自動車専用船“OCEANUS HIGHWAY”竣工"
+   ],
+   [
+    "https://www.kline.co.jp/ja/ir/finance/shipping.html",
+    "2025年02月27日 海運市況を更新しました"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/ir/auto_20250226582386/pdfFile.pdf",
+    "2025年02月27日 臨時株主総会招集ご通知 （1,650KB）"
+   ],
+   [
+    "https://www.kline.co.jp/ja/ir/individual/seminar.html",
+    "2025年02月21日 【2025年2月20日（木）開催】個人投資家向けオンライン会社説明会の関連資料、動画を掲載いたしました"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/csr/csr-20250220.html",
+    "2025年02月20日 学校法人立教学院と船上CO2回収システムに関する寄附型研究プロジェクト事業を開始"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/logistics/logistics-20250214.html",
+    "2025年02月14日 川崎汽船株式会社の連結子会社（ケイラインロジスティックス株式会社）の持株会社設立及び同社株式の株式会社上組への一部譲渡に関するお知らせ(2)"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/offshore_wind/offshore_wind-20250210.html",
+    "2025年02月10日 第15回 WIND EXPO【春】2025 ～国際風力発電展～に出展"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/offshore_wind/offshore_wind-20250210.html",
+    "2025年02月10日 第15回 WIND EXPO【春】2025 ～国際風力発電展～に出展"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/other/other-20250207.html",
+    "2025年02月07日 ばら積み船「CORONA QUEEN」海賊対処訓練を実施"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/electricity/electricity-20250207.html",
+    "2025年02月07日 ばら積み船「CORONA QUEEN」海賊対処訓練を実施"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/other/other-20250205.html",
+    "2025年02月05日 中計の進捗および2024年度第3四半期決算説明動画を、当社公式ホームページへ掲載しました"
+   ],
+   [
+    "https://www.kline.co.jp/ja/ir/library/presentation.html",
+    "2025年02月04日 2025年3月期第3四半期決算を発表いたしました"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/ir/auto_20250204562327/pdfFile.pdf",
+    "2025年02月04日 2024年度第３四半期決算説明会資料 （2,487KB）"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/ir/auto_20250203561162/pdfFile.pdf",
+    "2025年02月04日 2025年３月期 第３四半期決算短信〔日本基準〕（連結） （392KB）"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/ir/ir8425965673804330569/main/0/link/20250204-3.pdf",
+    "2025年02月04日 執行体制について （208KB）"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/ir/auto_20250204562064/pdfFile.pdf",
+    "2025年02月04日 会長・社長人事及び代表者の異動に関するお知らせ （536KB）"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/ir/ir5401127838626581675/main/0/link/20250204_2.pdf",
+    "2025年02月04日 取締役人事について （276KB）"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/ir/auto_20250204562071/pdfFile.pdf",
+    "2025年02月04日 定款の一部変更に関するお知らせ （189KB）"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/ir/ir-202502041/main/0/link/20250204-1.pdf",
+    "2025年02月04日 臨時株主総会開催に関するお知らせ （107KB）"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/ir/auto_20250131560284/pdfFile.pdf",
+    "2025年02月03日 自己株式の取得状況に関するお知らせ （623KB）"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/csr/csr-20250203.html",
+    "2025年02月03日 「ESGデータブック 2024」発行のお知らせ"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/csr/csr-20250131.html",
+    "2025年01月31日 千代田区立九段中等教育学校「総合的な学習の時間」への協力について"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/ccs/ccs-20250130.html",
+    "2025年01月30日 Northern Lights社向け液化CO2船“NORTHERN PATHFINDER”が竣工"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/ccs/ccs-20250130.html",
+    "2025年01月30日 Northern Lights社向け液化CO2船“NORTHERN PATHFINDER”が竣工"
+   ],
+   [
+    "https://www.kline.co.jp/ja/ir/finance/shipping.html",
+    "2025年01月29日 海運市況を更新しました"
+   ],
+   [
+    "https://www.kline.co.jp/ja/ir/individual/seminar.html",
+    "2025年01月22日 個人投資家向けオンライン会社説明会開催のお知らせ"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/csr/csr-20250115.html",
+    "2025年01月15日 TNFDフレームワークに基づく情報開示内容拡充の件"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/fuel/fuel-20250108.html",
+    "2025年01月08日 e-メタンの国際的アライアンス「e-NG Coalition」に加盟"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/ccs/ccs-20250108.html",
+    "2025年01月08日 e-メタンの国際的アライアンス「e-NG Coalition」に加盟"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/fuel/fuel-20250108.html",
+    "2025年01月08日 e-メタンの国際的アライアンス「e-NG Coalition」に加盟"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/ccs/ccs-20250108.html",
+    "2025年01月08日 e-メタンの国際的アライアンス「e-NG Coalition」に加盟"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/csr/csr-20250107.html",
+    "2025年01月07日 2024年度コンプライアンス月間について"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/ir/auto_20241226545348/pdfFile.pdf",
+    "2025年01月06日 自己株式の取得状況に関するお知らせ （364KB）"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/other/other-20250106.html",
+    "2025年01月06日 2025 年 社長年頭所感 『ブレない中長期の目線で、来る変化に備える』"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/ir/ir20241226-02JP/main/0/link/20241226JA.pdf",
+    "2024年12月26日 日興アイ・アール「2024年度 全上場企業ホームページ充実度ランキング」最優秀サイト受賞 （202KB）"
+   ],
+   [
+    "https://www.kline.co.jp/ja/ir/finance/shipping.html",
+    "2024年12月26日 海運市況を更新しました"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/csr/csr-20241224.html",
+    "2024年12月24日 世界的なESG投資指標「Dow Jones Sustainability Asia Pacific Index」の構成銘柄として14年連続選定"
+   ],
+   [
+    "https://www.kline.co.jp/ja/ir/individual/seminar.html",
+    "2024年12月24日 【2024年12月18日（水）開催】個人投資家向けWEB会社説明会の関連資料、動画を掲載いたしました"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/ccs/ccs-20241219.html",
+    "2024年12月19日 2024年度LNGグループ/カーボンソリューション事業グループ グローバル会議を開催"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/car/car-20241219.html",
+    "2024年12月19日 川崎汽船運航船に日本国内で初めてバイオ燃料を供給 ～脱炭素化に向けた取り組み～"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/csr/csr-20241219.html",
+    "2024年12月19日 川崎汽船運航船に日本国内で初めてバイオ燃料を供給 ～脱炭素化に向けた取り組み～"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/fuel/fuel-20241219.html",
+    "2024年12月19日 川崎汽船運航船に日本国内で初めてバイオ燃料を供給 ～脱炭素化に向けた取り組み～"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/lng/lng-20241219.html",
+    "2024年12月19日 2024年度LNGグループ/カーボンソリューション事業グループ グローバル会議を開催"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/liquefied_gas/liquefied_gas-20241219.html",
+    "2024年12月19日 2024年度LNGグループ/カーボンソリューション事業グループ グローバル会議を開催"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/ccs/ccs-20241219.html",
+    "2024年12月19日 2024年度LNGグループ/カーボンソリューション事業グループ グローバル会議を開催"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/ir/ir-20241213/main/0/link/20241213-2.pdf",
+    "2024年12月13日 指名委員会等設置会社への移行に関するお知らせ （214KB）"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/ir/auto_20241212537643/pdfFile.pdf",
+    "2024年12月13日 臨時株主総会招集のための基準日設定に関するお知らせ （101KB）"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/ir/ir20241212JP/main/0/link/20241212JA.pdf",
+    "2024年12月12日 「大和インターネットIR表彰2024」優良賞に選定 （181KB）"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/offshore_wind/offshore_wind-20241212.html",
+    "2024年12月12日 地質調査船「EK HAYATE」のお披露目会実施について"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/offshore_wind/offshore_wind-20241212.html",
+    "2024年12月12日 地質調査船「EK HAYATE」のお披露目会実施について"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/other/other-20241211.html",
+    "2024年12月11日 KLPLで大規模事故対応演習を実施"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/other/other-20241205.html",
+    "2024年12月05日 フィリピン人船員配乗グループ会社での船員慰労・永年勤続表彰式の開催"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/ir/auto_20241202532950/pdfFile.pdf",
+    "2024年12月02日 自己株式の取得状況に関するお知らせ （364KB）"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/csr/csr-20241202.html",
+    "2024年12月02日 フィリピン海洋博物館Museo Del Galeónへの協賛"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/lng/lng-20241202.html",
+    "2024年12月02日 インド国営ガス会社GAIL (India) Limited 社向けLNG船の長期定期傭船契約・造船契約締結"
+   ],
+   [
+    "https://www.kline.co.jp/ja/ir/library/shareholder.html",
+    "2024年12月02日 株主通信 2024年度（第157期）中間報告書を掲載いたしました"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/other/other-20241129.html",
+    "2024年11月29日 グローバルITカンファレンス2024を開催"
+   ],
+   [
+    "https://www.kline.co.jp/ja/ir/finance/shipping.html",
+    "2024年11月28日 海運市況を更新しました"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/car/car-20241128.html",
+    "2024年11月28日 7,000台積みLNG燃料自動車専用船“PONTUS HIGHWAY”竣工"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/csr/csr-20241127.html",
+    "2024年11月27日 フィリピンにおける連続台風被害への支援について"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/car/car-20241127.html",
+    "2024年11月27日 自動車船部門、グローバル会議を開催"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/ccs/ccs-20241126.html",
+    "2024年11月26日 Northern Lights社向け液化CO2船“NORTHERN PIONEER”引渡式を開催"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/csr/csr-20241121.html",
+    "2024年11月21日 群馬県沼田市における森林保全活動実施の件"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/fuel/fuel-20241118.html",
+    "2024年11月18日 LNG燃料バンカリング船「かぐや」Ship to Ship方式によるLNG燃料供給100回目達成"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/fuel/fuel-20241118.html",
+    "2024年11月18日 LNG燃料バンカリング船「かぐや」Ship to Ship方式によるLNG燃料供給100回目達成"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/drybulk/drybulk-20241115.html",
+    "2024年11月15日 2024年度ドライバルク部門グローバル会議を開催"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/ir/auto_20241111151700_S100UNL3/pdfFile.pdf",
+    "2024年11月11日 半期報告書-第157期(2024/04/01-2025/03/31) （130KB）"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/csr/csr-20241108.html",
+    "2024年11月08日 ダイトーコーポレーション、電動タグボートの建造を決定"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/logistics/logistics-20241108.html",
+    "2024年11月08日 ダイトーコーポレーション、電動タグボートの建造を決定"
+   ],
+   [
+    "https://www.kline.co.jp/ja/ir/individual/seminar.html",
+    "2024年11月07日 個人投資家向けWEB会社説明会開催のお知らせ"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/csr/csr-20241107.html",
+    "2024年11月07日 外務省「Juntos!!中南米対日理解促進交流プログラム」企業視察受け入れ実施の件"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/ir/auto_20241107513762/pdfFile.pdf",
+    "2024年11月07日 自己株式立会外買付取引（ToSTNeT-3）による自己株式の取得結果に関するお知らせ （975KB）"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/ir/auto_20241106513245/pdfFile.pdf",
+    "2024年11月06日 自己株式立会外買付取引（ToSTNeT-3）による自己株式の買付けに関するお知らせ （748KB）"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/other/other-20241106.html",
+    "2024年11月06日 中計の進捗および2024年度第2四半期決算説明の動画を、当社公式ホームページへ掲載しました"
+   ],
+   [
+    "https://www.kline.co.jp/ja/ir/library/presentation.html",
+    "2024年11月05日 2025年3月期第2四半期決算を発表いたしました"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/ir/auto_20241105511416/pdfFile.pdf",
+    "2024年11月05日 2025年3月期の剰余金の配当及び配当予想の修正（増配）に関するお知らせ （358KB）"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/ir/auto_20241105511412/pdfFile.pdf",
+    "2024年11月05日 自己株式取得及び自己株式立会外買付取引（ToSTNeT-3）による自己株式の買付けに係る事項の決定に関するお知らせ （834KB）"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/ir/auto_20241105511410/pdfFile.pdf",
+    "2024年11月05日 2024年度第２四半期 決算説明会資料 （1,185KB）"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/ir/auto_20241031508496/pdfFile.pdf",
+    "2024年11月05日 2025年３月期 第２四半期（中間期）決算短信〔日本基準〕（連結） （413KB）"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/offshore_wind/offshore_wind-20241031.html",
+    "2024年10月31日 ケイライン・ウインド・サービスとジャパン マリンユナイテッド NEDO グリーンイノベーション基金事業 フェーズ2に関する業務委託契約を締結"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/ir/auto_20241030506243/pdfFile.pdf",
+    "2024年10月30日 当社個別決算における営業外収益（受取配当金）の計上に関するお知らせ （357KB）"
+   ],
+   [
+    "https://www.kline.co.jp/ja/ir/finance/shipping.html",
+    "2024年10月30日 海運市況を更新しました"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/ir/ir-20241028.html",
+    "2024年10月28日 ｢“K” LINE REPORT 2024｣（日本語版）発行のお知らせ"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/csr/csr-20241028.html",
+    "2024年10月28日 “K” LINE UNIVERSITY 2024を開催"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/other/other-20241024.html",
+    "2024年10月24日 インマルサットの新たな衛星ネットワークサービス“NexusWave ”のトライアル導入について"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/ccs/ccs-20241018.html",
+    "2024年10月18日 Japan CCUS Summitに登壇"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/ccs/ccs-20241018.html",
+    "2024年10月18日 Japan CCUS Summitに登壇"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/car/car-20241017.html",
+    "2024年10月17日 7,000台積みLNG燃料自動車専用船“POSEIDON HIGHWAY”竣工"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/csr/csr-20241015.html",
+    "2024年10月15日 大規模事故対応演習の実施について"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/ccs/ccs-20241011.html",
+    "2024年10月11日 米国・アラスカにおけるCCS事業性調査に向けた共同調査契約を締結 ～日本企業初となる日米間での越境CCS事業化に向け調査開始～"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/ir/ir20241010/main/0/link/20241010JA.pdf",
+    "2024年10月10日 日本証券アナリスト協会から当社として初となる「ディスクロージャー優良企業」を受賞 （198KB）"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/csr/csr-20241008.html",
+    "2024年10月08日 ベトナムにおける台風11号被害への支援について"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/offshore_wind/offshore_wind-20241003.html",
+    "2024年10月03日 海洋地質調査事業会社の設立と地質調査船「EK HAYATE」の就航"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/offshore_wind/offshore_wind-20241003.html",
+    "2024年10月03日 海洋地質調査事業会社の設立と地質調査船「EK HAYATE」の就航"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/ccs/ccs-20241002.html",
+    "2024年10月02日 CCUS WORLD展にて川崎汽船が取り組むCCS事業について講演"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/ccs/ccs-20241002.html",
+    "2024年10月02日 CCUS WORLD展にて川崎汽船が取り組むCCS事業について講演"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/other/other-20240927.html",
+    "2024年09月27日 川崎汽船株式会社の連結子会社（ケイラインロジスティックス株式会社）の持株会社設立及び同社株式の株式会社上組への一部譲渡に関するお知らせ"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/logistics/logistics-20240927.html",
+    "2024年09月27日 川崎汽船株式会社の連結子会社（ケイラインロジスティックス株式会社）の持株会社設立及び同社株式の株式会社上組への一部譲渡に関するお知らせ"
+   ],
+   [
+    "https://www.kline.co.jp/ja/ir/finance/shipping.html",
+    "2024年09月27日 海運市況を更新しました"
+   ],
+   [
+    "https://www.kline.co.jp/ja/ir/individual/seminar.html",
+    "2024年09月19日 【2024年9月12日（木）開催】個人投資家向けWEB会社説明会の動画を掲載いたしました"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/ccs/ccs-20240918.html",
+    "2024年09月18日 2028年以降の国際間大規模液化CO2海上輸送の実現に向けて 標準化を進める低圧液化CO2輸送船の基本設計承認（AiP）を船級協会から取得"
+   ],
+   [
+    "https://www.kline.co.jp/ja/ir/library/fact.html",
+    "2024年09月13日 「FACTBOOK 2024」（日本語版）を発行いたしました"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/ccs/ccs-20240913.html",
+    "2024年09月13日 JOGMEC令和6年度「先進的CCS事業に係る設計作業等」公募においてマレーシア サラワク州におけるCCS事業に係る設計作業等を受託"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/ccs/ccs-20240913.html",
+    "2024年09月13日 JOGMEC令和6年度「先進的CCS事業に係る設計作業等」公募においてマレーシア サラワク州におけるCCS事業に係る設計作業等を受託"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/ccs/ccs-20240912.html",
+    "2024年09月12日 第22回 SMART ENERGY WEEK【秋】2024 ～CCUS WORLD展～に出展"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/ccs/ccs-20240912.html",
+    "2024年09月12日 第22回 SMART ENERGY WEEK【秋】2024 ～CCUS WORLD展～に出展"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/offshore_wind/offshore_wind-20240911.html",
+    "2024年09月11日 NEDO「浮体式洋上風力発電の次世代技術開発委託事業」に採択されました ～大型浮体式垂直軸型風車の実現性検証～"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/car/car-20240903-02.html",
+    "2024年09月03日 自動車船“TEXAS HIGHWAY”がEV安全輸送のノーテーションを取得"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/car/car-20240903.html",
+    "2024年09月02日 7,000台積みLNG燃料自動車専用船“NEREUS HIGHWAY”竣工"
+   ],
+   [
+    "https://www.kline.co.jp/ja/ir/finance/shipping.html",
+    "2024年08月30日 海運市況を更新しました"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/csr/csr-20240828.html",
+    "2024年08月28日 TCFD シナリオ分析の見直しと開示内容拡充の件"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/ccs/ccs-20240827.html",
+    "2024年08月27日 2028年以降の国際間大規模液化CO2海上輸送の実現に向けて液化CO2輸送船の標準仕様・標準船型確立に向けた共同検討を開始"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/ccs/ccs-20240827.html",
+    "2024年08月27日 2028年以降の国際間大規模液化CO2海上輸送の実現に向けて液化CO2輸送船の標準仕様・標準船型確立に向けた共同検討を開始"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/offshore_wind/offshore_wind-20240826.html",
+    "2024年08月26日 ケイライン・ウインド・サービスとActeon 浮体式風力発電事業における協力協定を締結"
+   ],
+   [
+    "https://www.kline.co.jp/ja/ir/individual/seminar.html",
+    "2024年08月15日 個人投資家向けWEB会社説明会開催のお知らせ"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/ir/ir20240808jp/main/0/link/20240808JA.pdf",
+    "2024年08月08日 「JPX日経インデックス400」構成銘柄への継続選定に関するお知らせ （118KB）"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/ir/auto_20240802561382/pdfFile.pdf",
+    "2024年08月07日 自己株式の消却完了に関するお知らせ （587KB）"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/other/other-20240805.html",
+    "2024年08月05日 中計の進捗および2024年度第１四半期決算説明の動画を、当社公式ホームページへ掲載しました"
+   ],
+   [
+    "https://www.kline.co.jp/ja/ir/library/presentation.html",
+    "2024年08月02日 2025年3月期第1四半期決算を発表いたしました"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/ir/auto_20240802561359/pdfFile.pdf",
+    "2024年08月02日 2024年度第１四半期 決算説明会資料 （2,425KB）"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/ir/auto_20240801560493/pdfFile.pdf",
+    "2024年08月02日 2025年３月期 第１四半期決算短信〔日本基準〕（連結） （398KB）"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/csr/csr-20240801.html",
+    "2024年08月01日 OCEANICWING S.A.S.社による「＃トモに能登の未来へ」プロジェクトへの協力実施の件"
+   ],
+   [
+    "https://www.kline.co.jp/ja/ir/finance/shipping.html",
+    "2024年07月31日 海運市況を更新しました"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/ir/auto_20240725555035/pdfFile.pdf",
+    "2024年07月26日 自己株式の消却に関するお知らせ （589KB）"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/ir/auto_20240724553835/pdfFile.pdf",
+    "2024年07月25日 2025年3月期 業績予想の修正に関するお知らせ （341KB）"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/ir/auto_20240724554036/pdfFile.pdf",
+    "2024年07月24日 自己株式の取得状況及び取得終了に関するお知らせ （609KB）"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/csr/csr-20240724.html",
+    "2024年07月24日 「当社社有林におけるCO2吸収量の算定と第三者認証取得」の件"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/csr/csr-20240723.html",
+    "2024年07月23日 ESG指数「FTSE4Good Index Series」「FTSE Blossom Japan Index」「FTSE Blossom Japan Sector Relative Index」構成銘柄への継続選定"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/csr/csr-20240716.html",
+    "2024年07月16日 「世界海洋デー」に合わせた世界同時清掃活動の実施"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/ir/auto_20240627539992/pdfFile.pdf",
+    "2024年07月01日 自己株式の取得状況に関するお知らせ （367KB）"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/car/car-20240627.html",
+    "2024年06月27日 川崎汽船グループ管理船が「ベストクオリティーシップ2023」を受賞"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/drybulk/drybulk-20240627.html",
+    "2024年06月27日 川崎汽船グループ管理船が「ベストクオリティーシップ2023」を受賞"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/csr/csr-20240627.html",
+    "2024年06月27日 川崎汽船グループ管理船が「ベストクオリティーシップ2023」を受賞"
+   ],
+   [
+    "https://www.kline.co.jp/ja/ir/finance/shipping.html",
+    "2024年06月26日 海運市況を更新しました"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/ir/auto_20240621141600_S100TMYK/pdfFile.pdf",
+    "2024年06月21日 有価証券報告書-第156期(2023/04/01-2024/03/31) （1,784KB）"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/csr/csr-20240619.html",
+    "2024年06月19日 企業版ふるさと納税を活用した徳島県美波町における藻場再生プロジェクト支援実施の件"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/csr/csr-20240613.html",
+    "2024年06月13日 サンチャゴ日本人学校向け学習用机と椅子の無償輸送協力について"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/logistics/logistics-20240613.html",
+    "2024年06月13日 サンチャゴ日本人学校向け学習用机と椅子の無償輸送協力について"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/ccs/ccs-20240612.html",
+    "2024年06月12日 ベルギーTES社とe-NGに関する共同検討を開始"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/fuel/fuel-20240612.html",
+    "2024年06月12日 ベルギーTES社とe-NGに関する共同検討を開始"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/fuel/fuel-20240612.html",
+    "2024年06月12日 ベルギーTES社とe-NGに関する共同検討を開始"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/ccs/ccs-20240612.html",
+    "2024年06月12日 ベルギーTES社とe-NGに関する共同検討を開始"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/csr/csr-20240611.html",
+    "2024年06月11日 「ＳＯＭＰＯサステナビリティ・インデックス」の構成銘柄に継続選定"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/other/other-20240610.html",
+    "2024年06月10日 川崎汽船 「“K”LINE Group 環境アワード2024」表彰を実施"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/ir/auto_20240607524297/pdfFile.pdf",
+    "2024年06月07日 当社個別決算における営業外収益（受取配当金）の計上に関するお知らせ （290KB）"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/csr/csr-20240604.html",
+    "2024年06月04日 当社グループ管理船が気象庁から「国土交通大臣表彰」を受賞"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/car/car-20240604.html",
+    "2024年06月04日 当社グループ管理船が気象庁から「国土交通大臣表彰」を受賞"
+   ],
+   [
+    "https://www.kline.co.jp/ja/news/ir/auto_20240603518878/pdfFile.pdf",
+    "2024年06月03日 自己株式の取得状況に関するお知らせ （367KB）"
+   ],
+   [
+    "https://www.kline.co.jp/ja/ir/library/event.html",
+    "2024年06月03日 投資家、アナリスト向け事業説明会用資料を掲載しました"
+   ],
+   [
+    "https://www.kline.co.jp/ja/ir/finance/shipping.html",
+    "2024年05月30日 海運市況を更新しました"
+   ]
+  ],
+  "head": ""
+ },
+ "classnk-ja": {
+  "url": "https://www.classnk.or.jp/hp/ja/",
+  "robots_status": 403,
+  "status": 403,
+  "final": "https://www.classnk.or.jp/hp/ja/",
+  "len": 389,
+  "ctype": "text/html",
+  "feeds": [],
+  "links": [],
+  "head": "",
+  "body_head": "<HTML><HEAD>\n<TITLE>Access Denied</TITLE>\n</HEAD><BODY>\n<H1>Access Denied</H1>\n \nYou don't have permission to access \"http&#58;&#47;&#47;www&#46;classnk&#46;or&#46;jp&#47;hp&#47;ja&#47;\" on this server.<P>\nReference&#32;&#35;18&#46;846d3e17&#46;1793476710&#46;3c7fb7a0\n<P>https&#58;&#47;&#47;errors&#"
+ },
  "nmri": {
-  "url": "https://www.nmri.go.jp/news/",
+  "url": "https://www.nmri.go.jp/news/press/",
   "robots_status": 404,
   "status": 200,
-  "final": "https://www.nmri.go.jp/news/",
-  "len": 21181,
+  "final": "https://www.nmri.go.jp/news/press/",
+  "len": 49952,
   "ctype": "text/html",
   "feeds": [],
   "links": [
@@ -5501,16 +5250,328 @@
     "ãåãåãã"
    ],
    [
-    "https://www.nmri.go.jp/news/press/",
-    "ãã¬ã¹ãªãªã¼ã¹"
+    "https://www.nmri.go.jp/news/press/2026/press2026****.html",
+    "ã¿ã¤ãã«ã»ã¿ã¤ãã«ã»ã¿ã¤ãã«ã»ã¿ã¤ãã«ã»ã¿ã¤ãã«ã»ã¿ã¤ãã«ã»"
    ],
    [
-    "https://www.nmri.go.jp/news/mail_news/",
-    "æµ·æç ã¡ã¼ã«ãã¥ã¼ã¹"
+    "https://www.nmri.go.jp/news/press/2026/press20260827.html",
+    "ãé è¹æ¥­çã«ãããAIã»ã­ããã£ã¯ã¹æ®åã«åããã·ã³ãã¸ã¦ã ãéå¬ã®ãç¥ãã"
    ],
    [
-    "https://www.nmri.go.jp/news/topics/",
-    "ç ç©¶ãããã¯ã¹"
+    "https://www.nmri.go.jp/news/press/2026/press20260722.html",
+    "èµ°é¨äºæ é²æ­¢å¯¾ç­æè¡ç ç©¶ãã¼ã ããä»¤å8å¹´ãæµ·ã®æ¥ãæµ·äºé¢ä¿åå´è å½åäº¤éå¤§è£è¡¨å½"
+   ],
+   [
+    "https://www.nmri.go.jp/news/press/2026/press20260710.html",
+    "æµ·æç è·å¡ã®ä¸»å°ã«ããé»å­å¾æè¨ã®å½éè¦æ ¼ISO 19697ã®æ¹è¨çãçºè¡ããã¾ãã"
+   ],
+   [
+    "https://www.nmri.go.jp/news/press/2026/press20260629.html",
+    "ä½æ¸©ã»ä½å§åæ¶²åCO 2 è²¨ç©ã¿ã³ã¯ã®è é£è©ä¾¡ã«é¢ããå ±åç ç©¶ãéå§ï¼è é£ãªã¹ã¯ã«åºã¥ã"
+   ],
+   [
+    "https://www.nmri.go.jp/news/press/2026/press20260622.html",
+    "ãåå ç»é²åä»éå§ãç¬¬26åæµ·ä¸æè¡å®å ¨ç ç©¶æç ç©¶çºè¡¨ä¼ãæµ·æç ã®ç ç©¶éçºã¨ç¤¾ä¼å®è"
+   ],
+   [
+    "https://www.nmri.go.jp/news/press/2026/press20260605.html",
+    "OCTARVIAã¢ããªã«MiPoLin ® ã¨ã®é£æºæ©è½ãè¿½å ï¼è¹åè¨­è¨ãã¼ã«ããå®è¹ã¢ãã¿ãªã³ã°ã»å®æµ·"
+   ],
+   [
+    "https://www.nmri.go.jp/news/press/2026/press20260525.html",
+    "ç¬¬26åæµ·ä¸æè¡å®å ¨ç ç©¶æç ç©¶çºè¡¨ä¼ãæµ·æç ã®ç ç©¶éçºã¨ç¤¾ä¼å®è£ ã®é²å±ãã7æ24æ¥ï¼é"
+   ],
+   [
+    "https://www.nmri.go.jp/news/press/2026/press20260428.html",
+    "å®æµ·åå®è¹æ§è½ãåä¸ããæ°ã³ã³ã»ããè¹ãéçºï¼å®æµ·åã§ã®ã¨ãã«ã®ã¼å¹çããã©ãã«"
+   ],
+   [
+    "https://www.nmri.go.jp/news/press/2026/press20260415.html",
+    "ãè¹è¶æµ·æ´å·¥å­¦ç ä¿®ãåå è åéãã¦ã§ããã¼å½¢å¼ã§éå¬"
+   ],
+   [
+    "https://www.nmri.go.jp/news/press/2026/press20260413.html",
+    "å®éèªæ§è½ã·ãã¥ã¬ã¼ã¿VESTAã®æ©è½æ´æ°-æä½æ¨é²åºåã¬ã¤ãã©ã¤ã³ï¼MEPC.1/Circ.850/Rev.3ï¼ã«"
+   ],
+   [
+    "https://www.nmri.go.jp/news/press/2026/press20260326.html",
+    "OCTARVIAãã­ã°ã©ã ã®APIçã®ãªãªã¼ã¹ï¼å®è¹ã¢ãã¿ãªã³ã°ãã¼ã¿è§£æãè¹è¶ã®ã©ã¤ããµã¤ã¯ã"
+   ],
+   [
+    "https://www.nmri.go.jp/news/press/2026/press20260205.html",
+    "ããã³ãã¬ãããæ²è¼ãã¾ãããä»¤å8å¹´åº¦ç ç©¶æ½è¨­ä¸è¬å ¬é4æ18æ¥ï¼åï¼ã«éå¬"
+   ],
+   [
+    "https://www.nmri.go.jp/news/press/2026/press20260205.html",
+    "ä»¤å8å¹´åº¦ç ç©¶æ½è¨­ä¸è¬å ¬é4æ18æ¥ï¼åï¼ã«éå¬"
+   ],
+   [
+    "https://www.nmri.go.jp/news/press/2025/press20251224.html",
+    "ãåå ç»é²åä»éå§ãç¬¬25åæµ·ä¸æè¡å®å ¨ç ç©¶æè¬æ¼ä¼ãæµ·äºç£æ¥­ã«ãããè±ç­ç´ ã¨GXã®æ"
+   ],
+   [
+    "https://www.nmri.go.jp/news/press/2025/press20251215.html",
+    "æ§é ç¨æ¥çå¤ãç¨ããæ¥åå®é¨ããã³ç°å¢è£ ç½®ã«ããè é£å®é¨è¨­åãå ¬é"
+   ],
+   [
+    "https://www.nmri.go.jp/news/press/2025/press20251121.html",
+    "ç¬¬25åæµ·ä¸æè¡å®å ¨ç ç©¶æè¬æ¼ä¼ãæµ·äºç£æ¥­ã«ãããè±ç­ç´ ã¨GXã®ææ°ååãã1æ23æ¥ï¼é"
+   ],
+   [
+    "https://www.nmri.go.jp/news/press/2025/press20251118.html",
+    "å½éæµ·éã«ãããçææ°è¦å¶ã®å®éçè©ä¾¡ã¢ãã«ãéçº—è¦å¶ã®æè»æ§ãæªæ¥ã®ã³ã¹ãã»è"
+   ],
+   [
+    "https://www.nmri.go.jp/news/press/2025/press20251023.html",
+    "å¤§åã­ã£ããã¼ã·ã§ã³è©¦é¨æ°´æ§½50å¨å¹´è¨å¿µè¬æ¼ä¼ã®éå¬ã®ãç¥ãã"
+   ],
+   [
+    "https://www.nmri.go.jp/news/press/2025/press20250930.html",
+    "æµ·æç è·å¡ã®ä¸»å°ã«ããè¹åºé²æ±å¡æã®æ§è½è©ä¾¡ã«é¢ããå½éè¦æ ¼ãçºè¡ããã¾ãã"
+   ],
+   [
+    "https://www.nmri.go.jp/news/press/2025/press20250730.html",
+    "æµ®ãã¶é¢¨è»ãè¦³å¯ãã¦ã¿ããï¼ãæµ®ä½å¼æ´ä¸é¢¨åçºé»å°åæ¨¡åã®æ°´æ§½å®é¨ãå ¬éã â»ç³è¾"
+   ],
+   [
+    "https://www.nmri.go.jp/news/press/2025/press20250728.html",
+    "ãä»¤åï¼å¹´ãæµ·ã®æ¥ãæµ·äºé¢ä¿åå´è å½åäº¤éå¤§è£è¡¨å½°ããåè³"
+   ],
+   [
+    "https://www.nmri.go.jp/news/press/2025/press20250725.html",
+    "è¾»æ¬ å ç ç©¶ç£ã»æµä½è¨­è¨ç³»é·ãå é£ç·çå¤§è£è³ãåè³ãï¼å®æµ·åå®è¹æ§è½è©ä¾¡ã®ããã®ã"
+   ],
+   [
+    "https://www.nmri.go.jp/news/press/2025/press20250624.html",
+    "è¹è¶ã®å®æµ·åä¸­ã®æ¨é²æ§è½åã³çææ¶è²»éã«é¢ããå½éè¦æ ¼ï¼ISOï¼éçºãéå§"
+   ],
+   [
+    "https://www.nmri.go.jp/news/press/2025/press20250623.html",
+    "ãåå ç»é²åä»éå§ãç¬¬25åæµ·ä¸æè¡å®å ¨ç ç©¶æç ç©¶çºè¡¨ä¼ãæµ·æç ã®ç ç©¶éçºã¨ç¤¾ä¼å®è"
+   ],
+   [
+    "https://www.nmri.go.jp/news/press/2025/press20250609.html",
+    "ã400mæ°´æ§½ã«ããã¦IRISãä½¿ã£ãæ¨¡åè¹ã®æ³¢æµªä¸­è©¦é¨ãå ¬éã—çµ±åæ°´æ§½è©¦é¨ã·ã¹ãã ï¼IRISï¼"
+   ],
+   [
+    "https://www.nmri.go.jp/news/press/2025/press20250530.html",
+    "ç¬¬25åæµ·ä¸æè¡å®å ¨ç ç©¶æç ç©¶çºè¡¨ä¼ãæµ·æç ã®ç ç©¶éçºã¨ç¤¾ä¼å®è£ ã®é²å±ãã7æ18æ¥ã«ã"
+   ],
+   [
+    "https://www.nmri.go.jp/news/press/2025/press20250424.html",
+    "æ¾å°ç·ã«ããæ°´åå­ã®åå­¦å¤åããææ°ããæ²»çã«è¿«ãï¼ï½æ¾å°ç·ã§åè§£ããæ°´åå­ã®æ"
+   ],
+   [
+    "https://www.nmri.go.jp/news/press/2025/press20250417.html",
+    "æµ·æç ãè¹è¶æµ·æ´å·¥å­¦ç ä¿®ãåå è åéãã¦ã§ããã¼å½¢å¼ã§éå¬"
+   ],
+   [
+    "https://www.nmri.go.jp/news/press/2025/press20250331.html",
+    "400mæ°´æ§½ãªãã¬ãã·ã¥ç¨¼åï¼ç ç©¶éçºæ ç¹ã¨ãã¦æãå½æµ·äºç£æ¥­ã®å½éç«¶äºåå¼·åã«è²¢ç®ï¼"
+   ],
+   [
+    "https://www.nmri.go.jp/news/press/2025/press20250328.html",
+    "OCTARVIAãã­ã°ã©ã ã®ãã¼ã¸ã§ã³ã¢ããã«ããä»£æ¿çæè¨ç®æ©è½ç­ã®è¿½å ã—OCTARVIA–web V2ã¨EAG"
+   ],
+   [
+    "https://www.nmri.go.jp/news/press/2025/press20250304.html",
+    "ãäºåç»é²åä»éå§ãä»¤å7å¹´åº¦ç ç©¶æ½è¨­ä¸è¬å ¬éã4æ19æ¥(å)ã«éå¬"
+   ],
+   [
+    "https://www.nmri.go.jp/news/press/2025/press20250221.html",
+    "ç¬¬äºä¸ä»£ã®é«åº¦ç©ºæ°æ½¤æ»æ³AdAMãé©ç¨ãã1çªè¹ã¨ãªãå èªè²¨ç©è¹ãã¡ã ãããããå°±èªãã"
+   ],
+   [
+    "https://www.nmri.go.jp/news/press/2024/press20241105.html",
+    "ä»¤å6å¹´åº¦ ç¬¬24åæµ·ä¸æè¡å®å ¨ç ç©¶æ è¬æ¼ä¼ãå èªæµ·éã®èª²é¡è§£æ±ºã«åããæè¡éçºãã1"
+   ],
+   [
+    "https://www.nmri.go.jp/news/press/2024/press20241009.html",
+    "ãåå ç»é²åä»éå§ãä»¤å6å¹´åº¦ ç¬¬24åæµ·ä¸æè¡å®å ¨ç ç©¶æ è¬æ¼ä¼ãå èªæµ·éã®èª²é¡è§£æ±ºã"
+   ],
+   [
+    "https://www.nmri.go.jp/news/press/2024/press20240927.html",
+    "ä¸çåï¼ãã£ã¼ã¼ã«æ©é¢å¸æ°ã¸ã®ã¢ã³ã¢ãã¢æ··åæ¡ä»¶ä¸ã§ã®PMè¨æ¸¬ãå®æ½"
+   ],
+   [
+    "https://www.nmri.go.jp/news/press/2024/press20240813.html",
+    "æµ®ä½å¼é¢¨è»ã®åæºã»å¤å½¢ãåç¾ããï¼ï¼ãæµ®ä½å¼é¢¨è»ã®ä¸è¦åæ³¢ä¸­ã®æ°´æ§½è©¦é¨ãå ¬éã â"
+   ],
+   [
+    "https://www.nmri.go.jp/news/press/2024/press20240808.html",
+    "æµ·äºã¯ã©ã¹ã¿ã¼å ±åç ç©¶ãå®æµ·åå®è¹æ§è½è©ä¾¡ãã­ã¸ã§ã¯ãï¼OCTARVIAï¼ããã§ã¼ãº2ææå ±"
+   ],
+   [
+    "https://www.nmri.go.jp/news/press/2024/press20240723.html",
+    "æµ·ä¸ã»æ¸¯æ¹¾ã»èªç©ºæè¡ç ç©¶æã®ç ç©¶ãã¼ã ããä»¤åï¼å¹´ãæµ·ã®æ¥ãæµ·äºé¢ä¿åå´è å½åäº¤"
+   ],
+   [
+    "https://www.nmri.go.jp/news/press/2024/press20240709.html",
+    "æµ®ãã¶é¢¨è»ãè¦³å¯ãã¦ã¿ããï¼ãæµ®ä½å¼æ´ä¸é¢¨åçºé»å°åæ¨¡åã®æ°´æ§½å®é¨ãå ¬éã â»å®å"
+   ],
+   [
+    "https://www.nmri.go.jp/news/press/2024/press20240701b.html",
+    "ãåå ç»é²åä»éå§ãç¬¬24åæµ·ä¸æè¡å®å ¨ç ç©¶æç ç©¶çºè¡¨ä¼ãæµ·æç ã®ãã­ã¸ã§ã¯ãã®é²æ"
+   ],
+   [
+    "https://www.nmri.go.jp/news/press/2024/press20240701a.html",
+    "æµ·æ´ãªã¹ã¯è©ä¾¡ç³»ã®è¿å äºç´å­ä¸å¸­ç ç©¶å¡ããIAEA/TRANSSC/TTEG-OMè­°é·ã«å°±ä»»"
+   ],
+   [
+    "https://www.nmri.go.jp/news/press/2024/press20240607.html",
+    "ç¬¬24åæµ·ä¸æè¡å®å ¨ç ç©¶æç ç©¶çºè¡¨ä¼ãæµ·æç ã®ãã­ã¸ã§ã¯ãã®é²æã¨ä»å¾ã®å±éãã7æ"
+   ],
+   [
+    "https://www.nmri.go.jp/news/press/2024/press20240418.html",
+    "å®éèªã§ã®GHGæåºåæ¸ãä¿é²ï¼ä¸çæé«ç²¾åº¦ã®è¹è¶ã®å®æµ·åæ§è½ã¢ãã«ãã¦ã§ã¶ã¼ã«ã¼ã"
+   ],
+   [
+    "https://www.nmri.go.jp/news/press/2024/press20240417.html",
+    "æµ·æç ãè¹è¶æµ·æ´å·¥å­¦ç ä¿®ãåå è åéãã¦ã§ããã¼å½¢å¼ã§éå¬"
+   ],
+   [
+    "https://www.nmri.go.jp/news/press/2024/press20240409.html",
+    "æµ·ä¸ã»æ¸¯æ¹¾ã»èªç©ºæè¡ç ç©¶æãæ¥æ¬è£½éãä»æ²»é è¹ã®ç ç©¶è ãããæé¨ç§å­¦å¤§è£è¡¨å½° ç§å­"
+   ],
+   [
+    "https://www.nmri.go.jp/news/press/2024/press20240319.html",
+    "ç­è·é¢é éæè¹ã·ã¹ãã ã«ä¿ãå®è¹å®é¨ãå ¬é"
+   ],
+   [
+    "https://www.nmri.go.jp/news/press/2024/press20240226.html",
+    "ãåå ç»é²åä»éå§ãä»¤å6å¹´åº¦ç ç©¶æ½è¨­ä¸è¬å ¬éã4æ21æ¥(æ¥)ã«éå¬ã â»ç³è¾¼ã¯çµäºãã"
+   ],
+   [
+    "https://www.nmri.go.jp/news/press/2024/press20240214.html",
+    "é è¹ã®DXã«é¢ããææ°ã®ç ç©¶ãç´¹ä»ãã¾ãï¼ï¼ããã¸ã¿ã«ã·ããã¤ã¼ãã«é¢ããå ¬éå®é¨ã"
+   ],
+   [
+    "https://www.nmri.go.jp/news/press/2023/press20231106.html",
+    "ãåå ç»é²åä»éå§ãä»¤å5å¹´åº¦ ç¬¬23åæµ·ä¸æè¡å®å ¨ç ç©¶æ è¬æ¼ä¼ãè±ç­ç´ ãç®æãè¶ç¨ã"
+   ],
+   [
+    "https://www.nmri.go.jp/news/press/2023/press20231012.html",
+    "å½åäº¤éçãäº¤ééè¼¸æè¡éçºæ¨é²å¶åº¦ãã«æ¡æããã¾ãããï½é è¹æã®å»ºé å·¥ç¨ãå¤§ã"
+   ],
+   [
+    "https://www.nmri.go.jp/news/press/2023/press20231002.html",
+    "ä»¤å5å¹´åº¦ ç¬¬23åæµ·ä¸æè¡å®å ¨ç ç©¶æ è¬æ¼ä¼ãè±ç­ç´ ãç®æãè¶ç¨ã¨ã³ã¸ã³ã¨çæãã12æ"
+   ],
+   [
+    "https://www.nmri.go.jp/news/press/2023/press20230824.html",
+    "å®éèªæ§è½ã·ãã¥ã¬ã¼ã¿VESTAã«æ°æ©è½ãè¿½å"
+   ],
+   [
+    "https://www.nmri.go.jp/news/press/2023/press20230724.html",
+    "æµ®ãã¶é¢¨è»ãè¦³å¯ãã¦ã¿ãããæµ®ä½å¼æ´ä¸é¢¨åçºé»å°åæ¨¡åã®æ°´æ§½å®é¨ãå ¬éã"
+   ],
+   [
+    "https://www.nmri.go.jp/news/press/2023/press20230703.html",
+    "æµ·ä¸æè¡å®å ¨ç ç©¶æãæ¬¡ä¸ä»£æµ·æ´ç¡äººæ©ãã­ã¸ã§ã¯ããã¼ã ãçºè¶³"
+   ],
+   [
+    "https://www.nmri.go.jp/news/press/2023/press20230623.html",
+    "ç¬¬23åç ç©¶çºè¡¨ä¼ã®éå¬ã®ãç¥ãããâè¬æ¼ããã¹ã¿ã¼ã»ãã·ã§ã³ã®å å®¹æ±ºå®â"
+   ],
+   [
+    "https://www.nmri.go.jp/news/press/2023/press20230609.html",
+    "æ³¡ã®åã§è¹ã®æµæãæ¸ããï¼ï¼ãé·å°ºå¹³æ¿æ¨¡åè¹ãç¨ããç©ºæ°æ½¤æ»å®é¨ãå ¬éå®é¨"
+   ],
+   [
+    "https://www.nmri.go.jp/news/press/2023/press20230608.html",
+    "ç¬¬23åç ç©¶çºè¡¨ä¼ã®éå¬ã®ãç¥ãã"
+   ],
+   [
+    "https://www.nmri.go.jp/news/press/2023/press20230524.html",
+    "å®è¹ã¢ãã¿ãªã³ã°ãã¼ã¿è§£æãã­ã°ã©ã ï¼SALVIA-OCT.-web V2ï¼ã®ãªãªã¼ã¹ã«ã¤ãã¦"
+   ],
+   [
+    "https://www.nmri.go.jp/news/press/2023/press20230426.html",
+    "æµ·æç ãè¹è¶æµ·æ´å·¥å­¦ç ä¿®ãåå è åéãã¦ã§ããã¼å½¢å¼ã§éå¬"
+   ],
+   [
+    "https://www.nmri.go.jp/news/press/2023/press20230418.html",
+    "ãã¤ãããã£ã¼ã¼ã«ãæµ·ä¸æè¡å®å ¨ç ç©¶æãæ¥ç«é è¹ãå ±åç ç©¶ãéå§"
+   ],
+   [
+    "https://www.nmri.go.jp/news/press/2023/press20230317.html",
+    "æµ·æç ã¯ã©ã¦ãã§å ¨çã®æ³¢ã¨é¢¨ãã¼ã¿ãã¼ã¹ãGLOBUS Cloudããå ¬é"
+   ],
+   [
+    "https://www.nmri.go.jp/news/press/2023/press20230203b.html",
+    "è¤æ°ã®èªå¾åæµ·ä¸­ã­ãããã®éåå¶å¾¡ã«ããé«å¹çãªæµ·åºèª¿æ»æè¡ã®å®è¨¼è©¦é¨ã«ã¤ãã¦"
+   ],
+   [
+    "https://www.nmri.go.jp/news/press/2023/press20230203a.html",
+    "ç½å®³æã®æ¯æ´ç©è³è¼¸éã«ä¿ãå®åæ¼ç¿ãå ¬é"
+   ],
+   [
+    "https://www.nmri.go.jp/news/press/2023/press20230113.html",
+    "è¹è¶ã»æµ·æ´æ§é ç©ã®ä¿¡é ¼æ§è©ä¾¡ã®ããã®æº¶æ¥ã»æ¥çã«ããæ¥åè©¦é¨ä½ã®ãã¢å®é¨ããªã³ã©"
+   ],
+   [
+    "https://www.nmri.go.jp/news/press/2022/press20221130.html",
+    "æµ·ä¸æè¡å®å ¨ç ç©¶æã¨JSOLãå ±åç ç©¶ãéå§ãé è¹ç¾å ´ã®DXã«ããé«ç²¾åº¦ãªå»ºé è¨ç»ã®å®ç¾"
+   ],
+   [
+    "https://www.nmri.go.jp/news/press/2022/press20221109.html",
+    "ä»¤å4å¹´åº¦ ç¬¬22åæµ·ä¸æè¡å®å ¨ç ç©¶æ è¬æ¼ä¼ããæµ®ä½å¼æ´ä¸é¢¨åçºé»ã®å±æã¨å°æ¥æè¡ãã"
+   ],
+   [
+    "https://www.nmri.go.jp/news/press/2022/press20221013.html",
+    "ä¸äºE&Sé è¹æ ªå¼ä¼ç¤¾ãæµ·äºã¯ã©ã¹ã¿ã¼å ±åç ç©¶ãå®æµ·åå®è¹æ§è½è©ä¾¡ãã­ã¸ã§ã¯ãï¼OCTARV"
+   ],
+   [
+    "https://www.nmri.go.jp/news/press/2022/press20220714.html",
+    "èªåé¢çæ¡ã¢ã«ã´ãªãºã æ¤è¨¼ã®ããã®èªç±èªèµ°è©¦é¨æ³ã«ããæ¨¡åå®é¨ããªã³ã©ã¤ã³ã§å ¬é"
+   ],
+   [
+    "https://www.nmri.go.jp/news/press/2022/press20220701.html",
+    "ç¬¬22åç ç©¶çºè¡¨ä¼ã®éå¬ã®ãç¥ãããâè¬æ¼ããã¹ã¿ã¼èª¬æã®å å®¹æ±ºå®â"
+   ],
+   [
+    "https://www.nmri.go.jp/news/press/2022/press20220610.html",
+    "ç¬¬22åç ç©¶çºè¡¨ä¼ã®éå¬ã®ãç¥ãã"
+   ],
+   [
+    "https://www.nmri.go.jp/news/press/2022/press20220531.html",
+    "å±±ç°æµ·é£äºæ è§£æã»ã³ã¿ã¼é·åã³æ¸æ¾¤ç¹å¥ç ç©¶å¡ããé«å»¶æ§åé¼æ¿ãç¨ããè¡çªå®å ¨æ§ã«"
+   ],
+   [
+    "https://www.nmri.go.jp/news/press/2022/press20220426.html",
+    "æµ·æç ãè¹è¶æµ·æ´å·¥å­¦ç ä¿®ãåå è åéãã¦ã§ããã¼å½¢å¼ã§éå¬"
+   ],
+   [
+    "https://www.nmri.go.jp/news/press/2022/press20220401.html",
+    "ä¸é·¹ç¬¬ä¸è¹è¶è©¦é¨æ°´æ§½50å¨å¹´è¨å¿µè¬æ¼ä¼ã®éå¬ã®ãç¥ãã"
+   ],
+   [
+    "https://www.nmri.go.jp/news/press/2022/press20220331.html",
+    "æµ·äºã¯ã©ã¹ã¿ã¼å ±åç ç©¶ãå®æµ·åå®è¹æ§è½è©ä¾¡ãã­ã¸ã§ã¯ãï¼OCTARVIAï¼ãã­ã°ã©ã ã®ãªãªã"
+   ],
+   [
+    "https://www.nmri.go.jp/news/press/2022/press20220316.html",
+    "è¹ä½å¿ç­è§£æã®webã¢ããªãNMRIW-Lite Webããå ¬é"
+   ],
+   [
+    "https://www.nmri.go.jp/news/press/2022/press20220315.html",
+    "æµ·äºã¯ã©ã¹ã¿ã¼å ±åç ç©¶ãå®æµ·åå®è¹æ§è½è©ä¾¡ãã­ã¸ã§ã¯ãï¼OCTARVIAï¼ãã§ã¼ãº2ã®éå§ã«"
+   ],
+   [
+    "https://www.nmri.go.jp/news/press/2022/press20220311.html",
+    "é¢¨è»ã¿ã¯ã¼ã«è¹é¦æ¥è·ããæ´ä¸é¢¨åçºé»ã¢ã¯ã»ã¹è¹ã®æ³¢æµªä¸­éåãè©ä¾¡ããããã®æ°´æ§½æ¨¡"
+   ],
+   [
+    "https://www.nmri.go.jp/news/press/2022/press20220310.html",
+    "è¹ä½ç©ºæ°æ½¤æ»ã·ã¹ãã ã®éçºãéå§"
+   ],
+   [
+    "https://www.nmri.go.jp/news/press/2022/press20220308.html",
+    "ãã³ã«ãªã³ã°æã«ããã2è¹ä½å¨ãã®é¢¨å ´è¦³æ¸¬è©¦é¨ãå ¬é"
+   ],
+   [
+    "https://www.nmri.go.jp/news/press/2022/press20220117.html",
+    "å®æµ·åå®è¹æ§è½è©ä¾¡ãã­ã¸ã§ã¯ããã§ã¼ãº2ã®åå åéã®éå§ã«ã¤ãã¦"
    ],
    [
     "https://www.nmri.go.jp/about/",
