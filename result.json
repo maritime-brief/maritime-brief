@@ -1,0 +1,2777 @@
+{
+ "iacs": {
+  "url": "https://iacs.org.uk/news/",
+  "robots_status": 200,
+  "robots_allowed": true,
+  "robots_excerpt": "# As a condition of accessing this website, you agree to abide by the following\n# content signals:\n\n# (a)  If a Content-Signal = yes, you may collect content for the corresponding\n#      use.\n# (b)  If a Content-Signal = no, you may not collect content for the\n#      corresponding use.\n# (c)  If the website operator does not include a Content-Signal for a\n#      corresponding use, the website operator neither grants nor restricts\n#      permission via Content-Signal with respect to the corresponding use.\n\n# The content signals and their meanings are:\n\n# search:   building a search index and providing search results (e.g., returning\n#           hyperlinks and short excerpts from your website's contents). Search does not\n#           include providing AI-generated search summaries.\n# ai-input",
+  "status": 200,
+  "final": "https://iacs.org.uk/news/",
+  "len": 55177,
+  "ctype": "text/html; charset=utf-8",
+  "feeds": [],
+  "links": [
+   [
+    "https://iacs.org.uk/",
+    "IACS - International Association of Classification Societies"
+   ],
+   [
+    "https://iacs.org.uk/disclaimer-and-copyright-policy",
+    "IACS Disclaimer and Copyright Policy"
+   ]
+  ]
+ },
+ "iacs-home": {
+  "url": "https://iacs.org.uk/",
+  "robots_status": 200,
+  "robots_allowed": true,
+  "robots_excerpt": "# As a condition of accessing this website, you agree to abide by the following\n# content signals:\n\n# (a)  If a Content-Signal = yes, you may collect content for the corresponding\n#      use.\n# (b)  If a Content-Signal = no, you may not collect content for the\n#      corresponding use.\n# (c)  If the website operator does not include a Content-Signal for a\n#      corresponding use, the website operator neither grants nor restricts\n#      permission via Content-Signal with respect to the corresponding use.\n\n# The content signals and their meanings are:\n\n# search:   building a search index and providing search results (e.g., returning\n#           hyperlinks and short excerpts from your website's contents). Search does not\n#           include providing AI-generated search summaries.\n# ai-input",
+  "status": 200,
+  "final": "https://iacs.org.uk/",
+  "len": 109567,
+  "ctype": "text/html; charset=utf-8",
+  "feeds": [],
+  "links": [
+   [
+    "https://iacs.org.uk/",
+    "IACS - International Association of Classification Societies"
+   ],
+   [
+    "https://iacs.org.uk/disclaimer-and-copyright-policy",
+    "IACS Disclaimer and Copyright Policy"
+   ]
+  ]
+ },
+ "imo": {
+  "url": "https://www.imo.org/en/MediaCentre/PressBriefings/Pages/Home.aspx",
+  "robots_status": null,
+  "status": 500,
+  "final": "https://www.imo.org/en/mediacentre/pressbriefings/pages/home.aspx",
+  "len": 43498,
+  "ctype": "text/html; charset=utf-8",
+  "feeds": [],
+  "links": [
+   [
+    "https://www.imo.org/en/About/Pages/Affiliated-Bodies-and-Programmes.aspx",
+    "Affiliated Bodies and Programmes"
+   ],
+   [
+    "https://www.imo.org/en/About/Pages/WMUandIMLI.aspx",
+    "World Maritime University (WMU) and IMO International Maritime Law Institute (IMLI)"
+   ],
+   [
+    "https://www.imo.org/en/OurWork/Pages/Financial-Statements.aspx",
+    "Financial Statements Summary"
+   ],
+   [
+    "https://www.imo.org/en/About/Pages/Diversity-Equity-Inclusion.aspx",
+    "Diversity, Equity and Inclusion"
+   ],
+   [
+    "https://www.imo.org/en/MediaCentre/MeetingSummaries/Pages/default.aspx",
+    "Meeting Summaries and schedule"
+   ],
+   [
+    "https://www.imo.org/en/MediaCentre/SecretaryGeneral/Pages/Senior-Management-Committee.aspx",
+    "​Senior Management Committee (SMC)"
+   ],
+   [
+    "https://www.imo.org/en/OurWork/Security/Pages/Default.aspx",
+    "Maritime Security and Piracy"
+   ],
+   [
+    "https://www.imo.org/en/OurWork/MSAS/Pages/Default.aspx",
+    "Member State Audit Scheme"
+   ],
+   [
+    "https://www.imo.org/en/OurWork/IIIS/Pages/default.aspx",
+    "Implementation of Instruments Support"
+   ],
+   [
+    "https://www.imo.org/en/OurWork/PartnershipsProjects/Pages/default.aspx",
+    "Partnerships and Projects"
+   ],
+   [
+    "https://www.imo.org/en/publications/Pages/CatalogueAndBookCodeLists.aspx",
+    "Catalogue ＆ Code Listings"
+   ],
+   [
+    "https://www.imo.org/en/publications/Pages/PermissionRequests.aspx",
+    "Copyright and Permission Requests"
+   ],
+   [
+    "https://www.imo.org/en/publications/Pages/FrequentlyAskedQuestions.aspx",
+    "Frequently Asked Questions (FAQ)"
+   ],
+   [
+    "https://www.imo.org/en/publications/Pages/CurrentPublications.aspx",
+    "Listing of current IMO publications"
+   ],
+   [
+    "https://www.imo.org/en/KnowledgeCentre/Pages/SearchTheOnlineCatalogueSeaLibrary.aspx",
+    "Search the MKC Online Catalogue"
+   ],
+   [
+    "https://www.imo.org/en/KnowledgeCentre/Pages/FindInformation.aspx",
+    "How and Where to Find IMO Information"
+   ],
+   [
+    "https://www.imo.org/en/KnowledgeCentre/Pages/CurrentAwarenessBulletin-Default.aspx",
+    "Current Awareness Bulletin"
+   ],
+   [
+    "https://www.imo.org/en/KnowledgeCentre/Pages/MaritimeFactsFigures-Default.aspx",
+    "Maritime Facts and Figures"
+   ],
+   [
+    "https://www.imo.org/en/About/Pages/Affiliated-Bodies-and-Programmes.aspx",
+    "Affiliated Bodies and Programs"
+   ],
+   [
+    "https://www.imo.org/en/publications/Pages/Distributors-default.aspx",
+    "Publications Online Ordering"
+   ],
+   [
+    "https://www.imo.org/en/About/Pages/Affiliated-Bodies-and-Programmes.aspx",
+    "Affiliated Bodies and Programmes"
+   ],
+   [
+    "https://www.imo.org/en/About/Pages/WMUandIMLI.aspx",
+    "World Maritime University (WMU) and IMO International Maritime Law Institute (IMLI)"
+   ],
+   [
+    "https://www.imo.org/en/OurWork/Pages/Financial-Statements.aspx",
+    "Financial Statements Summary"
+   ],
+   [
+    "https://www.imo.org/en/About/Pages/Diversity-Equity-Inclusion.aspx",
+    "Diversity, Equity and Inclusion"
+   ],
+   [
+    "https://www.imo.org/en/MediaCentre/MeetingSummaries/Pages/default.aspx",
+    "Meeting Summaries and schedule"
+   ],
+   [
+    "https://www.imo.org/en/MediaCentre/SecretaryGeneral/Pages/Senior-Management-Committee.aspx",
+    "​Senior Management Committee (SMC)"
+   ],
+   [
+    "https://www.imo.org/en/OurWork/Security/Pages/Default.aspx",
+    "Maritime Security and Piracy"
+   ],
+   [
+    "https://www.imo.org/en/OurWork/MSAS/Pages/Default.aspx",
+    "Member State Audit Scheme"
+   ],
+   [
+    "https://www.imo.org/en/OurWork/IIIS/Pages/default.aspx",
+    "Implementation of Instruments Support"
+   ],
+   [
+    "https://www.imo.org/en/OurWork/PartnershipsProjects/Pages/default.aspx",
+    "Partnerships and Projects"
+   ],
+   [
+    "https://www.imo.org/en/publications/Pages/CatalogueAndBookCodeLists.aspx",
+    "Catalogue ＆ Code Listings"
+   ],
+   [
+    "https://www.imo.org/en/publications/Pages/PermissionRequests.aspx",
+    "Copyright and Permission Requests"
+   ],
+   [
+    "https://www.imo.org/en/publications/Pages/FrequentlyAskedQuestions.aspx",
+    "Frequently Asked Questions (FAQ)"
+   ],
+   [
+    "https://www.imo.org/en/publications/Pages/CurrentPublications.aspx",
+    "Listing of current IMO publications"
+   ],
+   [
+    "https://www.imo.org/en/KnowledgeCentre/Pages/SearchTheOnlineCatalogueSeaLibrary.aspx",
+    "Search the MKC Online Catalogue"
+   ],
+   [
+    "https://www.imo.org/en/KnowledgeCentre/Pages/FindInformation.aspx",
+    "How and Where to Find IMO Information"
+   ],
+   [
+    "https://www.imo.org/en/KnowledgeCentre/Pages/CurrentAwarenessBulletin-Default.aspx",
+    "Current Awareness Bulletin"
+   ],
+   [
+    "https://www.imo.org/en/KnowledgeCentre/Pages/MaritimeFactsFigures-Default.aspx",
+    "Maritime Facts and Figures"
+   ]
+  ],
+  "body_head": " \r\n\r\n<!DOCTYPE html>\r\n\r\n<html lang=\"EN\" dir=\"ltr\" class=\"\">\r\n\r\n<head>\r\n    <meta charset=\"utf-8\">\r\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\r\n    <title>\r\n        Coming Soon\r\n    </title>\r\n  "
+ },
+ "imo-rss": {
+  "url": "https://www.imo.org/en/MediaCentre/Pages/RSS.aspx",
+  "robots_status": null,
+  "status": 500,
+  "final": "https://www.imo.org/en/mediacentre/pages/rss.aspx",
+  "len": 43498,
+  "ctype": "text/html; charset=utf-8",
+  "feeds": [],
+  "links": [
+   [
+    "https://www.imo.org/en/About/Pages/Affiliated-Bodies-and-Programmes.aspx",
+    "Affiliated Bodies and Programmes"
+   ],
+   [
+    "https://www.imo.org/en/About/Pages/WMUandIMLI.aspx",
+    "World Maritime University (WMU) and IMO International Maritime Law Institute (IMLI)"
+   ],
+   [
+    "https://www.imo.org/en/OurWork/Pages/Financial-Statements.aspx",
+    "Financial Statements Summary"
+   ],
+   [
+    "https://www.imo.org/en/About/Pages/Diversity-Equity-Inclusion.aspx",
+    "Diversity, Equity and Inclusion"
+   ],
+   [
+    "https://www.imo.org/en/MediaCentre/MeetingSummaries/Pages/default.aspx",
+    "Meeting Summaries and schedule"
+   ],
+   [
+    "https://www.imo.org/en/MediaCentre/SecretaryGeneral/Pages/Senior-Management-Committee.aspx",
+    "​Senior Management Committee (SMC)"
+   ],
+   [
+    "https://www.imo.org/en/OurWork/Security/Pages/Default.aspx",
+    "Maritime Security and Piracy"
+   ],
+   [
+    "https://www.imo.org/en/OurWork/MSAS/Pages/Default.aspx",
+    "Member State Audit Scheme"
+   ],
+   [
+    "https://www.imo.org/en/OurWork/IIIS/Pages/default.aspx",
+    "Implementation of Instruments Support"
+   ],
+   [
+    "https://www.imo.org/en/OurWork/PartnershipsProjects/Pages/default.aspx",
+    "Partnerships and Projects"
+   ],
+   [
+    "https://www.imo.org/en/publications/Pages/CatalogueAndBookCodeLists.aspx",
+    "Catalogue ＆ Code Listings"
+   ],
+   [
+    "https://www.imo.org/en/publications/Pages/PermissionRequests.aspx",
+    "Copyright and Permission Requests"
+   ],
+   [
+    "https://www.imo.org/en/publications/Pages/FrequentlyAskedQuestions.aspx",
+    "Frequently Asked Questions (FAQ)"
+   ],
+   [
+    "https://www.imo.org/en/publications/Pages/CurrentPublications.aspx",
+    "Listing of current IMO publications"
+   ],
+   [
+    "https://www.imo.org/en/KnowledgeCentre/Pages/SearchTheOnlineCatalogueSeaLibrary.aspx",
+    "Search the MKC Online Catalogue"
+   ],
+   [
+    "https://www.imo.org/en/KnowledgeCentre/Pages/FindInformation.aspx",
+    "How and Where to Find IMO Information"
+   ],
+   [
+    "https://www.imo.org/en/KnowledgeCentre/Pages/CurrentAwarenessBulletin-Default.aspx",
+    "Current Awareness Bulletin"
+   ],
+   [
+    "https://www.imo.org/en/KnowledgeCentre/Pages/MaritimeFactsFigures-Default.aspx",
+    "Maritime Facts and Figures"
+   ],
+   [
+    "https://www.imo.org/en/About/Pages/Affiliated-Bodies-and-Programmes.aspx",
+    "Affiliated Bodies and Programs"
+   ],
+   [
+    "https://www.imo.org/en/publications/Pages/Distributors-default.aspx",
+    "Publications Online Ordering"
+   ],
+   [
+    "https://www.imo.org/en/About/Pages/Affiliated-Bodies-and-Programmes.aspx",
+    "Affiliated Bodies and Programmes"
+   ],
+   [
+    "https://www.imo.org/en/About/Pages/WMUandIMLI.aspx",
+    "World Maritime University (WMU) and IMO International Maritime Law Institute (IMLI)"
+   ],
+   [
+    "https://www.imo.org/en/OurWork/Pages/Financial-Statements.aspx",
+    "Financial Statements Summary"
+   ],
+   [
+    "https://www.imo.org/en/About/Pages/Diversity-Equity-Inclusion.aspx",
+    "Diversity, Equity and Inclusion"
+   ],
+   [
+    "https://www.imo.org/en/MediaCentre/MeetingSummaries/Pages/default.aspx",
+    "Meeting Summaries and schedule"
+   ],
+   [
+    "https://www.imo.org/en/MediaCentre/SecretaryGeneral/Pages/Senior-Management-Committee.aspx",
+    "​Senior Management Committee (SMC)"
+   ],
+   [
+    "https://www.imo.org/en/OurWork/Security/Pages/Default.aspx",
+    "Maritime Security and Piracy"
+   ],
+   [
+    "https://www.imo.org/en/OurWork/MSAS/Pages/Default.aspx",
+    "Member State Audit Scheme"
+   ],
+   [
+    "https://www.imo.org/en/OurWork/IIIS/Pages/default.aspx",
+    "Implementation of Instruments Support"
+   ],
+   [
+    "https://www.imo.org/en/OurWork/PartnershipsProjects/Pages/default.aspx",
+    "Partnerships and Projects"
+   ],
+   [
+    "https://www.imo.org/en/publications/Pages/CatalogueAndBookCodeLists.aspx",
+    "Catalogue ＆ Code Listings"
+   ],
+   [
+    "https://www.imo.org/en/publications/Pages/PermissionRequests.aspx",
+    "Copyright and Permission Requests"
+   ],
+   [
+    "https://www.imo.org/en/publications/Pages/FrequentlyAskedQuestions.aspx",
+    "Frequently Asked Questions (FAQ)"
+   ],
+   [
+    "https://www.imo.org/en/publications/Pages/CurrentPublications.aspx",
+    "Listing of current IMO publications"
+   ],
+   [
+    "https://www.imo.org/en/KnowledgeCentre/Pages/SearchTheOnlineCatalogueSeaLibrary.aspx",
+    "Search the MKC Online Catalogue"
+   ],
+   [
+    "https://www.imo.org/en/KnowledgeCentre/Pages/FindInformation.aspx",
+    "How and Where to Find IMO Information"
+   ],
+   [
+    "https://www.imo.org/en/KnowledgeCentre/Pages/CurrentAwarenessBulletin-Default.aspx",
+    "Current Awareness Bulletin"
+   ],
+   [
+    "https://www.imo.org/en/KnowledgeCentre/Pages/MaritimeFactsFigures-Default.aspx",
+    "Maritime Facts and Figures"
+   ]
+  ],
+  "body_head": " \r\n\r\n<!DOCTYPE html>\r\n\r\n<html lang=\"EN\" dir=\"ltr\" class=\"\">\r\n\r\n<head>\r\n    <meta charset=\"utf-8\">\r\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\r\n    <title>\r\n        Coming Soon\r\n    </title>\r\n  "
+ },
+ "classnk-en": {
+  "url": "https://www.classnk.or.jp/hp/en/hp_news.aspx",
+  "robots_status": 403,
+  "status": 403,
+  "final": "https://www.classnk.or.jp/hp/en/hp_news.aspx",
+  "len": 409,
+  "ctype": "text/html",
+  "feeds": [],
+  "links": [],
+  "body_head": "<HTML><HEAD>\n<TITLE>Access Denied</TITLE>\n</HEAD><BODY>\n<H1>Access Denied</H1>\n \nYou don't have permission to access \"http&#58;&#47;&#47;www&#46;classnk&#46;or&#46;jp&#47;hp&#47;en&#47;hp&#95;news&#46;aspx\" on this server.<P>\nReference&#32;&#35;18&#46;8a6d3e17&#46;1793476444&#46;15cc0597\n<P>https&#5"
+ },
+ "classnk-ja": {
+  "url": "https://www.classnk.or.jp/hp/ja/hp_news.aspx",
+  "robots_status": 403,
+  "status": 403,
+  "final": "https://www.classnk.or.jp/hp/ja/hp_news.aspx",
+  "len": 409,
+  "ctype": "text/html",
+  "feeds": [],
+  "links": [],
+  "body_head": "<HTML><HEAD>\n<TITLE>Access Denied</TITLE>\n</HEAD><BODY>\n<H1>Access Denied</H1>\n \nYou don't have permission to access \"http&#58;&#47;&#47;www&#46;classnk&#46;or&#46;jp&#47;hp&#47;ja&#47;hp&#95;news&#46;aspx\" on this server.<P>\nReference&#32;&#35;18&#46;8a6d3e17&#46;1793476444&#46;15cc05af\n<P>https&#5"
+ },
+ "abs": {
+  "url": "https://ww2.eagle.org/en/news.html",
+  "robots_status": 200,
+  "robots_allowed": true,
+  "robots_excerpt": "User-agent: *\r\n\r\nDisallow: /en/thankyou-subchapterm.html\r\nDisallow: /content/eagle/en/thankyou-subchapterm.html\r\nDisallow: /en/news/event-calendar/offshore-europe-2015-thank-you.html\r\nDisallow: /content/eagle/en/news/event-calendar/offshore-europe-2015-thank-you.html\r\nDisallow: /en/related-content.html\r\nDisallow: /content/eagle/en/related-content.html\r\nDisallow: /en/related-content.html?cp=*\r\nDisallow: /content/dam/eagle/Images/news/press-releases/*\r\nDisallow: /en/Products-and-Services/abs-advisory-services/environmental-performance/imo-2020-global-sulphur-cap.html\r\nDisallow: /en/rules-and-resources/flag-port-state-information/port-state-control-checklist.html\r\nDisallow: /content/dam/eagle/regulatory/intrasite/*\r\nDisallow: /content/dam/eagle/Images/news/setting-course--an-abs-podcast/podca",
+  "status": 200,
+  "final": "https://ww2.eagle.org/en/news/newsroom.html",
+  "len": 542709,
+  "ctype": "text/html;charset=utf-8",
+  "feeds": [],
+  "links": [
+   [
+    "https://ww2.eagle.org/en/rules-and-resources/rules-and-guides-v2/Notice-of-Rule-Changes-old.html",
+    "Rule Manager: Notice of Rule Changes"
+   ],
+   [
+    "https://ww2.eagle.org/en/rules-and-resources/flag-port-state-information/psc-quarterly-report.html",
+    "Port State Control Reports"
+   ],
+   [
+    "https://ww2.eagle.org/en/rules-and-resources/flag-port-state-information/flag-and-port-state-updates.html",
+    "Flag and Port State Updates"
+   ],
+   [
+    "https://ww2.eagle.org/en/rules-and-resources/engineering-software/marine-engineering-software.html",
+    "Marine Engineering Applications"
+   ],
+   [
+    "https://ww2.eagle.org/en/rules-and-resources/engineering-software/offshore-engineering-software.html",
+    "Offshore Engineering Applications"
+   ],
+   [
+    "https://ww2.eagle.org/en/rules-and-resources/databases/material-manufacturers.html",
+    "Material Manufacturers Database"
+   ],
+   [
+    "https://ww2.eagle.org/en/rules-and-resources/databases/service-suppliers.html",
+    "Service Suppliers Database"
+   ],
+   [
+    "https://ww2.eagle.org/en/rules-and-resources/forms/pda-requests.html",
+    "Type Approval - PDA Requests"
+   ],
+   [
+    "https://ww2.eagle.org/en/rules-and-resources/forms/change-of-customer-information-form.html",
+    "Change of Customer Information Form"
+   ],
+   [
+    "https://ww2.eagle.org/en/rules-and-resources/forms/abs-myfreedom-client-portal-registration.html",
+    "ABS MyFreedom Client Portal Registration"
+   ],
+   [
+    "https://ww2.eagle.org/en/rules-and-resources/regulatory-updates/global-trade-compliance-and-sanctions.html",
+    "Global Trade Compliance and Sanctions"
+   ],
+   [
+    "https://ww2.eagle.org/en/rules-and-resources/regulatory-updates/Safety-in-Minutes-Lessons.html",
+    "Safety in Minutes Video Series"
+   ],
+   [
+    "https://ww2.eagle.org/en/rules-and-resources/regulatory-updates/safe-carriage-of-industrial-personnel.html",
+    "Safe Carriage of Industrial Personnel"
+   ],
+   [
+    "https://ww2.eagle.org/en/rules-and-resources/regulatory-updates/electronic-record-books-under-marpol-and-bwm-conventions.html",
+    "Electronic Record Books Under MARPOL and BWM Conventions"
+   ],
+   [
+    "https://ww2.eagle.org/en/rules-and-resources/regulatory-updates/SOLAS-requirements-on-board-ships.html",
+    "SOLAS Requirements for Lifting Appliances and Anchor Handling Winches"
+   ],
+   [
+    "https://ww2.eagle.org/en/rules-and-resources/regulatory-updates/Ship-Construction-File-Archive.html",
+    "Ship Construction File Archive"
+   ],
+   [
+    "https://ww2.eagle.org/en/rules-and-resources/regulatory-updates/vida-regulatory-rqmts.html",
+    "Vessel Incidental Discharge Act (VIDA)"
+   ],
+   [
+    "https://ww2.eagle.org/en/rules-and-resources/regulatory-updates/flag-administration-statutory-authority-to-abs.html",
+    "Flag Administrations Delegating Statutory Authority to ABS"
+   ],
+   [
+    "https://ww2.eagle.org/en/rules-and-resources/regulatory-updates/SOLAS-Pilot-Transfer-Arrangements.html",
+    "SOLAS Pilot Transfer Arrangements"
+   ],
+   [
+    "https://ww2.eagle.org/en/rules-and-resources/regulatory-updates/ch4-and-n2o-emissions-measurement-and-reporting.html",
+    "CH4 and N2O Emissions Measurement and Reporting"
+   ],
+   [
+    "https://ww2.eagle.org/en/rules-and-resources/regulatory-updates/ism-mass-code.html",
+    "International Code of Safety for Maritime Autonomous Surface Ships (MASS Code)"
+   ],
+   [
+    "https://ww2.eagle.org/en/rules-and-resources/regulatory-updates/us-reflag-process-guidelines.html",
+    "U.S. Reflag Process Guidelines"
+   ],
+   [
+    "https://ww2.eagle.org/en/Products-and-Services/classification-services/3d-model-for-class-approval.html",
+    "3D Models for Class Approval"
+   ],
+   [
+    "https://ww2.eagle.org/en/Products-and-Services/classification-services/rapid-response.html",
+    "Rapid Response Damage Assessment (RRDA)"
+   ],
+   [
+    "https://ww2.eagle.org/en/Products-and-Services/vendor-certification.html",
+    "Approval and Certification"
+   ],
+   [
+    "https://ww2.eagle.org/en/Products-and-Services/vendor-certification/eu-marine-equipment-directive.html",
+    "EU Marine Equipment Directive"
+   ],
+   [
+    "https://ww2.eagle.org/en/Products-and-Services/vendor-certification/periodic-inspections.html",
+    "Periodic Container Inspection"
+   ],
+   [
+    "https://ww2.eagle.org/en/Products-and-Services/vendor-certification/welding-and-non-destructive-examination-nde.html",
+    "Welding and Non-Destructive Examination (NDE)"
+   ],
+   [
+    "https://ww2.eagle.org/en/Products-and-Services/vendor-certification/abs-cybersafety-for-resilience.html",
+    "ABS Cyber Resilience Program"
+   ],
+   [
+    "https://ww2.eagle.org/en/Products-and-Services/vendor-certification/brazil-local-content-certification.html",
+    "Brazil Local Content Certification"
+   ],
+   [
+    "https://ww2.eagle.org/en/Products-and-Services/vendor-certification/independent-third-party-certification-services.html",
+    "Independent Third Party Certification and Inspection Services"
+   ],
+   [
+    "https://ww2.eagle.org/en/Products-and-Services/marine/condition-assessment-program-cap.html",
+    "Condition Assessment Program (CAP)"
+   ],
+   [
+    "https://ww2.eagle.org/en/Products-and-Services/offshore-energy/fpso.html",
+    "Floating Production Storage and Offloading (FPSOs)"
+   ],
+   [
+    "https://ww2.eagle.org/en/Products-and-Services/offshore-energy/floating-liquefied-natural-gas.html",
+    "Floating Liquefied Natural Gas (FLNG)"
+   ],
+   [
+    "https://ww2.eagle.org/en/Products-and-Services/offshore-energy/transmission-and-electrification.html",
+    "Transmission and Electrification"
+   ],
+   [
+    "https://ww2.eagle.org/en/Products-and-Services/offshore-energy/ammonia-and-hydrogen-production.html",
+    "Ammonia and Hydrogen Production"
+   ],
+   [
+    "https://ww2.eagle.org/en/Products-and-Services/global-government/rules-and-guides-for-naval-ships.html",
+    "Rules and Guides for Naval Ships"
+   ],
+   [
+    "https://ww2.eagle.org/en/Products-and-Services/sustainability.html",
+    "Sustainability and Decarbonization"
+   ],
+   [
+    "https://ww2.eagle.org/en/Products-and-Services/sustainability/simeee.html",
+    "Simulation-based Energy Efficiency Evaluation Service (SIM EEE)"
+   ],
+   [
+    "https://ww2.eagle.org/en/Products-and-Services/sustainability/carbon-accounting.html",
+    "Greenhouse Gas Inventory and Carbon Accounting"
+   ]
+  ]
+ },
+ "abs-press": {
+  "url": "https://ww2.eagle.org/en/news/press-room.html",
+  "robots_status": 200,
+  "robots_allowed": true,
+  "robots_excerpt": "User-agent: *\r\n\r\nDisallow: /en/thankyou-subchapterm.html\r\nDisallow: /content/eagle/en/thankyou-subchapterm.html\r\nDisallow: /en/news/event-calendar/offshore-europe-2015-thank-you.html\r\nDisallow: /content/eagle/en/news/event-calendar/offshore-europe-2015-thank-you.html\r\nDisallow: /en/related-content.html\r\nDisallow: /content/eagle/en/related-content.html\r\nDisallow: /en/related-content.html?cp=*\r\nDisallow: /content/dam/eagle/Images/news/press-releases/*\r\nDisallow: /en/Products-and-Services/abs-advisory-services/environmental-performance/imo-2020-global-sulphur-cap.html\r\nDisallow: /en/rules-and-resources/flag-port-state-information/port-state-control-checklist.html\r\nDisallow: /content/dam/eagle/regulatory/intrasite/*\r\nDisallow: /content/dam/eagle/Images/news/setting-course--an-abs-podcast/podca",
+  "status": 200,
+  "final": "https://ww2.eagle.org/en/news/press-room.html",
+  "len": 466148,
+  "ctype": "text/html;charset=utf-8",
+  "feeds": [],
+  "links": [
+   [
+    "https://ww2.eagle.org/en/rules-and-resources/rules-and-guides-v2/Notice-of-Rule-Changes-old.html",
+    "Rule Manager: Notice of Rule Changes"
+   ],
+   [
+    "https://ww2.eagle.org/en/rules-and-resources/flag-port-state-information/psc-quarterly-report.html",
+    "Port State Control Reports"
+   ],
+   [
+    "https://ww2.eagle.org/en/rules-and-resources/flag-port-state-information/flag-and-port-state-updates.html",
+    "Flag and Port State Updates"
+   ],
+   [
+    "https://ww2.eagle.org/en/rules-and-resources/engineering-software/marine-engineering-software.html",
+    "Marine Engineering Applications"
+   ],
+   [
+    "https://ww2.eagle.org/en/rules-and-resources/engineering-software/offshore-engineering-software.html",
+    "Offshore Engineering Applications"
+   ],
+   [
+    "https://ww2.eagle.org/en/rules-and-resources/databases/material-manufacturers.html",
+    "Material Manufacturers Database"
+   ],
+   [
+    "https://ww2.eagle.org/en/rules-and-resources/databases/service-suppliers.html",
+    "Service Suppliers Database"
+   ],
+   [
+    "https://ww2.eagle.org/en/rules-and-resources/forms/pda-requests.html",
+    "Type Approval - PDA Requests"
+   ],
+   [
+    "https://ww2.eagle.org/en/rules-and-resources/forms/change-of-customer-information-form.html",
+    "Change of Customer Information Form"
+   ],
+   [
+    "https://ww2.eagle.org/en/rules-and-resources/forms/abs-myfreedom-client-portal-registration.html",
+    "ABS MyFreedom Client Portal Registration"
+   ],
+   [
+    "https://ww2.eagle.org/en/rules-and-resources/regulatory-updates/global-trade-compliance-and-sanctions.html",
+    "Global Trade Compliance and Sanctions"
+   ],
+   [
+    "https://ww2.eagle.org/en/rules-and-resources/regulatory-updates/Safety-in-Minutes-Lessons.html",
+    "Safety in Minutes Video Series"
+   ],
+   [
+    "https://ww2.eagle.org/en/rules-and-resources/regulatory-updates/safe-carriage-of-industrial-personnel.html",
+    "Safe Carriage of Industrial Personnel"
+   ],
+   [
+    "https://ww2.eagle.org/en/rules-and-resources/regulatory-updates/electronic-record-books-under-marpol-and-bwm-conventions.html",
+    "Electronic Record Books Under MARPOL and BWM Conventions"
+   ],
+   [
+    "https://ww2.eagle.org/en/rules-and-resources/regulatory-updates/SOLAS-requirements-on-board-ships.html",
+    "SOLAS Requirements for Lifting Appliances and Anchor Handling Winches"
+   ],
+   [
+    "https://ww2.eagle.org/en/rules-and-resources/regulatory-updates/Ship-Construction-File-Archive.html",
+    "Ship Construction File Archive"
+   ],
+   [
+    "https://ww2.eagle.org/en/rules-and-resources/regulatory-updates/vida-regulatory-rqmts.html",
+    "Vessel Incidental Discharge Act (VIDA)"
+   ],
+   [
+    "https://ww2.eagle.org/en/rules-and-resources/regulatory-updates/flag-administration-statutory-authority-to-abs.html",
+    "Flag Administrations Delegating Statutory Authority to ABS"
+   ],
+   [
+    "https://ww2.eagle.org/en/rules-and-resources/regulatory-updates/SOLAS-Pilot-Transfer-Arrangements.html",
+    "SOLAS Pilot Transfer Arrangements"
+   ],
+   [
+    "https://ww2.eagle.org/en/rules-and-resources/regulatory-updates/ch4-and-n2o-emissions-measurement-and-reporting.html",
+    "CH4 and N2O Emissions Measurement and Reporting"
+   ],
+   [
+    "https://ww2.eagle.org/en/rules-and-resources/regulatory-updates/ism-mass-code.html",
+    "International Code of Safety for Maritime Autonomous Surface Ships (MASS Code)"
+   ],
+   [
+    "https://ww2.eagle.org/en/rules-and-resources/regulatory-updates/us-reflag-process-guidelines.html",
+    "U.S. Reflag Process Guidelines"
+   ],
+   [
+    "https://ww2.eagle.org/en/Products-and-Services/classification-services/3d-model-for-class-approval.html",
+    "3D Models for Class Approval"
+   ],
+   [
+    "https://ww2.eagle.org/en/Products-and-Services/classification-services/rapid-response.html",
+    "Rapid Response Damage Assessment (RRDA)"
+   ],
+   [
+    "https://ww2.eagle.org/en/Products-and-Services/vendor-certification.html",
+    "Approval and Certification"
+   ],
+   [
+    "https://ww2.eagle.org/en/Products-and-Services/vendor-certification/eu-marine-equipment-directive.html",
+    "EU Marine Equipment Directive"
+   ],
+   [
+    "https://ww2.eagle.org/en/Products-and-Services/vendor-certification/periodic-inspections.html",
+    "Periodic Container Inspection"
+   ],
+   [
+    "https://ww2.eagle.org/en/Products-and-Services/vendor-certification/welding-and-non-destructive-examination-nde.html",
+    "Welding and Non-Destructive Examination (NDE)"
+   ],
+   [
+    "https://ww2.eagle.org/en/Products-and-Services/vendor-certification/abs-cybersafety-for-resilience.html",
+    "ABS Cyber Resilience Program"
+   ],
+   [
+    "https://ww2.eagle.org/en/Products-and-Services/vendor-certification/brazil-local-content-certification.html",
+    "Brazil Local Content Certification"
+   ],
+   [
+    "https://ww2.eagle.org/en/Products-and-Services/vendor-certification/independent-third-party-certification-services.html",
+    "Independent Third Party Certification and Inspection Services"
+   ],
+   [
+    "https://ww2.eagle.org/en/Products-and-Services/marine/condition-assessment-program-cap.html",
+    "Condition Assessment Program (CAP)"
+   ],
+   [
+    "https://ww2.eagle.org/en/Products-and-Services/offshore-energy/fpso.html",
+    "Floating Production Storage and Offloading (FPSOs)"
+   ],
+   [
+    "https://ww2.eagle.org/en/Products-and-Services/offshore-energy/floating-liquefied-natural-gas.html",
+    "Floating Liquefied Natural Gas (FLNG)"
+   ],
+   [
+    "https://ww2.eagle.org/en/Products-and-Services/offshore-energy/transmission-and-electrification.html",
+    "Transmission and Electrification"
+   ],
+   [
+    "https://ww2.eagle.org/en/Products-and-Services/offshore-energy/ammonia-and-hydrogen-production.html",
+    "Ammonia and Hydrogen Production"
+   ],
+   [
+    "https://ww2.eagle.org/en/Products-and-Services/global-government/rules-and-guides-for-naval-ships.html",
+    "Rules and Guides for Naval Ships"
+   ],
+   [
+    "https://ww2.eagle.org/en/Products-and-Services/sustainability.html",
+    "Sustainability and Decarbonization"
+   ],
+   [
+    "https://ww2.eagle.org/en/Products-and-Services/sustainability/simeee.html",
+    "Simulation-based Energy Efficiency Evaluation Service (SIM EEE)"
+   ],
+   [
+    "https://ww2.eagle.org/en/Products-and-Services/sustainability/carbon-accounting.html",
+    "Greenhouse Gas Inventory and Carbon Accounting"
+   ]
+  ]
+ },
+ "bv": {
+  "url": "https://marine-offshore.bureauveritas.com/newsroom",
+  "robots_status": 200,
+  "robots_allowed": true,
+  "robots_excerpt": "#\r\n# robots.txt\r\n#\r\n# This file is to prevent the crawling and indexing of certain parts\r\n# of your site by web crawlers and spiders run by sites like Yahoo!\r\n# and Google. By telling these \"robots\" where not to go on your site,\r\n# you save bandwidth and server resources.\r\n#\r\n# This file will be ignored unless it is at the root of your host:\r\n# Used:    http://example.com/robots.txt\r\n# Ignored: http://example.com/site/robots.txt\r\n#\r\n# For more information about the robots.txt standard, see:\r\n# http://www.robotstxt.org/robotstxt.html\r\n\r\nUser-agent: *\r\n# CSS, JS, Images\r\nAllow: /core/*.css$\r\nAllow: /core/*.css?\r\nAllow: /core/*.js$\r\nAllow: /core/*.js?\r\nAllow: /core/*.gif\r\nAllow: /core/*.jpg\r\nAllow: /core/*.jpeg\r\nAllow: /core/*.png\r\nAllow: /core/*.svg\r\nAllow: /profiles/*.css$\r\nAllow: /profiles",
+  "status": 200,
+  "final": "https://marine-offshore.bureauveritas.com/newsroom",
+  "len": 152755,
+  "ctype": "text/html; charset=UTF-8",
+  "feeds": [],
+  "links": [
+   [
+    "https://marine-offshore.bureauveritas.com/electrification-onshore-power",
+    "Electrification and onshore power supply"
+   ],
+   [
+    "https://marine-offshore.bureauveritas.com/shipping_decarbonization_regulations",
+    "Shipping Decarbonization Regulations"
+   ],
+   [
+    "https://marine-offshore.bureauveritas.com/shipping-decarbonization/carbon-index",
+    "IMO Carbon Footprint Indexes"
+   ],
+   [
+    "https://marine-offshore.bureauveritas.com/marine",
+    "Explore our marine services"
+   ],
+   [
+    "https://marine-offshore.bureauveritas.com/marine-classification/our-services-ship-type",
+    "Our Services per Ship type"
+   ],
+   [
+    "https://marine-offshore.bureauveritas.com/marine-classification/regulatory-updates",
+    "IMO Regulatory News & Trends"
+   ],
+   [
+    "https://marine-offshore.bureauveritas.com/marine/materials-equipment-certification",
+    "Materials & equipment certification"
+   ],
+   [
+    "https://marine-offshore.bureauveritas.com/maritime-machine-learning-systems",
+    "Maritime Machine Learning System"
+   ],
+   [
+    "https://marine-offshore.bureauveritas.com/offshore/offshore-validation-verification",
+    "Validation & verification"
+   ],
+   [
+    "https://marine-offshore.bureauveritas.com/offshore/offshore-certification",
+    "Certification & Accreditation"
+   ],
+   [
+    "https://marine-offshore.bureauveritas.com/offshore-center-excellence",
+    "Offshore Center of Excellence"
+   ],
+   [
+    "https://marine-offshore.bureauveritas.com/offering-technical-advisory-services-assist-our-clients-decision-making-enhancing-safety-efficiency",
+    "Explore Advisory Solution"
+   ],
+   [
+    "https://marine-offshore.bureauveritas.com/qualitative-quantitative-analysis",
+    "Quantitative & Qualitative Analysis"
+   ],
+   [
+    "https://marine-offshore.bureauveritas.com/needs/reliability-maintenance",
+    "Reliability & Maintenance"
+   ],
+   [
+    "https://marine-offshore.bureauveritas.com/advisory-solutions/assurance-solutions/compliance-surveys-audits",
+    "Compliance Surveys & Audits"
+   ],
+   [
+    "https://marine-offshore.bureauveritas.com/dp-assurance-consultancy",
+    "DP Assurance & Consultancy"
+   ],
+   [
+    "https://marine-offshore.bureauveritas.com/asset-integrity-managementoptimizing-asset-efficiency-safety-and-environment",
+    "Asset Integrity Management"
+   ],
+   [
+    "https://marine-offshore.bureauveritas.com/condition-based-maintenanceleveraging-data-produce-customized-solutions",
+    "Condition-based Maintenance"
+   ],
+   [
+    "https://marine-offshore.bureauveritas.com/marine-managementsystems",
+    "Marine Management Systems"
+   ],
+   [
+    "https://marine-offshore.bureauveritas.com/ballast-water-management-bwmassisting-shipowners-seamlessly-implement-bwm-convention",
+    "Ballast Water Management (BWM)"
+   ],
+   [
+    "https://marine-offshore.bureauveritas.com/underwater-radiated-noise",
+    "Underwater Radiated Noise"
+   ],
+   [
+    "https://marine-offshore.bureauveritas.com/digital/digital-applications/move-fleet-service-application",
+    "MOVE - Fleet in service application"
+   ],
+   [
+    "https://marine-offshore.bureauveritas.com/digital/digital-applications/veristar-dangerous-goods-bulk",
+    "Veristar Dangerous Goods & Bulk"
+   ],
+   [
+    "https://marine-offshore.bureauveritas.com/digital/digital-applications/veristar-project-management",
+    "Veristar Project Management"
+   ],
+   [
+    "https://marine-offshore.bureauveritas.com/digital/digital-classification-0",
+    "Augmented Surveyor 3D (AGS 3D)"
+   ],
+   [
+    "https://marine-offshore.bureauveritas.com/Rules_Explorer_amplified_with_an_AI_assistant",
+    "Rules Explorer amplified with an AI assistant"
+   ],
+   [
+    "https://marine-offshore.bureauveritas.com/newsroom/bureau-veritas-launches-cruise-center-excellence-miami",
+    "Image Oct. 30 2026 Bureau Veritas Launches Cruise Center of Excellence in Miami Read More"
+   ],
+   [
+    "https://marine-offshore.bureauveritas.com/newsroom/bureau-veritas-grants-type-approval-wingds-groundbreaking-variable-compression-ratio",
+    "Image Oct. 21 2026 Bureau Veritas Grants Type Approval to WinGD’s Groundbreaking Variable Compression Ratio Technology R"
+   ],
+   [
+    "https://marine-offshore.bureauveritas.com/newsroom/bureau-veritas-celebrates-naming-union-maritimes-wind-assisted-aframax-product-tanker",
+    "Image Oct. 19 2026 Bureau Veritas Celebrates the Naming of Union Maritime's Wind-Assisted Aframax Product Tanker ALBERT "
+   ],
+   [
+    "https://marine-offshore.bureauveritas.com/newsroom/bv-classed-114000-dwt-lr2-tanker-aegean-shipping-delivered",
+    "Image Oct. 14 2026 BV-Classed 114,000 DWT LR2 Tanker for Aegean Shipping Delivered Read More"
+   ],
+   [
+    "https://marine-offshore.bureauveritas.com/newsroom/bureau-veritas-supports-landmark-deep-water-floating-wind-project-through-marine-warranty",
+    "Image Oct. 9 2026 Bureau Veritas Supports Landmark Deep-Water Floating Wind Project Through Marine Warranty Survey Servi"
+   ],
+   [
+    "https://marine-offshore.bureauveritas.com/newsroom/bv-supports-successful-delivery-175000-cbm-lng-carrier-yangzijiang-xinfu",
+    "Image Oct. 8 2026 BV Supports Successful Delivery of 175,000 cbm LNG Carrier at Yangzijiang Xinfu Read More"
+   ],
+   [
+    "https://marine-offshore.bureauveritas.com/newsroom/european-affairs-report-september-2026-edition",
+    "Image Oct. 1 2026 European Affairs Report September 2026 Edition Read More"
+   ],
+   [
+    "https://marine-offshore.bureauveritas.com/newsroom/dimension-consultants-and-bureau-veritas-sign-mou-cable-lay-vessel-design-and-mission",
+    "Image Sep. 30 2026 Dimension Consultants and Bureau Veritas Sign MOU on Cable Lay Vessel Design and Mission Equipment Re"
+   ],
+   [
+    "https://marine-offshore.bureauveritas.com/newsroom/brittany-ferries-adrena-and-bureau-veritas-achieve-6-energy-savings-through-digital-twin",
+    "Image Sep. 24 2026 Brittany Ferries, Adrena and Bureau Veritas achieve up to 6% energy savings through digital twin-opti"
+   ],
+   [
+    "https://marine-offshore.bureauveritas.com/newsroom/12th-session-carriage-cargoes-and-containers-sub-committee-ccc-12",
+    "Image Sep. 18 2026 THE 12th SESSION OF THE CARRIAGE OF CARGOES AND CONTAINERS SUB-COMMITTEE (CCC 12) Read More"
+   ],
+   [
+    "https://marine-offshore.bureauveritas.com/classification-rules-rule-notes-guidance-notes",
+    "Image Rules & Guidelines Bureau Veritas develops rules and guidance notes."
+   ],
+   [
+    "https://marine-offshore.bureauveritas.com/software",
+    "Image Software Comply with regulatory requirements and optimize your unit’s design with our software programs."
+   ],
+   [
+    "https://marine-offshore.bureauveritas.com/training-solutionsshowing-expert-knowledge",
+    "Image Training solutions Discover our training offer for all businesses."
+   ],
+   [
+    "https://marine-offshore.bureauveritas.com/newsroom?type=class_statutory_news",
+    "Image Class & Statutory News Get the most recent Class & Statutory information."
+   ]
+  ]
+ },
+ "kr": {
+  "url": "https://www.krs.co.kr/eng/main/main.aspx",
+  "robots_status": 200,
+  "robots_allowed": true,
+  "robots_excerpt": "\r\n\r\n\r\n\r\n   <style>\r\n    /* Main --------------------------------------------------------- */\r\n\t    .main_wrap {position:relative; width:100%; min-height:100%; background-image:url(\"/images/common/infra_bg.jpg\"); background-size:cover;}\r\n\t    .login {width:500px;  position:absolute; left:50%; top:20%; margin-left:-220px;}\r\n\t    .login h1 {width:100%; margin: 0; padding:15px 0; text-align:center; font-weight:normal; color:#fff; font-size:18px; background:#056272; background-repeat:no-repeat; background-position:0 0;}\r\n\t    h2.logo {margin: 0 ; text-align:left; padding:20px 0 10px 30px;}\r\n\t    .title-wrap {width:100%; margin: 0; padding:10px 0; text-align:center; font-weight:normal; color:#fff; font-size:18px; background:#0c899f; background-repeat:no-repeat; background-position:0 0;}\r\n       ",
+  "status": 200,
+  "final": "https://www.krs.co.kr/eng/main/main.aspx",
+  "len": 3450,
+  "ctype": "text/html; charset=utf-8",
+  "feeds": [],
+  "links": []
+ },
+ "rina": {
+  "url": "https://www.rina.org/en/media/press",
+  "robots_status": 404,
+  "status": 200,
+  "final": "https://www.rina.org/en/media/press",
+  "len": 135008,
+  "ctype": "text/html; charset=utf-8",
+  "feeds": [],
+  "links": [
+   [
+    "https://www.rina.org/en/sectors/construction-development",
+    "Construction and development"
+   ],
+   [
+    "https://www.rina.org/en/sectors/infrastructure-mobility",
+    "Infrastructure and mobility"
+   ],
+   [
+    "https://www.rina.org/en/business/marine",
+    "Classification and statutory certification"
+   ],
+   [
+    "https://www.rina.org/en/decarbonisation",
+    "Decarbonisation and energy transition"
+   ],
+   [
+    "https://www.rina.org/en/rdi",
+    "Research, Development and Innovation"
+   ],
+   [
+    "https://www.rina.org/en/company/diversity-inclusion",
+    "Diversity, Equity & Inclusion"
+   ],
+   [
+    "https://www.rina.org/en/company/purpose-vision-mission",
+    "Purpose, vision and mission"
+   ],
+   [
+    "https://www.rina.org/en/company/diversity-inclusion",
+    "Diversity, Equity & Inclusion"
+   ],
+   [
+    "https://www.rina.org/en/company/purpose-vision-mission",
+    "Purpose, vision and mission"
+   ],
+   [
+    "https://www.rina.org/en/sectors/construction-development",
+    "Construction and development"
+   ],
+   [
+    "https://www.rina.org/en/sectors/infrastructure-mobility",
+    "Infrastructure and mobility"
+   ],
+   [
+    "https://www.rina.org/en/business/marine",
+    "Classification and statutory certification"
+   ],
+   [
+    "https://www.rina.org/en/decarbonisation",
+    "Decarbonisation and energy transition"
+   ],
+   [
+    "https://www.rina.org/en/rdi",
+    "Research, Development and Innovation"
+   ],
+   [
+    "https://www.rina.org/en/company/diversity-inclusion",
+    "Diversity, Equity & Inclusion"
+   ],
+   [
+    "https://www.rina.org/en/company/purpose-vision-mission",
+    "Purpose, vision and mission"
+   ],
+   [
+    "https://www.rina.org/en/media/press/2026/10/23/paolo-moretti-group-chief-executive-officer",
+    "Company RINA: Paolo Moretti appointed Group Chief Executive Officer 23 Oct 2026"
+   ],
+   [
+    "https://www.rina.org/en/media/press/2026/10/12/ai-driven-ship-operations",
+    "Marine China Merchants Energy Shipping and RINA Partner to Explore AI-Driven Ship Operations and Next-Generation Maritim"
+   ],
+   [
+    "https://www.rina.org/en/media/press/2026/10/06/rina-ptt-mou",
+    "Energy RINA and PTT sign strategic agreements to advance innovation and decarbonization across the energy and maritime s"
+   ],
+   [
+    "https://www.rina.org/en/media/press/2026/09/10/pt-lrt-jakarta-mou",
+    "Transport & Infrastructure RINA and PT LRT Jakarta sign MoU to explore cooperation 10 Sep 2026"
+   ],
+   [
+    "https://www.rina.org/en/media/press/2026/08/27/mermaid",
+    "Marine RINA unveils Mermaid, a future-ready ship design for an uncertain decarbonisation future 27 Aug 2026"
+   ],
+   [
+    "https://www.rina.org/en/media/press/2026/07/27/ansaldo-energia-rina-nuclear",
+    "Energy Nuclear: Ansaldo Energia and RINA Sign Agreement to Develop the Italian Supply Chain 27 Jul 2026"
+   ],
+   [
+    "https://www.rina.org/en/media/press/2026/07/07/foreship-design-greek-domestic-market",
+    "Marine consulting services Foreship develops energy-efficient ferry design for the Greek domestic market 07 Jul 2026"
+   ],
+   [
+    "https://www.rina.org/en/media/press/2026/06/17/hellenic-advisory-committee-2026",
+    "Marine RINA's Hellenic Advisory Committee 2026 brings together industry leaders to explore shipping's evolving challenge"
+   ],
+   [
+    "https://www.rina.org/en/media/press/2026/06/16/indonesia-h2watt-hydrogen-hub",
+    "Energy RINA Secures Safety Assessment Contract for Indonesia’s H2WATT Hydrogen Hub 16 Jun 2026"
+   ],
+   [
+    "https://www.rina.org/en/media/press/2026/06/04/baker-hughes",
+    "Marine Baker Hughes’ fuel flexible NovaLT™ 16 Gas Turbine Certified by RINA for Marine Propulsion 04 Jun 2026"
+   ],
+   [
+    "https://www.rina.org/en/media/press/2026/05/28/gt-wings",
+    "Marine GT Wings introduces performance assessment tool for Jet Sail wind propulsion approved by RINA 28 May 2026"
+   ],
+   [
+    "https://www.rina.org/en/media/press/2026/05/20/drift-energy-approval-in-principle",
+    "Marine RINA awards first AiP for energy-harvesting ship 20 May 2026"
+   ],
+   [
+    "https://www.rina.org/en/company/diversity-inclusion",
+    "Diversity, Equity & Inclusion"
+   ],
+   [
+    "https://www.rina.org/en/business/marine/marine-digital-applications",
+    "Marine digital applications"
+   ]
+  ]
+ },
+ "ccs": {
+  "url": "https://www.ccs.org.cn/ccswzen/",
+  "robots_status": 200,
+  "robots_allowed": true,
+  "robots_excerpt": "ï»¿<!DOCTYPE html>\r\n<html>\r\n  <head>\r\n    <title>ä¸­å½è¹çº§ç¤¾</title>\r\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\"/>\r\n    <meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\"/>\r\n\t<link rel=\"stylesheet\" href=\"css/common.css\">\r\n\t<link rel=\"stylesheet\" href=\"css/style.css\">\r\n   \r\n  </head>\r\n  \r\n    <style>\r\n    .body-div {\r\n\t\theight: 95vh;\r\n\t\tbackground-image: url(images/bg.png);\r\n\t\tbackground-size: cover;\r\n    }\r\n\t\r\n\t.div-ccs {\r\n\t\twidth: 150px;\r\n\t\theight: 53px;\r\n\t\tbackground-image: url(images/ccs.png);\r\n\t\tbackground-size: 100% 100%;\r\n\t\tbackground-repeat: no-repeat;\r\n\t\tmargin-left: calc(30% - 50px);;\r\n    }\r\n\t\r\n\t.div-center {\r\n      display: flex;\r\n      justify-content: center;\r\n      align-items: center;\r\n      height: 70%;\r\n      margin-top: 30px;\r\n    }\r\n\t\r\n\t",
+  "status": 200,
+  "final": "https://www.ccs.org.cn/ccswzen/",
+  "len": 85706,
+  "ctype": "text/html;charset=UTF-8",
+  "feeds": [],
+  "links": [
+   [
+    "https://www.ccs.org.cn/electrocert/veryfication!index.do?lan=en",
+    "E-Certificate & E-Document Verification"
+   ],
+   [
+    "https://www.ccs.org.cn/electrocert/veryfication!index.do?lan=en",
+    "E-Certificate & E-Document Verification"
+   ],
+   [
+    "https://www.ccs.org.cn/electrocert/veryfication!index.do?lan=en",
+    "E-Certificate & E-Document Verification"
+   ],
+   [
+    "https://www.ccs.org.cn/electrocert/veryfication!index.do?lan=en",
+    "E-Certificate & E-Document Verification"
+   ],
+   [
+    "https://www.ccs.org.cn/ccswzen/articleDetail?id=202206090444109127&columnId=202206090211003288",
+    "Contact List of Management of Supplier Approval of CCS"
+   ],
+   [
+    "https://www.ccs.org.cn/ccswzen/applicationAgreement?columnid=202206090462995926",
+    "Service Report of Supplier"
+   ],
+   [
+    "https://www.ccs.org.cn/ccswzen/maritimeLabourList?columnid=201900002000000450",
+    "MLC Certification Information"
+   ],
+   [
+    "https://www.ccs.org.cn/ccswzen/applicationAgreement?columnid=201900002000000253",
+    "Application Forms Download"
+   ],
+   [
+    "https://www.ccs.org.cn/ccswzen/applicationAgreement?columnid=201920000000000065",
+    "Approval/Inspection of Marine Product"
+   ],
+   [
+    "https://www.ccs.org.cn/ccswzen/applicationAgreement?columnid=201920000000000263",
+    "Application For Offshore Installations"
+   ],
+   [
+    "https://www.ccs.org.cn/ccswzen/applicationAgreement?columnid=201920000000000179",
+    "Approval Application by Service Supplier"
+   ],
+   [
+    "https://www.ccs.org.cn/ccswzen/applicationAgreement?columnid=201920000000000068",
+    "Application for company or ship audit"
+   ],
+   [
+    "https://www.ccs.org.cn/ccswzen/applicationAgreement?columnid=201920000000000026",
+    "Application For Classification"
+   ],
+   [
+    "https://www.ccs.org.cn/ccswzen/applicationAgreement?columnid=201920000000000066",
+    "Application For Surveys And Issue Of Certificates Of Ship In Service"
+   ],
+   [
+    "https://www.ccs.org.cn/ccswzen/columnList?columnid=202006161157478270",
+    "Intelligent & Digital Technology"
+   ],
+   [
+    "https://www.ccs.org.cn/ccswzen/special?columnid=202206080248772574&id=0",
+    "IMO Resolution & Circular"
+   ],
+   [
+    "https://www.ccs.org.cn/ccswzen/columnDetail?columnid=201900002000000296",
+    "Technical Service Product"
+   ],
+   [
+    "https://www.ccs.org.cn/ccswzen/columnList?columnid=202012070464246896",
+    "Comprehensive Laboratory for Green Ecological Shipping"
+   ],
+   [
+    "https://www.ccs.org.cn/ccswzen/columnList?columnid=202012070435660437",
+    "Ship Cyber Security Laboratory"
+   ],
+   [
+    "https://www.ccs.org.cn/ccswzen/columnDetail?columnid=202011250455744744",
+    "Ship Intelligent Technology and Safety Laboratory"
+   ],
+   [
+    "https://www.ccs.org.cn/ccswzen/columnDetail?columnid=202011250418694544",
+    "New Survey Technology and Equipment Laboratory"
+   ],
+   [
+    "https://www.ccs.org.cn/ccswzen/columnList?columnid=202007171176731956",
+    "Rules & Guidelines Information"
+   ],
+   [
+    "https://www.ccs.org.cn/ccswzen/articleDetail?id=202511050494806280&columnId=202101040581503047",
+    "Two 174000m3 LNG carriers for Qatar Energy were named and delivered on the same day."
+   ],
+   [
+    "https://www.ccs.org.cn/ccswzen/columnDetail?columnid=202011130176071039",
+    "Green and Environmental Protection"
+   ],
+   [
+    "https://www.ccs.org.cn/ccswzen/columnDetail?columnid=202011260424450606",
+    "Occupational health, safety and environment policy of China Classification Society"
+   ],
+   [
+    "https://www.ccs.org.cn/ccswzen/contact?columnid=202006031013151326",
+    "CCS Vision To build a unique, first-rate international classification society upon technology and credibility."
+   ],
+   [
+    "https://www.ccs.org.cn/ccswzen/about?columnid=201912240228526379",
+    "CCS Mission Safety, Environmental protection and Creating value for clients and society."
+   ],
+   [
+    "https://www.ccs.org.cn/ccswzen/about?columnid=201912240228526379",
+    "CCS Spirit Unity, Devotion,Impartiality and Efficiency."
+   ],
+   [
+    "https://www.ccs.org.cn/ccswzen/articleDetail?id=202610280253009147",
+    "CCS Attends ShipTek International Maritime Conference in Dubai"
+   ],
+   [
+    "https://www.ccs.org.cn/ccswzen/articleDetail?id=202610211046572812",
+    "Preview: CCS-Hosted Digitalization and Intelligentization Forum to Debut at 2026 North Bund Forum"
+   ],
+   [
+    "https://www.ccs.org.cn/ccswzen/articleDetail?id=202610200291808200",
+    "“GUO QIANG HAI”, China’s First Vessel Awarded CCS GSC1 Class Notation for Newbuilding Carbon Footprint, Named and Delive"
+   ],
+   [
+    "https://www.ccs.org.cn/ccswzen/articleDetail?id=202610200247766409",
+    "China Classification Society-Surveyed 50,000 DWT MR Product Tanker “ZHI NENG YUN FAN” Named and Delivered"
+   ],
+   [
+    "https://www.ccs.org.cn/ccswzen/special?columnid=201900002000000011&id=0",
+    "Click here to view, retrieve, and download more CCS rules & guidelines"
+   ],
+   [
+    "https://www.ccs.org.cn/ccswzen/articleDetail?id=202608201017309164&columnId=202007171176731956",
+    "Guidelines for Verification of Digital systems of Ships and Offshore Installations 2026"
+   ],
+   [
+    "https://www.ccs.org.cn/ccswzen/articleDetail?id=202608210315997804&columnId=202007171176731956",
+    "Guidelines on Calculation and Verification of the Energy Efficiency Design Index (EEDI) of International Sea-going Ships"
+   ],
+   [
+    "https://www.ccs.org.cn/ccswzen/articleDetail?id=202606290162313776&columnId=202007171176731956",
+    "Rules for Materials and Welding 2026"
+   ],
+   [
+    "https://www.ccs.org.cn/ccswzen/articleDetail?id=202606290115400168&columnId=202007171176731956",
+    "Rules for Construction of Sea-going Ships Engaged on Domestic Voyages 2026"
+   ],
+   [
+    "https://www.ccs.org.cn/ccswzen/articleDetail?id=202606150427191840&columnId=202007171176731956",
+    "Rules for Classification of Sea-Going Steel Ships 2026 Amendment"
+   ],
+   [
+    "https://www.ccs.org.cn/ccswzen/articleDetail?id=202607020379262044&columnId=202007171176731956",
+    "Guidelines for Survey of Intelligent Cargo Management of Chemical Tankers 2026"
+   ],
+   [
+    "https://www.ccs.org.cn/ccswzen/circularNotice?columnid=201900002000000071",
+    "Inquire about the circular notification technology you are interested in"
+   ]
+  ]
+ },
+ "irs": {
+  "url": "https://www.irclass.org/media-and-publications/news/",
+  "robots_status": 200,
+  "robots_allowed": true,
+  "robots_excerpt": "# robots.txt for Umbraco\r\nUser-agent: *\r\nDisallow: /aspnet_client/\r\nDisallow: /bin/\r\nDisallow: /config/\r\nDisallow: /css/\r\nDisallow: /data/\r\nDisallow: /install/\r\nDisallow: /masterpages/\r\nDisallow: /python/\r\nDisallow: /scripts/\r\nDisallow: /umbraco/\r\nDisallow: /umbraco_client/\r\nDisallow: /usercontrols/\r\nDisallow: /xslt/\r\nSitemap: http://irsdev.adolpha.com/xmlsitemap",
+  "status": 200,
+  "final": "https://www.irclass.org/media-and-publications/news/",
+  "len": 98026,
+  "ctype": "text/html; charset=utf-8",
+  "feeds": [],
+  "links": [
+   [
+    "https://www.irclass.org/marine/approval-and-certification-services/",
+    "Approval and Certification Services"
+   ],
+   [
+    "https://www.irclass.org/offshore/offshore/",
+    "Offshore Classification & Certification"
+   ],
+   [
+    "https://www.irclass.org/marine-technical-services/",
+    "Marine Technical Services"
+   ],
+   [
+    "https://www.irclass.org/marine-technical-services/condition-assessment-programme-cap-for-oil-tankers-gas-carriers/",
+    "Condition Assessment Programme"
+   ],
+   [
+    "https://www.irclass.org/marine-technical-services/load-and-draft-measurement-system-certification-1/",
+    "Load and Draft Measurement System Certification"
+   ],
+   [
+    "https://www.irclass.org/academy/segment/ship-design-and-ship-building/",
+    "Ship Design and Ship Building"
+   ],
+   [
+    "https://www.irclass.org/academy/segment/maritime-management-system/",
+    "Maritime Management System"
+   ],
+   [
+    "https://www.irclass.org/research-and-development/rules-classification-notes-and-guidelines/",
+    "Rules, Classification Notes and Guidelines"
+   ],
+   [
+    "https://www.irclass.org/media-and-publications/news/'+url+'",
+    "' + title+ ' ' +newLogoPath+'"
+   ],
+   [
+    "https://www.irclass.org/media-and-publications/news/'+innerurl[j]+'",
+    "' + innertitle[j] +' ' +LogoPath+ '"
+   ],
+   [
+    "https://www.irclass.org/media-and-publications/news/' + innerurl[j] + '",
+    "' + innercaptionName[j] + '"
+   ],
+   [
+    "https://www.irclass.org/",
+    ".cls-1, .cls-4 { fill: #00789a; } .cls-1 { /*stroke: transparent;*/ stroke-miterlimit: 2.61; stroke-width: 0.52px; } .cl"
+   ]
+  ]
+ },
+ "parismou": {
+  "url": "https://parismou.org/news",
+  "robots_status": 200,
+  "robots_allowed": true,
+  "robots_excerpt": "User-agent: *\nDisallow: /wp-admin/\nAllow: /wp-admin/admin-ajax.php\n\nSitemap: https://parismou.org/wp-sitemap.xml\n",
+  "status": 200,
+  "final": "https://parismou.org/posts/news/",
+  "len": 61841,
+  "ctype": "text/html; charset=UTF-8",
+  "feeds": [
+   "<link rel=\"alternate\" type=\"application/rss+xml\" title=\"Paris MoU &raquo; News Category Feed\" href=\"https://parismou.org/posts/news/feed/\" />"
+  ],
+  "links": [
+   [
+    "https://parismou.org/inspections/",
+    "Port State Control Inspections"
+   ],
+   [
+    "https://parismou.org/cic-results/",
+    "Inspection Campaigns Results"
+   ],
+   [
+    "https://parismou.org/inspections/",
+    "Port State Control Inspections"
+   ],
+   [
+    "https://parismou.org/cic-results/",
+    "Inspection Campaigns Results"
+   ]
+  ]
+ },
+ "tokyomou": {
+  "url": "https://www.tokyo-mou.org/",
+  "robots_status": 200,
+  "robots_allowed": true,
+  "robots_excerpt": "User-agent: *\nDisallow: /wp/wp-admin/\nAllow: /wp/wp-admin/admin-ajax.php\n\n# START YOAST BLOCK\n# ---------------------------\nUser-agent: *\nDisallow: /?s=\nDisallow: /page/*/?s=\nDisallow: /search/\nDisallow: /wp-json/\nDisallow: /?rest_route=\n\nUser-agent: AdsBot\nDisallow: /\n\nSitemap: https://www.tokyo-mou.org/sitemap_index.xml\n# ---------------------------\n# END YOAST BLOCK",
+  "status": 200,
+  "final": "https://www.tokyo-mou.org/",
+  "len": 201215,
+  "ctype": "text/html; charset=UTF-8",
+  "feeds": [],
+  "links": [
+   [
+    "https://www.tokyo-mou.org/about/memorandum/",
+    "Memorandum of Understanding"
+   ],
+   [
+    "https://www.tokyo-mou.org/about/members/",
+    "Member Authorities and observers"
+   ],
+   [
+    "https://www.tokyo-mou.org/about/committee/",
+    "Port State Control Committee"
+   ],
+   [
+    "https://www.tokyo-mou.org/inspections-detentions/detention-procedures/",
+    "Detention Appeals & Reviews"
+   ],
+   [
+    "https://www.tokyo-mou.org/inspections-detentions/background-table-for-ro-relation/",
+    "Background Table for RO Relation"
+   ],
+   [
+    "https://www.tokyo-mou.org/inspections-detentions/ro-responsibility/",
+    "Criteria for RO Responsibility"
+   ],
+   [
+    "https://www.tokyo-mou.org/about/memorandum/",
+    "Memorandum of Understanding"
+   ],
+   [
+    "https://www.tokyo-mou.org/about/members/",
+    "Member Authorities and observers"
+   ],
+   [
+    "https://www.tokyo-mou.org/about/committee/",
+    "Port State Control Committee"
+   ],
+   [
+    "https://www.tokyo-mou.org/inspections-detentions/detention-procedures/",
+    "Detention Appeals & Reviews"
+   ],
+   [
+    "https://www.tokyo-mou.org/inspections-detentions/background-table-for-ro-relation/",
+    "Background Table for RO Relation"
+   ],
+   [
+    "https://www.tokyo-mou.org/inspections-detentions/ro-responsibility/",
+    "Criteria for RO Responsibility"
+   ],
+   [
+    "https://www.tokyo-mou.org/about/memorandum/",
+    "Memorandum of Understanding"
+   ],
+   [
+    "https://www.tokyo-mou.org/about/members/",
+    "Member Authorities and observers"
+   ],
+   [
+    "https://www.tokyo-mou.org/about/committee/",
+    "Port State Control Committee"
+   ],
+   [
+    "https://www.tokyo-mou.org/inspections-detentions/detention-procedures/",
+    "Detention Appeals & Reviews"
+   ],
+   [
+    "https://www.tokyo-mou.org/inspections-detentions/background-table-for-ro-relation/",
+    "Background Table for RO Relation"
+   ],
+   [
+    "https://www.tokyo-mou.org/inspections-detentions/ro-responsibility/",
+    "Criteria for RO Responsibility"
+   ],
+   [
+    "https://www.tokyo-mou.org/about/memorandum/",
+    "Memorandum of Understanding"
+   ],
+   [
+    "https://www.tokyo-mou.org/about/members/",
+    "Member Authorities and observers"
+   ],
+   [
+    "https://www.tokyo-mou.org/about/committee/",
+    "Port State Control Committee"
+   ],
+   [
+    "https://www.tokyo-mou.org/inspections-detentions/detention-procedures/",
+    "Detention Appeals & Reviews"
+   ],
+   [
+    "https://www.tokyo-mou.org/inspections-detentions/background-table-for-ro-relation/",
+    "Background Table for RO Relation"
+   ],
+   [
+    "https://www.tokyo-mou.org/inspections-detentions/ro-responsibility/",
+    "Criteria for RO Responsibility"
+   ],
+   [
+    "https://www.tokyo-mou.org/about/",
+    "Learn more about Tokyo MOU"
+   ],
+   [
+    "https://www.tokyo-mou.org/safety-bulletin/2026/10/23/safety-bulletin-05-26-improper-extensions-of-statutory-certification/",
+    "Safety Bulletin 05/26 – Improper extensions of Statutory Certification"
+   ],
+   [
+    "https://www.tokyo-mou.org/press-releases/2026/10/09/tokyo-mous-changing-of-the-method-of-calculation-of-the-performance-on-flag-and-ro/",
+    "Tokyo MOU’s Changing of the Method of Calculation of the Performance on Flag and RO"
+   ],
+   [
+    "https://www.tokyo-mou.org/press-releases/2026/09/18/tokyo-mou-port-state-control-committee-37th-meeting-in-singapore/",
+    "Tokyo MOU Port State Control Committee 37th Meeting in Singapore"
+   ],
+   [
+    "https://www.tokyo-mou.org/press-releases/2026/08/03/joint-press-release-on-the-concentrated-inspection-campaign-on-cargo-securing/",
+    "Joint Press Release on the Concentrated Inspection Campaign on Cargo Securing"
+   ],
+   [
+    "https://www.tokyo-mou.org/wp/wp-content/uploads/INFORMATION-ON-FEES-AND-CHARGES-BY-AUTHORITIES-FOR-FOLLOW-UP-PSC-INSPECTION2026.10.pdf",
+    "Information for PSC Inspection Fees & Charges of Member Authorities"
+   ],
+   [
+    "https://www.tokyo-mou.org/wp/wp-content/uploads/Focal-point-of-Authorities-for-reporting-PSC-corruption-2026.10.pdf",
+    "Focal point of Authorities for reporting PSC corruption"
+   ],
+   [
+    "https://www.tokyo-mou.org/about/memorandum/",
+    "Memorandum of Understanding"
+   ],
+   [
+    "https://www.tokyo-mou.org/about/members/",
+    "Member Authorities and observers"
+   ],
+   [
+    "https://www.tokyo-mou.org/about/committee/",
+    "Port State Control Committee"
+   ],
+   [
+    "https://www.tokyo-mou.org/inspections-detentions/detention-procedures/",
+    "Detention Appeals & Reviews"
+   ],
+   [
+    "https://www.tokyo-mou.org/inspections-detentions/ro-responsibility/",
+    "Criteria for RO Responsibility"
+   ]
+  ]
+ },
+ "ics": {
+  "url": "https://www.ics-shipping.org/news/",
+  "robots_status": 200,
+  "robots_allowed": true,
+  "robots_excerpt": "User-agent: *\r\nAllow: /\r\n\r\nUser-agent: Amazonbot\r\nDisallow: /\r\n\r\nUser-agent: Applebot-Extended\r\nDisallow: /\r\n\r\nUser-agent: Bytespider\r\nDisallow: /\r\n\r\nUser-agent: CCBot\r\nAllow: /\r\n\r\nUser-agent: ClaudeBot\r\nAllow: /\r\n\r\nUser-agent: Google-Extended\r\nAllow: /\r\n\r\nUser-agent: GPTBot\r\nAllow: /\r\n\r\nUser-agent: meta-externalagent\r\nDisallow: /\r\n\r\nDisallow: /cdn-cgi/\r\n\r\nSitemap: https://www.ics-shipping.org/publications/sitemap.xml\r\nSitemap: https://www.ics-shipping.org/academy/sitemap.xml\r\nSitemap: https://www.ics-shipping.org/maritimehub/sitemap.xml\r\n",
+  "status": 200,
+  "final": "https://www.ics-shipping.org/news-and-press/",
+  "len": 155823,
+  "ctype": "text/html; charset=UTF-8",
+  "feeds": [],
+  "links": [
+   [
+    "https://www.ics-shipping.org/news-and-press/press/",
+    "Press releases and statements"
+   ],
+   [
+    "https://www.ics-shipping.org/news-and-press/ics-leadership-insights/",
+    "ICS Leadership Insights monthly publication"
+   ],
+   [
+    "https://www.ics-shipping.org/press-release/vehicle-carrier-safety-forum-publishes-new-fire-drill-guidelines-for-vehicle-carrying-vessels/",
+    "Press Release Vehicle Carrier Safety Forum publishes new Fire Drill Guidelines for Vehicle Carrying Vessels 27 October 2"
+   ],
+   [
+    "https://www.ics-shipping.org/press-release/hong-kong-global-maritime-trade-summit-to-return-for-third-edition/",
+    "Press Release Hong Kong Global Maritime Trade Summit to return for third edition 13 October 2026"
+   ],
+   [
+    "https://www.ics-shipping.org/news-item/wind-assisted-propulsion-webinar-29-september-2026/",
+    "News Item Wind Assisted Propulsion Webinar – 29 September 2026 2 October 2026"
+   ],
+   [
+    "https://www.ics-shipping.org/news-item/ics-in-action-september-2026/",
+    "News Item ICS in Action – September 2026 30 September 2026"
+   ],
+   [
+    "https://www.ics-shipping.org/news-item/shipping-must-be-a-collaborative-enabler-of-global-decarbonisation/",
+    "Shipping must be a collaborative enabler of global decarbonisation"
+   ],
+   [
+    "https://www.ics-shipping.org/news-item/how-charterparties-are-bridging-shippings-decarbonisation-gap/",
+    "How charterparties are bridging shipping’s decarbonisation gap"
+   ],
+   [
+    "https://www.ics-shipping.org/press-release/vehicle-carrier-safety-forum-publishes-new-fire-drill-guidelines-for-vehicle-carrying-vessels/",
+    "Vehicle Carrier Safety Forum publishes new Fire Drill Guidelines for Vehicle Carrying Vessels"
+   ],
+   [
+    "https://www.ics-shipping.org/press-release/hong-kong-global-maritime-trade-summit-to-return-for-third-edition/",
+    "Hong Kong Global Maritime Trade Summit to return for third edition"
+   ],
+   [
+    "https://www.ics-shipping.org/news-item/wind-assisted-propulsion-webinar-29-september-2026/",
+    "Wind Assisted Propulsion Webinar – 29 September 2026"
+   ],
+   [
+    "https://www.ics-shipping.org/news-item/ics-in-action-september-2026/",
+    "ICS in Action – September 2026"
+   ],
+   [
+    "https://www.ics-shipping.org/press-release/international-chamber-of-shipping-expands-collection-of-free-practical-resources-for-seafarers-and-shipping-companies-worldwide/",
+    "International Chamber of Shipping expands collection of free practical resources for seafarers and shipping companies wo"
+   ],
+   [
+    "https://www.ics-shipping.org/news-item/powering-the-long-haul-batteries-at-sea/",
+    "Powering the long haul: batteries at sea"
+   ],
+   [
+    "https://www.ics-shipping.org/news-item/navigating-crisis-through-transparency-and-trust/",
+    "Navigating crisis through transparency and trust"
+   ],
+   [
+    "https://www.ics-shipping.org/statement/joint-association-letter-requesting-extension-to-suspension-of-the-section-301-china-built-vessel-fees/",
+    "Joint Association Letter Requesting Extension to Suspension of the Section 301 China-Built Vessel Fees"
+   ],
+   [
+    "https://www.ics-shipping.org/news-and-press/press/",
+    "Press releases and statements"
+   ],
+   [
+    "https://www.ics-shipping.org/competition-law-compliance-policies/",
+    "Competition law compliance policies"
+   ]
+  ]
+ },
+ "bimco": {
+  "url": "https://www.bimco.org/news",
+  "robots_status": 200,
+  "robots_allowed": true,
+  "robots_excerpt": "User-agent: *\nDisallow: /my-bimco/\nDisallow: /umbraco/\nDisallow: /storybook/\n\nUser-agent: Googlebot\nDisallow:\nDisallow: /my-bimco/\nDisallow: /umbraco/\nDisallow: /storybook/\n\nUser-agent: AdsBot-Google\nDisallow:\nDisallow: /my-bimco/\nDisallow: /umbraco/\nDisallow: /storybook/\n\nUser-agent: Googlebot-Image\nDisallow:\nDisallow: /my-bimco/\nDisallow: /umbraco/\nDisallow: /storybook/\nSitemap: https://www.bimco.org/sitemap.xml\n",
+  "status": 404,
+  "final": "https://www.bimco.org/news",
+  "len": 48328,
+  "ctype": "text/html; charset=utf-8",
+  "feeds": [],
+  "links": [
+   [
+    "https://www.bimco.org/training-events/bimco-training/",
+    "Upcoming training courses"
+   ],
+   [
+    "https://www.bimco.org/news-insights/shipping-explained/",
+    "Learn all about how commercial shipping works and how the global shipping industry is regulated."
+   ],
+   [
+    "https://www.bimco.org/about-bimco/governance/",
+    "Governance and leadership"
+   ],
+   [
+    "https://www.bimco.org/news-insights/press-media/",
+    "See our latest press releases, profiles of spokespersons and media contact details"
+   ],
+   [
+    "https://www.bimco.org/my-bimco/",
+    "My BIMCO services My BIMCO services"
+   ],
+   [
+    "https://www.bimco.org/my-bimco/",
+    "My BIMCO services My BIMCO services"
+   ],
+   [
+    "https://www.bimco.org/products/training/",
+    "upcoming training courses"
+   ],
+   [
+    "https://www.bimco.org/about-bimco/offices/",
+    "Athens • Brussels • Copenhagen • Houston • London • Shanghai • Singapore"
+   ]
+  ],
+  "body_head": "<!DOCTYPE html>\n<html lang=\"en-GB\"\n    x-data=\"root({&quot;lg&quot;:1280,&quot;md&quot;:744,&quot;sm&quot;:540,&quot;xl&quot;:1512,&quot;xs&quot;:0,&quot;xxl&quot;:1920,&quot;xxxl&quot;:2560})\"\n    x-load=\"eager\"\n    x-bind:class=\"{ 'reduced-motion': $store.mediaQuery.prefersReducedMotion }\"\n    x-b"
+ },
+ "intertanko": {
+  "url": "https://www.intertanko.com/news",
+  "robots_status": 200,
+  "robots_allowed": true,
+  "robots_excerpt": "# As a condition of accessing this website, you agree to abide by the following\n# content signals:\n\n# (a)  If a Content-Signal = yes, you may collect content for the corresponding\n#      use.\n# (b)  If a Content-Signal = no, you may not collect content for the\n#      corresponding use.\n# (c)  If the website operator does not include a Content-Signal for a\n#      corresponding use, the website operator neither grants nor restricts\n#      permission via Content-Signal with respect to the corresponding use.\n\n# The content signals and their meanings are:\n\n# search:   building a search index and providing search results (e.g., returning\n#           hyperlinks and short excerpts from your website's contents). Search does not\n#           include providing AI-generated search summaries.\n# ai-input",
+  "status": 404,
+  "final": "https://www.intertanko.com/news",
+  "len": 28407,
+  "ctype": "text/html; charset=utf-8",
+  "feeds": [],
+  "links": [
+   [
+    "https://www.intertanko.com/events-panels/regional-panels/hellenic-mediterranean-panel",
+    "Hellenic Mediterranean Panel"
+   ],
+   [
+    "https://www.intertanko.com/committees/associate-members-committee",
+    "Associate Members Committee"
+   ],
+   [
+    "https://www.intertanko.com/committees/chemical-tanker-committee-ctc",
+    "Chemical Tanker Committee (CTC)"
+   ],
+   [
+    "https://www.intertanko.com/committees/commercial-and-markets-committee",
+    "Commercial and Markets Committee"
+   ],
+   [
+    "https://www.intertanko.com/committees/gas-tanker-committee-gtc",
+    "Gas Tanker Committee (GTC)"
+   ],
+   [
+    "https://www.intertanko.com/committees/human-element-in-shipping-committee-heisc",
+    "Human Element in Shipping Committee (HEiSC)"
+   ],
+   [
+    "https://www.intertanko.com/committees/insurance-and-legal-committee",
+    "Insurance and Legal Committee"
+   ],
+   [
+    "https://www.intertanko.com/committees/intertanko-offshore-tanker-committee-iotc",
+    "Offshore Tanker Committee (IOTC)"
+   ],
+   [
+    "https://www.intertanko.com/committees/nautical-sub-committee-nsc",
+    "Nautical Sub-Committee (NSC)"
+   ],
+   [
+    "https://www.intertanko.com/committees/safety-and-technical-committee-istec",
+    "Safety and Technical Committee (ISTEC)"
+   ],
+   [
+    "https://www.intertanko.com/topics-issues/vetting-port-state-control",
+    "Vetting & Port State Control"
+   ],
+   [
+    "https://www.intertanko.com/benchmarking-databases",
+    "Benchmarking & Monitoring"
+   ],
+   [
+    "https://www.intertanko.com/info-centre/annual-reports-financials",
+    "Annual Reports/Financials"
+   ],
+   [
+    "https://www.intertanko.com/info-centre/coronavirus-covid-19-resources",
+    "Coronavirus (Covid-19) Resources"
+   ]
+  ],
+  "body_head": "<!DOCTYPE html>\r\n<html lang=\"en-GB\">\r\n\r\n<head>\r\n    <meta charset=\"utf-8\">\n\t<meta name=\"generator\" content=\"Joomla! - Open Source Content Management\">\n\t<title>Error: 404</title>\n\t<link href=\"https://www.intertanko.com/search?format=opensearch\" rel=\"search\" title=\"OpenSearch INTERTANKO\" type=\"applica"
+ },
+ "wsc": {
+  "url": "https://www.worldshipping.org/news",
+  "robots_status": 200,
+  "robots_allowed": true,
+  "robots_excerpt": "# Squarespace Robots Txt\n\nUser-agent: AI2Bot\nUser-agent: Ai2Bot-Dolma\nUser-agent: aiHitBot\nUser-agent: Amazonbot\nUser-agent: anthropic-ai\nUser-agent: Applebot-Extended\nUser-agent: Bytespider\nUser-agent: CCBot\nUser-agent: ClaudeBot\nUser-agent: cohere-ai\nUser-agent: cohere-training-data-crawler\nUser-agent: DuckAssistBot\nUser-agent: FacebookBot\nUser-agent: Google-Extended\nUser-agent: GoogleOther\nUser-agent: GoogleOther-Image\nUser-agent: GoogleOther-Video\nUser-agent: GPTBot\nUser-agent: img2dataset\nUser-agent: Meta-ExternalAgent\nUser-agent: MyCentralAIScraperBot\nUser-agent: omgili\nUser-agent: omgilibot\nUser-agent: Quora-Bot\nUser-agent: TikTokSpider\nUser-agent: YouBot\nUser-agent: AdsBot-Google\nUser-agent: AdsBot-Google-Mobile\nUser-agent: AdsBot-Google-Mobile-Apps\nUser-agent: *\nDisallow: /config\n",
+  "status": 200,
+  "final": "https://www.worldshipping.org/news",
+  "len": 191296,
+  "ctype": "text/html;charset=utf-8",
+  "feeds": [
+   "<link rel=\"alternate\" type=\"application/rss+xml\" title=\"RSS Feed\" href=\"https://www.worldshipping.org/news?format=rss\" />"
+  ],
+  "links": [
+   [
+    "https://www.worldshipping.org/how-container-shipping-works",
+    "How Container Shipping Works"
+   ],
+   [
+    "https://www.worldshipping.org/dual-fuel-fleet-dashboard",
+    "Dual-Fuel Fleet Dashboard"
+   ],
+   [
+    "https://www.worldshipping.org/how-container-shipping-works",
+    "How Container Shipping Works"
+   ],
+   [
+    "https://www.worldshipping.org/dual-fuel-fleet-dashboard",
+    "Dual-Fuel Fleet Dashboard"
+   ],
+   [
+    "https://www.worldshipping.org/about-liner-shipping-1",
+    "Folder: About Liner Shipping"
+   ],
+   [
+    "https://www.worldshipping.org/how-container-shipping-works",
+    "How Container Shipping Works"
+   ],
+   [
+    "https://www.worldshipping.org/news-and-publications",
+    "Folder: News and Publications"
+   ],
+   [
+    "https://www.worldshipping.org/dual-fuel-fleet-dashboard",
+    "Dual-Fuel Fleet Dashboard"
+   ],
+   [
+    "https://www.worldshipping.org/news/dual-fuel-fleet-passes-500-ships-on-the-water-as-investment-exceeds-200-billionnbsp",
+    "Dual-fuel fleet passes 500 ships on the water as investment exceeds $200 billion"
+   ],
+   [
+    "https://www.worldshipping.org/news/world-shipping-council-launch-digital-global-whale-chart-with-hub-oceannbsp",
+    "World Shipping Council launch digital global Whale Chart with HUB Ocean"
+   ],
+   [
+    "https://www.worldshipping.org/news/joint-association-letter-request-to-extend-suspension-of-the-section-301-china-built-vessel-fees",
+    "Joint association letter: Request to Extend Suspension of the Section 301 China-Built Vessel Fees"
+   ],
+   [
+    "https://www.worldshipping.org/news/open-letter-to-the-environment-and-transport-ministers-of-the-european-union",
+    "Open Letter to the Environment and Transport Ministers of the European Union"
+   ],
+   [
+    "https://www.worldshipping.org/news/one-in-ten-inspected-cargo-units-found-with-safety-deficiencies",
+    "One in ten inspected cargo units found with safety deficiencies"
+   ],
+   [
+    "https://www.worldshipping.org/news/wsc-calls-on-governments-to-close-battery-cargo-safety-gap",
+    "WSC calls on governments to close battery cargo safety gap"
+   ],
+   [
+    "https://www.worldshipping.org/news/shipping-industry-welcomes-the-proposed-inclusion-of-indian-ship-recycling-yards-on-the-european-list",
+    "Shipping industry welcomes the proposed inclusion of Indian ship recycling yards on the European List"
+   ],
+   [
+    "https://www.worldshipping.org/news/ec-proposal-reinforces-performance-based-approach-to-responsible-ship-recycling",
+    "WSC: EC Proposal Reinforces Performance-Based Approach to Responsible Ship Recycling"
+   ],
+   [
+    "https://www.worldshipping.org/news/wsc-ets-rightly-reinvests-more-into-maritime-decarbonisation-but-new-port-rules-risk-targeting-competition-rather-than-emissions",
+    "WSC: ETS rightly reinvests more into maritime decarbonisation, but new port rules risk targeting competition rather than"
+   ],
+   [
+    "https://www.worldshipping.org/news/world-shipping-council-releases-containers-lost-at-sea-report-2026-update",
+    "World Shipping Council releases Containers Lost at Sea Report: 2026 Update"
+   ],
+   [
+    "https://www.worldshipping.org/news/wsc-welcomes-evacuation-plan-for-ships-in-persian-gulf",
+    "WSC welcomes evacuation plan for ships in Persian Gulf"
+   ],
+   [
+    "https://www.worldshipping.org/news/misdeclared-dangerous-goods-remain-a-persistent-threat-to-shipping-and-supply-chainsnbsp",
+    "Misdeclared dangerous goods remain a persistent threat to shipping and supply chains"
+   ],
+   [
+    "https://www.worldshipping.org/news/wsc-statement-on-agreement-to-reopen-strait-of-hormuz",
+    "WSC statement on agreement to reopen Strait of Hormuz"
+   ],
+   [
+    "https://www.worldshipping.org/news/dual-fuel-container-ship-and-vehicle-carrier-fleet-passes-1200-vessels-as-orders-and-deliveries-rise",
+    "Dual-fuel container ship and vehicle carrier fleet passes 1,200 vessels as orders and deliveries rise"
+   ],
+   [
+    "https://www.worldshipping.org/news/constructive-engagement-and-technical-progress-at-mepc-84-welcomed-by-wsc",
+    "Constructive engagement and technical progress at MEPC 84 welcomed by WSC"
+   ],
+   [
+    "https://www.worldshipping.org/news/shipping-industry-united-in-support-of-imo-as-its-global-regulator-and-successful-implementation-of-imo-ghg-reduction-pathway",
+    "Shipping Industry United in support of IMO as its Global Regulator and Successful Implementation of IMO GHG Reduction Pa"
+   ],
+   [
+    "https://www.worldshipping.org/news/rtk1fv96ir3l8xgjot0xkadod7kcjc",
+    "WSC welcomes the Singapore Red Flag Compendium"
+   ],
+   [
+    "https://www.worldshipping.org/news/wsc-statement-following-the-36th-extraordinary-session-of-the-imo-council",
+    "WSC Statement following the 36th Extraordinary Session of the IMO Council"
+   ],
+   [
+    "https://www.worldshipping.org/news/latest-attacks-on-commercial-shipping-underline-risk-to-seafarers-and-shipping-in-the-middle-east",
+    "Latest attacks on commercial shipping underline risk to seafarers and shipping in the Middle East"
+   ],
+   [
+    "https://www.worldshipping.org/news/world-shipping-council-responds-to-eu-ports-and-maritime-industrial-strategiesnbsp",
+    "World Shipping Council responds to EU Ports and Maritime Industrial Strategies"
+   ]
+  ]
+ },
+ "gmf": {
+  "url": "https://globalmaritimeforum.org/news",
+  "robots_status": 200,
+  "robots_allowed": true,
+  "robots_excerpt": "# *\nUser-agent: *\nAllow: /\n\n# Host\nHost: https://www.globalmaritimeforum.org\n\n# Sitemaps\nSitemap: https://www.globalmaritimeforum.org/sitemap.xml\n",
+  "status": 200,
+  "final": "https://globalmaritimeforum.org/library/",
+  "len": 899835,
+  "ctype": "text/html; charset=utf-8",
+  "feeds": [],
+  "links": [
+   [
+    "https://globalmaritimeforum.org/",
+    "Global Maritime Forum logo"
+   ]
+  ]
+ },
+ "mmmczcs": {
+  "url": "https://www.zerocarbonshipping.com/news/",
+  "robots_status": 200,
+  "robots_allowed": true,
+  "robots_excerpt": "# https://www.robotstxt.org/robotstxt.html\nUser-agent: *\nDisallow:\n",
+  "status": 200,
+  "final": "https://www.zerocarbonshipping.com/news",
+  "len": 561146,
+  "ctype": "text/html; charset=utf-8",
+  "feeds": [],
+  "links": [
+   [
+    "https://www.zerocarbonshipping.com/countdown",
+    "Countdown | Policy insights & analysis"
+   ]
+  ]
+ },
+ "amsa": {
+  "url": "https://www.amsa.gov.au/news-community/news-and-media-releases",
+  "robots_status": 403,
+  "status": 403,
+  "final": "https://www.amsa.gov.au/news-community/news-and-media-releases",
+  "len": 919,
+  "ctype": "text/html",
+  "feeds": [],
+  "links": [],
+  "body_head": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\" \"http://www.w3.org/TR/html4/loose.dtd\">\n<HTML><HEAD><META HTTP-EQUIV=\"Content-Type\" CONTENT=\"text/html; charset=iso-8859-1\">\n<TITLE>ERROR: The request could not be satisfied</TITLE>\n</HEAD><BODY>\n<H1>403 ERROR</H1>\n<H2>The request could "
+ },
+ "maritimenz": {
+  "url": "https://www.maritimenz.govt.nz/news/",
+  "robots_status": 200,
+  "robots_allowed": true,
+  "robots_excerpt": "ï»¿# www.robotstxt.org/\n\n# Exclude some crawlers\nUser-agent: adbeat_bot\nUser-agent: AhrefsBot\nUser-agent: AITCSRobot\nUser-agent: Alexibot\nUser-agent: BLEXBot\nUser-agent: Cliqzbot\nUser-agent: dotbot\nUser-agent: Exabot\nUser-agent: expo9\nUser-agent: Huaweisymantecspider\nUser-agent: InfluenceBot\nUser-agent: ltx71 - (http://ltx71.com/)\nUser-agent: MaxPointCrawler\nUser-agent: MJ12bot\nUser-agent: Offline Explorer\nUser-agent: rogerbot\nUser-agent: SemrushBot\nUser-agent: SemrushBot-SA\nUser-agent: SiteSnagger\nUser-agent: SurveyBot\nUser-agent: TeleportPro\nUser-agent: WebCopier\nUser-agent: WebReaper\nUser-agent: WebStripper\nUser-agent: WebZIP\nUser-agent: Xaldon_WebSpider\nUser-agent: Xenuâs\nUser-agent: Xenuâs Link Sleuth 1.1c\nDisallow: /\n\nUser-agent: *\nDisallow: /App_Plugins/\nDisallow: /App_Code/\nDis",
+  "status": 200,
+  "final": "https://www.maritimenz.govt.nz/news-landing-page/",
+  "len": 163894,
+  "ctype": "text/html; charset=utf-8",
+  "feeds": [],
+  "links": [
+   [
+    "https://www.maritimenz.govt.nz/commercial-operators/small-domestic-vessels-under-500gt/",
+    "Small domestic vessels under 500gt"
+   ],
+   [
+    "https://www.maritimenz.govt.nz/commercial-operators/small-domestic-vessels-under-500gt/vessel-requirements-under-500gt/",
+    "Vessel requirements under 500GT"
+   ],
+   [
+    "https://www.maritimenz.govt.nz/commercial-operators/commercial-fishing/operating-in-the-commercial-fishing-sector/",
+    "Operating in the commercial fishing sector"
+   ],
+   [
+    "https://www.maritimenz.govt.nz/commercial-operators/commercial-fishing/what-rules-apply-to-fishing-vessels/",
+    "What rules apply to fishing vessels"
+   ],
+   [
+    "https://www.maritimenz.govt.nz/commercial-operators/commercial-fishing/health-and-safety-for-fishing-vessels/",
+    "Health and safety for fishing vessels"
+   ],
+   [
+    "https://www.maritimenz.govt.nz/commercial-operators/commercial-fishing/look-out-and-watchkeeping/",
+    "Look-out and watchkeeping"
+   ],
+   [
+    "https://www.maritimenz.govt.nz/commercial-operators/aquaculture/operating-in-the-aquaculture-sector/",
+    "Operating in the Aquaculture sector"
+   ],
+   [
+    "https://www.maritimenz.govt.nz/commercial-operators/passenger-vessels-under-500gt/",
+    "Passenger vessels under 500GT"
+   ],
+   [
+    "https://www.maritimenz.govt.nz/commercial-operators/passenger-vessels-under-500gt/passenger-vessel-operator-requirements/",
+    "Passenger vessel operator requirements"
+   ],
+   [
+    "https://www.maritimenz.govt.nz/commercial-operators/passenger-vessels-under-500gt/adventure-activity-resources/",
+    "Adventure activity resources"
+   ],
+   [
+    "https://www.maritimenz.govt.nz/commercial-operators/oil-gas-and-mineral-activity/",
+    "Oil, Gas and Mineral Activity"
+   ],
+   [
+    "https://www.maritimenz.govt.nz/commercial-operators/oil-gas-and-mineral-activity/agency-roles-in-offshore-oil-gas-and-mineral-activity-in-new-zealand/",
+    "Agency roles in offshore oil, gas and mineral activity in New Zealand"
+   ],
+   [
+    "https://www.maritimenz.govt.nz/commercial-operators/oil-gas-and-mineral-activity/requirements-overseen-by-maritime-nz/",
+    "Requirements overseen by Maritime NZ"
+   ],
+   [
+    "https://www.maritimenz.govt.nz/commercial-operators/oil-gas-and-mineral-activity/safety-zones-and-precautionary-areas/",
+    "Safety zones and precautionary areas"
+   ],
+   [
+    "https://www.maritimenz.govt.nz/commercial-operators/oil-gas-and-mineral-activity/offshore-installation-oil-spill-contingency-plans-and-insurance-requirements/",
+    "Offshore Installation Oil Spill Contingency Plans and Insurance requirements"
+   ],
+   [
+    "https://www.maritimenz.govt.nz/commercial-operators/port-operators-and-operations/",
+    "Port Operators and Operations"
+   ],
+   [
+    "https://www.maritimenz.govt.nz/commercial-operators/port-operators-and-operations/operating-in-port-environments/",
+    "Operating in port environments"
+   ],
+   [
+    "https://www.maritimenz.govt.nz/commercial-operators/port-operators-and-operations/navigating-ports-and-harbours-pilotage/",
+    "Navigating ports and harbours (pilotage)"
+   ],
+   [
+    "https://www.maritimenz.govt.nz/commercial-operators/port-operators-and-operations/operating-safely-on-ports/",
+    "Operating safely on ports"
+   ],
+   [
+    "https://www.maritimenz.govt.nz/commercial-operators/operating-a-solas-ship-nz-flagged/",
+    "Operating a SOLAS ship (NZ flagged)"
+   ],
+   [
+    "https://www.maritimenz.govt.nz/commercial-operators/operating-a-solas-ship-nz-flagged/understanding-your-regulatory-framework/",
+    "Understanding your regulatory framework"
+   ],
+   [
+    "https://www.maritimenz.govt.nz/commercial-operators/operating-a-solas-ship-nz-flagged/international-safety-management-code/",
+    "International Safety Management Code"
+   ],
+   [
+    "https://www.maritimenz.govt.nz/commercial-operators/operating-a-solas-ship-nz-flagged/maritime-nz-audits-inspections/",
+    "Maritime NZ Audits Inspections"
+   ],
+   [
+    "https://www.maritimenz.govt.nz/commercial-operators/foreign-flagged-vessels/pre-arrival-requirements-overview/",
+    "Pre-arrival requirements overview"
+   ],
+   [
+    "https://www.maritimenz.govt.nz/commercial-operators/foreign-flagged-vessels/recruitment-and-placement-services/",
+    "Recruitment and placement services"
+   ],
+   [
+    "https://www.maritimenz.govt.nz/commercial-operators/all-commercial-operators/cargo-and-dangerous-goods/",
+    "Cargo and dangerous goods"
+   ],
+   [
+    "https://www.maritimenz.govt.nz/commercial-operators/all-commercial-operators/environmental-requirements/",
+    "Environmental requirements"
+   ],
+   [
+    "https://www.maritimenz.govt.nz/commercial-operators/all-commercial-operators/health-and-safety-at-work/",
+    "Health and Safety at Work"
+   ],
+   [
+    "https://www.maritimenz.govt.nz/commercial-operators/all-commercial-operators/applying-for-an-exemption/",
+    "Applying for an exemption"
+   ],
+   [
+    "https://www.maritimenz.govt.nz/seafarers/getting-certified/how-to-apply-for-other-seafarer-certificates/",
+    "How to apply for other seafarer certificates"
+   ],
+   [
+    "https://www.maritimenz.govt.nz/seafarers/getting-certified/recognition-of-foreign-certificates/",
+    "Recognition of foreign certificates"
+   ],
+   [
+    "https://www.maritimenz.govt.nz/seafarers/supporting-information/ministry-of-justice-criminal-record-checks/",
+    "Ministry of Justice Criminal Record checks"
+   ],
+   [
+    "https://www.maritimenz.govt.nz/seafarers/supporting-information/operating-limits-explained/",
+    "Operating limits explained"
+   ],
+   [
+    "https://www.maritimenz.govt.nz/seafarers/supporting-information/ancillary-certificates-of-proficiency/",
+    "Ancillary certificates of proficiency"
+   ],
+   [
+    "https://www.maritimenz.govt.nz/seafarers/supporting-information/certification-fees-and-charges/",
+    "Certification fees and charges"
+   ],
+   [
+    "https://www.maritimenz.govt.nz/seafarers/working-at-sea/your-rights-and-responsibilities/",
+    "Your rights and responsibilities"
+   ],
+   [
+    "https://www.maritimenz.govt.nz/seafarers/working-at-sea/career-progression-pathways/",
+    "Career progression pathways"
+   ],
+   [
+    "https://www.maritimenz.govt.nz/seafarers/pilots/pilotage-exemption-certificates/",
+    "Pilotage exemption certificates"
+   ],
+   [
+    "https://www.maritimenz.govt.nz/seafarers/pilots/pilot-training-and-ongoing-proficiency/",
+    "Pilot training and ongoing proficiency"
+   ],
+   [
+    "https://www.maritimenz.govt.nz/recreational-craft/on-the-water/environmental-responsibilities/",
+    "Environmental responsibilities"
+   ]
+  ]
+ },
+ "tc-atom": {
+  "url": "https://api.io.canada.ca/io-server/gc/news/en/v2?dept=transportcanada&type=newsreleases&sort=publishedDate&orderBy=desc&pick=20&format=atom",
+  "robots_status": 404,
+  "status": 200,
+  "final": "https://api.io.canada.ca/io-server/gc/news/en/v2?dept=transportcanada&type=newsreleases&sort=publishedDate&orderBy=desc&pick=20&format=atom",
+  "len": 464,
+  "ctype": "application/xml; charset=utf-8",
+  "feeds": [],
+  "xml_titles": [],
+  "links": []
+ },
+ "marad": {
+  "url": "https://www.maritime.dot.gov/newsroom",
+  "robots_status": 403,
+  "status": 403,
+  "final": "https://www.maritime.dot.gov/newsroom",
+  "len": 386,
+  "ctype": "text/html",
+  "feeds": [],
+  "links": [],
+  "body_head": "<HTML><HEAD>\n<TITLE>Access Denied</TITLE>\n</HEAD><BODY>\n<H1>Access Denied</H1>\n \nYou don't have permission to access \"http&#58;&#47;&#47;www&#46;maritime&#46;dot&#46;gov&#47;newsroom\" on this server.<P>\nReference&#32;&#35;18&#46;826d3e17&#46;1793476474&#46;14c6e70e\n<P>https&#58;&#47;&#47;errors&#46;"
+ },
+ "clima-rss": {
+  "url": "https://climate.ec.europa.eu/node/2/rss_en",
+  "robots_status": 200,
+  "robots_allowed": true,
+  "robots_excerpt": "#\n# robots.txt\n#\n# This file is to prevent the crawling and indexing of certain parts\n# of your site by web crawlers and spiders run by sites like Yahoo!\n# and Google. By telling these \"robots\" where not to go on your site,\n# you save bandwidth and server resources.\n#\n# This file will be ignored unless it is at the root of your host:\n# Used:    http://example.com/robots.txt\n# Ignored: http://example.com/site/robots.txt\n#\n# For more information about the robots.txt standard, see:\n# http://www.robotstxt.org/robotstxt.html\n\nUser-agent: *\n# CSS, JS, Images\nAllow: /core/*.css$\nAllow: /core/*.css?\nAllow: /core/*.js$\nAllow: /core/*.js?\nAllow: /core/*.gif\nAllow: /core/*.jpg\nAllow: /core/*.jpeg\nAllow: /core/*.png\nAllow: /core/*.svg\nAllow: /profiles/*.css$\nAllow: /profiles/*.css?\nAllow: /profiles/*.",
+  "status": 200,
+  "final": "https://climate.ec.europa.eu/node/2/rss_en",
+  "len": 40432,
+  "ctype": "application/rss+xml; charset=utf-8",
+  "feeds": [],
+  "xml_titles": [
+   "Climate Action | News",
+   "European Commission logo",
+   "Council publishes 2025 international climate finance figures",
+   "Commission presents Climate Resilience Framework for a better prepared and protected Europe",
+   "Commission welcomes political agreement on rules enhancing stability and long-term resilience of EU carbon market",
+   "Commission invests €3.4 billion in net-zero technology projects",
+   "Commission hosts a high-level policy dialogue on the role of forest-based value chains in the EU’s climate transition",
+   "Mayors meet with EU leaders in Brussels to advance affordable energy and climate resilience"
+  ],
+  "links": []
+ },
+ "clima": {
+  "url": "https://climate.ec.europa.eu/news-your-voice/news_en",
+  "robots_status": 200,
+  "robots_allowed": true,
+  "robots_excerpt": "#\n# robots.txt\n#\n# This file is to prevent the crawling and indexing of certain parts\n# of your site by web crawlers and spiders run by sites like Yahoo!\n# and Google. By telling these \"robots\" where not to go on your site,\n# you save bandwidth and server resources.\n#\n# This file will be ignored unless it is at the root of your host:\n# Used:    http://example.com/robots.txt\n# Ignored: http://example.com/site/robots.txt\n#\n# For more information about the robots.txt standard, see:\n# http://www.robotstxt.org/robotstxt.html\n\nUser-agent: *\n# CSS, JS, Images\nAllow: /core/*.css$\nAllow: /core/*.css?\nAllow: /core/*.js$\nAllow: /core/*.js?\nAllow: /core/*.gif\nAllow: /core/*.jpg\nAllow: /core/*.jpeg\nAllow: /core/*.png\nAllow: /core/*.svg\nAllow: /profiles/*.css$\nAllow: /profiles/*.css?\nAllow: /profiles/*.",
+  "status": 200,
+  "final": "https://climate.ec.europa.eu/news-other-reads/news_en",
+  "len": 155769,
+  "ctype": "text/html; charset=utf-8",
+  "feeds": [],
+  "links": [
+   [
+    "https://climate.ec.europa.eu/climate-change-explained/consequences-climate-change_en",
+    "Consequences of climate change"
+   ],
+   [
+    "https://climate.ec.europa.eu/areas-action/climate-strategies-targets_en",
+    "Climate strategies & targets"
+   ],
+   [
+    "https://climate.ec.europa.eu/areas-action/eu-competences-field-climate-action_en",
+    "EU competences in the field of climate action"
+   ],
+   [
+    "https://climate.ec.europa.eu/areas-action/effort-sharing-member-states-emission-targets_en",
+    "Effort Sharing: Member States' emission targets"
+   ],
+   [
+    "https://climate.ec.europa.eu/areas-action/transport-decarbonisation_en",
+    "Transport decarbonisation"
+   ],
+   [
+    "https://climate.ec.europa.eu/areas-action/industrial-carbon-management_en",
+    "Industrial Carbon Management"
+   ],
+   [
+    "https://climate.ec.europa.eu/areas-action/carbon-removals-and-carbon-farming_en",
+    "Carbon Removals and Carbon Farming"
+   ],
+   [
+    "https://climate.ec.europa.eu/areas-action/fluorinated-greenhouse-gases_en",
+    "Fluorinated greenhouse gases"
+   ],
+   [
+    "https://climate.ec.europa.eu/areas-action/adaptation-and-resilience-climate-change_en",
+    "Adaptation and resilience to climate change"
+   ],
+   [
+    "https://climate.ec.europa.eu/areas-action/eu-funding-climate-action_en",
+    "EU funding for climate action"
+   ],
+   [
+    "https://climate.ec.europa.eu/areas-action/research-and-innovation-climate-action_en",
+    "Research and innovation for climate action"
+   ],
+   [
+    "https://climate.ec.europa.eu/areas-action/international-action-climate-change_en",
+    "International action on climate change"
+   ],
+   [
+    "https://climate.ec.europa.eu/areas-action/local-and-regional-climate-action_en",
+    "Local and regional climate action"
+   ],
+   [
+    "https://climate.ec.europa.eu/citizens-stakeholders/eu-day-victims-global-climate-crisis_en",
+    "EU Day for the Victims of the Global Climate Crisis"
+   ],
+   [
+    "https://climate.ec.europa.eu/citizens-stakeholders/citizen-support-climate-action_en",
+    "Citizen support for climate action"
+   ],
+   [
+    "https://climate.ec.europa.eu/news-other-reads/news/commission-hosts-high-level-policy-dialogue-role-forest-based-value-chains-eus-climate-transition-2026-10-15_en",
+    "Commission hosts a high-level policy dialogue on the role of forest-based value chains in the EU’s climate transition"
+   ],
+   [
+    "https://climate.ec.europa.eu/news-other-reads/news/young-people-meet-commissioner-hoekstra-discuss-eu-climate-action-ahead-cop31-2026-10-09_en",
+    "Young people meet with Commissioner Hoekstra to discuss EU climate action ahead of COP31"
+   ],
+   [
+    "https://climate.ec.europa.eu/news-other-reads/news/supporting-clean-transport-rural-sweden-2026-10-07_en",
+    "Supporting clean transport in rural Sweden"
+   ],
+   [
+    "https://climate.ec.europa.eu/news-other-reads/news/revised-2027-eu-ets1-and-initial-2027-eu-ets2-auction-calendars-published-2026-10-01_en",
+    "Revised 2027 EU ETS1 and initial 2027 EU ETS2 auction calendars published"
+   ],
+   [
+    "https://climate.ec.europa.eu/news-other-reads/news/president-von-der-leyen-attends-un-general-assembly-underscoring-eus-commitment-multilateralism-2026-09-30_en",
+    "President von der Leyen attends UN General Assembly underscoring the EU's commitment to multilateralism"
+   ],
+   [
+    "https://climate.ec.europa.eu/news-other-reads/news/eu-ets-publication-surrender-and-compliance-data-2026-09-25_en",
+    "EU ETS – Publication of surrender and compliance data"
+   ],
+   [
+    "https://climate.ec.europa.eu/news-other-reads/news/commission-publishes-terms-and-conditions-eur1-billion-industrial-heat-decarbonisation-auction-2026-09-24_en",
+    "Commission publishes terms and conditions for €1 billion industrial heat decarbonisation auction"
+   ],
+   [
+    "https://climate.ec.europa.eu/news-other-reads/news/over-eur400-million-eu-ets-support-given-airlines-using-sustainable-aviation-fuels-2025-2026-09-15_en",
+    "Over €400 million in EU ETS support given to airlines for using sustainable aviation fuels in 2025"
+   ],
+   [
+    "https://climate.ec.europa.eu/news-other-reads/news/notification-germany-voluntary-cancellation-allowances-eu-ets-plants-closed-2022-2026-09-04_en",
+    "Notification by Germany of voluntary cancellation of allowances in the EU ETS for plants closed in 2022"
+   ],
+   [
+    "https://climate.ec.europa.eu/news-other-reads/news/revised-2026-and-2027-eu-ets1-auction-calendars-published-2026-07-30_en",
+    "Revised 2026 and 2027 EU ETS1 auction calendars published"
+   ]
+  ]
+ },
+ "dma": {
+  "url": "https://www.dma.dk/news",
+  "robots_status": 200,
+  "robots_allowed": true,
+  "robots_excerpt": "User-agent: *\nAllow: /\n\nSitemap: https://www.dma.dk/sitemap.xml\n",
+  "status": 200,
+  "final": "https://www.dma.dk/news",
+  "len": 83770,
+  "ctype": "text/html; charset=utf-8",
+  "feeds": [],
+  "links": [
+   [
+    "https://www.dma.dk/safety-at-sea/navigational-information/new-shipping-routes-in-kattegat-and-skagerrak",
+    "New shipping routes in Kattegat and Skagerrak"
+   ],
+   [
+    "https://www.dma.dk/safety-at-sea/safety-of-navigation/marine-aids-to-navigation",
+    "Marine aids to navigation"
+   ],
+   [
+    "https://www.dma.dk/safety-at-sea/safety-of-navigation/construction-works-at-sea",
+    "Construction works at sea"
+   ],
+   [
+    "https://www.dma.dk/safety-at-sea/safety-of-navigation/exemption-from-reporting-obligation",
+    "Exemption from reporting obligation"
+   ],
+   [
+    "https://www.dma.dk/safety-at-sea/safety-of-navigation/mandatory-ship-reporting-systems-msrs-and-vessel-traffic-services-vts",
+    "Mandatory Ship Reporting Systems (MSRS) and Vessel Traffic Services (VTS)"
+   ],
+   [
+    "https://www.dma.dk/safety-at-sea/ship-safety/carriage-of-dangerous-goods",
+    "Carriage of dangerous goods"
+   ],
+   [
+    "https://www.dma.dk/safety-at-sea/ship-safety/market-surveillance-of-marine-equipment",
+    "Market surveillance of marine equipment"
+   ],
+   [
+    "https://www.dma.dk/safety-at-sea/commercial-diving/diving-training-programmes",
+    "Diving training programmes"
+   ],
+   [
+    "https://www.dma.dk/about-us/boards-and-tribunals/danish-pleasure-craft-safety-board",
+    "Danish Pleasure Craft Safety Board"
+   ],
+   [
+    "https://www.dma.dk/safety-at-sea/danish-maritime-cybersecurity-unit",
+    "Danish Maritime Cybersecurity Unit"
+   ],
+   [
+    "https://www.dma.dk/safety-at-sea/danish-maritime-cybersecurity-unit",
+    "Danish Maritime Cybersecurity Unit"
+   ],
+   [
+    "https://www.dma.dk/ship-survey-and-registration/ship-survey/order-and-pay-for-surveys",
+    "Order and pay for surveys"
+   ],
+   [
+    "https://www.dma.dk/ship-survey-and-registration/ship-survey/information-for-yards-workshops-and-vessel-owners",
+    "Information for yards, workshops and vessel owners"
+   ],
+   [
+    "https://www.dma.dk/ship-survey-and-registration/ship-survey/insurance-maritime-claims",
+    "Insurance - maritime claims"
+   ],
+   [
+    "https://www.dma.dk/ship-survey-and-registration/port-state-control-psc/top-priority-factors-and-unexpected-factors",
+    "Top priority factors and unexpected factors"
+   ],
+   [
+    "https://www.dma.dk/ship-survey-and-registration/ship-registration-and-fees",
+    "Ship registration and fees"
+   ],
+   [
+    "https://www.dma.dk/ship-survey-and-registration/ship-registration-and-fees/what-does-the-introduction-of-a-digital-ship-register-entail",
+    "What does the introduction of a digital ship register entail?"
+   ],
+   [
+    "https://www.dma.dk/ship-survey-and-registration/ship-registration-and-fees/certificates-and-transcripts",
+    "Certificates and transcripts"
+   ],
+   [
+    "https://www.dma.dk/ship-survey-and-registration/ship-registration-and-fees/registration-and-re-registration-of-a-ship-in-the-danish",
+    "Registration and re-registration of a ship in the Danish"
+   ],
+   [
+    "https://www.dma.dk/ship-survey-and-registration/ship-registration-and-fees/the-danish-ship-registers",
+    "The Danish Ship Registers"
+   ],
+   [
+    "https://www.dma.dk/ship-survey-and-registration/ship-registration-and-fees/registration-of-mortgage-and-negative-pledges",
+    "Registration of mortgage and negative pledges"
+   ],
+   [
+    "https://www.dma.dk/ship-survey-and-registration/ship-registration-and-fees/deletion-of-a-ship-when-and-how",
+    "Deletion of a ship, when and how?"
+   ],
+   [
+    "https://www.dma.dk/ship-survey-and-registration/ship-registration-and-fees/search-the-ship-registers",
+    "Search the Ship Registers"
+   ],
+   [
+    "https://www.dma.dk/ship-survey-and-registration/ship-registration-and-fees/guides-digital-ship-register",
+    "Guides - Digital Ship Register"
+   ],
+   [
+    "https://www.dma.dk/ship-survey-and-registration/apply-for-a-certificate/danish-ships-mlc-certificates",
+    "Danish ships' MLC certificates"
+   ],
+   [
+    "https://www.dma.dk/ship-survey-and-registration/apply-for-a-certificate/guidance-for-ship-station-license",
+    "Guidance for Ship Station License"
+   ],
+   [
+    "https://www.dma.dk/ship-survey-and-registration/flying-the-danish-flag/passenger-ships-on-international-voyages",
+    "Passenger ships on international voyages"
+   ],
+   [
+    "https://www.dma.dk/seafarers-and-manning/discharge-book-and-certificates",
+    "Discharge book and certificates"
+   ],
+   [
+    "https://www.dma.dk/seafarers-and-manning/discharge-book-and-certificates/are-you-a-recent-graduate",
+    "Are you a recent graduate?"
+   ],
+   [
+    "https://www.dma.dk/seafarers-and-manning/discharge-book-and-certificates/certificate-of-competency",
+    "Certificate of competency"
+   ],
+   [
+    "https://www.dma.dk/seafarers-and-manning/discharge-book-and-certificates/reacquisition-of-certificate",
+    "Re-acquisition of certificate"
+   ],
+   [
+    "https://www.dma.dk/seafarers-and-manning/discharge-book-and-certificates/certificate-of-proficiency",
+    "Certificate of proficiency"
+   ],
+   [
+    "https://www.dma.dk/seafarers-and-manning/discharge-book-and-certificates/refreshing-qualifications",
+    "STCW Refresher requirements"
+   ],
+   [
+    "https://www.dma.dk/seafarers-and-manning/discharge-book-and-certificates/certificate-of-recognition",
+    "Certificate of recognition"
+   ],
+   [
+    "https://www.dma.dk/seafarers-and-manning/discharge-book-and-certificates/education-and-seagoing-service-from-the-navy",
+    "Education and seagoing service from the navy"
+   ],
+   [
+    "https://www.dma.dk/seafarers-and-manning/discharge-book-and-certificates/seafarers-on-danish-ships",
+    "Seafarers on Danish ships"
+   ],
+   [
+    "https://www.dma.dk/seafarers-and-manning/discharge-book-and-certificates/digital-certificates",
+    "Digital certificates for seafarers"
+   ],
+   [
+    "https://www.dma.dk/seafarers-and-manning/safe-manning-document/exemption-for-safe-manning-document",
+    "Exemption for safe manning document"
+   ],
+   [
+    "https://www.dma.dk/seafarers-and-manning/person-in-charge-of-medical-care",
+    "Person in charge of medical care"
+   ],
+   [
+    "https://www.dma.dk/seafarers-and-manning/person-in-charge-of-medical-care/description-of-course-centre",
+    "Description of course centre"
+   ]
+  ]
+ },
+ "jcg": {
+  "url": "https://www.kaiho.mlit.go.jp/info/kouhou/",
+  "robots_status": 404,
+  "status": 200,
+  "final": "https://www.kaiho.mlit.go.jp/info/kouhou/",
+  "len": 327680,
+  "ctype": "text/html",
+  "feeds": [
+   "<link rel=\"alternate\" type=\"application/atom+xml\" title=\"Recent Entries\" href=\"../../atom.xml\" />"
+  ],
+  "xml_titles": [
+   "å ±éçºè¡¨ï½æµ·ä¸ä¿å®åº"
+  ],
+  "links": [
+   [
+    "https://www.kaiho.mlit.go.jp/doc/tel118.html",
+    "æµ·ã®ãäºä»¶ã»äºæ ãã¯118çª"
+   ],
+   [
+    "https://www.kaiho.mlit.go.jp/safety/cat/post-1.html",
+    "æ±äº¬æ¹¾ã«ããã æµ·ä¸äº¤éç®¡å¶ã® ä¸å å"
+   ],
+   [
+    "https://www.kaiho.mlit.go.jp/safety/safety-navigation/post-3.html",
+    "æµ·ä¸äº¤éã«ã¼ã«ã»åç¨®æç¶"
+   ],
+   [
+    "https://www.kaiho.mlit.go.jp/doc/hakkou/report/top.html",
+    "æµ·ä¸ä¿å®ã¬ãã¼ãï¼æµ·ä¸ä¿å®ç½æ¸ï¼"
+   ],
+   [
+    "https://www.kaiho.mlit.go.jp/doc/hakkou/pamphlet/top.html",
+    "æµ·ä¸ä¿å®åºãã³ãã¬ãã"
+   ],
+   [
+    "https://www.kaiho.mlit.go.jp/mission/higashinihon/info.html",
+    "ãæ±æ¥æ¬å¤§éç½ãã¸ã®å¯¾å¿"
+   ],
+   [
+    "https://www.kaiho.mlit.go.jp/doc/70kinen/post.html",
+    "æµ·ä¸ä¿å®å¶åº¦åµè¨­70å¨å¹´è¨å¿µäºæ¥­"
+   ],
+   [
+    "https://www.kaiho.mlit.go.jp/ope/saiyou/bosyu/index.html",
+    "è·å¡æ¡ç¨ï¼å­¦çæ¡ç¨"
+   ],
+   [
+    "https://www.kaiho.mlit.go.jp/info/kouhou/post-1357.html",
+    "æµ·ä¸ä¿å®å®ãåæ¥µã«åºçº ï½è¦³æ¸¬ç¯å²ã¯æµ·åºããå®å®ã¾ã§ï¼ï½"
+   ],
+   [
+    "https://www.kaiho.mlit.go.jp/info/kouhou/post-1356.html",
+    "ä»¤å8å¹´ãç¯å°è¨å¿µæ¥ãæµ·ä¸ä¿å®åºé·å®è¡¨å½°ã«ã¤ãã¦"
+   ],
+   [
+    "https://www.kaiho.mlit.go.jp/info/kouhou/post-1355.html",
+    "ç¯å°è¨å¿µæ¥158å¨å¹´ãå ã§ç¹ããæµ·ã®å®å ¨ ï½å ¨å½åå°ã§ç¯å°ã®ä¸è¬å ¬éç­ãè¡ãã¾ãï½"
+   ],
+   [
+    "https://www.kaiho.mlit.go.jp/info/kouhou/post-1354.html",
+    "å·¡è¦è¹ãããã¾ãæ±åã¢ã¸ã¢ããå¸°æ¸¯ãã¾ã"
+   ],
+   [
+    "https://www.kaiho.mlit.go.jp/info/kouhou/post-1353.html",
+    "æ¥ç±³è±ªå°4ãµå½æµ·ä¸ä¿å®æ©é¢ã«ãã ãã·ãããªãã¶ã¼ãã¼ã»ããã·ã§ã³ããå®æ½ãã¾ãã "
+   ],
+   [
+    "https://www.kaiho.mlit.go.jp/info/kouhou/post-1352.html",
+    "ç¬¬47åå±éºæ¥­åå¾äºè åå²ã«ã¤ãã¦"
+   ],
+   [
+    "https://www.kaiho.mlit.go.jp/info/kouhou/post-1351.html",
+    "ããªãã®è³æ ¼ãæµ·ä¸ä¿å®åºã§å½¹ç«ã¦ã¦ã¿ã¾ãããï¼ï½ä»¤å8å¹´åº¦ï¼ç¬¬2åï¼æµ·ä¸ä¿å®åºè¹èè"
+   ],
+   [
+    "https://www.kaiho.mlit.go.jp/info/kouhou/post-1350.html",
+    "æµ·å¤ç ä¿®çãå¥åºæ¸¯ã§æµ·å³ã®ä½è£½ã«æã¿ã¾ãï¼ï½ã¢ã¸ã¢ãã¯ããã¨ãã7ã«å½ã¸ã®å½éè²¢ç"
+   ],
+   [
+    "https://www.kaiho.mlit.go.jp/info/kouhou/post-1349.html",
+    "æ¥æ¬å ¨å½ã®å¹³åæ½®ä½ã«é¢ããæ å ±æä¾ãéå§ ï½æµ·æ´ã«ãããæ§ã ãªæ´»åãæ¯ãã¾ãï¼ï½"
+   ],
+   [
+    "https://www.kaiho.mlit.go.jp/info/kouhou/post-1348.html",
+    "å·¡è¦è¹ãããã¾ãæ±åã¢ã¸ã¢ã«æ´¾é£ãã¾ã"
+   ],
+   [
+    "https://www.kaiho.mlit.go.jp/info/kouhou/post-1347.html",
+    "ç¬¬22åã¢ã¸ã¢æµ·ä¸ä¿å®æ©é¢é·å®ç´ä¼åã¸ã®åå ã«ã¤ãã¦ï¼çµææ¦è¦ï¼"
+   ],
+   [
+    "https://www.kaiho.mlit.go.jp/info/kouhou/post-1346.html",
+    "ä»¤å8å¹´ãæ°´è·¯è¨å¿µæ¥ãæµ·ä¸ä¿å®åºé·å®è¡¨å½°ã«ã¤ãã¦"
+   ],
+   [
+    "https://www.kaiho.mlit.go.jp/info/kouhou/post-1345.html",
+    "æµ·ä¸ä¿å®åºé³æ¥½éï¼æä¾ã®å®ææ¼å¥ä¼ãéå¬ï¼ï½ç¬¬32åå®ææ¼å¥ä¼ã®éå¬ã«ã¤ãã¦ï½"
+   ],
+   [
+    "https://www.kaiho.mlit.go.jp/info/kouhou/post-1344.html",
+    "ç¬¬155åæ°´è·¯è¨å¿µæ¥ ãæµ·å³ããèª­ã¿è§£ãæ­åã®å¤é©ã ï½æ­å100å¹´è¨å¿µç¹å¥å±ç¤ºï½"
+   ],
+   [
+    "https://www.kaiho.mlit.go.jp/info/kouhou/post-1340.html",
+    "å½åäº¤éå¤§è£ã¨æµ·ä¸ä¿å®åºé·å®ãæ±åã¢ã¸ã¢ã®æµ·ä¸ä¿å®æ©é¢ç­ãè¨ªåï½ãèªç±ã§éããã"
+   ],
+   [
+    "https://www.kaiho.mlit.go.jp/info/kouhou/post-1338.html",
+    "æµ·ã®äºæ ã¼ã­ã­ã£ã³ãã¼ã³æéä¸­ã®æµ·é£çºçç¶æ³(éå ±å¤)"
+   ],
+   [
+    "https://www.kaiho.mlit.go.jp/info/kouhou/post-1335.html",
+    "ãæµ·æ´ç°å¢ä¿å ¨æ¨é²æéãã«ãããæ´»åçµæã«ã¤ãã¦ï½æªæ¥ã®æµ·ã®ããã«ãä»ã§ãããã¨"
+   ],
+   [
+    "https://www.kaiho.mlit.go.jp/info/kouhou/post-1334.html",
+    "ä»¤å8å¹´ãæµ·ã®æ¥ãå½åäº¤éå¤§è£åã³æµ·ä¸ä¿å®åºé·å®è¡¨å½°ã«ã¤ãã¦"
+   ],
+   [
+    "https://www.kaiho.mlit.go.jp/info/kouhou/post-1333.html",
+    "æµ·ã®äºæ ã¼ã­ã­ã£ã³ãã¼ã³ã®å®æ½ã«ã¤ãã¦"
+   ],
+   [
+    "https://www.kaiho.mlit.go.jp/info/kouhou/post-1330.html",
+    "ãå°å ´ã«ã¦ã2026éæµ·ã¹ã¿ã³ãã©ãªã¼ããéå¬ ï½ã¹ã¿ã³ããéãã¦éå®ã°ããºãã²ãããã"
+   ],
+   [
+    "https://www.kaiho.mlit.go.jp/info/kouhou/post-1329.html",
+    "JICAèª²é¡å¥ç ä¿®(æµ·å³ä½è£½æè¡ã³ã¼ã¹)ãéè¬ï½ã¢ã¸ã¢ãã¯ããã¨ãã7ã«å½ã¸ã®å½éè²¢ç®ï½"
+   ],
+   [
+    "https://www.kaiho.mlit.go.jp/info/kouhou/post-1327.html",
+    "æµ·ä¸ä¿å®å¤§å­¦æ ¡åã³æµ·ä¸ä¿å®å­¦æ ¡ã® å­¦çæ¡ç¨è©¦é¨ç³è¾¼åä»éå§ã«ã¤ãã¦"
+   ],
+   [
+    "https://www.kaiho.mlit.go.jp/info/kouhou/post-1326.html",
+    "ã·ã¼ã¬ã¼ã³æ²¿å²¸å½ã®å½éç¯ç½ªã®åç· ãã«åãã¦ï¼ï½JICAèª²é¡å¥ç ä¿®ãæµ·ä¸ç¯ç½ªåç· ãã³ã¼ã"
+   ],
+   [
+    "https://www.kaiho.mlit.go.jp/info/kouhou/post-1325.html",
+    "èªè·¯éå ±ãWebã§å®çµï¼ ï½ãe-MARTISï¼èªè·¯éå ±ç­Webåä»ãµã¼ãã¹ï¼ãã®éç¨éå§ï½"
+   ],
+   [
+    "https://www.kaiho.mlit.go.jp/info/kouhou/post-1323.html",
+    "æµ·ä¸ä¿å®åºã®1å¹´ãå®å ¨åé²ï¼ï½æµ·ä¸ä¿å®ã¬ãã¼ã2026çºåï½"
+   ],
+   [
+    "https://www.kaiho.mlit.go.jp/info/kouhou/post-1324.html",
+    "ãã¬ã¼ã·ã¢æµ·ä¸æ³ä»¤å·è¡åºã¨ã®æµ·ä¸ä¿å®åéã«é¢ããååè¦æ¸ã®ç½²åï½ãèªç±ã§éããã"
+   ],
+   [
+    "https://www.kaiho.mlit.go.jp/info/kouhou/post-1321.html",
+    "ã¢ã¸ã¢å®å ¨ä¿éä¼è­°ï¼ã·ã£ã³ã°ãªã©ã»ãã¤ã¢ã­ã¼ã°ï¼ ã«æµ·ä¸ä¿å®åºé·å®ãåå ãã¾ããï¼"
+   ],
+   [
+    "https://www.kaiho.mlit.go.jp/info/kouhou/post-1320.html",
+    "ä»¤å8å¹´åº¦ç·´ç¿è¹ãã¤ããã¾é æ´èªæµ·ã«ããã æµ·ä¸èªè¡éç·´ç¿è¦éã¨ã®å ±åè¨ç·´ã®å®æ½ã«ã"
+   ],
+   [
+    "https://www.kaiho.mlit.go.jp/info/kouhou/post-1318.html",
+    "SAPPHIRE26ç·´ç¿è¹ãã¤ããã¾é æ´èªæµ·ã«ãããæ¥ç±³å æµ·ä¸ä¿å®æ©é¢ååè¨ç·´ï¼çµææ¦è¦ï¼ï½è"
+   ],
+   [
+    "https://www.kaiho.mlit.go.jp/info/kouhou/post-1317.html",
+    "NSTã»MCTããªã¼ã¹ãã©ãªã¢ã«è¬å¸«ã¨ãã¦æ´¾é£ãã¾ããï¼ ï½èªç±ã§éãããã¤ã³ãå¤ªå¹³æ´ï¼FO"
+   ],
+   [
+    "https://www.kaiho.mlit.go.jp/info/kouhou/post-1316.html",
+    "ããªã³ã¬ã¸ã£ã¼æµ·é£é²æ­¢æå°å®é¤æç ä¿®ã®å®æ½ã«ã¤ãã¦"
+   ],
+   [
+    "https://www.kaiho.mlit.go.jp/info/kouhou/post-1315.html",
+    "ç±³å½éº»è¬åç· å±ã¨ã®è¬ç©åç· ãã«é¢ããååè¦æ¸ã«ç½²å ï½è¬ç©å¯è¼¸é»æ­¢ã«åããå½éé£æ"
+   ]
+  ]
+ },
+ "jsa": {
+  "url": "https://www.jsanet.or.jp/",
+  "robots_status": 200,
+  "robots_allowed": true,
+  "robots_excerpt": "User-Agent:*\nDisallow:/member/",
+  "status": 200,
+  "final": "https://www.jsanet.or.jp/",
+  "len": 419,
+  "ctype": "text/html",
+  "feeds": [],
+  "links": []
+ },
+ "sajn": {
+  "url": "https://www.sajn.or.jp/",
+  "robots_status": null,
+  "error": "HTTPSConnectionPool(host='www.sajn.or.jp', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.sajn.or.jp', port=443) at 0x74f9dc67c260>, 'Connection to www.sajn.or.jp timed out. (connect timeout=30)'))"
+ },
+ "gard": {
+  "url": "https://gard.no/insights/",
+  "robots_status": 200,
+  "robots_allowed": true,
+  "robots_excerpt": "User-agent: *\nDisallow: /products-and-services/$\nDisallow: /products-and-services/products/$\nDisallow: /products-and-services/services/$\nDisallow: /about-gard/sustainability/$\n",
+  "status": 200,
+  "final": "https://gard.no/en/insights/",
+  "len": 159020,
+  "ctype": "text/html; charset=utf-8",
+  "feeds": [],
+  "links": [
+   [
+    "https://gard.no/products-and-services/products/energy-e-and-p/",
+    "Energy exploration and production"
+   ],
+   [
+    "https://gard.no/about-gard/corporate-governance-and-compliance/",
+    "Governance and Compliance"
+   ],
+   [
+    "https://gard.no/about-gard/finance-and-risk-management/",
+    "Finance and risk management"
+   ],
+   [
+    "https://gard.no/about-gard/sponsorships-and-donations/",
+    "Sponsorship and Donations"
+   ],
+   [
+    "https://gard.no/rules-statutes-and-guidances/",
+    "Rules, Statutes and Guidances"
+   ],
+   [
+    "https://gard.no/",
+    ".css-3tzoyp{overflow:clip;position:relative;width:58px;height:29px;max-width:var(--chakra-sizes-full);}@media screen and"
+   ],
+   [
+    "https://gard.no/document/code-of-ethics",
+    "Code of ethics and business conduct"
+   ],
+   [
+    "https://gard.no/document/gards-commitment-to-the-un-global-compact",
+    "Commitment to the UN Global Compact"
+   ],
+   [
+    "https://gard.no/document/gards-modern-slavery-act-statement",
+    "Modern Slavery Act statement"
+   ],
+   [
+    "https://gard.no/document/cookies-and-data-protection",
+    "Cookies and data protection"
+   ]
+  ]
+ },
+ "unctad": {
+  "url": "https://unctad.org/news",
+  "robots_status": 200,
+  "robots_allowed": true,
+  "robots_excerpt": "# Targets all user agents\r\nUser-agent: *\r\n# ================================\r\n# Directories\r\n# ================================\r\n# Prevent indexing of core Drupal directories that contain system files.\r\nDisallow: /core/\r\nDisallow: /profiles/\r\n# ================================\r\n# Files\r\n# ================================\r\n# Prevent indexing of configuration and readme files that are not relevant to search engines.\r\nDisallow: /README.md\r\nDisallow: /composer/\r\nDisallow: /modules/README.txt\r\nDisallow: /sites/README.txt\r\nDisallow: /themes/README.txt\r\nDisallow: /web.config\r\n# ================================\r\n# Paths (clean URLs)\r\n# ================================\r\n# Administrative, user related paths (all languages)\r\nDisallow: /admin/\r\nDisallow: /comment/reply/\r\nDisallow: /filter/tips\r\nDisall",
+  "status": 404,
+  "final": "https://unctad.org/news",
+  "len": 55318,
+  "ctype": "text/html; charset=UTF-8",
+  "feeds": [],
+  "links": [
+   [
+    "https://unctad.org/about/office-of-the-secretary-general/deputy-secretary-general",
+    "Deputy and Acting Secretary-General"
+   ],
+   [
+    "https://unctad.org/publication/unctad16-outcome-geneva-consensus-and-political-declaration",
+    "UNCTAD16 outcome documents"
+   ],
+   [
+    "https://unctad.org/about/trade-and-development-board",
+    "Trade and Development Board"
+   ],
+   [
+    "https://unctad.org/Topic/Competition-and-Consumer-Protection",
+    "Competition and consumer protection"
+   ],
+   [
+    "https://unctad.org/topic/debt-and-finance",
+    "Debt and development finance"
+   ],
+   [
+    "https://unctad.org/topic/ecommerce-and-digital-economy",
+    "E-commerce and the digital economy"
+   ],
+   [
+    "https://unctad.org/topic/landlocked-developing-countries",
+    "Landlocked developing countries"
+   ],
+   [
+    "https://unctad.org/topic/least-developed-countries",
+    "Least developed countries"
+   ],
+   [
+    "https://unctad.org/topic/science-technology-and-innovation",
+    "Science, technology and innovation"
+   ],
+   [
+    "https://unctad.org/topic/small-island-developing-states",
+    "Small island developing states"
+   ],
+   [
+    "https://unctad.org/topic/training-and-capacity-building",
+    "Training and capacity building"
+   ],
+   [
+    "https://unctad.org/topic/transport-and-trade-logistics",
+    "Transport, logistics and trade facilitation"
+   ],
+   [
+    "https://unctad.org/sdg-costing",
+    "Costs of achieving the SDGs"
+   ],
+   [
+    "https://unctad.org/topic/least-developed-countries/productive-capacities-index",
+    "Productive Capacities Index"
+   ],
+   [
+    "https://unctad.org/publications-search?f%5B0%5D=product%3A588",
+    "Commodities and Development Report"
+   ],
+   [
+    "https://unctad.org/publications-search?f%5B0%5D=product%3A390",
+    "Economic Development in Africa Report"
+   ],
+   [
+    "https://unctad.org/publications-search?f%5B0%5D=product%3A392",
+    "Least Developed Countries Report"
+   ],
+   [
+    "https://unctad.org/publications-search?f%5B0%5D=product%3A393",
+    "Review of Maritime Transport"
+   ],
+   [
+    "https://unctad.org/publications-search?f%5B0%5D=product%3A644",
+    "Technology and Innovation Report"
+   ],
+   [
+    "https://unctad.org/publications-search?f%5B0%5D=product%3A394",
+    "Trade and Development Report"
+   ],
+   [
+    "https://unctad.org/publications-search?f%5B0%5D=product%3A609",
+    "Global Investment Trends Monitor"
+   ],
+   [
+    "https://unctad.org/publications-search?f[0]=product%3A1931",
+    "Strait of Hormuz disruptions"
+   ],
+   [
+    "https://unctad.org/publications-search?f[0]=product%3A380",
+    "Vulnerability profiles of least developed countries"
+   ],
+   [
+    "https://unctad.org/meetings-search?f[0]=product%3A345",
+    "Debt Management Conference"
+   ],
+   [
+    "https://unctad.org/about/trade-and-development-board",
+    "Trade and Development Board"
+   ],
+   [
+    "https://unctad.org/topic/commission-on-science-and-technology-for-development",
+    "UN Commission on Science and Technology for Development"
+   ],
+   [
+    "https://unctad.org/meetings-search?f%5B0%5D=product%3A322",
+    "Investment, enterprise and development"
+   ],
+   [
+    "https://unctad.org/meetings-search?f%5B0%5D=product%3A1453",
+    "Competition law and policy"
+   ],
+   [
+    "https://unctad.org/meetings-search?f%5B0%5D=product%3A1454",
+    "Consumer protection law and policy"
+   ],
+   [
+    "https://unctad.org/meetings-search?f%5B0%5D=product%3A335",
+    "E-commerce and the digital economy"
+   ],
+   [
+    "https://unctad.org/meetings-search?f%5B0%5D=product%3A336",
+    "Financing for development"
+   ],
+   [
+    "https://unctad.org/meetings-search?f%5B0%5D=product%3A1459",
+    "International standards of accounting and reporting"
+   ],
+   [
+    "https://unctad.org/topic/transport-and-trade-logistics/customs-automation-ASYCUDA",
+    "Automated System for Customs Data (ASYCUDA)"
+   ],
+   [
+    "https://unctad.org/topic/debt-and-finance/dmfas",
+    "Debt Management and Financial Analysis System (DMFAS)"
+   ],
+   [
+    "https://unctad.org/projects/united-nations-development-account-projects",
+    "Map of UN Development Account projects"
+   ],
+   [
+    "https://unctad.org/projects/TOOLBOX",
+    "Technical assistance toolbox"
+   ],
+   [
+    "https://unctad.org/osgstatements-search?f[0]=product%3A1638",
+    "Secretary-General statements"
+   ],
+   [
+    "https://unctad.org/podcast-search?f[0]=sub_type:1675",
+    "The Weekly Tradecast episodes"
+   ]
+  ],
+  "body_head": "<!DOCTYPE html>\n<html  lang=\"en\" dir=\"ltr\" prefix=\"og: https://ogp.me/ns#\">\n  <head>\n    <meta charset=\"utf-8\" />\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-179163753-1\"></script>\n<script>window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments)};gtag"
+ },
+ "nk-rss": {
+  "url": "https://www.classnk.or.jp/hp/en/rss.aspx",
+  "robots_status": 403,
+  "status": 403,
+  "final": "https://www.classnk.or.jp/hp/en/rss.aspx",
+  "len": 401,
+  "ctype": "text/html",
+  "feeds": [],
+  "links": [],
+  "body_head": "<HTML><HEAD>\n<TITLE>Access Denied</TITLE>\n</HEAD><BODY>\n<H1>Access Denied</H1>\n \nYou don't have permission to access \"http&#58;&#47;&#47;www&#46;classnk&#46;or&#46;jp&#47;hp&#47;en&#47;rss&#46;aspx\" on this server.<P>\nReference&#32;&#35;18&#46;8a6d3e17&#46;1793476535&#46;15cdbff7\n<P>https&#58;&#47;&"
+ }
+}
