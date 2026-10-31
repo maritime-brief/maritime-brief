@@ -29,14 +29,15 @@ for line in open("candidates.txt"):
         t = r.text
         rec["feeds"] = re.findall(r'<link[^>]+type="application/(?:rss|atom)\+xml"[^>]*>', t)[:5]
         if "xml" in rec["ctype"] or t.lstrip().startswith("<?xml"):
-            rec["xml_titles"] = re.findall(r"<title[^>]*>(.*?)</title>", t, re.S)[:8]
+            rec["xml_titles"] = re.findall(r"<title[^>]*>(.*?)</title>", t, re.S)[:15]
         links = []
-        for href, inner in re.findall(r'<a[^>]+href="([^"#]+)"[^>]*>(.*?)</a>', t, re.S):
+        for href, inner in re.findall(r'<a[^>]+href=["\']([^"\'#]+)["\'][^>]*>(.*?)</a>', t, re.S):
             u = urljoin(r.url, html.unescape(href))
             text = re.sub(r"\s+", " ", html.unescape(re.sub(r"<[^>]+>", " ", inner))).strip()
-            if urlparse(u).netloc == urlparse(r.url).netloc and len(text) >= 25:
+            if urlparse(u).netloc == urlparse(r.url).netloc and len(text) >= 15:
                 links.append([u, text[:120]])
-        rec["links"] = links[:40]
+        rec["links"] = links[:400]
+        rec["head"] = t[:1500] if "xml" in rec["ctype"] or t.lstrip().startswith("<?xml") else ""
         if r.status_code >= 400: rec["body_head"] = t[:300]
     except Exception as e:
         rec["error"] = str(e)[:300]
