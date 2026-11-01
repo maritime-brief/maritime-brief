@@ -497,10 +497,61 @@
    "url": "https://www.mpa.gov.sg/media-centre/details/nov-notices-to-mariners-no-66-to-70",
    "note": "シンガポール水路通報の定例告知で重要度低",
    "at": "2026-10-30T18:24+09:00"
+  },
+  "7308826907df": {
+   "outcome": "queued",
+   "url": "https://www.gov.uk/government/publications/msn-1863-mf-amendment-1-uk-requirements-for-engine-room-ratings",
+   "note": "",
+   "at": "2026-11-01T12:25+09:00"
   }
  },
  "leads": [],
  "runs": [
+  {
+   "at": "2026-11-01T12:25+09:00",
+   "step": "collect",
+   "queued": 1,
+   "leads": 0,
+   "per_source": {
+    "mca-notices": {
+     "fetched": 10,
+     "new": 1
+    },
+    "mca-news": {
+     "fetched": 10,
+     "new": 0
+    },
+    "emsa": {
+     "fetched": 2,
+     "new": 0
+    },
+    "mlit": {
+     "fetched": 0,
+     "new": 0
+    },
+    "ec-transport": {
+     "fetched": 1,
+     "new": 0
+    },
+    "mpa-singapore": {
+     "fetched": 5,
+     "new": 0
+    },
+    "dnv": {
+     "fetched": 5,
+     "new": 0
+    },
+    "lloyds-register": {
+     "fetched": 10,
+     "new": 0
+    },
+    "sdir": {
+     "fetched": 10,
+     "new": 0
+    }
+   },
+   "expired": 0
+  },
   {
    "at": "2026-11-01T07:08+09:00",
    "step": "collect",
