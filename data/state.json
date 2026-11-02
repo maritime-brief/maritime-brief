@@ -521,10 +521,67 @@
    "url": "https://www.gov.uk/guidance/apply-for-navigationalengine-room-ratings-certificate",
    "note": "申請手続きの案内ページで新規性が低い",
    "at": "2026-11-02T07:10+09:00"
+  },
+  "00a4493653c9": {
+   "outcome": "queued",
+   "url": "https://www.gov.uk/guidance/boatmasters-approved-training-providers-atp",
+   "note": "",
+   "at": "2026-11-02T18:37+09:00"
+  },
+  "bf895ca3bdfe": {
+   "outcome": "queued",
+   "url": "http://www.mlit.go.jp/report/press/kouku08_hh_000092.html",
+   "note": "",
+   "at": "2026-11-02T18:37+09:00"
   }
  },
  "leads": [],
  "runs": [
+  {
+   "at": "2026-11-02T18:37+09:00",
+   "step": "collect",
+   "queued": 2,
+   "leads": 0,
+   "per_source": {
+    "mca-notices": {
+     "fetched": 10,
+     "new": 1
+    },
+    "mca-news": {
+     "fetched": 10,
+     "new": 0
+    },
+    "emsa": {
+     "fetched": 2,
+     "new": 0
+    },
+    "mlit": {
+     "fetched": 1,
+     "new": 1
+    },
+    "ec-transport": {
+     "fetched": 1,
+     "new": 0
+    },
+    "mpa-singapore": {
+     "fetched": 5,
+     "new": 0
+    },
+    "dnv": {
+     "fetched": 5,
+     "new": 0
+    },
+    "lloyds-register": {
+     "fetched": 10,
+     "new": 0
+    },
+    "sdir": {
+     "fetched": 10,
+     "new": 0
+    }
+   },
+   "expired": 0
+  },
   {
    "at": "2026-11-02T12:28+09:00",
    "step": "collect",
