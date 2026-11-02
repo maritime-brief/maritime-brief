@@ -533,10 +533,79 @@
    "url": "http://www.mlit.go.jp/report/press/kouku08_hh_000092.html",
    "note": "航空分野の有識者会議で海事対象外",
    "at": "2026-11-02T18:37+09:00"
+  },
+  "0ca02a441c93": {
+   "outcome": "queued",
+   "url": "https://www.gov.uk/government/publications/mgn-586-f-amendment-3-ilo-work-in-fishing-convention-2007-medical-care",
+   "note": "",
+   "at": "2026-11-03T07:18+09:00"
+  },
+  "440dbb3a23cf": {
+   "outcome": "queued",
+   "url": "https://www.gov.uk/government/publications/solas-container-weight-method-2-mca-approved-weighing",
+   "note": "",
+   "at": "2026-11-03T07:18+09:00"
+  },
+  "b97514eeeb41": {
+   "outcome": "queued",
+   "url": "https://www.gov.uk/government/publications/marine-pollution-marpol-annex-ii-surveyors",
+   "note": "",
+   "at": "2026-11-03T07:18+09:00"
+  },
+  "10e3484c469a": {
+   "outcome": "queued",
+   "url": "https://www.lr.org/en/knowledge/press-room/press-listing/press-release/2026/alternative-fuel-ships-outpace-port-readiness-new-lr-report-finds/",
+   "note": "",
+   "at": "2026-11-03T07:18+09:00"
   }
  },
  "leads": [],
  "runs": [
+  {
+   "at": "2026-11-03T07:18+09:00",
+   "step": "collect",
+   "queued": 4,
+   "leads": 0,
+   "per_source": {
+    "mca-notices": {
+     "fetched": 10,
+     "new": 3
+    },
+    "mca-news": {
+     "fetched": 10,
+     "new": 0
+    },
+    "emsa": {
+     "fetched": 2,
+     "new": 0
+    },
+    "mlit": {
+     "fetched": 1,
+     "new": 0
+    },
+    "ec-transport": {
+     "fetched": 1,
+     "new": 0
+    },
+    "mpa-singapore": {
+     "fetched": 5,
+     "new": 0
+    },
+    "dnv": {
+     "fetched": 5,
+     "new": 0
+    },
+    "lloyds-register": {
+     "fetched": 10,
+     "new": 1
+    },
+    "sdir": {
+     "fetched": 10,
+     "new": 0
+    }
+   },
+   "expired": 0
+  },
   {
    "at": "2026-11-02T18:37+09:00",
    "step": "collect",
