@@ -567,43 +567,43 @@
   "e8dc8a68f644": {
    "outcome": "queued",
    "url": "https://www.gov.uk/government/publications/royal-navy-memorandums-of-understanding",
-   "note": "",
+   "note": "海軍資格の転換図で新要件ではない",
    "at": "2026-11-04T07:19+09:00"
   },
   "20e91d5252c4": {
    "outcome": "queued",
    "url": "https://www.gov.uk/government/publications/mgn-168-mf-amendment-1-the-marking-of-seismic-streamers",
-   "note": "",
+   "note": "情報が少ない",
    "at": "2026-11-04T07:19+09:00"
   },
   "f57b8cb99c4f": {
    "outcome": "queued",
    "url": "https://www.gov.uk/government/publications/mgn-199-m-amendment-1-danger-of-interaction",
-   "note": "",
+   "note": "情報が少ない",
    "at": "2026-11-04T07:19+09:00"
   },
   "527d05f981d3": {
    "outcome": "queued",
    "url": "https://www.gov.uk/government/publications/uk-marine-equipment-approval-database",
-   "note": "",
+   "note": "機器承認データベースの一覧更新のみ",
    "at": "2026-11-04T07:19+09:00"
   },
   "91bacd7e0e2b": {
    "outcome": "queued",
    "url": "https://www.gov.uk/government/publications/mca-approved-doctors-shipping-companies",
-   "note": "",
+   "note": "承認医師の一覧更新で重要度が低い",
    "at": "2026-11-04T07:19+09:00"
   },
   "faa2eecfad43": {
    "outcome": "queued",
    "url": "https://www.gov.uk/government/publications/mca-previously-approved-doctors",
-   "note": "",
+   "note": "承認失効医師の一覧で重要度が低い",
    "at": "2026-11-04T07:19+09:00"
   },
   "027f4b938176": {
    "outcome": "queued",
    "url": "https://www.gov.uk/government/publications/list-of-authorised-persons-for-radio-surveys",
-   "note": "",
+   "note": "無線検査の認定者一覧で規制改正でない",
    "at": "2026-11-04T07:19+09:00"
   }
  },
