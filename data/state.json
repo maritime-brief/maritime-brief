@@ -617,10 +617,67 @@
    "url": "https://www.mpa.gov.sg/media-centre/details/port-marine-circular-no-11-of-2026-maritime-declaration-of-health",
    "note": "情報が少ない",
    "at": "2026-11-04T18:29+09:00"
+  },
+  "0a84abbd0122": {
+   "outcome": "queued",
+   "url": "https://www.gov.uk/government/publications/recruitment-and-placement-agencies-approved-by-the-mca",
+   "note": "",
+   "at": "2026-11-05T07:22+09:00"
+  },
+  "f0fb638a5682": {
+   "outcome": "queued",
+   "url": "https://www.lr.org/en/knowledge/press-room/press-listing/press-release/2026/new-lr-service-targets-cargo-disruption-when-trade-routes-fail/",
+   "note": "",
+   "at": "2026-11-05T07:22+09:00"
   }
  },
  "leads": [],
  "runs": [
+  {
+   "at": "2026-11-05T07:22+09:00",
+   "step": "collect",
+   "queued": 2,
+   "leads": 0,
+   "per_source": {
+    "mca-notices": {
+     "fetched": 10,
+     "new": 1
+    },
+    "mca-news": {
+     "fetched": 10,
+     "new": 0
+    },
+    "emsa": {
+     "fetched": 2,
+     "new": 0
+    },
+    "mlit": {
+     "fetched": 0,
+     "new": 0
+    },
+    "ec-transport": {
+     "fetched": 1,
+     "new": 0
+    },
+    "mpa-singapore": {
+     "fetched": 6,
+     "new": 0
+    },
+    "dnv": {
+     "fetched": 5,
+     "new": 0
+    },
+    "lloyds-register": {
+     "fetched": 10,
+     "new": 1
+    },
+    "sdir": {
+     "fetched": 10,
+     "new": 0
+    }
+   },
+   "expired": 0
+  },
   {
    "at": "2026-11-04T18:29+09:00",
    "step": "collect",
