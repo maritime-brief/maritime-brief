@@ -635,10 +635,67 @@
    "url": "https://www.mpa.gov.sg/media-centre/details/singapore-and-norway-launch-joint-research-grant-call-to-advance-greener-shipping",
    "note": "",
    "at": "2026-11-05T18:32+09:00"
+  },
+  "51ace818907b": {
+   "outcome": "queued",
+   "url": "https://www.gov.uk/guidance/mca-approved-training-providers-atp",
+   "note": "",
+   "at": "2026-11-06T07:24+09:00"
+  },
+  "ed1659f313f5": {
+   "outcome": "queued",
+   "url": "https://www.lr.org/en/knowledge/press-room/press-listing/press-release/2026/petrobras-advances-tupi-field-redevelopment-with-lr-approval-for-fpso-concept/",
+   "note": "",
+   "at": "2026-11-06T07:24+09:00"
   }
  },
  "leads": [],
  "runs": [
+  {
+   "at": "2026-11-06T07:24+09:00",
+   "step": "collect",
+   "queued": 2,
+   "leads": 0,
+   "per_source": {
+    "mca-notices": {
+     "fetched": 10,
+     "new": 1
+    },
+    "mca-news": {
+     "fetched": 10,
+     "new": 0
+    },
+    "emsa": {
+     "fetched": 0,
+     "new": 0
+    },
+    "mlit": {
+     "fetched": 0,
+     "new": 0
+    },
+    "ec-transport": {
+     "fetched": 1,
+     "new": 0
+    },
+    "mpa-singapore": {
+     "fetched": 7,
+     "new": 0
+    },
+    "dnv": {
+     "fetched": 5,
+     "new": 0
+    },
+    "lloyds-register": {
+     "fetched": 10,
+     "new": 1
+    },
+    "sdir": {
+     "fetched": 10,
+     "new": 0
+    }
+   },
+   "expired": 0
+  },
   {
    "at": "2026-11-05T18:32+09:00",
    "step": "collect",
