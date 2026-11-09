@@ -677,10 +677,73 @@
    "url": "http://www.mlit.go.jp/report/press/kaiji02_hh_000298.html",
    "note": "",
    "at": "2026-11-09T18:40+09:00"
+  },
+  "5e146dca235f": {
+   "outcome": "queued",
+   "url": "https://www.gov.uk/government/publications/survey-and-inspection-of-fishing-vessels-chapter-1-annexes-msis-27",
+   "note": "",
+   "at": "2026-11-10T07:21+09:00"
+  },
+  "511747203ef5": {
+   "outcome": "queued",
+   "url": "https://www.gov.uk/government/publications/survey-and-inspection-of-fishing-vessels-chapters-1-to-17-msis-27",
+   "note": "",
+   "at": "2026-11-10T07:21+09:00"
+  },
+  "ff1528487f29": {
+   "outcome": "queued",
+   "url": "https://www.gov.uk/government/publications/maritime-and-coastguard-agency-privacy-notices",
+   "note": "",
+   "at": "2026-11-10T07:21+09:00"
   }
  },
  "leads": [],
  "runs": [
+  {
+   "at": "2026-11-10T07:21+09:00",
+   "step": "collect",
+   "queued": 3,
+   "leads": 0,
+   "per_source": {
+    "mca-notices": {
+     "fetched": 10,
+     "new": 3
+    },
+    "mca-news": {
+     "fetched": 10,
+     "new": 0
+    },
+    "emsa": {
+     "fetched": 2,
+     "new": 0
+    },
+    "mlit": {
+     "fetched": 1,
+     "new": 0
+    },
+    "ec-transport": {
+     "fetched": 1,
+     "new": 0
+    },
+    "mpa-singapore": {
+     "fetched": 7,
+     "new": 0
+    },
+    "dnv": {
+     "fetched": 4,
+     "new": 0
+    },
+    "lloyds-register": {
+     "fetched": 10,
+     "new": 0
+    },
+    "sdir": {
+     "fetched": 10,
+     "new": 0
+    }
+   },
+   "expired": 0
+  },
   {
    "at": "2026-11-09T18:40+09:00",
    "step": "collect",
