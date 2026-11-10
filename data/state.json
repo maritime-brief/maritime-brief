@@ -695,10 +695,67 @@
    "url": "https://www.gov.uk/government/publications/maritime-and-coastguard-agency-privacy-notices",
    "note": "",
    "at": "2026-11-10T07:21+09:00"
+  },
+  "a85c8da223ff": {
+   "outcome": "queued",
+   "url": "http://www.mlit.go.jp/report/press/kaiji03_hh_000234.html",
+   "note": "",
+   "at": "2026-11-10T18:26+09:00"
+  },
+  "1ebed63e5815": {
+   "outcome": "queued",
+   "url": "http://www.mlit.go.jp/report/press/kaiji01_hh_000600.html",
+   "note": "",
+   "at": "2026-11-10T18:26+09:00"
   }
  },
  "leads": [],
  "runs": [
+  {
+   "at": "2026-11-10T18:26+09:00",
+   "step": "collect",
+   "queued": 2,
+   "leads": 0,
+   "per_source": {
+    "mca-notices": {
+     "fetched": 10,
+     "new": 0
+    },
+    "mca-news": {
+     "fetched": 10,
+     "new": 0
+    },
+    "emsa": {
+     "fetched": 2,
+     "new": 0
+    },
+    "mlit": {
+     "fetched": 2,
+     "new": 2
+    },
+    "ec-transport": {
+     "fetched": 1,
+     "new": 0
+    },
+    "mpa-singapore": {
+     "fetched": 7,
+     "new": 0
+    },
+    "dnv": {
+     "fetched": 4,
+     "new": 0
+    },
+    "lloyds-register": {
+     "fetched": 10,
+     "new": 0
+    },
+    "sdir": {
+     "fetched": 10,
+     "new": 0
+    }
+   },
+   "expired": 0
+  },
   {
    "at": "2026-11-10T12:25+09:00",
    "step": "collect",
