@@ -707,10 +707,73 @@
    "url": "http://www.mlit.go.jp/report/press/kaiji01_hh_000600.html",
    "note": "",
    "at": "2026-11-10T18:26+09:00"
+  },
+  "0a8d85dcae7d": {
+   "outcome": "queued",
+   "url": "https://www.gov.uk/government/news/safety-the-focus-as-maritime-and-coastguard-agency-seeks-feedback-on-pleasure-vessel-definition",
+   "note": "",
+   "at": "2026-11-11T07:17+09:00"
+  },
+  "3c12d5e8a702": {
+   "outcome": "queued",
+   "url": "https://www.dnv.com/news/2026/nishi-f-ff-65-free-fall-lifeboats-verification-of-aisle-passage-width/",
+   "note": "",
+   "at": "2026-11-11T07:17+09:00"
+  },
+  "7d552de36f1c": {
+   "outcome": "queued",
+   "url": "https://www.sdir.no/en/news/morket-gjor-turen-din-mer-krevende--dette-ma-du-passe-pa/",
+   "note": "",
+   "at": "2026-11-11T07:17+09:00"
   }
  },
  "leads": [],
  "runs": [
+  {
+   "at": "2026-11-11T07:17+09:00",
+   "step": "collect",
+   "queued": 3,
+   "leads": 0,
+   "per_source": {
+    "mca-notices": {
+     "fetched": 10,
+     "new": 0
+    },
+    "mca-news": {
+     "fetched": 10,
+     "new": 1
+    },
+    "emsa": {
+     "fetched": 2,
+     "new": 0
+    },
+    "mlit": {
+     "fetched": 2,
+     "new": 0
+    },
+    "ec-transport": {
+     "fetched": 1,
+     "new": 0
+    },
+    "mpa-singapore": {
+     "fetched": 7,
+     "new": 0
+    },
+    "dnv": {
+     "fetched": 5,
+     "new": 1
+    },
+    "lloyds-register": {
+     "fetched": 10,
+     "new": 0
+    },
+    "sdir": {
+     "fetched": 10,
+     "new": 1
+    }
+   },
+   "expired": 0
+  },
   {
    "at": "2026-11-10T18:26+09:00",
    "step": "collect",
