@@ -767,10 +767,73 @@
    "url": "http://www.mlit.go.jp/report/press/kaiji06_hh_000408.html",
    "note": "",
    "at": "2026-11-13T18:30+09:00"
+  },
+  "654b2cc1ec62": {
+   "outcome": "queued",
+   "url": "https://www.gov.uk/government/news/microsoft-outage-affecting-mca-email-services",
+   "note": "",
+   "at": "2026-11-14T07:20+09:00"
+  },
+  "53fe053633c6": {
+   "outcome": "queued",
+   "url": "https://www.mpa.gov.sg/media-centre/details/singapore-registered-vessel-strategic-alliance-came-into-contact-with-bridge-in-new-jersey-no-injuries-reported",
+   "note": "",
+   "at": "2026-11-14T07:20+09:00"
+  },
+  "c53f3d79fe46": {
+   "outcome": "queued",
+   "url": "https://www.mpa.gov.sg/media-centre/details/singapore-retains-position-as-worlds-leading-maritime-city-in-2026",
+   "note": "",
+   "at": "2026-11-14T07:20+09:00"
   }
  },
  "leads": [],
  "runs": [
+  {
+   "at": "2026-11-14T07:20+09:00",
+   "step": "collect",
+   "queued": 3,
+   "leads": 0,
+   "per_source": {
+    "mca-notices": {
+     "fetched": 10,
+     "new": 0
+    },
+    "mca-news": {
+     "fetched": 10,
+     "new": 1
+    },
+    "emsa": {
+     "fetched": 2,
+     "new": 0
+    },
+    "mlit": {
+     "fetched": 1,
+     "new": 0
+    },
+    "ec-transport": {
+     "fetched": 1,
+     "new": 0
+    },
+    "mpa-singapore": {
+     "fetched": 7,
+     "new": 2
+    },
+    "dnv": {
+     "fetched": 5,
+     "new": 0
+    },
+    "lloyds-register": {
+     "fetched": 10,
+     "new": 0
+    },
+    "sdir": {
+     "fetched": 10,
+     "new": 0
+    }
+   },
+   "expired": 1
+  },
   {
    "at": "2026-11-13T18:30+09:00",
    "step": "collect",

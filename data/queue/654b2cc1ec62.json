@@ -1,0 +1,21 @@
+{
+ "id": "654b2cc1ec62",
+ "title": "Microsoft outage affecting MCA email services",
+ "url": "https://www.gov.uk/government/news/microsoft-outage-affecting-mca-email-services",
+ "summary": "Search and rescue operations not impacted by issues with Microsoft services.",
+ "published": "2026-11-13T11:18:10+00:00",
+ "tier": 1,
+ "lang": "en",
+ "source": {
+  "id": "mca-news",
+  "name": "英国 海事沿岸警備庁（MCA）",
+  "license": "Open Government Licence v3.0",
+  "attribution": "Contains public sector information licensed under the Open Government Licence v3.0.",
+  "tier": 1,
+  "adaptation_allowed": true
+ },
+ "text": "Microsoft outage affecting MCA email services\nSearch and rescue operations not impacted by issues with Microsoft services.\nWe are currently experiencing problems sending and receiving emails due to the worldwide Microsoft outage.\nOur search and rescue services are currently unaffected.\nIn an emergency at the coast call 999 and ask for the Coastguard.",
+ "text_enc": "",
+ "fingerprints": [],
+ "queued_at": "2026-11-14T07:20+09:00"
+}
