@@ -785,10 +785,73 @@
    "url": "https://www.mpa.gov.sg/media-centre/details/singapore-retains-position-as-worlds-leading-maritime-city-in-2026",
    "note": "",
    "at": "2026-11-14T07:20+09:00"
+  },
+  "b19dce560379": {
+   "outcome": "queued",
+   "url": "https://www.gov.uk/government/publications/min-655-amendment-2-mf-new-style-certificates-for-uk-seafarers-and-those-working-onboard-uk-ships",
+   "note": "",
+   "at": "2026-11-16T19:24+09:00"
+  },
+  "20dafde42ae2": {
+   "outcome": "queued",
+   "url": "http://www.mlit.go.jp/report/press/kaiji02_hh_000299.html",
+   "note": "",
+   "at": "2026-11-16T19:24+09:00"
+  },
+  "ffc00751a5fc": {
+   "outcome": "queued",
+   "url": "http://www.mlit.go.jp/report/press/kaiji06_hh_000407.html",
+   "note": "",
+   "at": "2026-11-16T19:24+09:00"
   }
  },
  "leads": [],
  "runs": [
+  {
+   "at": "2026-11-16T19:24+09:00",
+   "step": "collect",
+   "queued": 3,
+   "leads": 0,
+   "per_source": {
+    "mca-notices": {
+     "fetched": 10,
+     "new": 1
+    },
+    "mca-news": {
+     "fetched": 10,
+     "new": 0
+    },
+    "emsa": {
+     "fetched": 2,
+     "new": 0
+    },
+    "mlit": {
+     "fetched": 3,
+     "new": 2
+    },
+    "ec-transport": {
+     "fetched": 1,
+     "new": 0
+    },
+    "mpa-singapore": {
+     "fetched": 7,
+     "new": 0
+    },
+    "dnv": {
+     "fetched": 5,
+     "new": 0
+    },
+    "lloyds-register": {
+     "fetched": 10,
+     "new": 0
+    },
+    "sdir": {
+     "fetched": 10,
+     "new": 0
+    }
+   },
+   "expired": 1
+  },
   {
    "at": "2026-11-16T07:13+09:00",
    "step": "collect",
