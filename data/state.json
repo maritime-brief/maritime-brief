@@ -809,10 +809,61 @@
    "url": "https://www.sdir.no/en/news/how-should-cruise-operations-in-norwegian-waters-develop/",
    "note": "",
    "at": "2026-11-17T07:24+09:00"
+  },
+  "d04c61e760ee": {
+   "outcome": "queued",
+   "url": "https://www.mpa.gov.sg/media-centre/details/port-marine-circular-no-12-of-2026-early-adopter-scheme-for-electric-harbour-craft-ease",
+   "note": "",
+   "at": "2026-11-17T12:27+09:00"
   }
  },
  "leads": [],
  "runs": [
+  {
+   "at": "2026-11-17T12:27+09:00",
+   "step": "collect",
+   "queued": 1,
+   "leads": 0,
+   "per_source": {
+    "mca-notices": {
+     "fetched": 10,
+     "new": 0
+    },
+    "mca-news": {
+     "fetched": 10,
+     "new": 0
+    },
+    "emsa": {
+     "fetched": 2,
+     "new": 0
+    },
+    "mlit": {
+     "fetched": 2,
+     "new": 0
+    },
+    "ec-transport": {
+     "fetched": 1,
+     "new": 0
+    },
+    "mpa-singapore": {
+     "fetched": 7,
+     "new": 1
+    },
+    "dnv": {
+     "fetched": 5,
+     "new": 0
+    },
+    "lloyds-register": {
+     "fetched": 10,
+     "new": 0
+    },
+    "sdir": {
+     "fetched": 10,
+     "new": 0
+    }
+   },
+   "expired": 0
+  },
   {
    "at": "2026-11-17T07:24+09:00",
    "step": "collect",
