@@ -875,10 +875,61 @@
    "url": "https://www.lr.org/en/knowledge/press-room/press-listing/press-release/2026/lloyds-register-approves-new-rules-for-nuclear-powered-ships-and-offshore-units/",
    "note": "",
    "at": "2026-11-20T07:25+09:00"
+  },
+  "49c7812223b2": {
+   "outcome": "queued",
+   "url": "https://www.gov.uk/government/publications/mgn-608-amendment-1-mf-radio-survey-service-authorisation",
+   "note": "",
+   "at": "2026-11-21T07:24+09:00"
   }
  },
  "leads": [],
  "runs": [
+  {
+   "at": "2026-11-21T07:24+09:00",
+   "step": "collect",
+   "queued": 1,
+   "leads": 0,
+   "per_source": {
+    "mca-notices": {
+     "fetched": 10,
+     "new": 1
+    },
+    "mca-news": {
+     "fetched": 10,
+     "new": 0
+    },
+    "emsa": {
+     "fetched": 2,
+     "new": 0
+    },
+    "mlit": {
+     "fetched": 0,
+     "new": 0
+    },
+    "ec-transport": {
+     "fetched": 1,
+     "new": 0
+    },
+    "mpa-singapore": {
+     "fetched": 3,
+     "new": 0
+    },
+    "dnv": {
+     "fetched": 4,
+     "new": 0
+    },
+    "lloyds-register": {
+     "fetched": 10,
+     "new": 0
+    },
+    "sdir": {
+     "fetched": 10,
+     "new": 0
+    }
+   },
+   "expired": 3
+  },
   {
    "at": "2026-11-20T18:33+09:00",
    "step": "collect",
