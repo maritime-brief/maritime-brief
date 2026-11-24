@@ -899,10 +899,61 @@
    "url": "https://www.dnv.com/news/2026/new-pilot-transfer-requirements-prepare-your-fleet-now/",
    "note": "",
    "at": "2026-11-24T07:27+09:00"
+  },
+  "c3c9448dfeea": {
+   "outcome": "queued",
+   "url": "http://www.mlit.go.jp/report/press/kaiji06_hh_000409.html",
+   "note": "",
+   "at": "2026-11-24T18:43+09:00"
   }
  },
  "leads": [],
  "runs": [
+  {
+   "at": "2026-11-24T18:43+09:00",
+   "step": "collect",
+   "queued": 1,
+   "leads": 0,
+   "per_source": {
+    "mca-notices": {
+     "fetched": 10,
+     "new": 0
+    },
+    "mca-news": {
+     "fetched": 10,
+     "new": 0
+    },
+    "emsa": {
+     "fetched": 2,
+     "new": 0
+    },
+    "mlit": {
+     "fetched": 1,
+     "new": 1
+    },
+    "ec-transport": {
+     "fetched": 1,
+     "new": 0
+    },
+    "mpa-singapore": {
+     "fetched": 1,
+     "new": 0
+    },
+    "dnv": {
+     "fetched": 5,
+     "new": 0
+    },
+    "lloyds-register": {
+     "fetched": 10,
+     "new": 0
+    },
+    "sdir": {
+     "fetched": 10,
+     "new": 0
+    }
+   },
+   "expired": 0
+  },
   {
    "at": "2026-11-24T12:32+09:00",
    "step": "collect",
