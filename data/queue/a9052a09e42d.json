@@ -1,0 +1,21 @@
+{
+ "id": "a9052a09e42d",
+ "title": "Appendix 13: List of Accredited Responders",
+ "url": "https://www.gov.uk/guidance/appendix-13-list-of-accredited-responders",
+ "summary": "The organisations listed in this appendix  are accredited under the UK National Standard for Marine Oil Spill Response Organisations (OSROs). Accreditation covers different response modules, and some organisations may have r…",
+ "published": "2026-11-25T11:45:50+00:00",
+ "tier": 1,
+ "lang": "en",
+ "source": {
+  "id": "mca-notices",
+  "name": "英国 海事沿岸警備庁（MCA）通達",
+  "license": "Open Government Licence v3.0",
+  "attribution": "Contains public sector information licensed under the Open Government Licence v3.0.",
+  "tier": 1,
+  "adaptation_allowed": true
+ },
+ "text": "Appendix 13: List of Accredited Responders\nThe organisations listed in this appendix are accredited under the UK National Standard for Marine Oil Spill Response Organisations (OSROs). Accreditation covers different response modules, and some organisations may have restrictions on the services they provide.\nAccredited organisations\nThe following organisations have been accredited to the UK National Standard for Marine OSROs.\n“X” marks where modules are accredited.\n| Organisation | Module 1 | Module 2 | Module 3 | Module 4 | Module 5 | Module 6 | Module 7 | \n|---|---|---|---|---|---|---|---|\n| Adler & Allan |  |  | X | X |  |  | X | \n| Ambipar Response |  |  | X | X | X |  | X | \n| Briggs Marine |  |  | X | X | X | X | X | \n| EnQuest |  | X |  | X |  |  | X | \n| JEMS Oil Spill Response |  |  | X | X |  |  |  | \n| Lerwick Port Authority |  |  | X | X |  |  | X | \n| Oil Spill Response (OSRL) | X | X | X | X | X | X | X | \n| PD Ports (Teesport) |  |  |  | X |  |  | X | \n| Pollution and Waste Services Ltd |  |  | X | X | X |  | X | \nOrganisations listed may have restrictions on the services they provide under the UK National Standard for Marine Oil Spill Response Organisations. These may include geographic limitations or capabilities available only for in-house use.\nAccreditation modules:\n- Dispersant application (aerial or vessel)\n- Dispersant application for offshore oil and gas\n- Response in sheltered and enclosed waters\n- Response in coastal and estuarine waters\n- Response in offshore waters\n- Response for offshore oil and gas\n- Shoreline response and clean-up activities",
+ "text_enc": "",
+ "fingerprints": [],
+ "queued_at": "2026-11-26T07:30+09:00"
+}

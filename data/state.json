@@ -917,10 +917,109 @@
    "url": "https://www.emsa.europa.eu/newsroom/latest-news/item/5865-safemed-v,-bcsea-ii-and-ipa-iii-steering-committees-meet-in-brussels.html",
    "note": "",
    "at": "2026-11-25T18:47+09:00"
+  },
+  "a82c057faa54": {
+   "outcome": "queued",
+   "url": "https://www.gov.uk/guidance/guidance-for-3-year-accreditation-practical-exercises-for-oil-spill-response-organisations",
+   "note": "",
+   "at": "2026-11-26T07:30+09:00"
+  },
+  "a9052a09e42d": {
+   "outcome": "queued",
+   "url": "https://www.gov.uk/guidance/appendix-13-list-of-accredited-responders",
+   "note": "",
+   "at": "2026-11-26T07:30+09:00"
+  },
+  "37a849113c07": {
+   "outcome": "queued",
+   "url": "https://www.gov.uk/guidance/definitions-and-abbreviations-for-the-uk-national-standard-for-oil-spill-response-organisations",
+   "note": "",
+   "at": "2026-11-26T07:30+09:00"
+  },
+  "a655d93edd31": {
+   "outcome": "queued",
+   "url": "https://www.gov.uk/guidance/appendix-11-guidance-on-an-oil-spill-response-organisations-returns-to-accrediting-bodies",
+   "note": "",
+   "at": "2026-11-26T07:30+09:00"
+  },
+  "fd12289d9a2b": {
+   "outcome": "queued",
+   "url": "https://www.gov.uk/guidance/appendix-12-return-template-for-oil-spill-response-organisations",
+   "note": "",
+   "at": "2026-11-26T07:30+09:00"
+  },
+  "d9815fcb097c": {
+   "outcome": "queued",
+   "url": "https://www.gov.uk/guidance/appendix-8-capability-matrix-template-for-oil-spill-response-organisations",
+   "note": "",
+   "at": "2026-11-26T07:30+09:00"
+  },
+  "863fa647f776": {
+   "outcome": "queued",
+   "url": "https://www.gov.uk/guidance/appendix-7-capability-assessment-question-set-for-oil-spill-response-organisations",
+   "note": "",
+   "at": "2026-11-26T07:30+09:00"
+  },
+  "9bd33d338ef2": {
+   "outcome": "queued",
+   "url": "https://www.gov.uk/guidance/appendix-6-currently-approved-accrediting-bodies",
+   "note": "",
+   "at": "2026-11-26T07:30+09:00"
+  },
+  "37ec6ed019f2": {
+   "outcome": "queued",
+   "url": "https://www.gov.uk/guidance/appendix-5-requirements-for-accrediting-bodies",
+   "note": "",
+   "at": "2026-11-26T07:30+09:00"
   }
  },
  "leads": [],
  "runs": [
+  {
+   "at": "2026-11-26T07:30+09:00",
+   "step": "collect",
+   "queued": 9,
+   "leads": 0,
+   "per_source": {
+    "mca-notices": {
+     "fetched": 10,
+     "new": 9
+    },
+    "mca-news": {
+     "fetched": 10,
+     "new": 0
+    },
+    "emsa": {
+     "fetched": 3,
+     "new": 0
+    },
+    "mlit": {
+     "fetched": 0,
+     "new": 0
+    },
+    "ec-transport": {
+     "fetched": 1,
+     "new": 0
+    },
+    "mpa-singapore": {
+     "fetched": 0,
+     "new": 0
+    },
+    "dnv": {
+     "fetched": 5,
+     "new": 0
+    },
+    "lloyds-register": {
+     "fetched": 10,
+     "new": 0
+    },
+    "sdir": {
+     "fetched": 10,
+     "new": 0
+    }
+   },
+   "expired": 1
+  },
   {
    "at": "2026-11-25T18:47+09:00",
    "step": "collect",
